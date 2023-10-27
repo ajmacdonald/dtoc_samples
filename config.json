@@ -1,0 +1,13 @@
+{
+    "ignoreNamespace": true,
+    "documents": "//front|//div[@type='chapter']|//div[@type='preface']|//div[@type='afterword']|//div[@type='contributors']",
+    "documentTitle": "head/title",
+    "documentAuthor": "docAuthor[1]",
+    "documentImages": "graphic[@url]",
+    "documentNotes": "note",
+    "documentLinks": "ref[target^='http']",
+    "indexDocument": "",
+    "inputs": [
+        "https://calincs.gitlab.io/cwrc/dtoc/dtoc-2.0/data/xml/sample.xml"
+    ]
+}
