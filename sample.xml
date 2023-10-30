@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            <div type="part">
+                
+                
+                <div type="chapter" xml:lang="fr-CA">
+                    <head><title level="a">L’apport du concept d’ontologie informatique à l’étude de l’histoire littéraire des femmes au <date from="1801" to="1900">XIX</date><hi rend="Superscript">e</hi> siècle</title></head>
+                    <docAuthor>
+                        <persName ref="http://viaf.org/viaf/105437213" cert="high">chantal savoie</persName>
+                    </docAuthor>
+                    <docAuthor>
+                        <persName ref="http://viaf.org/viaf/104137574" cert="medium">julie roy</persName>
+                    </docAuthor>
+                    <div type="section">
+                        <p xml:id="p110">
+                            <ref target="#women_writing">
+                                <ref target="#genre_journalism">Le projet : <title type="a">Histoire littéraire des femmes au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> : stratégies de légitimation et principes de filiation</title> s’intéresse à l’émergence de l’écriture des femmes dans la presse périodique québécoise au cours de <date from="1851" to="1900">la seconde moitié du XIX</date><hi rend="Superscript">e</hi> siècle.</ref>
+                            </ref>
+                            <ref target="#methodology">Il comporte deux volets, soit la collecte de textes écrits par des femmes dans la presse périodique francophone entre <date when="1837">1837</date> et <date when="1881">1881</date>, pour la plupart inédits, et l’analyse du corpus en fonction de paramètres liés aux stratégies de légitimation et aux principes de filiation qui s’y déploient. <ref target="#intertextuality">Ce que nous entendons par stratégies de légitimation et principes de filiation est repérable par des indices internes aux textes, notamment l’intertextualité et la posture, et par des indices externes, comme l’étude des habitus et des réseaux des auteures repérées.</ref> L’objectif de ce projet est donc double. <ref target="#genre_journalism">D’abord, constituer un corpus de travail encore méconnu, pour une période largement occultée de l’histoire littéraire, qui rende compte des pratiques d’écriture des femmes et de leur participation à la presse périodique amorcée un siècle plus tôt et qui se déploie de façon extensive à la fin du <date from="1801" to="1900">XIX</date><hi rend="Superscript">e</hi> siècle. Ensuite, étudier ce corpus en fonction d’une grille d’analyse permettant de comprendre les pratiques d’écriture des femmes et comment celles-ci ont modulé leur participation à la vie littéraire et leur reconnaissance en tant qu’auteures.</ref></ref>
+                        </p>
+                        <p xml:id="p111">
+                            <ref target="#methodology">
+                                <ref target="#technology">
+                                    <ref target="#collaboration">Ce projet nécessitait la mise en place d’un espace de stockage pour rassembler le corpus et d’un outil d’analyse. Il supposait également un travail collaboratif à distance. Pour ce faire, nous avons mis sur pied une base de données relationnelle MySQL en ligne permettant de faire la collecte des informations brutes et la gestion des connaissances liées au corpus et à son analyse.</ref>
+                                </ref>
+                                <ref target="#theme_or_topic">Notre étude vise à présenter le travail accompli en ce qui a trait à la mise en place d’une structure de recherche au moyen d’outils technologiques et du développement d’une ontologie permettant de gérer l’ensemble de manière satisfaisante, tant sur le plan opérationnel qu’intellectuel. Si l’ontologie est une notion philosophique qui renvoie à la <hi rend="italic">théorie de l’existence</hi>, c’est-à-dire qui tente d’expliquer les concepts qui existent dans le monde et comment ils s’imbriquent et s’organisent, les ontologies informatiques sont des outils qui permettent de représenter un <hi rend="italic">univers de connaissances</hi> sous une forme utilisable par un ordinateur<note xml:id="n18" place="end">Une ontologie, du point de vue informatique, est la <hi rend="italic">conceptualisation</hi> d’un domaine, c’est-à-dire un <hi rend="italic">choix</hi> quant à la manière de décrire un domaine ainsi que sa <hi rend="italic">description formelle</hi>. Elle doit être partagée et consensuelle, s’appliquer à un domaine particulier et tendre vers un objectif commun</note>.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p112">
+                            <ref target="#methodology">
+                                <ref target="#technology">Nous ne prétendons pas utiliser le concept d’ontologie informatique au sens strict du terme avec tout l’outillage technologique qu’il suppose. Ce concept constitue plutôt un outil qui a nourri notre réflexion. Il a fourni ses assises à la création de l’architecture de notre base de données et nous permet de poursuivre son développement en vue de la seconde étape de notre projet, soit l’analyse des données accumulées lors des dépouillements. Nous l’utilisons ici pour présenter la réflexion entourant notre projet et ses bases conceptuelles et montrer comment nous avons tenté de l’arrimer au monde informatique avec lequel nous travaillons. Car, dans l’univers des sciences humaines, c’est bien souvent cet arrimage entre la recherche intellectuelle et sa représentation informatique qui fait défaut. Le concept d’ontologie nous a forcées à nous demander de façon plus systématique quels étaient les objectifs du projet quant à la constitution du corpus puis de définir les éléments permettant d’identifier les filiations et les stratégies de légitimation de façon claire et cohérente pour un système informatique. Nous avons notamment utilisé le concept de classe ou de catégorie d’information, établi les propriétés de ces classes, les liens nécessaires entre les classes et les propriétés et utilisé un vocabulaire commun pertinent. Ce texte se divise en deux volets : d’abord, la présentation des fondements de notre base de données et de quelques-uns des ajustements envisagés en vue de l’analyse, puis, à l’aide d’exemples, l’exploration du concept de posture et des difficultés que suscite sa représentation formelle à l’aide des outils informatiques.</ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Identifier les auteurs et les pseudonymes</head>
+                        <p xml:id="p113">
+                            <ref target="#methodology">La première étape, celle de la constitution du corpus, nécessitait deux classes principales dans notre base de données. <ref target="#authority">Il s’agissait d’identifier les <hi rend="italic">textes</hi> écrits par des femmes (pierre angulaire du projet) et de leur associer des <hi rend="italic">auteures</hi>. Si cette première étape semble relativement simple, la complexité de la problématique de l’autorité littéraire, dans le contexte où nous nous situions et la perspective particulière que nous souhaitions adopter, présentaient déjà certaines difficultés.</ref></ref>
+                        </p>
+                        <p xml:id="p114">
+                            <ref target="#authorship">
+                                <ref target="#authority">La classe <hi rend="italic">auteur</hi> détermine les caractéristiques des personnes qui ont une autorité sur un texte. Il s’agit d’un individu socialisé possédant une existence propre. Les propriétés sont donc relativement simples et relèvent essentiellement de la biographie (sexe, date et lieu de naissance, etc.). Or cette définition de l’auteur posait problème étant donnée l’importance des textes signés sous des pseudonymes non élucidés et l’autonomie relative de l’univers de la presse au <date from="1801" to="1900">XIX</date><hi rend="Superscript">e</hi> siècle qu’elle provoque vis-à-vis du monde réel. Dans le cadre d’une recherche sur les stratégies de légitimation et sur la filiation, l’imbrication de ces deux possibles de l’autorité littéraire (l’auteur et son pseudonyme) en une seule classe aurait rapidement porté à confusion. La création d’une classe <hi rend="italic">auteur</hi> nécessitait donc, en parallèle, la création d’une propriété <hi rend="italic">signature</hi> agissant comme une classe (c’est-à-dire possédant des propriétés et des liens avec l’ensemble des éléments de la base de données). Cela nous permet de distinguer les auteurs de chair et d’os de leurs instances pseudonymes. Cela permet également de faire interagir les pseudonymes de façon autonome, sans nécessairement qu’ils soient liés à un auteur, et de distinguer ainsi l’univers social réel de l’univers construit de la presse. Cette distinction permet également de donner voix au chapitre à ces êtres de papier qui s’assument comme des auteurs afin de départager les stratégies de légitimation concrètes des individus impliqués dans la presse de celles de leurs avatars qui évoluent dans l’univers de la presse. La propriété <hi rend="italic">signature</hi>, en agissant comme une classe, nous permet d’identifier le genre sexué attribué au pseudonyme ainsi que le type de signature (initiales, anagrammes, prénom seul, etc.). Le concept de posture, qui est au cœur de notre analyse, nécessitera ultérieurement l’ajout de propriétés pour établir les habitus, réels ou fictifs, ainsi que les réseaux.</ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Identifier les textes</head>
+                        <p xml:id="p115">
+                            <ref target="#methodology">En vis-à-vis, la classe <hi rend="italic">texte</hi> constitue en quelque sorte le cœur de la base de données. <ref target="#authorship">Les propriétés de base permettent de colliger les informations bibliographiques concernant chacun des textes recensés (titre, date et lieu de production, date et lieu de publication, etc.) et de leur lier un <hi rend="italic">auteur</hi> ou une <hi rend="italic">signature</hi>. À cela s’ajoute un lien vers le document transcrit ou numérisé et un champ en texte libre permettant de faire des commentaires, notamment sur le contexte de la rédaction ou de la publication, et d’ajouter divers détails sur le document qui ne sont pas pris en compte par les propriétés de base. Nous avons d’ailleurs déjà envisagé la création de propriétés additionnelles afin d’analyser ces textes de façon plus cohérente. En matière de filiation et de stratégie de légitimation, nous étudions la possibilité d’ajouter des éléments touchant les genres littéraires et les formes, les sujets abordés ainsi que les registres littéraires et les tonalités.</ref></ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Les classes auxiliaires et la question des relations</head>
+                        <p xml:id="p116">
+                            <ref target="#methodology">À ces classes qui forment les grands piliers de la base de données s’ajoutent des classes auxiliaires qui permettent de donner une plus-value aux informations portant sur les textes, les auteurs et les signatures en les inscrivant dans un contexte plus général. <ref target="#writing_climate">On trouve la classe <hi rend="italic">périodique</hi> et la classe <hi rend="italic">institution</hi>, qui permettent notamment d’analyser les habitus, les réseaux et les espaces dans lesquels l’écriture féminine est autorisée et voir de quelle manière ces contextes influencent cette écriture.</ref></ref>
+                        </p>
+                        <p xml:id="p117">
+                            <ref target="#methodology">Bien que la question des classes et des propriétés soit au cœur de notre réflexion, ce sont les relations qui les unissent qui permettent de rendre notre base de données opérationnelle, de donner à la théorie sa valeur de recherche et d’analyse et de l’appliquer à notre corpus. <ref target="#intertextuality">Les relations peuvent s’établir entre les classes principales (lien entre un texte et un périodique, lien entre une auteure et un texte, entre un texte et d’autres textes, une auteure et une institution, une auteure et une autre auteure).</ref> Elles peuvent également s’établir entre les classes et les propriétés, notamment <hi rend="italic">auteur</hi> et <hi rend="italic">signature</hi>. Si les propriétés permettent de classer les informations colligées, elles marquent surtout le début de l’analyse des stratégies de légitimation et la filiation. Elles permettent d’articuler la réflexion et de décupler la portée des informations recueillies.</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>La question de la posture littéraire</head>
+                        <p xml:id="p118">
+                            <ref target="#methodology">Une fois le corpus établi et balisé, l’étape de l’analyse pose des défis considérables. D’abord, en ce qui a trait à la conversion de nos perspectives d’analyse en matière gérable par les moyens informatiques courants et accessibles à tous, et par conséquent sur la manière de lire les résultats obtenus. Notre capacité à <q>traduire</q> adéquatement nos préoccupations théoriques et littéraires en catégories à la fois maniables et significatives est en effet la clé de notre capacité à réellement renouveler les perspectives sur les pratiques d’écriture des femmes au <date from="1801" to="1900">XIX</date><hi rend="Superscript">e</hi> siècle. Si nous n’arrivons pas à traiter cette abondante matière consignée dans la base de données, la dispersion et l’hétéroclite auront gain de cause sur le renouvellement de notre compréhension de ces pratiques d’écriture.</ref>
+                        </p>
+                        <p xml:id="p119">
+                            <ref target="#methodology">Le regain d’intérêt pour la sociopoétique qui s’est manifesté au cours des dernières années<ref target="#intellectual_history"> <note xml:id="n19" place="end">Mentionnons principalement, dans la foulée des propositions d’<persName ref="http://viaf.org/viaf/109597667" cert="medium">Alain Viala</persName>, le travail de <persName ref="http://viaf.org/viaf/19834812" cert="high">Jérôme Meizoz</persName> sur les postures littéraires ainsi que celui d’<persName ref="http://viaf.org/viaf/7440929" cert="high">Alain Vaillant</persName> et de <persName ref="http://viaf.org/viaf/71498992" cert="high">Marie-Ève Thérenty</persName> sur la presse périodique.</note> </ref>s’est avéré commode, de notre point de vue, pour établir les éléments nécessaires à notre analyse, dans la mesure où cette perspective a permis la prise en compte de la société qui produit et reçoit le texte, dans les limites toutefois circonscrites d’une forme concrète qui apparaît à un moment et dans un lieu donné, à savoir ici notamment son incarnation dans la presse.</ref>
+                            <ref target="#representation_of_women">L’ambition de concilier des préoccupations plus sociologiques et des enjeux scripturaires et formels qui caractérise la sociopoétique seyait en effet à notre corpus, notamment parce que la sociologie des pratiques s’avère limitée dans le contexte de l’anonymat ou du pseudonymat non élucidé. La sociocritique est également pertinente dans la mesure où le statut de <hi rend="italic">dominées</hi> des femmes dans les champs social, littéraire et culturel tend à les obliger à expliciter leur position en regard des destinataires envisagés, qu’il s’agisse des interlocuteurs qui détiennent les positions les plus légitimes dans l’espace culturel ou du public général et de leur perception des femmes qui prennent la plume pour intervenir dans l’espace public.</ref>
+                        </p>
+                        <p xml:id="p120">
+                            <ref target="#methodology">C’est donc dans différents travaux qui relèvent de la sociopoétique que nous avons puisé la notion de <hi rend="italic">posture</hi> élaborée initialement par <persName ref=" http://viaf.org/viaf/19834812" cert="high">Jérôme Meizoz</persName>. Articulation de l’individuel et du collectif, la posture est <q>la manière (générale) d’être (d’un) écrivain</q> (<persName ref="http://viaf.org/viaf/61549705" cert="high">Molinié</persName> et <persName ref="http://viaf.org/viaf/109597667" cert="high">Viala</persName> 217), lisible dans divers faits de position et d’habitus. La posture <q>permet de penser à la fois la <q>stratégie</q> [d’un auteur] dans le champ et ses options formelles, à savoir sa poétique propre</q> (<persName ref="http://viaf.org/viaf/19834812" cert="high">Meizoz</persName> 16). La posture s’apparente ainsi à l’éthos des rhétoriciens et puise dans la notion, plus utilisée en anglais, de <hi rend="italic">persona</hi>, qui désigne tout à la fois <q>une voix et son contexte d’intelligibilité</q> (<persName ref="http://viaf.org/viaf/19834812" cert="high">Meizoz</persName> 19). Pour les besoins spécifiques de nos analyses et étant donné que le concept d’ontologie nécessite de formaliser notre problématique et de définir le vocabulaire utilisé, ce sont surtout les trois scènes du discours posées par <persName ref="http://viaf.org/viaf/19834812" cert="high">Meizoz</persName> qui nous servent de repères. La<hi rend="italic">scène englobante</hi>(celle où s’ énoncent les grands types de discours, politique,religieux, etc.), <ref target="#genre">la <hi rend="italic">scène générique</hi> (qui décrit les genres du discours et les genres littéraires)</ref> et la<hi rend="italic">scène de la parole</hi> (construite par l’énonciation). Outre les postures elles-mêmes, ce sont également la façon dont elles s’insèrent dans le continuum de l’ensemble des discours de leur époque et la façon dont elles puisent dans des postures du passé qui nous intéressent. La base de données nous permet de consigner le détail des stratégies, de rassembler les éléments en vue d’une analyse plus fine des postures et des façons de les adopter. De deux postures semblables pourraient par exemple émerger des stratégies différentes sur le plan des procédés à l’œuvre selon l’auteure, l’époque où elle s ’inscrit ou le périodique où l’intervention est publiée, voire son insertion dans un espace précis de la page du journal.</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>La scène générique</head>
+                        <p xml:id="p121">
+                            <ref target="#genre_issue">La question de la <hi rend="italic">scène générique</hi> mérite quelques précisions dans la mesure où elle gagne à être élargie et mieux articulée en fonction de nos besoins et de l’univers informatique. D’une part, la notion de genre ne suffit pas à cartographier les diverses appartenances des textes au milieu littéraire ambiant. Au genre se greffent des régimes littéraires (dont la correspondance) et s’imposent des mouvements (dont le romantisme, pour ne pas prendre un exemple au hasard) que nous repérons aisément en balayant l’étendue de notre corpus.</ref>
+                            <ref target="#intertextuality">En outre, toute citation, au-delà des enjeux liés à l’énonciation (faire dire par quelqu’un d’autre ce qu’on préfère ne pas dire soi-même, par exemple), agit sur le plan de la rhétorique en tissant des liens entre un texte et ses prédécesseurs, sur le plan des postures autant que de la légitimité. Toutes les ressources permettant de repérer et de classer les différentes allusions et références, directement et indirectement contenues dans un texte, peuvent être mises à profit par le relais d’analyses de divers registres d’intertextualité, puisqu’elles jouent un rôle à la fois dans les stratégies de légitimation déployées ainsi que dans la filiation assumée consciemment ou non par les auteurs.</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>La scène de la parole</head>
+                        <p xml:id="p122">
+                            <ref target="#methodology">Quant à la scène de la parole, outre le fait qu’elle tend à dégager les éléments de l’agir postural dérivant des théories de l’énonciation<note xml:id="n20" place="end">Notamment les travaux de <persName ref="http://viaf.org/viaf/29529106" cert="high">Ruth Amossy</persName>, et plus précisément le collectif qu’elle dirige intitulé <title level="m"><?oxy_comment_start author="Olga" timestamp="20150122T222047-0700" comment="Not on the VIAF list "?>Images de soi dans le discours. La construction d’un éthos<?oxy_comment_end?>.</title></note>, elle élargit la seule considération de mise en scène de l’énonciateur et, le cas échéant, du destinataire, en permettant de cerner l’ensemble de la <hi rend="italic">scène d’énonciation</hi> (voir <persName ref="http://viaf.org/viaf/4933095" cert="high">Maingueneau</persName>). Il s’agit par exemple de prendre en compte les éléments de décor, comme les lieux d’où provient la parole (celui du couvent et de la chambre, par exemple, qui semblent se démarquer), certaines figures clés (la couventine, la religieuse, la mère, etc.) et les actions qui autorisent cette parole (célébrer, protester, prier, louer, etc.).</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Un exemple d’analyse des scènes de l’énonciation</head>
+                        <p xml:id="p123">
+                            <ref target="#close_reading">
+                                <ref target="genre_journalism">Une brève analyse du texte intitulé <title rend="a"><?oxy_comment_start author="Olga" timestamp="20150122T223238-0700" comment="Not on the VIAF list "?>Mgr. L’Archevêque de <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> à <placeName ref="http://www.geonames.org/3832694" cert="medium">Villa Maria</placeName><?oxy_comment_end?></title>, paru dans le <title level="j"><?oxy_comment_start author="Olga" timestamp="20150122T223604-0700" comment="not on the VIAF list "?>Courrier du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName><?oxy_comment_end?></title> en <date when="1871" cert="high">1871</date>, permet de sonder l’intérêt de la perspective que nous avons adoptée. Elle donne également une bonne idée des limites de l’approche et, surtout, des défis à surmonter, tant sur le plan quantitatif, étant donné la quantité importante de textes devant être soumis à l’analyse, qu’en ce qui concerne le codage informatique de ces éléments. Il s’agit d’une lettre destinée au rédacteur du <title level="j"><?oxy_comment_start author="ilovan" timestamp="20150405T222704-0600" comment="No in VIAF"?>Courrier du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName><?oxy_comment_end?></title> demandant la publication de la lettre d’une jeune couventine, lettre présentée à la suite de la précédente.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p124">
+                            <ref target="#genre_issue">
+                                <ref target="#authorship">
+                                    <ref target="genre_lifeWriting">
+                                        <ref target="#genre_journalism">Ce qui frappe en premier lieu est le jeu des relais de narration et l’enchâssement des récits : sous un titre qui pourrait figurer en tête d’un article ou d’un compte rendu figure une lettre, non signée, qui présente un document second, lettre elle aussi, signée par une autre personne et reproduite à sa suite. L’accent est mis sur les stratégies de véridiction, d’abord en incluant des allusions au lieu de parution : le texte s’adresse à <q>M. le Rédacteur</q> du <title level="j"><?oxy_comment_start author="Olga" timestamp="20150126T173548-0700" comment="Not on the VIAF list"?>Courrier du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada<?oxy_comment_end?></placeName></title> et il suggère la publication dans son périodique d’une lettre originale présentée comme authentique. Si cette entrée en matière n’est pas signée, plusieurs indices laissent toutefois entendre que la mère de la jeune auteure de la lettre seconde est une signataire possible. Elle parle au féminin, mais surtout elle confesse le <q>vol</q> de la lettre intime qui suivra par un astucieux recours à une rhétorique de l’autocritique. La signataire de la première lettre doit choisir entre voler la lettre et trahir ainsi l’intimité, ou faire preuve d’égoïsme en gardant pour elle le <q>précieux butin</q>. Dès l’entrée en matière, donc, s’opposent le monde médiatique, et donc public, auquel s’adresse la première missive, et la sphère privée de la relation entre une mère et sa fille, les deux se superposant, en quelque sorte, par l’entremise de la correspondance.</ref>
+                                    </ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p125">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#close_reading">Le récit second, celui qu’adresse <q>Ta petite fille</q> à sa <q>chère Maman</q> s’ouvre sur une nouvelle mise en scène de la parole, pratiquement au pied de la lettre. Un <hi rend="italic">je</hi> amorce une lettre à sa mère en esquissant, par l’autoreprésentation, le contexte dans lequel elle écrit : de son pupitre, au moment d’une récréation, pendant un jour de congé au couvent. Le récit, au présent et dans un premier temps quasi en temps réel, est d’abord celui de l’écriture de la lettre et des différentes activités de la journée de congé offerte à l’occasion de la visite de Monseigneur. S’emboîte ensuite, au passé cette fois, le récit de la visite de l’archevêque de <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>. Ce récit, prétexte à l’écriture de la lettre de la couventine à sa mère, présente lui aussi une scène d’énonciation, celle qui encadre l’adresse à Monseigneur par les couventines, sa réponse, puis la bénédiction qu’il prodigue.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p126">
+                            <ref target="#genre_issue">
+                                <ref target="#genre_journalism">Quant aux enjeux posturaux, sur la scène englobante, l’éloquence religieuse de l’archevêque et le discours médiatique du <title level="j"><?oxy_comment_start author="ilovan" timestamp="20150405T222800-0600" comment="Not in VIAF"?>Courrier du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName><?oxy_comment_end?></title> personnifié par le rédacteur auquel s’adresse le texte balisent et jouxtent ceux de la mère et de la fille. L’éloquence religieuse s’inscrit dans une tradition bien établie, alors que le monde de la presse incarne un type de discours qui, sans être complètement nouveau, adapte l’ancien à la scène médiatique, l’avale en quelque sorte.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p127">
+                            <ref target="#genre_issue">
+                                <ref target="#genre_journalism">
+                                    <ref target="#genre_lifeWriting">Sur la scène générique, ce texte présente l’imbrication de plusieurs genres de discours et de genres littéraires. D’une part, on trouve l’éloquence du discours religieux et moraliste, attribué à l’archevêque, lequel s’imbrique dans le discours de l’opinion publique, généré par le journal. D’autre part, la lettre familière de la mère, déviée de sa destination privée par sa publication dans le journal, devient une <q>lettre au journal</q> avec ses enjeux discursifs et énonciatifs propres. Il en est de même de la lettre familière et intimiste de la fille, dont le discours est fortement influencé par les devoirs de la couventine envers sa famille et les textes d’éducation qui circulent à l’époque. En s’inscrivant dans la presse, par le relais de la lettre de la mère, celle-ci devient une <q>lettre dans le journal</q> et transforme l’horizon de réception.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p128">
+                            <ref target="#genre_issue">
+                                <ref target="#close_reading"><ref target="#genre_lifeWriting">Sur la scène de la parole (construite par l’énonciation) s’imbrique donc un échange mère-fille, au présent, discours marqué par le rappel constant de la proximité et de l’affection, un récit-prétexte constitué de la visite de l’archevêque au couvent de <placeName ref="http://www.geonames.org/3832694" cert="high">Villa Maria</placeName> et de ses effets, mais également un discours public, celui d’une mère s’adressant à l’opinion publique par le relais du discours de sa fille, transformant ainsi les enjeux d’un discours intimiste en tentative d’influencer cette opinion publique.</ref> <ref target="#education">On peut voir dans ce texte à plusieurs niveaux un véritable éloge de l’éducation des filles, et en particulier du pensionnat du couvent de <placeName ref="http://www.geonames.org/3832694" cert="high">Villa Maria</placeName>.</ref> D’abord dans le discours louangeur de l’archevêque, ensuite dans celui de la couventine à propos des qualités de son couvent et de la description de ses consœurs ainsi que dans son écriture qui reçoit l’aval des rédacteurs par sa publication dans un journal et finalement dans l’exergue de la lettre : <q type="block">Envoie donc ma petite sœur, Maman, je t’assure que sa santé se rétablira et puis, elle sera infiniment mieux que dans les externats, si tu voyais la différence! Tu peux avoir confiance en moi, j’en aurai bien soin, et, il me sera si agréable de parler de toi, de rencontrer un cœur qui t’aime autant que le mien.</q></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p129">
+                            <ref target="#close_reading"><ref target="#women_writing">Cette analyse, très préliminaire, donne néanmoins accès à tout un pan du corpus que nous avons consigné dans notre base de données et révèle, très littéralement, comment le discours féminin s’insinue progressivement dans l’espace public.</ref> Ce que nous désignons, de manière préliminaire, comme une rhétorique de l’enchâssement, semble jouer un rôle important, et ce, de différentes manières. <ref target="#voice_or_narration"><ref target="#religion"><ref target="#class_issue"><ref target="#education">Bien sûr, le texte surreprésente les marqueurs de l’énonciation et les traces permettant de situer qui parle, à qui, dans quel contexte. Bien sûr, il situe hiérarchiquement les différents discours qui circulent dans l’espace social, reconduisant pour l’essentiel l’autorité de l’Église, l’importance de l’éducation et le maintien des privilèges de classe de la bourgeoisie.</ref></ref></ref></ref> <ref target="#genre_issue"><ref target="#genre_journalism">Au-delà de ces évidences, c’est véritablement à une petite scénographie du rapport des femmes aux lettres à laquelle nous semblons assister. La mère pave en quelque sorte la voie de la publication à sa fille en se faisant la passeuse d’une correspondance privée dans l’espace public, par le relais de la presse, le tout cautionné par le prétexte de la visite de l’archevêque, prétexte qui s’apparente à ce qui constitue une nouvelle, soit une forme autorisée dans le journal.</ref></ref></ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Une poétique de l’enchâssement</head>
+                        <p xml:id="p130">
+                            <ref target="#genre_issue">Qu’en est-il de cette posture de l’enchâssement qui serait signifiante au-delà d’un texte particulier? Si nous avons sciemment sélectionné un texte en apparence peu <q>littéraire</q>, au sens restreint du terme, pour ce premier exemple, c’est justement pour les liens qui l’unissent, à l’autre pôle, à l’un des exemples les plus littéraires du corpus, celui des poèmes adressés par <persName><?oxy_comment_start author="Olga" timestamp="20150126T175455-0700" comment="Not on the VIAF list"?>Élise Larivière<?oxy_comment_end?></persName> à différents journaux, ce qui nous laisse croire qu’il s’agit d’une stratégie d’écriture répandue. D’entrée de jeu, le genre poétique nous plonge dans un monde littéraire bien différent, sur le plan tant du statut symbolique que de l’acquisition de compétences particulières pour signer ce type d’écrit. Demeure toutefois la question de l’encadrement du texte poétique par une lettre qui met en scène les destinataires et, parfois, le contexte de rédaction, de même que le prétexte du passage à l’écriture poétique, toujours relié à des sujets et des personnages importants, qu’il s’agisse de Dieu personnifié par ses plus nobles serviteurs, de la noblesse ou de dirigeants politiques, d’écrivains ou d’artistes renommés. Pour reprendre la terminologie de <persName ref=" http://viaf.org/viaf/19834812" cert="high">Meizoz</persName> à propos des postures littéraires, la <hi rend="italic">scène englobante</hi> est toujours fortement présente et montrée explicitement de manière à conforter l’ordre établi.</ref>
+                        </p>
+                        <p xml:id="p131">
+                            <ref target="#women_writing">
+                                <ref target="#genre_issue">Quant à la <hi rend="italic">scène générique</hi> des textes d’<persName>Élise Larivière</persName>, elle inclut de nouvelles formes (nouvelles en regard de leur appropriation par les femmes sur la scène publique, s’entend) mais ne néglige pas pour autant les anciennes et notamment la correspondance, que ce soit directement ou indirectement. Les épigraphes, par exemple, servent d’exorde en regard du destinataire premier, en même temps qu’ils annoncent le prétexte de l’écriture aux destinataires réels, ceux qui lisent le périodique. <ref target="genre_poetry">C’est ainsi, pour ne donner qu’un exemple, que le poème intitulé <title rend="a"><?oxy_comment_start author="ilovan" timestamp="20150405T220343-0600" comment="Not in VIAF"?>Eugénie et le pied de la croix. À sa Majesté <persName ref="http://viaf.org/viaf/39510739">l’Impératrice Eugénie</persName>. Hommage profondément humble de l’auteur<?oxy_comment_end?></title> est publié. Le titre contient d’ailleurs lui-même l’essentiel de la scène d’énonciation. Ce poème est encadré d’une introduction (qui s’apparente à un exorde) qui rappelle son contexte d’écriture et assure du même coup son passage de la sphère privée (le texte aurait été envoyé à l’impératrice elle-même) à la sphère médiatique. Il est suivi de la transcription de la réponse du <persName>duc de <choice><sic>Bassno</sic><corr>Bassano</corr></choice></persName> qui accuse réception du poème au nom de l’impératrice. Sur le plan de l’énonciation, ces remerciements bouclent la boucle de belle façon. <ref target="#writing_climate">Cette mise en abîme agit en effet comme une forme de clin d’œil : pour publier un poème, une humble jeune fille qui n’a ni le statut ni l’autorité suffisante doit trouver un prétexte et mettre en scène son travail d’écriture et son acceptation par une autorité compétente pour accéder à la publication. Le choix de l’impératrice s’avère astucieux et le résultat dépasse même l’ambition de la jeune poète puisqu’au final, l’impératrice s’avère <q>trop</q> importante pour répondre elle-même et désigne un duc comme secrétaire. L’impératrice s’avère ainsi, par la hiérarchie tant sociale que scripturaire, le miroir inversé de la jeune poète (l’une trop humble pour écrire, l’autre trop importante pour répondre).</ref></ref></ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>L’analyse maintenant</head>
+                        <p xml:id="p132">
+                            <ref target="#close_reading">Reste maintenant à mettre au point le protocole de saisie des éléments posturaux dans la base de données. Si les trois scènes sont des catégories évidentes, reste à y organiser les marqueurs, qui sont de nature hétéroclite. Les deux premiers types de scène (la scène englobante et la scène générique) gagneraient certainement à exploiter des listes de catégories appuyées sur les genres et formes littéraires, les registres et tonalités, puisque les possibles sont relativement limités. Chaque catégorie pourrait donc être repérée et il s’agirait de consigner les éléments textuels qui permettent de justifier la présence de chaque catégorie. Pour la dernière scène, celle de la parole, c’est peut-être en filant la métaphore théâtrale de <persName ref="http://viaf.org/viaf/4933095" cert="high">Dominique Maingueneau</persName> que nous avons la solution la plus opératoire. La <hi rend="italic">scène de la parole</hi>, en interne, est incarnée par une énonciation, émanant d’un <hi rend="italic">personnage</hi>, qui lui-même évolue dans un <hi rend="italic">décor</hi>, le tout centré sur une <hi rend="italic">action</hi>. <ref target="#representation_of_women">Enfin, les différentes scènes sont organisées les unes par rapport aux autres, révélant ainsi une hiérarchie des discours qui proposent des enjeux, feints ou réels, pour la prise de parole des femmes sur la scène médiatique.</ref></ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Conclusion</head>
+                        <p xml:id="p133">
+                            <ref target="#methodology">L’utilisation du concept d’ontologie nous a permis de mieux définir notre objet d’analyse et de le formaliser de manière claire et cohérente à l’intérieur de notre base de données. Le travail de recherche sur le vocabulaire précis à employer, sur les réseaux de relations entre les classes et sur la façon de décliner leurs propriétés a été déterminant pour poursuivre notre réflexion. Ce concept nous guide à chaque étape, dans la mesure où, sans prétendre épuiser la matière textuelle stockée dans notre base de données, nous tentons de faire en sorte que chacun des éléments exploités dans le contexte de nos travaux (légitimation et filiation) le soit de manière systématique, gérable, significative, ouverte et cohérente avec l’ensemble de notre projet.</ref>
+                        </p>
+                        <p xml:id="p134">
+                            <ref target="#representation_of_women">
+                                <ref target="#women_writing">Il reste certes beaucoup à faire pour rendre la réflexion intellectuelle opératoire à l’intérieur de notre base de données. <ref target="#genre_issue">Cependant, l’état actuel de notre réflexion nous permet déjà de formuler l’hypothèse selon laquelle c’est précisément la façon dont les femmes mettent en scène leur parole au sein de l’espace public imprimé que constitue la page du journal, c’est-à-dire la façon dont elles se mettent elles-mêmes en scène en train d’écrire, et la façon dont elles situent cette pratique au sein de l’ensemble des textes et discours de l’époque, qui nous met sur la piste d’une réelle relecture de l’écriture au féminin au <date from="1801" to="1900">XIX</date><hi rend="Superscript">e</hi> siècle.</ref> La formalisation de cet univers mérite à coup sûr qu’on y réfléchisse.</ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Bibliographie</head>
+                        <listBibl>
+                            <bibl><persName ref="http://viaf.org/viaf/29529106" cert="high">Amossy, Ruth</persName>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150123T143916-0700" comment="Not on the VIAF list "?>Images de soi dans le discours : La construction d’un éthos<?oxy_comment_end?></title>. <placeName ref="http://www.geonames.org/2659994" cert="high">Lausanne</placeName>: <orgName ref="http://viaf.org/viaf/130222920" cert="high">Delachaux et Niestlé</orgName>, <date when="1999">1999</date>.</bibl>
+                            <bibl> <persName ref="http://viaf.org/viaf/4933095" cert="high">Maingueneau, Dominique</persName> <title level="m">. <?oxy_comment_start author="Olga" timestamp="20150122T230154-0700" comment="Not on the VIAF list "?>Le discours littéraire : Paratopie et scène d’énonciation<?oxy_comment_end?>.</title><placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName>: <orgName ref="http://viaf.org/viaf/124954978" cert="high">Armand Colin,</orgName> <date when="2004" cert="high">2004</date>.</bibl>
+                            <bibl><persName ref=" http://viaf.org/viaf/19834812" cert="high">Meizoz, Jérôme</persName>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150123T144158-0700" comment="Not on the VIAF list "?>Postures littéraires : Mises en scène modernes de l’auteur<?oxy_comment_end?></title>. <placeName ref="http://www.geonames.org/2660645" cert="high">Genève</placeName>: <orgName ref="http://viaf.org/viaf/129041704" cert="high">Slatkine</orgName>,<date when="2007" cert="high">2007</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/61549705" cert="high">Molinié, Georges</persName>, et <persName ref="http://viaf.org/viaf/109597667" cert="high">Alain Viala</persName>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150123T144900-0700" comment="Not on the VIAF list "?>Approches de la réception : Sémiostylistique et sociopoétique de Le Clézio.<?oxy_comment_end?> </title> <placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName>: <orgName ref=" http://viaf.org/viaf/124952254" cert="high">Presses universitaires de <placeName ref="http://www.geonames.org/3017382" cert="high">France</placeName></orgName>, <date when="1993" cert="high">1993</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/7440929" cert="high">Vaillant, Alain</persName> et <persName ref="http://viaf.org/viaf/71498992" cert="high">Marie-Ève Thérenty</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150123T150359-0700" comment="Not on the VIAF list "?>Histoire littéraire et histoire culturelle<?oxy_comment_end?></title>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150123T150553-0700" comment="Not on the VIAF list "?>L’Histoire culturelle du contemporain: Actes du colloque de <placeName ref="http://www.geonames.org/3027869" cert="high">Cerisy</placeName>, <persName ref="http://viaf.org/viaf/25754040" cert="high">Laurent Martin</persName> et <persName ref="http://viaf.org/viaf/42021264" cert="high">Sylvain Venayre</persName><?oxy_comment_end?></title>. Dir. <persName ref="http://viaf.org/viaf/7440929" cert="high">Alain Vaillant</persName> et <persName ref="http://viaf.org/viaf/71498992" cert="high">Marie-Ève Thérenty</persName>. <placeName ref="http://www.geonames.org/2968815/paris.html" cert="high">Paris:</placeName> <orgName ref="http://viaf.org/viaf/148124030" cert="high">Nouveau Monde Éditions</orgName>, <date when="2005" cert="high">2005</date>. 271–90.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+            </div>
+            
+            <div type="part">
+                
+                <div type="chapter" xml:lang="en-CA">
+                    <head><title level="a">Reclaiming the Past, Nurturing the Future</title></head>
+                    <docAuthor><persName ref="http://viaf.org/viaf/7436967" cert="high">Rosemary Sullivan</persName>
+                    </docAuthor>
+
+                    <p xml:id="p135">
+                        <ref target="#genre_lifeWriting">I have spent a decade of my life <q>reclaiming the past</q> by writing <ref target="#theme_or_topic">biographies</ref> of extraordinary <ref target="#theme_or_topic">Canadian women writers</ref>. I have also spent the last dozen years as the director of a creative writing program at the <placeName cert="high" ref="http://viaf.org/viaf/130333233">University of Toronto</placeName> dedicated to <q>nurturing the future.</q> These two activities are intimately connected in my mind. In writing biographies, I have discovered that a central theme of a writer’s life is <ref target="#theme_or_topic">how to claim the confidence to believe in oneself as a writer</ref>. I have written about the lives of three women.<ref target="#writing_climate"> <persName ref="http://viaf.org/viaf/46814469" cert="high">Elizabeth Smart</persName> struggled against self-doubt and fell into silence; <persName cert="high" ref="http://viaf.org/viaf/115290827">Gwendolyn MacEwen</persName> struggled against secrecy and died tragically. <persName ref="http://viaf.org/viaf/109322990" cert="high">Margaret Atwood</persName>’s career coincided with a new surge in Canadian literature, and in women’s writing in particular, that gave her the confidence to be, fully, the writer she was meant to be.</ref> <ref target="#collaboration">Their stories informed my sense of what the creative writing workshop can achieve—dialogue, collaboration, and a sense of historical context, such that you can feel the generational pressure of writers behind you, sustaining you as you dedicate yourself to the exacting and lifelong claims of the writer’s art.</ref></ref>
+                    </p>
+                    <div type="section">
+                        <p xml:id="p136">
+                            <ref target="#genre_lifeWriting">In <date cert="high" when="1987">1987</date>, I was commissioned by <orgName cert="medium" ref="http://viaf.org/viaf/311377881">Penguin Books Canada</orgName> to write a biography of <persName ref="http://viaf.org/viaf/46814469" cert="high">Elizabeth Smart</persName>. I had written an article about Smart for <title level="j">This Magazine</title> called <title level="a">Muse in a Female Ghetto,</title> and it had come to the attention of an editor at Penguin, <persName>Catherine Yolles</persName>. I had never tried my hand at biography before but the challenge seemed exciting. And so I said yes. <ref target="#response_informal">Smart’s novel <title level="m">By Grand Central Station I Sat Down and Wept</title> was already being called one of the half dozen masterpieces of <ref target="#genre">poetic prose</ref> in the English language.</ref></ref>
+                        </p>
+                        <p xml:id="p137">Like a kind of female <persName ref="http://viaf.org/viaf/95150359" cert="high">D.H. Lawrence</persName>, <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> was as famous for the story of her life as for her book. She always claimed to have lived a great love affair. The primary story, which she delighted in recounting in interviews, was that in <date cert="high" when="1937">1937</date> at the age of twenty-four, she walked into a bookstore on Charing Cross Road in <placeName ref="http://www.geonames.org/2643743" cert="high">London</placeName>, picked up a book of poetry, and began to read. She was immediately overwhelmed. She checked the biographical blurb. The poet’s name was <persName cert="medium" ref="http://viaf.org/viaf/109310084">George Barker</persName> and he was the same age as she was. She instantly knew he was the <q><hi rend="small-caps">HE</hi>,</q> the catalytic experience she needed to get her life as a writer started. (Her first candidate had been <persName ref="http://viaf.org/viaf/68928525" cert="medium">Lawrence Durrell</persName>.) Without seeing a photograph of Barker, she let it be known that she wanted to meet and marry him. She wanted to have his children. She set out on her hunt. In the course of my research, I actually met people who recalled Smart tearing around London asking how to meet George Barker. The masterpiece she came to write was based on her love affair with Barker, whom she finally met in <placeName cert="high" ref="http://www.geonames.org/5332921">California</placeName> in <date cert="high" when="1940">1940</date>.</p>
+                        <p xml:id="p138"><ref target="#genre_lifeWriting">The question for me as a biographer was why did she find this autobiographical anecdote so compelling that she continued to tell it to most interviewers even forty years after the fact? This is where an act of historical imagination is required of the biographer.</ref> <ref target="#sexuality">This was <date when="1937" cert="high">1937</date>, a time when women were still heavily constrained by conventional expectations, particularly regarding relationships between the sexes.</ref> In <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName>’s anecdote, she was the initiator and the romantic. I would say that, to her, this flinging of herself into romantic extremis, what she might have called <q>leaping into the arm of the infinite,</q> was an act of courage. <q>To really live</q>, Smart always said, <q>you had to have a large appetite.</q> <ref target="#men_writing">And she had male models to follow. Falling in love with the muse and writing <ref target="#genre_poetry">love poetry</ref> had always been the male writer’s first assignment.</ref></p>
+                        <p xml:id="p139">I knew <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> as a friend. While living in <placeName ref="http://www.geonames.org/2643743" cert="high">London</placeName> in <date cert="high" when="1979">1979</date> I had searched her down. <ref target="#recognitions">Her name had appeared in the <title level="j">Guardian</title>, under the heading <title level="a">Come Back of the Year Award.</title></ref> After thirty-four years of silence, she had finally published her second novel, <title level="m">The Assumption of the Rogues and Rascals</title>. I wrote to her as a fellow Canadian, and she invited me to visit her at her remote cottage <hi rend="italic">The Dell</hi> in <placeName cert="high" ref="http://www.geonames.org/2636561">Suffolk</placeName>.</p>
+                        <p xml:id="p140">It was winter, and I can still remember how desolate her cottage seemed, adjacent to an empty gravel pit whose landscape was strewn with frozen pools of water and interrupted by huge cranes rising like pterodactyls. <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> stood at her gate waiting for my taxi. She was disheveled in mackinaw and gumboots. She would have been sixty-five then. My first impression was that she was incredibly lonely, but I would soon discover that her home was open to everyone, like <placeName ref="http://www.geonames.org/5119016" cert="high">Grand Central Station</placeName> itself—the taxi driver was invited in with the passenger.</p>
+                        <p xml:id="p141">We talked about writing, about Canadian literature, and about the imagination required to love a man. But I particularly remember asking her one question. <ref target="#representation_of_men">I asked <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">her</persName> why the man in her novel with whom the narrator had fallen in love hardly seemed to have an identity. He seemed to me faceless. <q>Of course he has no face,</q> she replied. <q>He is a love object.</q></ref></p>
+                        <p xml:id="p142">I was too young then to realize that <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> was telling me she understood the nature of her romantic obsession. She had come to recognize her collusion in what she called <q>all that pricy pain.</q> She had stranded herself in obsession. Romantic obsession is autoerotic, a projection onto the other of all that is most valuable in the self and that one longs to claim. Such passion serves as a catalyst to get one’s life started or to kick start it again when it stalls. When the romantic projection is ripped away or dissolves, the other standing there is almost always a stranger. The great Australian novelist, <persName cert="high" ref="http://viaf.org/viaf/7412796">Christina Stead</persName>, used to say that every love story is a ghost story. Still, the story of romantic obsession now feels like it comes from another age. It is hard today to think of romantic love without irony. No man can easily live the persona of the romantic artist. No woman writer could ever be so alone. There are new narratives.</p>
+                        <p xml:id="p143">But the story of Smart’s life as a writer interested me deeply. It was a story of <hi rend="italic">silence</hi>. <ref target="#writing_climate"><persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> had experienced a painful writer’s block of almost thirty years between books. How had she lost her sense of herself as a writer—that obsessive compulsion the artist feels to write? Once she had hoped to be as good as <persName ref="http://viaf.org/viaf/97097302" cert="high">Emily Brontë</persName>. What had happened to the writer’s necessary ego, which she had had in large enough measure to write a masterpiece like <title level="m">Grand Central Station</title>?</ref> Puzzled by her own paralysis, she asked in a poem: is there a difference between the <q>muse, his and hers?</q> <q>Is ego a prick to the muse?</q> (<title level="a">The Muse: His and Hers,</title> <title level="m">A Bonus</title>).</p>
+                        <p xml:id="p144">
+                            <ref target="#attitudes_to_women_writing">In one of our conversations she told me that when she was young she had felt the <q>maestro of the masculine sitting on my shoulder, telling me I would never be good enough.</q> <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> left <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> in <date cert="high" when="1943">1943</date> and did not return for forty years. <q>At the <placeName ref="http://www.geonames.org/2643743" cert="high">London</placeName> literary table,</q> she said, <q>the male writers allowed me a seat at the table, but they would never talk to me one on one.</q></ref>
+                        </p>
+                        <p xml:id="p145"><ref target="#women_writing">The central issue for the pioneer female writer in the <date from="1930" to="1939" cert="low">1930s</date> and <date from="1940" to="1949" cert="low">1940s</date> was one of confidence.</ref> Where was it to be found? <ref target="#place_of_publication">When <title level="m">Grand Central Station</title> was published in <placeName cert="high" ref="http://www.geonames.org/6269131">England</placeName> in <date cert="high" when="1945">1945</date>, it was issued on war-rationed paper and was printed in such small type that it was only forty-five pages long.</ref> <ref target="#response_formal">It got good reviews, including one by <persName cert="high" ref="http://viaf.org/viaf/22140262">Cyril Connolly</persName>. Then it sank like a stone.</ref> <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName> had no one telling her just how good a writer she really was.</p>
+                        <p xml:id="p146"><ref target="#genre_lifeWriting">I fell in love with the genre of biography and so decided to write a second biography. This time I wanted to counter the narrative of silence and write about a woman writer who had achieved a successful career.</ref> I chose the Canadian poet <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName>, born a generation later in <date cert="high" when="1941">1941</date>, because she had been so productive, writing over twenty books in thirty years. But I soon discovered she had confronted another problem. I discovered MacEwen had lived her life under the weight of secrets. She had separated her friends into different pockets of her life. No one knew the full story.</p>
+                        <p xml:id="p147"><ref target="#violence"><persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName> was a great poet who died at the age of forty-six in mysterious circumstances. Some people suspected suicide.</ref> How was I to write about her?</p>
+                        <p xml:id="p148">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#textual_strategies">We believe the roots of a lifetime are hidden and entwined in childhood. A biography begins its archaeology there. In my first chapter <title level="a">Thirty-eight Keele Street,</title> the address of <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">MacEwen</persName>’s childhood home, I offered a meditation on the very notion of a house.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p149"><q type="block">The houses we are born into are always more than domestic architecture. They are mental spaces that define the power dynamic of the world we enter unwittingly; those houses will surface repeatedly in our dreams and we will reconstruct them throughout a lifetime. Thirty-eight Keele was the first universe fate offered <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">Gwendolyn</persName>. It was complex and full of secrets.</q> (<title level="m">Shadow Maker</title> 3)</p>
+                        <p xml:id="p150">
+                            <ref target="#health_issue">The essential secret at the core of <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">MacEwen</persName>’s childhood was that her mother suffered periodic bouts of mental illness. Neither her father nor her aunt and uncle, with whom the MacEwens lived, would speak of this shameful secret. Gwendolyn and her sister Carol only knew that from time to time their mother disappeared from home. When they asked why, they were told, <q>You are too young to understand.</q></ref>
+                        </p>
+                        <p xml:id="p151">In writing <title type="m">Shadow Maker</title>, I was deeply aware that I was entering the lives of <hi rend="italic">real</hi> people. The first person with whom I spoke was <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">MacEwen</persName>’s sister <persName>Carol Wilson</persName>. On our first encounter, I sat across from her in her small-town <placeName cert="high" ref="http://www.geonames.org/6093943">Ontario</placeName> kitchen and examined her face. Eight years older than her sister, she looked exactly like MacEwen would have looked at that age. <ref target="#violence">Carol described how, in <date cert="high" when="1950">1950</date>, when her family moved to <placeName cert="high" ref="http://www.geonames.org/6183235">Winnipeg</placeName>, she and her sister witnessed their mother’s attempt to commit suicide by slashing her throat with a razor. Carol recounted the story to me in a halting voice full of pain. <q>This is not easy for me,</q> she said. She still wondered whether Gwendolyn, who had been nine-years-old at the time, had seen what had happened in the bathroom that night.</ref></p>
+                        <p xml:id="p152">On one of my visits, Carol handed me a sealed envelope, on the back of which <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">Gwendolyn</persName> had scrawled her name in large childish letters. Carol told me it contained a pencil. Gwendolyn had saved it because it was the pencil with which she had written her first poem when she was ten. She also told me that Gwendolyn changed her name. The family had always called her Wendy, but at age twelve, she insisted that her name henceforth would be Gwendolyn. She said she thought one day she might be important and Wendy was not the name of somebody important.</p>
+                        <p xml:id="p153">
+                            <ref target="#women_writing">The astonishing thing is that, out of the pain of this childhood, <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName> was able to construct such a powerful life for herself. For her, it seems that art was a way to make sense of life. It required training, discipline, love. And she had a remarkable mind, perpetually in gear.</ref>
+                        </p>
+                        <p xml:id="p154">
+                            <ref target="#methodology">I went to libraries and searched through city directories to locate the many places <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">MacEwen</persName> had lived. <ref target="#archive">I found her letters in writers’ archives across the country, echoes of her lost voice.</ref> I consulted the Mormons in <placeName ref="http://www.geonames.org/5780993" cert="high">Salt Lake City</placeName> to trace her genealogy. I phoned <placeName cert="high" ref="http://www.geonames.org/2650225">Edinburgh</placeName> searching for details about her father’s life. I wrote hospitals for files. And I tracked down many of the witnesses who shared, however peripherally, in her life.</ref>
+                        </p>
+                        <p xml:id="p155">The story grew. <ref target="#education">After quitting high school just one month shy of <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">her</persName> graduation, she wandered the streets of <placeName ref="http://www.geonames.org/7870882" cert="medium">High Park</placeName> until she found a small chaider, or Hebrew school, and walked in asking them to teach her Hebrew. She was a brilliant autodidact. If she was to know the Bible, the Zoar, the Gnostics, she must read them in the original language.</ref> Unsupervised by parents whose lives were disintegrating, she roamed the back streets of <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName> late at night. Once, when she was at the Wah Mai Café on Queen Street, the police raided. As they hauled in the prostitutes, they inquired about the kid in the brown corduroy jumper. <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">Gwendolyn</persName> told them she was there because she was training to be a writer: <q>I’m just a page now but one day I’ll be a book</q> (<title level="a">The Wah Mai Café,</title> <title level="m">Afterworlds</title> 34). <q>Poets,</q> she said, <q>are magicians without quick wrists</q> (<title level="m">Julian the Magician</title> 12).</p>
+                        <p xml:id="p156">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#representation_of_women">In dialogue with the multiple voices swirling through my biography, I created my version of <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName>. It is the portrait of a woman of astonishing creative depth whose very mystery leaves one breathless.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p157"><ref target="#response_informal">After I published <title level="m">Shadow Maker: The Life of <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName></title>, much to my surprise, I received an extraordinary number of letters. Many people identified with the tragic life of Gwendolyn MacEwen. I was moved that they would take the time to write, and that so many told me they had gone out and bought her poetry and were reading her entire work. But there was something disturbing me. Some people began to ask why I identified with dark, self-destructive, romantic female extremists.</ref> But that was not how I saw either Gwendolyn MacEwen or <persName ref="http://viaf.org/viaf/46814469" cert="high">Elizabeth Smart</persName>. <ref target="#writing_climate">They were writers of remarkable courage who had succeeded against the odds, as all writers must, and the difficulties of their lives had come from where most difficulties do: in large measure from the patterns scripted in childhood.</ref> Theirs were individual stories and it was risky to use their lives to generalize about the Ur-pattern of the artistic life.</p>
+                        <p xml:id="p158">I remembered <persName ref="http://viaf.org/viaf/109322990" cert="high">Margaret Atwood</persName> once commenting that there is no common pattern to artists’ lives. The only thing that writers have in common is that they write. <ref target="#genre_lifeWriting">I found myself thinking of writing a book about Atwood. Would that be possible? And why would I presume to write a biography of a living writer in mid-career? I had two motives. First, this would be another kind of story, a narrative about a woman who had managed to take control of her artistry <hi rend="italic">and</hi> her life. And, secondly, she would be there to talk back. This intrigued me. I was sceptical about the way many biographers claim to know the motives of their subjects after they are dead.</ref></p>
+                        <p xml:id="p159">
+                            <ref target="#methodology">I decided to write a portrait of <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>’s early career. My book would be about confidence, about how you find the courage to believe in yourself as an artist. It would be a cultural history. It would also be about the creative process itself.</ref>
+                        </p>
+                        <p xml:id="p160"><ref target="#genre_issue">In my head I thought of this book as a not-biography.</ref> There would be no intimate journals or letters as sources. <ref target="#archival_location">These were still in private hands, though <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> allowed me to read her restricted files in the <orgName ref="http://viaf.org/viaf/123687466" cert="high">Thomas Fisher Library</orgName> that houses her papers</ref>, and we had a lively email correspondence. I also knew that people would be guarded and protective of her. Why, then, write the book? I wanted the third version of the female artist’s life. <persName ref="http://viaf.org/viaf/46814469" cert="high">Elizabeth Smart</persName> had been trapped in silence—after her masterpiece she had lost her nerve as a writer. <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName> had been deeply damaged by the secrets behind which she hid. Margaret Atwood had produced a brilliant and extensive body of work and was content in her life.</p>
+                        <p xml:id="p161">I knew this would be as much a biography of an era as it would be the record of an individual writer’s life.<ref target="#nationality_issue"><ref target="#writing_climate"><ref target="#social_movement"> <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> came of age as a writer at a time when the currents of feminism and Canadian nationalism met.</ref> She was central to that period in the <date cert="low" from="1965" to="1969">late 1960s</date> and <date cert="low" from="1970" to="1974">early 1970s</date> when Canadian writers established themselves in the national imagination.</ref> Compelled by <persName cert="high" ref="http://viaf.org/viaf/49236705">Northrop Frye</persName>’s suggestion that the Canadian writer was not so much engaged in the pursuit of personal identity (<q>Who am I?</q>) but rather cultural identity (<q>Where is here?</q>), they were engaged in articulating the myths and landscapes that have shaped our culture.</ref></p>
+                        <p xml:id="p162">
+                            <ref target="#genre_lifeWriting">In the course of writing my previous biographies, I had experienced the nostalgic, elegiac feeling of following after. The subjects were gone and had left only their words behind. Writing about <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName> was, of course, completely different. I was driven by curiosity and intrigue, and found myself saying, <q>Ah, so that’s what it was like.</q></ref>
+                        </p>
+                        <p xml:id="p163"><ref target="#education">On one of my many journeys, I trekked down to <orgName ref="http://viaf.org/viaf/124802605" cert="high">Harvard</orgName>, where <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> had gone to graduate school, and visited <ref target="#gender_issue">the <orgName ref="http://viaf.org/viaf/137349279" cert="high">Lamont Library</orgName>, where, as a female student, she was not allowed to work. Apparently it was felt that the presence of females would distract the young male students. <ref target="#sexuality">And I saw where Founder’s House, her graduate residence at Radcliffe, had once stood. I thought of her description of the sexual perverts who, like aphids, had scaled its walls.</ref></ref></ref> <ref target="#violence">In <placeName cert="high" ref="http://www.geonames.org/4930956">Boston</placeName>, she would later say, she learned about urban violence.</ref> And I thought of the costume party she and her friend <persName>Jim Polk</persName> had organized at Founder’s House.</p>
+                        <p xml:id="p164">According to <persName>Polk</persName>, they announced it as a Roman orgy: she went as Cleopatra’s breast, wearing a birdcage covered in a flesh-coloured towel, and he went as the asp. Later, however, she would stage a more significant rebellion. <ref target="#education">As I walked through <orgName ref="http://viaf.org/viaf/124802605" cert="high">Harvard</orgName>, I saw what <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> would come to make of that intimidating institution. It would provide the locus for the fundamentalist dictatorship in her novel <title level="m">The Handmaid’s Tale</title>.</ref></p>
+                        <p xml:id="p165">
+                            <ref target="#genre_lifeWriting">While I was writing these three biographies I dreamed of my subjects: Of <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Elizabeth</persName> standing at the end of my bed like a vengeful presence saying, <q>You’d better get it right.</q> Of <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">Gwendolyn</persName> entering my kitchen by a hidden door and offering me a gift. Of carrying a desiccated fragile child through a war-torn European city, knowing it was <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>’s child, and that I had to save it. The child was my book. I made it to the train station and the child was still alive. In my own personal mythology, each of these dreams gave me permission to write my books. They meant that the books would come from a deep place. My conscious and my unconscious mind, the place where the inspiration comes from, were in sync.</ref>
+                        </p>
+                        <p xml:id="p166">
+                            <ref target="#theme_or_topic">Looking back, I now consider these biographies to be a trilogy: they are essentially about the creative process and about how you find the confidence to believe in yourself as a writer.</ref>
+                        </p>
+                        <p xml:id="p167">
+                            <ref target="#education">I have been asked to discuss creative writing programs. In the old days, there were very few creative writing programs. Many of the writers directing programs now have not themselves been students in creative writing workshops. That was largely because they weren’t available when they started out as writers and they weren’t necessary.</ref>
+                            <ref target="#writing_climate">(I will speak of English-Canadian writers, though a similar narrative could be told about <placeName cert="high" ref="http://www.geonames.org/6325494">Quebec</placeName> writers.) <ref target="#collaboration">The writing community was small and mutually supportive. To counter their individual isolation, the writers set up small publishing companies—<orgName ref="http://viaf.org/viaf/263876503" cert="medium">Contact Press</orgName>, <orgName cert="medium" ref=" http://viaf.org/viaf/131660786">Talonbooks</orgName>, <orgName ref="http://viaf.org/viaf/268199074" cert="high">House of Anansi</orgName>. These were not just publishing houses but ateliers, workshops where they discussed, vetted, and nurtured each other’s work. <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>, <persName cert="high" ref="http://viaf.org/viaf/150749702">Dennis Lee</persName>, <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName> exchanged and read each other’s manuscripts. They offered criticism and support.</ref></ref>
+                        </p>
+                        <p xml:id="p168">
+                            <ref target="#writing_climate"><persName ref="http://viaf.org/viaf/46814469" cert="high">Elizabeth Smart</persName> had no such community. At least a part of her silence was caused by this vacuum. She once remarked to me that when she began reading <persName ref="http://viaf.org/viaf/68944521" cert="high">Alice Munro</persName> and <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>, she heard something of her own voice in their style and concerns and mused about what might have happened with her writing had she stayed in <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName>. <ref target="#attitudes_to_women_writing"><placeName cert="high" ref="http://www.geonames.org/6269131">England</placeName> in the <date cert="low" from="1950" to="1959">1950s</date> was not a nurturing environment for women writers. In an interview, <persName cert="medium" ref="http://viaf.org/viaf/52421080">Elspeth Barker</persName>, Elizabeth’s friend and <persName ref="http://viaf.org/viaf/109310084" cert="high">George Barker</persName>’s fifth wife, told me, rather shamed-faced and with some lingering shock, that as a young woman with artistic aspirations in England in the <date cert="low" from="1960" to="1969">1960s</date>, you wouldn’t be caught dead reading a woman writer. Great writing was done by men. By contrast in Canada, <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> remarked that the writing community was so small and beleaguered that even women writers were welcomed.</ref></ref>
+                        </p>
+                        <p xml:id="p169">
+                            <ref target="#economics">So, there was artistic support,but what about social and financial support? <ref target="#writing_climate">Both <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName> and <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName> benefited from the mutual exchange of manuscripts and the support of friendship, but Margaret Atwood confided to me that, had she remained a poet and not turned to writing fiction, she would have either been as poor as Gwendolyn or have become a university professor to support herself. Having no money was a huge factor in the isolation and loneliness of MacEwen’s life.</ref> I remember one of her lovers, <?oxy_comment_start author="rknechtel" timestamp="20150521T130543-0400" comment="Do we have a full name we can use to tag Ruben?"?>Ruben<?oxy_comment_end?>, telling me an anecdote about MacEwen in the <date cert="low" from="1984" to="1986">mid-1980s</date> when she was financially struggling and was denied a loan by her bank. She went home, collected her books, marched back into the bank and banged the books on the counter saying, <q>Here. I’ve written these. I just want my money.</q></ref>
+                        </p>
+                        <p xml:id="p170">
+                            <ref target="#economics">In our culture, books are dealt with, like everything else, as consumer products. The reward for writing a book and its success are measured entirely in monetary terms. But books, except perhaps formula books, are not produced as products, and there is no relationship, except perhaps that of luck, between the energy and thought put into a book, and the return the writer receives. Every writer hopes they might win the literary lottery and produce a book that sells, but that is not the motive driving a book’s creation.</ref>
+                        </p>
+                        <p xml:id="p171">
+                            <ref target="#economics">We need to acknowledge that writers live in a different cultural paradigm: we live in a gift-giving, as opposed to a commodity, culture. This is a term I came across years ago, thanks to a fascinating book by <persName cert="high" ref="http://viaf.org/viaf/110271207">Lewis Hyde</persName> called <title level="m">The Gift: Imagination and the Erotic Life of Property</title>. <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName> had directed me to its existence.</ref>
+                        </p>
+                        <p xml:id="p172">
+                            <ref target="#economics">We are so deeply inside consumer culture that we cannot imagine a cultural paradigm other than that of private property. How could we live if we did not own things and collect things which serve as barricades against the way life can assault our equanimity without warning? And so we accumulate and accumulate until the lust for accumulation becomes an end in itself.</ref>
+                        </p>
+                        <p xml:id="p173">
+                            <ref target="#economics">But in a culture based on the gift—giving without assurance of return—and there are numerous ancient, particularly Aboriginal societies who have followed this paradigm—giving, in itself, creates a cycle of return. In a gift-giving culture, when you give, you create a moral debt that will be paid back when the circle of giving completes itself.</ref>
+                        </p>
+                        <p xml:id="p174">In viewing culture as a gift, a special relationship to the world is established. And this, in fact, we are beginning to understand. We are beginning to understand that if we do not acknowledge nature as a gift rather than a commodity to be owned and exploited, we destroy our sacred relation to nature and thereby destroy ourselves. Creations of the imagination are also gifts that must be thought of as part of the gift-giving paradigm.</p>
+                        <p xml:id="p175">
+                            <ref target="#economics">We writers were seduced for a while into believing we could speak of culture as a product. We could speak of cultural industries, adopting the commodity model, and asserting that we contributed to the general monetary economy and should be rewarded. <ref target="#health_issue">But books are not products that earn a market reward. They are works of art that are essential to our collective human experience, and society, for its mental and spiritual health, should sustain their creation in the sheer principle of self-interest.</ref></ref>
+                        </p>
+                        <p xml:id="p176">
+                            <ref target="#economics">
+                                <ref target="#writing_climate">Our society believes it is free of any responsibility for the writers in their midst. Writers, like anyone else, have to work on the market model. But the network of support, the circle of sustenance the writer lives within, has to be based on a different paradigm. Writing is much more than a solitary writer in a room. It is a living, breathing network of creators whose work and input is so much larger than the product produced that it sustains what <persName ref="http://viaf.org/viaf/110271207" cert="high" sameAs="Lewis Hyde">Hyde</persName> calls the erotic life of property: property not as a product to be consumed but to be passed on as a gift that enlarges the life of each recipient in the circle that receives from and sustains the gift-giver.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p177">Forgive me if this seems abstract, but unless we change the paradigms by which we live—whether this is our responsibility toward others or toward the environment that sustains us—we are lost. And without the emotional and spiritual pleasure that art, and particularly books, give us, we are also lost.</p>
+                        <p xml:id="p178">The products of modern culture are just that: products. They are increasingly irresistible and feed our lust for addictive adventure. <ref target="#non-book_media">This can equally apply to reality shows, whether on television or in books, or violent action films and the books on which they are based.</ref> What, you ask, has this to do with creative writing programs? It is quite simply an explanation of why they have become an essential defence, or at least one of the defences, against the collective philistinism that surrounds us.</p>
+                        <p xml:id="p179">
+                            <ref target="#writing_climate">
+                                <ref target="#nationality_issue">Cultural change is driven by ideas. There was a time in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> when it was believed there was almost no English-Canadian literature. In the <date cert="low" from="1960" to="1964">early 1960s</date>, you could count on one hand the number of books published in Canada. If you were a Canadian writer, you believed you had to go elsewhere, to another country, to write. You had to substitute a foreign landscape for your own landscape because you were told that no one could set a novel in <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName> or <placeName ref="http://www.geonames.org/5913490" cert="high">Calgary</placeName> and find any readers. How things have changed!</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p180">
+                            <ref target="#collaboration">
+                                <ref target="#canon_formation">Writers in the <date cert="low" from="1966" to="1969">late 1960s</date> and <date cert="low" from="1970" to="1974">early 1970s</date> like <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName> and <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName> had a collective project: to create a vibrant Canadian literature. They set up their own small presses and they began to establish Canadian literature programs in the universities. It took only two decades for everything to alter profoundly. Look at the strength and diversity of Canadian writing now.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p181">
+                            <ref target="#collaboration">
+                                <ref target="#education">Now, we have a new project: to reconnect writing with the culture at large. One way is to sustain and grow the creative writing programs that have begun to be established in the last decade in universities and colleges and communities that can network with the public to bring writing to public attention.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p182">
+                            <ref target="#collaboration">
+                                <ref target="#education">The same mentality that berates writing programs, dismissing them with the statement like, <hi rend="italic">You can’t teach writing</hi>, profoundly misunderstands what writing is and what a creative writing program is. Creative writing programs are responses to the increasing isolation in contemporary culture. They are networks of support. They are part of the gift-giving paradigm.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p183">
+                            <ref target="#writing_climate">It is not easy to set up a publishing house now. It cannot be done from an attic on Spadina or a back alley in <placeName cert="high" ref="http://www.geonames.org/6173331">Vancouver</placeName>. <ref target="#education"> But I see creative writing workshops as a new incarnation of the old atelier model, a way of establishing communities that provide the essential support each new writer needs. It is hard to believe in yourself as a writer; it is hard to sustain the confidence to continue. This, the workshop provides.</ref></ref>
+                        </p>
+                        <p xml:id="p184">
+                            <ref target="#education">The workshop is an atelier, and the director assumes the role of editor rather than that of teacher. No relationship is quite so intimate and intense. Enormous sympathy, tact, diplomacy, and shrewdness are required. And a sense of humour.</ref>
+                        </p>
+                        <p xml:id="p185">
+                            <ref target="#technology">
+                                <ref target="#non-book_media">People who come out of creative writing programs become not only writers but readers and publishers of small presses, zines and e-magazines, as well as initiators of creative experiments in new media that can give imaginative content to the new vehicles like Facebook and LinkedIn that are out there begging for content that moves and inspires people.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p186">
+                            <ref target="#genre_lifeWriting">In writing biographies of <persName ref="http://viaf.org/viaf/46814469" cert="high" sameAs="Elizabeth Smart">Smart</persName>, <persName ref="http://viaf.org/viaf/115290827" cert="high" sameAs="Gwendolyn MacEwen">MacEwen</persName>, and <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> I learned that writing is certainly about talent, the love of language and story, but it is also about stamina. There needs to be a community that says that writing is essential and that provides collective support. Because there will be a moment when, as a young writer, you will ask yourself if you have the will to continue. When you are in the throes of a writing project, you will find yourself asking: Why do I do this to myself? The answer must be: Because I love it. It’s my conversation with the world.</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Works Cited</head>
+                        <listBibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/49236705">Frye, Northrop</persName>. <title level="a">Conclusion to a Literary History of Canada</title>. <title level="m">The Bush Garden: Essays on the Canadian Imagination</title>. <placeName ref="http://www.geonames.org/6167865" cert="high">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/268199074">Anansi</orgName>, <date cert="high" when="1995">1995</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/110271207" cert="high">Hyde, Lewis</persName>. <title level="m">The Gift: Imagination and the Erotic Life of Property</title>. <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/153153594">Random House</orgName>, <date cert="high" when="1979">1979</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/115290827" cert="high">MacEwen, Gwendolyn</persName>. <title level="m">Afterworlds</title>. <placeName ref="http://www.geonames.org/6167865" cert="high">Toronto</placeName>: <orgName ref="http://viaf.org/viaf/140384426" cert="high"> McClelland and Stewart</orgName>, <date cert="high" when="1987">1987</date>. Print.</bibl>
+                            <bibl>---. <title level="m">Julian the Magician</title>. <placeName ref="http://www.geonames.org/6167865" cert="high">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/132609580">Macmillan</orgName>, <date when="1963" cert="high">1963</date>. Print.</bibl>
+                            <bibl>Smart. Elizabeth. <title level="m">A Bonus</title>. <placeName cert="high" ref="http://www.geonames.org/2643743">London</placeName>: <orgName>Polytantric Press</orgName>, <date cert="high" when="1977">1977</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/7436967" cert="high">Sullivan, Rosemary</persName>. <title level="m">By Heart: <persName ref="http://viaf.org/viaf/46814469" cert="high">Elizabeth Smart</persName> / A Life</title>. <placeName ref="http://www.geonames.org/6167865" cert="high">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/295681810">Viking</orgName>, <date when="1991" cert="high">1991</date>. Print.</bibl>
+                            <bibl>---. <title level="m">Shadow Maker: The Life of <persName ref="http://viaf.org/viaf/115290827" cert="high">Gwendolyn MacEwen</persName></title>. <placeName ref="http://www.geonames.org/6167865" cert="high">Toronto</placeName>: <orgName ref="http://viaf.org/viaf/129138489" cert="high">HarperCollins</orgName>, <date cert="high" when="1995">1995</date>. Print.</bibl>
+                            <bibl>---.<title level="m">The Red Shoes: <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName> Starting Out</title>. <placeName ref="http://www.geonames.org/6167865" cert="high">Toronto</placeName>: <orgName ref="http://viaf.org/viaf/129138489" cert="high">HarperCollins</orgName>, <date when="1998" cert="high">1998</date>. Print</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+        </body>
+        
+
+    </text>
+</TEI>
