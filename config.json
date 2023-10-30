@@ -8,6 +8,6 @@
     "documentLinks": "ref[target^='http']",
     "indexDocument": "",
     "inputs": [
-        "https://calincs.gitlab.io/cwrc/dtoc/dtoc-2.0/data/xml/sample.xml"
+        "https://raw.githubusercontent.com/ajmacdonald/dtoc_samples/master/sample.xml"
     ]
 }
