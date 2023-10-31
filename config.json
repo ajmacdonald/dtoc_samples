@@ -11,13 +11,7 @@
     "documentLinks": "ref[target^='http']",
     "indexDocument": "",
     "curation": {
-        "markup": [
-            {
-                "xpath": "note",
-                "label": "note",
-                "usage": "note"
-            }
-        ],
+        "markup": [],
         "toc": [
             "95d18b3dc5c4f0b97b94b236c47d79a22fdb93d0d8ff0c0776e37cd671134a4c",
             "2ae0d57172ebfbcedc79b51cbdfcd300d31e3ce95521e5c63928052d473639bf"
