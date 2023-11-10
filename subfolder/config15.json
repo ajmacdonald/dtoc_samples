@@ -1,4 +1,5 @@
 {
+    "editionTitle": "Good Title",
     "inputs": [
         "https://raw.githubusercontent.com/ajmacdonald/dtoc_samples/master/sample.xml"
     ],
