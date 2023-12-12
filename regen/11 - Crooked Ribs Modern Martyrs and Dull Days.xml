@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            
+            <div type="part">
+                
+                
+                <div type="chapter" xml:lang="en-CA">
+                    <head><title level="a">Crooked Ribs, Modern Martyrs, and Dull Days</title></head>
+                    <byline>Recovering Hidden <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName> Women through Their Life Writing</byline>
+                    <docAuthor>
+                        <persName cert="high" ref="http://viaf.org/viaf/305358828">Mary McDonald-Rissanen</persName>
+                    </docAuthor>
+                    <div type="section">
+                        <p xml:id="p787">
+                            <ref target="#representation_of_women">Over the last century, folk songs and stories, obituaries, paintings, newspaper advertisements, and local histories have depicted <ref target="#theme_or_topic"><placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName> (PEI) women</ref> as mystical mermaids, biblically incited victims of their body, and sometimes gracious and gentle women. <ref target="#women_writing">But in their own words, women write themselves through their daily rituals of managing households, planting their gardens, or stretching the parameters of home; they contextualize themselves within what <persName cert="high" ref="http://viaf.org/viaf/72998563">Kathryn Carter</persName> refers to as <q>the small details</q> of their everyday and through deflated expressions like <q>dull day.</q></ref></ref>
+                        </p>
+                        <p xml:id="p788">
+                            <ref target="#representation_of_women">
+                                <ref target="#methodology">In this chapter, I examine the popularly available images of women and juxtapose those images with the representations that women generate in their <ref target="#theme_or_topic">life writing</ref>. <ref target="#archival_location">Journals, diaries, and letters by women from the nineteenth and early twentieth century are not widely available; my research on twenty Island women is based on their unpublished manuscripts, obtained from the <orgName cert="high" ref="http://viaf.org/viaf/263169033" sameAs="Public Archives of Prince Edward Island">Public Archives and Records Office of Prince Edward Island</orgName> (<hi rend="small-caps">PAROPEI</hi>).</ref> Redeeming women from their place of obscurity in their diaries and locating their inscribed sites of representation have indeed opened up a new chapter in women’s writing. <ref target="#genre_lifeWriting">Inspired by <persName cert="high" ref="http://viaf.org/viaf/71397267">Sheila Rowbotham</persName>’s work on women <q>hidden from history,</q> I began to expand my collection of Island women’s unpublished life writing and develop strategies for reading and understanding these <q>messy</q> (<persName cert="medium" ref="http://viaf.org/viaf/48264025" sameAs="Steven Weiland">Weiland</persName> 204) documents. <ref target="#women_writing">Multiple readings of these diaries, ledgers, account books, and scraps of paper convinced me that the women’s choice of the autobiographical genre was instrumental in their textual articulation of voice. The diary could accept entries at any time, on any subject, and allow for textual resolutions unheard of elsewhere.</ref></ref> Initially, the task of understanding the sporadic and varied handwriting and idiosyncratic textual resolutions of each diarist—the gaps, vagueness, or silence about the <q>unsayable</q>—seemed insurmountable. But as <persName cert="medium" ref="http://viaf.org/viaf/94797550" sameAs="Rebecca S. Hogan">Rebecca Hogan</persName> has indicated, such practices are typical of <hi xml:lang="fr-CA" rend="italic">l’écriture feminine</hi> where the parataxical fragments of ungrammatical passages reflect the <q>non-hierarchical flow of events</q> (102) that make up a woman’s life. The sought-after cohesion in life writing texts comes through multiple readings of the diaries and lining up these documents with other cultural artifacts such as histories, paintings, or even anecdotal evidence.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p789">
+                            <ref target="#health_issue">
+                                <ref target="#genre_lifeWriting">Typically, in their diaries, these ordinary women refrained from confronting and confessing immediate threats. <ref target="#textual_strategies">Instead, the diarist creates a lacuna or silence on the subject, which the diary reader often fills in. In her diary (<date cert="high" from="1910" to="1914">1910–1914</date>), my grandmother <persName>Amy Andrew</persName> wrote of a <q>fright</q> in <date cert="high" when="1912">1912</date>, but the scar on her arm spoke of a more serious accident. Anecdotal evidence about the incident—an incident that Gramma talked about—also suggested that she downplayed the accident in her diary. On other occasions, she created gaps in her diary, unable to find the language for the <q>unsayable</q> situation of being newly married.</ref> <persName>Emma Chadwick Stretch</persName> very discreetly disclosed her own illness in her <date cert="high" when="1859">1859</date> diary, focusing primarily on her child’s near-death experience. Once she recovered, we learn from Emma’s <q>account book</q> that she lost her hearing as a result of her own near-death experience.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p790">
+                            <ref target="#health_issue">Numerous women diarists diverted their entries away from personal dilemmas and instead concentrated on the birth and death of farm animals rather than the same fates of their nearest and dearest. <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy Palmer Haslam</persName> and <persName>Amy Andrew</persName> reported on headaches at times when their words did not suffice for the anguish of the moment.</ref>
+                            <ref target="#intertextuality">
+                                <ref target="#representation_of_women">
+                                    <ref target="#education">Reading <persName cert="medium" ref="http://viaf.org/viaf/221109490">Lucy Palmer</persName>’s <date cert="high" when="1887">1887</date> entries on her early teaching experiences alongside Island artist <persName cert="high" ref="http://viaf.org/viaf/40616346">Robert Harris</persName>’s painting <title level="m">The Meeting of the School Trustees</title> (<date cert="high" when="1885">1885</date>) provides both a textual and visual representation of women’s early entry to the public sphere. Harris portrays a young school teacher standing in the midst of four male school trustees in a <date cert="high" from="1800" to="1899">nineteenth-century</date> <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName> classroom. Harris was influenced by his visit to an Island classroom where he witnessed women’s entry into the <ref target="#theme_or_topic">public sphere</ref> as teachers. Lucy’s textual trepidation matches that of the young teacher in Harris’s famous painting.</ref>
+                                </ref>
+                            </ref>
+                            <ref target="#close_reading">
+                                <ref target="#religion"><persName>Amy Andrew</persName>’s obvious anxiety of losing her sister <persName>Marion</persName> to the stream of outward migration was folded into the account of her withdrawal from attending church; similarly, when the mare died, she wrote again, <q>did not go to church.</q> She could not admit to her sorrow, but her actions could acknowledge an inability to fall into the social expectation of going to church, which then indicated her sadness.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p791">
+                            <ref target="#methodology">My excursion into the study of diaries and their retrieval from the archives resembles the numerous rambles I’ve made on Island beaches and my stumbling over unexpected finds. These texts, the Island women’s diaries, have emerged like sandstones surfacing with the outgoing tide. The research process of searching, finding, reading, and rereading illegible texts had a rhythm like that of the tides. Each receding wave exposes more sandstones, and the repetitive readings simultaneously give shape to the fragile surfaces of the sandstone artifacts while reassembling them. <ref target="#representation_of_women">The similarity of the women’s diaries to sandstones—both worn through time by the elements, scattered here and there—led me to think of the shore as a site for studying women and their representation.</ref></ref>
+                        </p>
+                        <p xml:id="p792">
+                            <ref target="#representation_of_women">Women and the sea are linked by the artifacts they deposit at the sea’s feet, their sandstone diaries. But women themselves have been the objects of other cultural forms such as folk songs, folk stories, and they have generally been portrayed alongside their fathers, brothers, and husbands. <ref target="#women_writing">Seldom did women participate in the inscription of public records; instead, women were the object of songs, stories, and advertisements.</ref> Ironically, many of the <ref target="#theme_or_topic">women of folksongs</ref> met their fate on the same shores that their sisters’ sandstone diaries were honed and harvested.</ref>
+                        </p>
+                        <p xml:id="p793">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre_music">
+                                    <ref target="#violence">The musical lyrics of nine songs in <title level="m">Folksongs from <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName></title> that feature women as the main thematic element and originate from the nineteenth and twentieth centuries are a revealing point of departure for taking up women’s imaging in popular culture, past and present. Encounters of love near the sea proved to be fatal. Four of the nine women in these folksongs die in circumstances of love near the sea. <ref target="#characterization">Alice, Sally, and Liza meet cruel fates in beautiful settings while believing in the love of their eventual slayer.</ref></ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p794">
+                            <ref target="#characterization">
+                                <ref target="#violence">Consider Alice, from the popular Island folksong <title level="a">The Gay Spanish Maid,</title> who dies on the shore like a rose nipped by the frost while waiting for her <q>gay gallant youth.</q> <ref target="#health_issue">Their love blossomed on the shore, where she dies of hypothermia while he returns from his wrecked ship on a plank.</ref> A familiar pattern emerges as the woman succumbs to a beautiful death and the man survives a heroic encounter with the elements. Pretty Mary in <title level="a">The Murder of Mary Tuplin</title> was taken in by the tide and found by her parents after being murdered by her jealous lover. The bonnie lassie <title level="a">Sally Munroe</title> was stolen away from her <placeName cert="high" ref="http://www.geonames.org/2655984">Belfast</placeName> home by Jimmy Dixon. The sweet and pleasant gale takes Sally and Jimmy from the sandy shore in the hope of a new beginning across the sea, but the dark clouds consume their ship and the young lovers. Liza defied the raging wind and left her dear home to meet James by <title level="a">The Old Oak Tree.</title> Weeks later, the innocent murdered maid was dug up from under the same tree with her lover’s knife in her breast.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p795">
+                            <ref target="#characterization">The five surviving women take leave of their familiar domestic sphere, their fates linked with the dangers of moving alone in the world. The nameless woman at the <placeName cert="medium" ref="http://www.geonames.org/4930983">Boston Harbor</placeName> depicted in <title level="a">Coatman’s Saloon</title> deceives her male companion by pretending to be a rich widow. The deceitful woman <q>Eve</q> in <title level="a">The Crooked Rib</title> is wild and stubborn like an unruly horse. The flirtatious <title level="a">Rose of <placeName cert="medium" ref="http://www.geonames.org/5933879">Cumberland</placeName>,</title> with her cunning eyes, fails to seduce the sportsman who insists coastal girls are more handsome. Mary Ann of <title level="a">The Jim Ross Song</title> dares to say <q>no</q> while other <q>maidens cried and mourned for the groom.</q> The snotty nosed wife in <q>What Do You Think of My Darling?</q> inspires the husband’s hope that the devil would sweep her away soon. </ref>
+                        </p>
+                        <p xml:id="p796">
+                            <ref target="#representation_of_women">
+                                <ref target="#characterization">All give a gloomy picture of the Island woman, in love and despair, particularly when she takes leave of her home for the city or the wilds of nature and exercises her independence. Still Eve, Rose, Mary Ann, and their two nameless sisters survive by their cunning, deceitful, flirtatious, snotty, wild, and stubborn dispositions, at least in these folksong depictions.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p797">
+                            <ref target="#genre_music">
+                                <ref target="#economics">
+                                    <ref target="#characterization">The natural landscapes of the shore, the outer limits of society, figure strongly as a place of resolution for women once they have left the security of home, whether in Ireland or Prince Edward Island itself. In retrospect, songs like <title level="a">Coatman’s Saloon</title> serve as a warning to the many young Maritime women who joined the exodus to seek employment outside the region and, more specifically, to those who, in the <date cert="low" from="1900" to="1939">early 1900s</date>, headed for the eastern United States or Western Canada. Whether woman’s fate be death or moral stagnation, as is the case of the <q>wealthy widow</q> of <title level="a">Coatman’s Saloon,</title> departure from home was a fatal move for many of the women of folksongs. <ref target="#violence">In <title level="a">The Old Oak Tree,</title> Liza fails to return home from her stormy night sojourn with Squire James Mac Callum only to be found with her heart pierced by Mac Callum’s knife, buried under the same tree where he had once professed his love to her.</ref> <ref target="#gender_issue"><ref target="#representation_of_women">Those women who challenged the proposals of men, as Mary Ann did, or initiated romance, as Rose did, were regarded as a threat to the status quo and were destined to be the subject of folksongs. Images of women derived from folksongs, diaries, works of art, and other artifacts give both contradicting and complementary vignettes of the circumstances Island women faced in the nineteenth century.</ref> The pull of domesticity to maintain a home and raise a family versus the attraction to a less traditional life on the mainland was on the minds of modern women. The independent woman had few niches in Island communities as women’s presence was vital for maintaining traditional lifestyles and for the very survival of the farming and fishing families. Songs and stories reiterated that women stay in those designated places regardless of the price.</ref></ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p798">
+                            <ref target="#representation_of_women">
+                                <ref target="#historical_oppression">In his book <title level="m">Them Times</title>, Island historian <persName cert="high" ref="http://viaf.org/viaf/75419828">David Weale</persName> writes historical vignettes, stories about the good old days, which include women but do not give women direct voice. Written in a third-person narrative in an ethnographic form, such folk stories are meant to depict what life was like on <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName> when the <date cert="high" from="1900" to="1999">twentieth century</date> <q>seemed to hit the Island.</q> Judging by his selection of stories, women from these times are to be celebrated for their roles as mother and wife in the bosom of domesticity: <q>a woman’s house was her person you see, and her pride and joy</q> (21). Weale was obviously engaging in what <persName cert="high" ref="http://viaf.org/viaf/91929241">Shirley Neuman</persName> refers to as <q>contemporary narratives of disappearing ways of life</q> (349) as he turns his narrative into a romancing of past hardships. Women, Island historian <persName cert="high" ref="http://viaf.org/viaf/35969463">Edward MacDonald</persName> reminds us, were at this time <q>silent partners in the life of the Island…far away from the levers of social, political or economic power</q> (62).</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p799">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre">
+                                    <ref target="#gender_issue"><ref target="non-book_media">Similarly, advertisements in the Island media from the early twentieth century gave one-sided representations of women and reinforced the myths of women as the weaker sex or even unfit for the public sphere because of their female biological and social functions related to fertility, childbearing, and childrearing. The <title level="a">Modern Martyrs</title> advertisement features a voluptuously dressed woman whose demeanor the audience is meant to read as an indication that the age of martyrs has not passed. She stands at the stake fueled by the flames of disease, a victim of her own biology and a vehicle through which medical remedies were promoted.</ref> As <persName cert="high" ref="http://viaf.org/viaf/88084554">Rosalind Coward</persName> writes, <q>women were put to work by the images</q> (82) and offered man-made cures like Orange Lily to get relief from their <q>female function</q> and paradoxically resume being healthy, happy, fertile mothers.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p800">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre_lifeWriting">
+                                    <ref target="#women_writing">Like advertisements, obituaries most often obscured traces of women’s daily lives. Furthermore, the obituary tends to overwrite any representation a woman may have carved out for herself during her lifetime in her journal. According to <persName cert="high" ref="http://viaf.org/viaf/93575950">G. Thomas Couser</persName>, the obituary is the most widely disseminated life writing genre and thus the one most widely consumed by the public. When <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy Palmer Haslam</persName> (<date cert="high" from="1884" to="1943">1884–1943</date>) died, leaving twenty extensive handwritten diaries that document her life from the age of eighteen to her time as a teacher, her marriage, and life as an entrepreneurial farm wife, her obituary spoke of her family relations and the funeral details. It summed her up thus: <q>The late Mrs. Haslam was widely known and highly esteemed in the community in which she had lived for many years.</q> Her volumes of texts, where she discreetly reveals her apprehensions as a young teacher, her budding professionalism in the public domain, and the transactions of her poultry business, are all forgotten. Lucy’s obituary memorializes her within the typical frames of death writing—chronicling and commemorating—thus ignoring the journal inscriptions of this gregarious writing subject, the one buried within the pages of her diary in the archives.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Turning to Life Writing and Seeing Women in Their Own Words</head>
+                        <p xml:id="p801">Images such as those projected in the folk songs, folk stories, advertisements, and obituaries I have discussed are popular, familiar, and easily transmitted and received. <ref target="#archival_location">By contrast, the opaque handwritten texts of the Island women diarists could never reach extensive audiences, not only because they are tucked away in obscure locations like archives but because of their discursive nature. Illegible handwriting, lack of cohesiveness, references to unknown people, gaps in the text, as well as information disguised through vague metaphors, all characterize the personal diaries in their handwritten, unedited form.</ref> </p>
+                        <p xml:id="p802">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#women_writing">The <hi rend="italic" xml:lang="fr-CA">journal intime</hi>, ledger, or diary, by its form and formlessness and absence of the necessity to adhere to any literary conventions, had a particular appeal to women. Here a woman could write when time permitted for whatever length and exercise her literacy on any topic she deemed worthy of recounting. The woman’s diary was a safe zone for playing with writing and recording conventions, even self-imposed conventions like writing poetry in the margins, inserting sketches, occasionally hiding information, or partially revealing something. In her diary, she was creating a place of her own.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p803">
+                            <ref target="#women_writing">
+                                <ref target="#genre_lifeWriting">
+                                    <ref target="#representation_of_women"><persName cert="high" ref="http://viaf.org/viaf/35969463" sameAs="Edward MacDonald">MacDonald</persName>’s claim about women as <q>silent partners</q> can be contested: in fact, women diarists emerged as agents within their own spheres and wrote out their rapport with nature in minimalist discourse, recorded engagement with current social movements, or gave unique descriptions of social intercourse in their local communities. Women’s own portrayals of their roles as mother, wife, and homemaker in the context of their life writing defy a strict demarcation of the private sphere of the home and the public sphere. Women’s life writing gave depth as well as new perspectives on self-images and social milieu.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p804">
+                            <ref target="#economics"><persName>Emma Chadwick Stretch</persName> migrated to <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> in the <date cert="medium" from="1855" to="1859">late 1850s</date> from <placeName cert="high" ref="http://www.geonames.org/6269131">England</placeName> with her husband and children and set up house on a farm in <placeName cert="high" ref="http://www.geonames.org/6059782">Long River</placeName>. Her <date cert="high" from="1859" to="1860">1859–1860</date> diary/account book illustrates the complexity of domesticity. Recording her numerous daily transactions as an entrepreneur, she weaves a rare social documentary of her experiences as a New World subject. Her diary is an account book of tea transactions carried out with the neighbours that evolves into a story of immigration comparable to that of the more famous immigrant narratives of <persName cert="high" ref="http://viaf.org/viaf/20989">Susanna Moodie</persName> and <persName cert="high" ref="http://viaf.org/viaf/7512952">Catharine Parr Trail</persName>. What is remarkable is how Emma’s <hi rend="italic" xml:lang="fr-CA">journal intime</hi> became her vehicle for finding a new voice in her new found land through the telling of the system of bartering she established. While Emma will likely never be written up in the history of business entrepreneurs, she is undoubtedly an example of how women opened female avenues for establishing economic enterprises like those referred to by<persName cert="high" ref=" http://viaf.org/viaf/59083135"> Charlotte Perkins Gilman</persName> in her <date cert="high" when="1898">1898</date> manifesto <title level="m" cert="high" ref="http://viaf.org/viaf/312529818">Women and Economics</title>. <ref target="#genre_issue">But what is more important is how <persName sameAs="Emma Chadwick Stretch">Emma</persName> sabotaged the autobiographical genre and increasingly used her ledger as a discursive location for inscribing a new world identity.</ref></ref>
+                        </p>
+                        <p xml:id="p805">
+                            <ref target="#economics">An excerpt from <persName>Emma Chadwick Stretch</persName>’s <date cert="high" when="1859">1859</date> ledger diary illustrates how she succinctly captures her everyday activities of neighbours’ visits and her trade of tea and other goods: <q><date cert="high" when="1859-12-15">Friday December 15</date>, <?oxy_comment_start author="mikalson" timestamp="20150112T163424-0700" comment="should I tag names in the diary?"?>A Oldfield came for ½ lb of tea and also Betsy Shaw. Joe went up to Mr Knights. W Hodson borrowed riding saddle<?oxy_comment_end?>.</q> <ref target="#health_issue">But then, on Sundays, her diary discourse takes on other features. <persName sameAs="Emma Chadwick Stretch">Emma</persName> talks of visitors, time alone, and children’s and her own health. On <date cert="high" when="1859-09-18">Sunday, September 18, 1859</date> Emma wrote: <q>Took baby down to the beach for a walk children had a sail in the boat H and A Blue came up to tea and Mr. and Mrs. Hodgson spent the evening with us.</q> <ref target="#close_reading">Tea in this entry is a commodity to be enjoyed in the company of neighbours and not a currency of transactions.</ref> As an immigrant, Emma’s new motherland discourse is refined in her Island circumstances. Between the lines of her tea transactions and her Sunday sojourns in the pastures surrounding her farm, Emma negotiates her New World subject position.</ref> <ref target="#textual_strategies"><persName cert="high" ref="http://viaf.org/viaf/114857891">Irene Gammel</persName> has suggested ways of understanding the discursive strategies taken up by women in their life writing. <persName sameAs="Emma Chadwick Stretch">Emma</persName>’s linguistic downplay of certain issues, such as her health, her shifts away from commercial tea transactions, and her representations of peaceful Sundays, all signal her power as author to manoeuver her position in her own diary discourse. In effect, Emma controls what Gammel calls <q>confessional modalities.</q></ref></ref>
+                        </p>
+                        <p xml:id="p806">
+                            <ref target="#history">Theatricality and playing with language and theme obviously drew women to the genre. <ref target="#close_reading">In the shelter of her <date cert="high" when="1864">1864</date> travel diary, <persName>Mercy Ann Coles</persName> (daughter of one of <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName>’s delegates to the historic <listEvent> <event> <label>Quebec Conference</label> </event> </listEvent>, which determined Canada’s emergence as a sovereign nation) carries on a performance of flirting with <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>’s nation builders much in the same way that the nation-builder Fathers of Confederation were attempting to seduce the eastern provinces into a political union. Mercy Ann Coles writes: <q type="block">Wednesday morning: We went to the drawing room last night, quite a crowd when we all got together and the ladies looked very well and were quite a credit to the lower Provinces. Pa, Ma and I went together and half the gentlemen wanted to take me but I preferred to go in with Papa. The Governor General stood in the middle of the room with his private secretary on his right, we did not require cards as the aides announced all the time…Mr Tilley took charge of me and walked about with me the whole evening.</q></ref> <ref target="#textual_strategies">The juxtaposition of <persName sameAs="Mercy Ann Coles">Mercy Ann </persName>’s linguistic flamboyance in her travel diary and <persName sameAs="Emma Chadwick Stretch">Emma</persName>’s flat discourse in her shop ledger illustrates how women were able, in their idiosyncratic ways, to disrupt the confessional frames and unsettle the confessional reader by their choices of confessional interventions. Emma’s absence of intervention, despite being the invisible scribe of transactions of tea and nurse of sick children as she herself fought for her life, became her trademark confessional interventional strategy, while Mercy Ann positioned herself in the limelight of Canada’s political elite.</ref></ref>
+                        </p>
+                        <p xml:id="p807">
+                            <ref target="#textual_strategies">Pioneer <persName sameAs="Emma Chadwick Stretch">Emma</persName>, socialite/dilettante <persName sameAs="Mercy Ann Coles">Mercy Ann</persName>, grandmother <persName sameAs="Amy Andrew">Amy</persName>, teacher <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy</persName>, like so many diarists, <q>encode boundaries and warnings, signaling their desire to create their own safe space in which to articulate their personal and sexual lives, while defying confessional entrapments</q> (<persName cert="high" ref="http://viaf.org/viaf/114857891" sameAs="Irene Gammel">Gammel</persName> 2). Through the writers’ idiosyncratic textual and thematic resolutions, the confessional reader is beckoned to pause and consider, why this detail now. Such is the case with my newlywed grandmother and novice schoolteacher Lucy Palmer and their confessional modalities or writing strategies and the gaps they interjected when they encountered new situations.</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head><ref target="#theme_or_topic">Religion</ref> and Life Writing</head>
+                        <p xml:id="p808">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#religion">While these twenty or so diarists fulfilled their autobiographical pact over and over again, day in day out, constructing a self through their oftentimes complex meaning systems, there is no evidence that Island women, other than those of Protestant faith, engaged in life writing. This raises several questions concerning diary writing and the role of religion, and how representative these diaries of Island women actually are. Foremost is the question, did Catholic women keep diaries or participate in the practice of life writing? Religion has been an important part of the cultural baggage that immigrants bring to their new destination. <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> is a case in point, considering how early settlers established their new communities around churches, schools, and shops. Travel down any Island road and every few miles white wooden spires break the pastoral landscapes to indicate that the settlers were primarily either Protestant or Catholic. Today, the decommissioning of many of these churches signals religion is not the definitive aspect of Islanders’ everyday life it once was.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p809">
+                            <ref target="#religion"><ref target="#genre_lifeWriting">Women’s diaries from the nineteenth and early twentieth centuries give testimony to the interrelatedness of home and community. The shared values of home, school, and church gushed from diarists’ pages. <persName>Violet Goldsmith</persName>, a teacher in <placeName cert="high" ref="http://www.geonames.org/5883166">Alberton, PEI</placeName> wrote in her diary in <date cert="high" when="1900">1900</date>, <q type="block"><date cert="high" when="1900-07-19">Thursday, July 19</date> Sunday we went to the Presbyterian church morning and evening and to school in the afternoon. Rev Mr. Cairns preached. Mr. McKay addressed school. Mr. Chas Sterns taught the class I was in. Monday was the day of the Catholic tea. Some people came here from Souris.…We had a very nice time at the tea.</q> But this diarist was Protestant; all of the women diarists in my research were Protestant and wrote from homes, schools, and churches that subscribed to Protestant doctrine. Catholic women did not leave any testimony from the same period.</ref> <ref target="#archival_location">My discussions with the Sisters of the <orgName cert="high" ref="http://viaf.org/viaf/261779725" sameAs="Congregation of Notre-Dame">Congregation of Notre Dame</orgName> and the <orgName cert="high" ref="http://viaf.org/viaf/125409060">Sisters of Saint Martha</orgName> assured me that those Island women who aspired to be nuns were required to write a letter in order to be considered as an entrant to the convent. Such letters from Island women are housed in the archives of the Notre Dame in <placeName cert="high" ref="http://www.geonames.org/6077246">Montreal</placeName> but permission to see those letters from the Island entrants has not been granted to me. The Sisters of Saint Martha have similar archives in <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> but permission to view their documents has not been granted either. <persName cert="high" ref="http://viaf.org/viaf/44324936">Marta Danylewycz</persName> acknowledges that <q>there was some reluctance on the part of the religious communities to allow historians into the convent. It was and still is the convent’s right to deny researchers access to their archival holdings and to discourage their members from talking about themselves and their community to the public</q>(14). Until these restrictions can be circumvented, no evidence of other life writing can emerge from the past pens of Catholic women on Prince Edward Island.</ref> The importance of retrieving letters, diaries, or other autobiographical documents from Catholic women of this same era would expand the collection of Island women voices and broaden our understanding of their subjective realities. The cultural memory passed to us by such documents is instrumental for reformulating our history. As <persName cert="high" ref="http://viaf.org/viaf/100165291">Jan Assmann</persName> observes, <q>cultural memory is…handed down, learned, taught, researched, interpreted, and practiced because it is needed, because it belongs to us and for that reason has to be sustained and perpetuated by us</q> (24). For someone like myself, having been born and brought up Catholic on Prince Edward Island, where I also attended convents and was taught by and even lived with nuns, and spent my first year of university at <orgName cert="high" ref="http://viaf.org/viaf/138294078" sameAs="St Dunstan's University">St. Dunstan’s</orgName>, a Catholic university before it became non-denominational, there is a sadness in the absence of life writing from Catholic women about the experience and history of these institutions, all of which have now been laid to rest. It seems ironic that Catholic women do have a history of social engagement that can only be accessed on a factual level. <date cert="high" from="1881" to="1920">Between 1881 and 1920</date>, approximately 150 Catholic PEI women joined the religious order of the <orgName cert="high" ref="http://viaf.org/viaf/261779725" sameAs="Congregation of Notre-Dame">Congregation of the Notre Dame</orgName> (<hi rend="small-caps">CND</hi>). In <date cert="high" when="1857">1857</date>, four sisters arrived on the Island from the Motherhouse in <placeName cert="high" ref="http://www.geonames.org/6077246">Montreal</placeName> to extend their tradition of education and social service among Island Catholics. In <date cert="high" when="1916">1916</date>, sisters from the <orgName cert="high" ref="http://viaf.org/viaf/125409060" sameAs="Sisters of Saint Martha">Congregation of Saint Martha</orgName> (<hi rend="small-caps">CSM</hi>) took up positions in hospitals and numerous other sites, setting in motion a kind of <q>feminist spirituality.</q> The <hi rend="small-caps">CSM</hi> (the Marthas) saw three hundred Island women join their order <date cert="high" from="1916" to="1982">from 1916 to 1982</date>.</ref>
+                        </p>
+                        <p xml:id="p810">
+                            <ref target="#religion">Statistics have indicated a long and almost constant equal distribution of Islanders along religious lines. At the time <persName>Emma Chadwick Stretch</persName> migrated to <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName>, the distribution of the population according to religion lists 44,416 Protestants (Church of England, Presbyterians, Kirk of Scotland, Methodists, Baptists, Bible Christians, and Universalists) and 35,852 Catholics (<title level="j">Journal of the House of Assembly, PEI</title>, 1862, Appendix A). Diarists like <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy Palmer Haslam</persName> or <persName>Violet Goldsmith</persName>, both Island schoolteachers from <date cert="high" from="1890" to="1899">the 1890s</date> and <date cert="medium" from="1900" to="1905">early 1900s</date>, give some indication of how their religious upbringing and faith inspired their diary writing. <ref target="#intertextuality">Both provide innumerable references to their reading and familiarity with the Bible by quoting biblical texts, listing hymns, and accounting the social activities affiliated with their respective churches.</ref> <ref target="#close_reading">On <date cert="high" when="1890-04-06">April 6, 1890</date>, Lucy Palmer wrote, <q type="block">All drove up to Church. Roads pretty bad. Mr. Millan preached a good sermon for it being Easter Sunday from Luke xxiv.34.…Drove up to Prayer Meeting in evening, Minister read the 27th Chap of Acts.…Charlie Black was there &amp; took Edith home from Church.</q> Violet Goldsmith, the daughter of a church minister, cultivates and asserts her moral superiority in her <date cert="high" when="1900">1900</date> journal: <q type="block">Mr. &amp; Mrs. Holmes went to Fredericton Wed. &amp; Mr. H. came home drunk. The trainman dumped him on the siding &amp; he was there some time before we knew it. Miss Gills, [?] the girl Mrs. H. left in charge &amp; I went down and brought him home. When we got there we found the house full of company. We got a fire on in the parlour &amp; I went down got the company in there. Mr. H. had a bottle of whiskey with him and I ran down the hill with it, broke it against the fence. He was very cross when they first told [him], but he is glad now. He feels very much ashamed of himself this morning.</q> <persName sameAs="Violet Goldsmith">Violet</persName> rather picturesquely writes how she walked the moral higher ground by taking control of the situation, confiscating the liquor, and accommodating the visitors. Her diary serves as a repository of her good deeds, as an expression of accountability to her God.</ref></ref>
+                        </p>
+                        <p xml:id="p811">
+                            <ref target="#religion">The literacy that Bible reading facilitates appears to go hand in hand with diary keeping. Women diarists such as <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy Palmer</persName>’s sister <persName>Amelia</persName> often filled pages of her diary with psalms and verse. By contrast, their Catholic sisters were not encouraged to read the Bible but instead to follow the reading and interpretation of scripture by their clergy. There is little evidence that Island women rigorously examined themselves and the lives they were leading or how they had fallen away from God, as <persName cert="high" ref="http://viaf.org/viaf/74018662">Catherine A. Brekus</persName> indicates the Puritans did in their devotional diaries. Nor were Lucy and her kind writing for redemption and salvation; instead, most women diarists were being faithful to their autobiographical pact to inscribe the self with all its flaws and imperfections that emerged in their everydayness.</ref>
+                        </p>
+                        <p xml:id="p812">
+                            <ref target="#religion">For <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy</persName>, <persName sameAs="Emma Chadwick Stretch">Emma</persName>, and many others, writing a diary was a kind of liberation, and their textuality is more serendipitous in its religious referencing and self-examination. On <date cert="high" when="1890-03-04">March 4, 1890</date>, Lucy Palmer, spending her third year as a teacher in <placeName>Malpeque</placeName>, wrote, <q>Went down to the sewing circle at John Montgomery’s had a splendid time a great many there &amp; a beautiful moon light night.</q> The gaps, metaphors, and vagueness in the Island women’s diaries suggest that they were not weaning themselves from their carnal desires as their Puritan sisters did in their diaries but were withholding or masking information about those pleasures they engaged in. Novice teacher Lucy Palmer’s repetitive moonlit nights excerpts take on the semblance of a siren yearning for romance as she cautiously admits through references to the moon, the wind, and the sleigh ride her innermost desires. On <date cert="high" when="1888-01-28">January 28, 1888</date>, Lucy wrote: <q>It is the loveliest moon light night that I was ever out not a breath of wind. How I would love a sleigh drive.</q> <ref target="#women_writing">This confession to the self, about the self, and for the self appears to have been supported by the urge of these literate Protestant women to preserve their special abilities to read and write and celebrate their affluence of having a pen, pencil, paper, or even a diary to record their lives and circumstances.</ref></ref>
+                        </p>
+                        <p xml:id="p813">
+                            <ref target="#religion"><ref target="#intertextuality">The Island diarists discussed here undoubtedly took part in the innermost expression of self through their <hi rend="italic" xml:lang="fr-CA">journal intime</hi>, an articulation facilitated by the literary models of the Bible and the conduct manuals of their homes.</ref> By contrast, their Catholic sisters were forced to confess to their priest who would then mediate on their behalf to their God and participate in what <persName cert="high" ref="http://viaf.org/viaf/35803025">Liz Stanley</persName> refers to as <q>an external system of surveillance</q> (45) associated with organization, power, and audit. This could partially account for the absence of Catholic women’s life writing among nineteenth-century <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> women. For a Catholic woman to confess in her diary would be contrary to her religion and frowned upon. Therefore, the existence of, or the survival and preservation of, any documents such as diaries or journals could be evidence that a Catholic woman had sinned by the act of self-examination. Under the watchful eye of church and community, Catholic women indulging in self(-ish) scrutiny would not be performing their anticipated role with humility and obedience. What good Catholic family would acknowledge a daughter, sister, or mother who had been keeping a diary and preserve the document with pride and seek to have it immortalized, making the artifact publicly available in the archives? My supposition is that Catholic women did not participate in the tradition of diary writing as they had neither the impetus to confess in this way, nor the literary impulse that reading and transcribing the Bible instilled in their Protestant sisters.<ref target="#historical_oppression"> Island women’s diaries presented here are part of the extensive body of texts through which one can interrogate women’s exclusionary practices in historical discourse and literary formations. But, for Catholic women, it appears to have been a self-exclusionary practice from the recording process.</ref></ref>
+                        </p>
+                        <p xml:id="p814">
+                            <ref target="#history">For Island women, <date cert="medium" from="1880" to="1920">the late 1800s and the early 1900s</date> was a period of <q>attempting to articulate a subjectivity that has remained unscribed</q> (<persName cert="high" ref="http://viaf.org/viaf/110632386" sameAs="Alison Prentice">Prentice</persName> et al. 164). It is a fact that few if any Island women are written into the chronicles of <placeName>Canada</placeName>’s <date cert="high" when="1867">1867</date> <listEvent> <event> <label>Confederation</label> </event> </listEvent>, despite the fact that <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> is designated the birthplace of <placeName>Canada</placeName> and labeled the cradle of <listEvent> <event> <label>Confederation</label> </event> </listEvent>, which alludes to the important feminine preoccupations of maternity.</ref>
+                            <ref target="#women_writing">
+                                <ref target="#politics">Women such as <persName cert="high" ref="http://viaf.org/viaf/79410038">Margaret Gray Lord</persName> did witness the event, but, instead of recording the notorious sociopolitical events of her time in her diary, she focuses on her more immediate spheres of influence and her philanthropy through the church, the women’s movement, and temperance campaigns, giving us a more nuanced account of her <placeName>Charlottetown</placeName>. On <date cert="high" when="1897-01-04">January 4, 1897</date> she wrote, <q>I went into the <hi rend="small-caps">WCTU</hi> (<orgName cert="high" ref="http://viaf.org/viaf/122618601" sameAs="Woman's Christian Temperance Union">Women’s Christian Temperance Union</orgName>) to the prayer meeting praying for the success of the prohibition bill.</q> Protestant women such as Margaret Gray Lord were more individualistic in their response to social issues and recorded engagement with prohibition, the war effort, missionaries, and enfranchisement.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p815">
+                            <ref target="#archival_location">Until more life writing texts from Island women are found and examined, <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> women’s visions will remain buried beneath the facts of organizations and institutions. <ref target="#history">Without these subjective accounts, what now appears is a history without women’s voice.</ref> But the Island diarists that have been recovered so far have much to say in their idiosyncratic voices. We can only linger on the shore and long for the low tide in anticipation of more such artifacts.</ref>
+                        </p>
+                        <p xml:id="p816">
+                            <ref target="#genre_lifeWriting">
+                                <ref target="#representation_of_women"><ref target="#characterization">Rose, Sally, Alice, and the many other women embedded in folksongs and stories from <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName> serve as reminders to women of the risks of defying their place in society and following their hearts.</ref> The songs issue cautionary tales of the dire consequences awaiting women who move from the hearth to the wilds of the shore and beyond. By contrast, <persName sameAs="Emma Chadwick Stretch">Emma</persName>, <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy</persName>, <persName sameAs="Amy Andrew">Amy</persName>, and other Island women diarists, by the very task of writing and keeping a diary, challenge such representations and exhibit the power of the writing woman agent. In <date cert="high" when="1887-05">May 1887</date>, Lucy Palmer wrote in her diary: <q>Very warm day. Fields lovely &amp; dry. Bessie and I went over to Mr James McNutts to a party had a very nice time, lovely moonlight night got home at 10:30.</q> <ref target="#women_writing">As a novice teacher empowered by the experience of writing, <persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Lucy</persName> jettisoned herself and her kind into new frontiers without trepidation. Numerous other Island women wrote their lives on and off the Island in their diaries while Lucy wrote hers, assuring women that they were experiencing life as <q>new women</q> on their own terms, in their own words.</ref></ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Works Cited</head>
+                        <bibl><persName sameAs="Any Andrew">Andrew, Amy Darby (née Tanton)</persName>. <title level="u">A Line a Day.</title> Unpublished diary, <date cert="high" from="1910" to="1914">1910–1914</date>. Estate of <persName cert="low" ref="http://viaf.org/viaf/106248662" sameAs="Katherine M. McDonald">Katherine (née Andrew) McDonald</persName>.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/100165291" sameAs="Jan Assmann">Assmann, Jan</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/312478264" sameAs="Religion und kulturelles Gedächtnis">Religion and Cultural Memory</title>. <placeName>Stanford, CA</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/145613647" sameAs="Stanford University Press">Stanford UP</orgName>, <date cert="high" when="2006">2006</date>. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/74018662" sameAs="Catherine A. Brekus">Brekus, Catherine A.</persName> <title level="a">A Place to Go to Connect with Yourself: A Historical Perspective on Journaling.</title> <title level="m">The Religion and Culture Web Forum</title>. Marty Martin Center for the Advanced Study of Religion, <orgName cert="high" ref="http://viaf.org/viaf/143657677">University of Chicago</orgName> Divinity School. <date cert="high" when="2004-02">February 2004</date>. Web. <date cert="high" when="2013-09-03">3 September 2013</date>.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/72998563" sameAs="Kathryn Carter">Carter, Kathryn</persName>. <title level="m">The Small Details of Life: Twenty Diaries by Women in <placeName>Canada</placeName>, <date cert="high" from="1830" to="1996">1830–1996</date></title>. <placeName>Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/126595939" sameAs="University of Toronto Press">U of Toronto P</orgName>, <date cert="high" when="2002">2002</date>. Print.</bibl>
+                        <bibl><persName sameAs="Mercy Ann Coles">Coles, Mercy Ann</persName>. <title level="a">She Saw <placeName>Canada</placeName> Born—Diary of Mercy Ann Coles.</title> <title level="j">Atlantic Advocate</title> <date cert="high" when="1865-11">November 1865</date>: 40–44. Accession no. 2541/40. <orgName cert="high" ref="http://viaf.org/viaf/263169033" sameAs="Public Archives of Prince Edward Island">Public Archives and Records Office of Prince Edward Island</orgName>, <placeName>Charlottetown, PEI</placeName>.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/93575950" sameAs="G. Thomas Couser">Couser, G. Thomas</persName>. <title level="a">The Obituary of a Face: <persName cert="high" ref="http://viaf.org/viaf/3163788">Lucy Grealy</persName>, Death Writing and Posthumous Harm.</title> <title level="j">Auto/Biography</title> 12.1 (<date cert="high" when="2004">2004</date>): 1–15. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/88084554" sameAs="Rosalind Coward">Coward, Rosalind</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/176622816" sameAs="Female Desire">Female Desire: Woman’s Sexuality Today</title>. <placeName>Aylesbury, UK</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/124330254" sameAs="Paladin Press">Paladin</orgName>, <date cert="high" when="1987">1987</date>. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/44324936" sameAs="Marta Danylewycz">Danylewycz, Marta</persName>. <title level="m">Taking the Veil: An Alternative to Marriage, Motherhood, and Spinsterhood in <placeName>Quebec</placeName>, <date cert="high" from="1840" to="1920">1840–1920</date></title>. <placeName>Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/140384426">McClelland and Stewart</orgName>, <date cert="high" when="1991">1991</date>. Print.</bibl>
+                        <bibl><persName>Dibblee, Randall</persName>, and <persName>Dorothy Dibblee</persName>. <title level="m">Folksongs from <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName></title>. <placeName>Summerside, PEI</placeName>: <orgName>Williams and Crue</orgName>, <date cert="high" when="1973">1973</date>. Print.</bibl>
+                        <bibl><title level="a">Dr. Hugo’s Health Tablets For Women.</title> <title level="j">The Pioneer</title> <date cert="high" when="1905-01-07">7 January 1905</date>, 8. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/114857891" sameAs="Irene Gammel">Gammel, Irene</persName>. <title level="m">Confessional Politics: Women’s Sexual Self-Representation in Life Writing and Popular Media</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/114857891">Irene Gammel</persName>. <placeName>Carbondale</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/153672966" sameAs="Southern Illinois University Press">Southern Illinois UP</orgName>, <date cert="high" when="1999">1999</date>. 1–10. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/59083135" sameAs="Charlotte Perkins Gilman">Gilman, Charlotte Perkins</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/312529818" sameAs="Women and Economics">Women and Economics: A Study of the Economic Relations between Men and Women as a Factor in Social Evolution</title>. <date cert="high" when="1898">1898</date>. <placeName>Berkeley</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/148948307" sameAs="University of California Press">U of California P</orgName>, <date cert="high" when="1998">1998</date>. Print.</bibl>
+                        <bibl><persName sameAs="Violet E. Goldsmith">Goldsmith, Violet E.</persName> <title level="a">Diary of Violet E. Goldsmith.</title> Accession no. 3381/1. <orgName cert="high" ref="http://viaf.org/viaf/263169033" sameAs="Public Archives of Prince Edward Island">Public Archives and Records Office of Prince Edward Island</orgName>, <placeName>Charlottetown, PEI</placeName>.</bibl>
+                        <bibl><persName cert="medium" ref="http://viaf.org/viaf/221109490" sameAs="Lucy Palmer">Haslam, Lucy Palmer</persName>. Journals and correspondence. Accession no. 4311. Palmer Haslam Family fonds. <orgName cert="high" ref="http://viaf.org/viaf/263169033" sameAs="Public Archives of Prince Edward Island">Public Archives and Records Office of Prince Edward Island</orgName>, <placeName>Charlottetown, PEI</placeName>.</bibl>
+                        <bibl><persName cert="medium" ref="http://viaf.org/viaf/94797550" sameAs="Rebecca S. Hogan">Hogan, Rebecca</persName>. <title level="a">Engendered Autobiographies: The Diary as a Feminine Form.</title> <title level="m">Autobiography and Questions of Gender</title>. <placeName>London</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/158876127" sameAs="Frank Cass and Co.">Frank Cass</orgName>, <date cert="high" when="1991">1991</date>. 95–107. Print.</bibl>
+                        <bibl><title level="j">Journal of the House of Assembly, <placeName cert="high" ref="http://www.geonames.org/6113358" sameAs="Prince Edward Island">PEI</placeName>,</title> <date cert="high" when="1862">1862</date>, Appendix A.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/79410038" sameAs="Margaret Lord Gray">Lord, Margaret Gray</persName>. Journals of Margaret Pennefather Stukely Gray, daughter of <persName cert="high" ref="http://viaf.org/viaf/104455144" sameAs="John Hamilton Gray">Col. John Hamilton Gray</persName>, later Mrs. Artemas Lord. 39 vols. Prince Edward Island Museum and Heritage Foundation Collection, Margaret Gray Lord fonds. Accession no. 3466/hf 78.63. <orgName cert="high" ref="http://viaf.org/viaf/263169033" sameAs="Public Archives of Prince Edward Island">Public Archives and Records Office of Prince Edward Island</orgName>, <placeName>Charlottetown, PEI</placeName>.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/35969463" sameAs="Edward MacDonald">MacDonald, Edward</persName>. <title level="m">If You’re Stronghearted: <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName> in the <date cert="high" from="1900" to="1999">Twentieth Century</date></title>. <placeName>Charlottetown</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/127492352" sameAs="Prince Edward Island Museum and Heritage Foundation">PEI Museum and Heritage Foundation</orgName>, <date cert="high" when="2000">2000</date>. Print.</bibl>
+                        <bibl><title level="a">Modern Martyrs.</title> Advertisement. <title level="j">The Island Farmer</title> <date cert="high" when="1914-03-25">25 March 1914</date>, 7. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/91929241" sameAs="Shirley Neuman">Neuman, Shirley</persName>. <title level="a">Life Writing,</title> <title level="m">Literary History of <placeName>Canada</placeName>: Canadian Literature in English</title>. 2nd ed. Vol. 4. Ed. <persName cert="high" ref="http://viaf.org/viaf/54169528">W.H. New</persName> et al. <placeName>Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/126595939" sameAs="University of Toronto Press">U of Toronto P</orgName>, <date cert="high" when="1990">1990</date>. 333–70. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/110632386" sameAs="Alison Prentice">Prentice, Alison</persName>, <persName cert="high" ref="http://viaf.org/viaf/62870806">Paula Bourne</persName>, <persName cert="high" ref="http://viaf.org/viaf/46979304">Gail Cuthbert Brandt</persName>, <persName cert="high" ref="http://viaf.org/viaf/119934297">Beth Light</persName>, <persName cert="high" ref="http://viaf.org/viaf/311217034">Wendy Mitchinson</persName>, and <persName cert="high" ref="http://viaf.org/viaf/246399844">Naomi Black</persName>. <title level="m">Canadian Women: A History</title>. <placeName>Toronto</placeName>: <orgName cert="medium" ref="http://viaf.org/viaf/167837026" sameAs="Harcourt Brace and Company">Harcourt Brace</orgName>, <date cert="high" when="1996">1996</date>. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/71397267" sameAs="Sheila Rowbotham">Rowbotham, Sheila</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/308616471">Hidden from History: 300 Years of Women’s Oppression and the Fight against It</title>. <placeName>Bristol</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/153708803">Pluto Press</orgName>, <date cert="high" when="1989">1989</date>. Print.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/35803025" sameAs="Liz Stanley">Stanley, Liz</persName>. <title level="a">Self-made Woman.</title> <title level="m">Feminism and Autobiography: Texts, Theories, Methods</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/109984323">Tess Cosslett</persName>, <persName cert="high" ref="http://viaf.org/viaf/7491199">Celia Lury</persName>, and <persName cert="high" ref="http://viaf.org/viaf/91878615">Penny Summerfield</persName>. <placeName>London</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/123500307">Routledge</orgName>, <date cert="high" when="2000">2000</date>. 40–60. Print.</bibl>
+                        <bibl><persName sameAs="Emma Chadwick Stretch">Stretch, Mrs. Joseph (née Emma Ann Chadwick)</persName>. <title level="a">Diary and Account Book of Mrs. Joseph Stretch, Long River, <date cert="high" from="1850" to="1860">c1850–60</date>.</title> Accession no. 2540/1. <orgName cert="high" ref="http://viaf.org/viaf/263169033" sameAs="Public Archives of Prince Edward Island">Public Archives and Records Office of Prince Edward Island</orgName>, <placeName>Charlottetown, PEI</placeName>.</bibl>
+                        <bibl><persName cert="high" ref="http://viaf.org/viaf/75419828" sameAs="David Weale">Weale, David</persName>. <title level="m">Them Times</title>. <placeName>Charlottetown, PEI</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/125417773" sameAs="University of Prince Edward Island. Institute of Island Studies">Institute of Island Studies</orgName>, <date cert="high" when="1992">1992</date>. Print.</bibl>
+                        <bibl><persName cert="medium" ref="http://viaf.org/viaf/48264025" sameAs="Steven Weiland">Weiland, Steven</persName>. <title level="a">Writers as Readers in Narrative Inquiry: Learning from Biography.</title> <title level="m">Up Close and Personal: The Teaching and Learning of Narrative Research</title>. <placeName>Washington, DC</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/153428680">American Psychological Association</orgName>, <date cert="high" when="2003">2003</date>. 199–214. Print.</bibl>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+        </body>
+        
+
+    </text>
+</TEI>

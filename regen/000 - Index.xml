@@ -1,0 +1,2372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body><div/></body>
+        <back>
+            
+            
+            <div type="index">
+                <list>
+                    <item xml:id="ie1">
+                        <ref target="#p915">Aberdeen, Marchioness of</ref>
+                    </item>
+                    <item xml:id="ie2">Aboriginal people, Western Canada <list> <item xml:id="ie3"><ref target="#p875 #p912">female prisoners</ref></item> <item xml:id="ie4"><ref target="#p916 #p918 #p919 #p920 #p921 #p922">Native/white relations</ref></item> <item xml:id="ie5"><ref target="#p913">Native women</ref></item> <item xml:id="ie6"><ref target="#p912">oil sands use</ref></item> </list></item>
+                    <item xml:id="ie7">academy <list> <item xml:id="ie8"><ref target="#p832">critical theory and mass culture</ref></item> <item xml:id="ie9"><ref target="#p834">francophone interest in popular culture</ref></item> <item xml:id="ie10"><ref target="#p832 #p835">literarism, textism, and telepathism</ref></item> <item xml:id="ie11"><ref target="#p832 #p833 #p834 #p835">national vs. people's literatures</ref></item> <item xml:id="ie12"><ref target="#p953 #p954 #p955 #p956 #p957 #p959 #p975">public vs. academic intellectuals</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie152">collaborative theory and practice</ref>; </item> <item><ref target="#ie191">creative writing programs</ref>; </item> <item><ref target="#ie230">digital commons</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie13">
+                        <ref target="#p788 #p804 #p805 #p806">account diaries in PEI</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also </hi>
+                            </head>
+                            <item>
+                                <ref target="#ie589">life writing in PEI</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie14">
+                        <ref target="#p65">Acker, Kathy</ref>
+                    </item>
+                    <item xml:id="ie15">advertisements <list> <item xml:id="ie16"><ref target="#p823 #p827">influence on folk poetry</ref></item> <item xml:id="ie17"><ref target="#p799">representations of women in PEI</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie688">newspapers and magazines</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie18">Alberta <list> <item xml:id="ie19"><ref target="#p911">missionaries</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie308">Ellis, Miriam Green</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie20">
+                        <ref target="#p105 #p106">ALCQ/ACQL (Association des littératures canadiennes et québecoise/Association of Canadian and Quebec Literatures)</ref>
+                    </item>
+                    <item xml:id="ie21">
+                        <ref target="#p924">Aleta Day (Beynon)</ref>
+                    </item>
+                    <item xml:id="ie22">
+                        <ref target="#p887">Alfred A. Knopf</ref>
+                    </item>
+                    <item xml:id="ie23">
+                        <ref target="#p919 #p920 #p923"><title type="a">Alone</title> (Ellis)</ref>
+                    </item>
+                    <item xml:id="ie24">
+                        <ref target="#p969">Althusser, Louis</ref>
+                    </item>
+                    <item xml:id="ie25">
+                        <ref target="#p78 #p79"><title type="m">Alyson Singes</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie26">
+                        <ref target="#p789 #p790 #p807">Andrew, Amy</ref>
+                    </item>
+                    <item xml:id="ie27"><title type="m">Antoinette De Mirecourt</title> (Leprohon) <list> <item xml:id="ie28"><ref target="#p219">ambivalence about British legacy</ref></item> <item xml:id="ie29"><ref target="#p216">critical reception</ref></item> <item xml:id="ie30"><ref target="#p218 #p219">as "essentially Canadian,"</ref></item> <item xml:id="ie31"><ref target="#p213 #p215 #p232 #p233 #p234 #p236">as Gothic romance</ref></item> <item xml:id="ie32"><ref target="#p233">healing of social wounds</ref></item> <item xml:id="ie33"><ref target="#p233 #p234">political and gender domination in</ref></item> <item xml:id="ie34"><ref target="#p232">reception</ref></item> <item xml:id="ie35"><ref target="#p236">union of French and English in</ref></item> </list></item>
+                    <item xml:id="ie36">
+                        <ref target="#p101"><title type="m">Archive for Our Times</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie37">archives, digital. <list> <head>See </head> <item><ref target="#ie230">digital commons</ref></item> </list></item>
+                    <item xml:id="ie38">
+                        <ref target="#p915"><title type="m">Arctic Adventure</title> (Vyvyan)</ref>
+                    </item>
+                    <item xml:id="ie39">
+                        <ref target="#p956 #p959 #p961 #p963 #p964 #p965 #p969 #p972 #p974 #p975">Arendt, Hannah</ref>
+                    </item>
+                    <item xml:id="ie40">
+                        <ref target="#p100">Arnason, David</ref>
+                    </item>
+                    <item xml:id="ie41">
+                        <ref target="#p877 #p902 #p903">Ashtiani, Sakineh</ref>
+                    </item>
+                    <item xml:id="ie42">
+                        <ref target="#p809">Assmann, Jan</ref>
+                    </item>
+                    <item xml:id="ie43">
+                        <ref target="#p105 #p106">Association des littératures canadiennes et québecoise/Association of Canadian and Quebec Literatures (ALCQ/ACQL)</ref>
+                    </item>
+                    <item xml:id="ie44">
+                        <ref target="#p139"><title type="m">The Assumption of the Rogues and Rascals</title> (Smart)</ref>
+                    </item>
+                    <item xml:id="ie45">Atwood, Margaret <list> <item xml:id="ie46"><ref target="#p135 #p163–164 #p180 #p880">early career</ref></item> <item xml:id="ie47"><ref target="#p878"><title type="m">Penelopiad</title></ref></item> <item xml:id="ie48"><ref target="#p135 #p158 #p159 #p160 #p161 #p162 #p163 #p164 #p165 #p166 #p167 #p168 #p169 #p170 #p171">self-confidence as a writer</ref></item> <item xml:id="ie49"><ref target="#p880"><title type="m">Survival</title></ref></item> </list></item>
+                    <item xml:id="ie50">autobiography. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie583">life writing</ref></item> </list></item>
+                    <item xml:id="ie51">
+                        <ref target="#n3 #p72 #p82 #p86 #p90">Avasilichioaei, Oana </ref>
+                    </item>
+                    <item xml:id="ie52">
+                        <ref target="#p226">Bailey, Alfred</ref>
+                    </item>
+                    <item xml:id="ie53">
+                        <ref target="#p92">Barbeau, Marius</ref>
+                    </item>
+                    <item xml:id="ie54">
+                        <ref target="#p880">Barbour, Douglas</ref>
+                    </item>
+                    <item xml:id="ie55">
+                        <ref target="#p137 #p168">Barker, George</ref>
+                    </item>
+                    <item xml:id="ie56">
+                        <ref target="#p78">Barthes, Roland</ref>
+                    </item>
+                    <item xml:id="ie57">
+                        <ref target="#p887"><title type="m">The Bass Saxophone</title> (Škvorecky)</ref>
+                    </item>
+                    <item xml:id="ie58">
+                        <ref target="#p213"><title type="m">The Bastonnais</title> (Lespérance)</ref>
+                    </item>
+                    <item xml:id="ie59">
+                        <ref target="#p834"><title type="m">Beautiful Joe</title> (Saunders)</ref>
+                    </item>
+                    <item xml:id="ie60">
+                        <ref target="#p215 #p227 #p229 #p232">Beckwith, Julia Catherine</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also</hi>
+                            </head>
+                            <item>
+                                <ref target="#ie820"><title type="m">St. Ursula's Convent</title> (Beckwith)</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie61">Bergvall, Caroline <list> <item xml:id="ie62"><ref target="#p73 #p78 #p79 #p80 #p81 #p90">connivance and collaborative writing</ref></item> <item xml:id="ie63"><ref target="#p81">expanded field of writing</ref></item> <item xml:id="ie64"><ref target="#p75 #p79">her life</ref></item> <item xml:id="ie65"><ref target="#p62 #p74 #p79 #p88 #p89">her views</ref></item> </list></item>
+                    <item xml:id="ie66">Bergvall, Caroline, works <list> <item xml:id="ie67"><ref target="#p75"><title type="a">1DJ2MANY</title>,</ref></item> <item xml:id="ie68"><ref target="#p78 #p79"><title type="m">Alyson Singes</title></ref></item> <item xml:id="ie69"><ref target="#p62"><title type="a">The Conceptual Twist</title>,</ref></item> <item xml:id="ie70"><ref target="#p88 #p89"><title level="m">Cropper</title></ref></item> <item xml:id="ie71"><ref target="#p90"><title type="m">Fig 116</title></ref></item> <item xml:id="ie72"><ref target="#p75"><title type="a">Ghost Cargo</title>,</ref></item> <item xml:id="ie73"><ref target="#p75"><title type="m">Ghost Pieces</title></ref></item> <item xml:id="ie74"><ref target="#p73 #p75"><title type="m">I'll Drown My Book</title></ref></item> <item xml:id="ie75"><ref target="#p80"><title type="m">Meddle English</title></ref></item> <item xml:id="ie76"><ref target="#p83"><title type="a">O YES</title> (with Moure)</ref></item> <item xml:id="ie77"><ref target="#n2 #p76"><title type="m">Say Parsley</title></ref></item> <item xml:id="ie78"><ref target="#p75"><title type="m">THEREISNOTACLEARBRIGHTLINE,</title></ref></item> <item xml:id="ie79"><ref target="#n9"><title type="m">Typhon Dru</title></ref></item> <item xml:id="ie80"><ref target="#p75 #p81"><title type="m">VIA: Poems 1994–2004</title></ref></item> <item xml:id="ie81"><ref target="#p75"><title type="a">VIA (48 Dante Translations),</title></ref></item> <item xml:id="ie82"><ref target="#p75">website as project</ref></item> </list></item>
+                    <item xml:id="ie83">
+                        <ref target="#p62">Beverley, Andrea</ref>
+                    </item>
+                    <item xml:id="ie84">
+                        <ref target="#p924">Beynon, Francis Marion</ref>
+                    </item>
+                    <item xml:id="ie85">
+                        <ref target="#n31 #p842 #p855">Bhabha, Homi</ref>
+                    </item>
+                    <item xml:id="ie86">biography <list> <item xml:id="ie87"><ref target="#p135 #p143 #p144 #p145 #p146 #p147 #p148 #p149 #p150 #p151 #p152 #p153 #p154 #p155 #p156 #p157 #p158 #p159 #p160 #p161 #p162 #p163 #p164 #p165 #p166 #p167 #p168 #p169 #p183 #p184 #p185 #p186 #p897">theme of self-confidence of writers</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie583">life writing</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie88">
+                        <ref target="#p249 #p263 #p265"><title type="m">A Bird in the House</title> (Laurence)</ref>
+                    </item>
+                    <item xml:id="ie89">
+                        <ref target="#p223">Botting, Fred</ref>
+                    </item>
+                    <item xml:id="ie90">
+                        <ref target="#p878">Brand, Dionne</ref>
+                    </item>
+                    <item xml:id="ie91">
+                        <ref target="#p944 #p945 #p974">Brecht, Bertolt</ref>
+                    </item>
+                    <item xml:id="ie92">
+                        <ref target="#p811">Brekus, Catherine A.</ref>
+                    </item>
+                    <item xml:id="ie93">Britain, Great. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie325">England</ref></item> </list></item>
+                    <item xml:id="ie94">British Columbia <list> <item xml:id="ie95"><ref target="#p844 #p847 #p863">Japanese-Canadian relocations</ref></item> <item xml:id="ie96"><ref target="#p915">travel accounts</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie505">Japanese-Canadian history</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie975">
+                        <ref target="#p212 #p220 #p227">Brooke, Frances</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also </hi>
+                            </head>
+                            <item>
+                                <ref target="#ie449"><title type="m">The History of Emily Montague</title> (Brooke)</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie97">Brossard, Nicole <list> <item xml:id="ie98"><ref target="#p985">career</ref></item> <item xml:id="ie99"><ref target=" #p66 #p67 #p68 #p69 #p70 #p71 #p90">connivance and collaborative writing</ref></item> </list></item>
+                    <item xml:id="ie100">
+                        <ref target="#p92">Brown, Audrey Alexandra</ref>
+                    </item>
+                    <item xml:id="ie101">
+                        <ref target="#p72">Brown, Kathleen</ref>
+                    </item>
+                    <item xml:id="ie102">
+                        <ref target="#p104 #p108 #p986">Brown, Susan</ref>
+                        <list>
+                            <item xml:id="ie103">
+                                <ref target="#p976 #p977 #p978 #p979 #p980 #p981 #p982 #p983 #p984">on women's writing in Canada</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie104">
+                        <ref target="#p136 #p145"><title type="m">By Grand Central Station I Sat Down and Wept</title> (Smart)</ref>
+                    </item>
+                    <item xml:id="ie105">
+                        <ref target="#p107">
+                            <title type="m">Les Cahiers Anne Hébert</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie106">
+                        <ref target="#p848"><title type="a">A Call for Justice</title> (CBC television)</ref>
+                    </item>
+                    <item xml:id="ie107">
+                        <ref target="#p950 #p952"><title type="m">Call My People Home</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie108">
+                        <ref target="#p916 #p917 #p918 #p925">Cameron, Agnes Deans</ref>
+                    </item>
+                    <item xml:id="ie109">
+                        <ref target="#p979">Canada Foundation for Innovation</ref>
+                    </item>
+                    <item xml:id="ie110">
+                        <ref target="#p915"><title type="m">Canadian Camp Life</title> (Herring)</ref>
+                    </item>
+                    <item xml:id="ie111">Canadian literature <list> <item xml:id="ie112"><ref target="#p833 #p834">bestseller lists</ref></item> <item xml:id="ie113"><ref target="#p892 #p893 #p895 #p898 #p899 #p903">cultural margins and</ref></item> <item xml:id="ie114"><ref target="#p216 #p218">cultural self-definition in pre-Confederation novels</ref></item> <item xml:id="ie115"><ref target="#p817 #p818">folk poetry and</ref></item> <item xml:id="ie116"><ref target="#p161 #p833 #p834 #p880">history of</ref></item> <item xml:id="ie117"><ref target="#p876 #p877 #p878 #p879 #p889 #p890 #p891 #p892 #p893 #p894">international profile of</ref></item> <item xml:id="ie118"><ref target="#p250">M. Laurence's works and establishment of</ref></item> <item xml:id="ie119"><ref target="#p832 #p835">literarism, textism, and telepathism</ref></item> <item xml:id="ie120"><ref target="#p832 #p833 #p834 #p835">national vs. people's literatures</ref></item> <item xml:id="ie121"><ref target="#p834">song lyrics as</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie152">collaborative theory and practice</ref>; </item> <item><ref target="#ie230">digital commons</ref>; </item> <item><ref target="#ie754">publishing in Canada</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie122">
+                        <ref target="#p977 #p984">Canadian Literature Centre/Centre de la littérature canadienne (CLC)</ref>
+                    </item>
+                    <item xml:id="ie123">
+                        <ref target="#p915"><title type="m">A Canadian Scrap-Book</title> (Jephson)</ref>
+                    </item>
+                    <item xml:id="ie124">Canadian Women's Press Club (CWPC) <list> <item xml:id="ie125"><ref target="#p905 #p906 #p908 #p916 #p925">Ellis's roles in</ref></item> <item xml:id="ie126"><ref target="#p905">history of</ref></item> </list></item>
+                    <item xml:id="ie127">
+                        <ref target="#p108 #p980 #p981">Canadian Women's Writing Project</ref>
+                    </item>
+                    <item xml:id="ie128">
+                        <ref target="#n15 #p64 #p103 #p104 #p108 #p977 #p978 #p979 #p980 #p981 #p984">Canadian Writing Research Collaboratory/Collaboratoire scientifique des écrits du Canada (CWRC/CSÉC)</ref>
+                    </item>
+                    <item xml:id="ie129">
+                        <ref target="#p986">Carrière, Marie</ref>
+                    </item>
+                    <item xml:id="ie130">
+                        <ref target="#p787">Carter, Kathryn</ref>
+                    </item>
+                    <item xml:id="ie131">Catholic Church <list> <item xml:id="ie132"><ref target="#p228">anti-Catholicism in 19th c. fiction</ref></item> <item xml:id="ie133"><ref target="#p227 #p228 #p229">convents in 19th c. fiction</ref></item> <item xml:id="ie134"><ref target="#p808 #p809 #p813">life writing in PEI</ref></item> <item xml:id="ie135"><ref target="#p911">missionaries in Western Canada</ref></item> <item xml:id="ie136"><ref target="#p809 #p810">statistics in PEI</ref></item> </list></item>
+                    <item xml:id="ie137">CBC radio. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie778">radio</ref></item> </list></item>
+                    <item xml:id="ie138">
+                        <ref target="#n15 #p104 #p107">Le Centre Anne-Hébert</ref>
+                    </item>
+                    <item xml:id="ie139">
+                        <ref target="#n15 #p104">Le Centre d'archives Gaston-Miron</ref>
+                    </item>
+                    <item xml:id="ie140">
+                        <ref target="#n15 #p104">Le Centre Hector-de-Saint-Denys Garneau</ref>
+                    </item>
+                    <item xml:id="ie141">
+                        <ref target="#p92">Chapman, Mary</ref>
+                    </item>
+                    <item xml:id="ie142">
+                        <ref target="#p79">Chaucer, Geoffrey</ref>
+                    </item>
+                    <item xml:id="ie143">
+                        <ref target="#p898">Cheiffetz, Julia</ref>
+                    </item>
+                    <item xml:id="ie144">
+                        <ref target="#p819"><title type="m">A Child's Garden of Verses</title> (Stevenson)</ref>
+                    </item>
+                    <item xml:id="ie145">
+                        <ref target="#n4">Church, Jonathan</ref>
+                    </item>
+                    <item xml:id="ie146">
+                        <ref target="#p881 #p885">Clarke Irwin</ref>
+                    </item>
+                    <item xml:id="ie147">class. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie854">social class</ref></item> </list></item>
+                    <item xml:id="ie148">
+                        <ref target="#p880">Coach House Press</ref>
+                    </item>
+                    <item xml:id="ie149">
+                        <ref target="#p795 #p796 #p797"><title type="a">Coatman's Saloon</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie150">
+                        <ref target="#p92">Cogswell, Fred</ref>
+                    </item>
+                    <item xml:id="ie151">
+                        <ref target="#p806 #p807">Coles, Mercy Ann</ref>
+                    </item>
+                    <item xml:id="ie152">collaborative theory and practice <list> <item xml:id="ie153"><ref target="#p78 #p79 #p80 #p81 #p82 #p83 #p84 #p85">authorial identities and fictional collaborators</ref></item> <item xml:id="ie154"><ref target="#p66 #p67 #p68 #p69 #p70 #p80 #p81">authorship and</ref></item> <item xml:id="ie155"><ref target="#p78">Barthes' death of the author and</ref></item> <item xml:id="ie156"><ref target="#p70">collaborate, as term</ref></item> <item xml:id="ie157"><ref target="#p66 #p67 #p68 #p69 #p70 #p71 #p90">connivance and complicity</ref></item> <item xml:id="ie158"><ref target="#p70">covert vs. overt actions</ref></item> <item xml:id="ie159"><ref target="#p81">expanded fields of writing</ref></item> <item xml:id="ie160"><ref target="#p73 #p81">graphic representations of</ref></item> <item xml:id="ie161"><ref target="#n4">imperatives in the academy</ref></item> <item xml:id="ie162"><ref target="#p65">invitational rhetoric</ref></item> <item xml:id="ie163"><ref target="#p62 #p63 #p64 #p65">overview</ref></item> <item xml:id="ie164"><ref target="#p79 #p87">sexuality and</ref></item> <item xml:id="ie165"><ref target="#p62">transnational relationships</ref></item> <item xml:id="ie166"><ref target="#p67 #p68 #p69 #p70">Woolf's vision of</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie128">Canadian Writing Research Collaboratory/Collaboratoire scientifique des écrits du Canada (CWRC/CSÉC)</ref>; </item> <item><ref target="#ie230">digital commons</ref>; </item> <item><ref target="#ie287">Editing Modernism in Canada/Édition du modernisme au Canada (EMiC/EmaC)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie167">commercials. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie15">advertisements</ref></item> </list></item>
+                    <item xml:id="ie168">commons <list> <item xml:id="ie169"><ref target="#p93">defined</ref></item> <item xml:id="ie170"><ref target="#p99">leftist print culture of 1930s as</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie230">digital commons</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie171">
+                        <ref target="#p93 #p94"><title type="m">Commonwealth</title> (Hardt and Negri)</ref>
+                    </item>
+                    <item xml:id="ie172">communications technology <list> <item xml:id="ie173"><ref target="#p974 #p975">Internet and arts funding</ref></item> <item xml:id="ie174"><ref target="#p974">Internet as two-way communication</ref></item> <item xml:id="ie175"><ref target="#p944 #p945 #p946 #p959">radio as</ref></item> <item xml:id="ie176"><ref target="#p877 #p902 #p903">social protests using</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie230">digital commons</ref>; </item> <item><ref target="#ie778">radio</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie177">
+                        <ref target="#p878 #p889"><title type="m">A Complicated Kindness</title> (Toews)</ref>
+                    </item>
+                    <item xml:id="ie178">
+                        <ref target="#p62"><title type="a">The Conceptual Twist</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie179">
+                        <ref target="#p70–71"><title type="a">Connivance</title> (Brossard)</ref>
+                    </item>
+                    <item xml:id="ie180">
+                        <ref target="#p967 #p968 #p969">consumer identity and globalization</ref>
+                    </item>
+                    <item xml:id="ie181">
+                        <ref target="#p171–182">consumer vs. gift-giving culture</ref>
+                    </item>
+                    <item xml:id="ie182">convents. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie131">Catholic Church</ref></item> </list></item>
+                    <item xml:id="ie183">
+                        <ref target="#p800">Couser, G. Thomas</ref>
+                    </item>
+                    <item xml:id="ie184">
+                        <ref target="#p799">Coward, Rosalind</ref>
+                    </item>
+                    <item xml:id="ie185">
+                        <ref target="#p105">Cowley, Malcolm</ref>
+                    </item>
+                    <item xml:id="ie186">creative process <list> <item xml:id="ie187"><ref target="#p171–182">gift-giving vs. commodity culture</ref></item> <item xml:id="ie188"><ref target="#p135 #p143 #p144 #p145 #p157 #p159 #p160 #p161 #p162 #p163 #p164 #p165 #p166 #p167 #p168 #p169 #p183 #p184 #p185 #p186 #p897">self-confidence of writers</ref></item> <item xml:id="ie189"><ref target="#p135 #p167 #p168 #p169 #p176 #p177 #p178 #p179 #p180 #p181 #p182 #p183 #p184 #p185 #p186">support for writers</ref></item> <item xml:id="ie190"><ref target="#p170 #p171 #p172 #p173 #p174 #p175 #p175 #p176 #p177 #p178 #p179 #p180 #p181 #p182 #p183 #p186">writers' motives</ref></item> </list></item>
+                    <item xml:id="ie191">creative writing programs <list> <item xml:id="ie192"><ref target="#p73">collaborative writing</ref></item> <item xml:id="ie193"><ref target="#p167 #p168 #p169 #p185">history of</ref></item> <item xml:id="ie194"><ref target="#p135 #p167 #p176 #p177 #p178 #p181 #p182 #p183 #p184 #p185 #p186">as support networks</ref></item> </list></item>
+                    <item xml:id="ie195">
+                        <ref target="#p947"><title type="m">Critically Speaking</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie196">
+                        <ref target="#p795 #p796"><title type="a">The Crooked Rib</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie197">
+                        <ref target="#p88–89"><title type="m">Cropper</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie198">culture <list> <item xml:id="ie199"><ref target="#p968">art vs. public culture</ref></item> <item xml:id="ie200"><ref target="#p876 #p877 #p878 #p879 #p880 #p889 #p890 #p891 #p892">Canada's international profile</ref></item> <item xml:id="ie201"><ref target="#p965 #p966 #p967 #p968 #p969">consumer identity and</ref></item> <item xml:id="ie202"><ref target="#p171–182">gift-giving vs. consumer paradigm</ref></item> <item xml:id="ie203"><ref target="#p965 #p966 #p967 #p968 #p969">globalization and</ref></item> <item xml:id="ie204"><ref target="#p832 #p833 #p834 #p835">national vs. people's literatures</ref></item> <item xml:id="ie205"><ref target="#p809">preservation of cultural memory</ref></item> <item xml:id="ie1015"><ref target="#p953 #p954 #p955 #p956 #p957 #p959 #p975">public vs. academic intellectuals</ref></item> <item xml:id="ie206"><ref target="#p955 #p956 #p957 #p958 #p959 #p960 #p969">separation/integration of public, private, and social</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie7">academy</ref>; </item> <item><ref target="#ie111">Canadian literature</ref>; </item> <item><ref target="#ie734">popular culture</ref>; </item> <item><ref target="#ie754">publishing in Canada</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie207">
+                        <ref target="#p878"><title type="m">The Cure for Death By Lightning</title> (Dargatz)</ref>
+                    </item>
+                    <item xml:id="ie208">
+                        <ref target="#p86 #p90"><title type="a">Curiously 'My' Writing</title> (Moure and Avasilichioaei)</ref>
+                    </item>
+                    <item xml:id="ie209">CWRC/CSÉC. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie128">Canadian Writing Research Collaboratory/Collaboratoire scientifique des écrits du Canada (CWRC/CSÉC)</ref></item> </list> </item>
+                    <item xml:id="ie210">
+                        <ref target="#p92">Dalgliesh, Melissa</ref>
+                    </item>
+                    <item xml:id="ie211">
+                        <ref target="#p73">
+                            <title type="m">dANDelion</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie212">
+                        <ref target="#p968 #p969"><title type="a">Daphne Marlatt's Poetics</title> (Hunter)</ref>
+                    </item>
+                    <item xml:id="ie213">
+                        <ref target="#p878">Dargatz, Gail Anderson</ref>
+                    </item>
+                    <item xml:id="ie214">
+                        <ref target="#p101"><title type="m">Day and Night</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie215">
+                        <ref target="#p216">Dean, Misao</ref>
+                    </item>
+                    <item xml:id="ie216">
+                        <ref target="#p800">death writing in PEI</ref>
+                    </item>
+                    <item xml:id="ie217">
+                        <ref target="#p987">Demers, Patricia</ref>
+                        <list>
+                            <item xml:id="ie218">
+                                <ref target="#p905 #p906 #p907 #p908 #p909 #p910 #p911 #p912 #p913 #p914 #p915 #p916 #p917 #p918 #p919 #p920 #p921 #p922 #p923 #p934 #p925">on Miriam Green Ellis's travels</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie219">
+                        <ref target="#p217">De Mille, James</ref>
+                    </item>
+                    <item xml:id="ie220">
+                        <ref target="#p989">Dennys, Louise</ref>
+                        <list>
+                            <item xml:id="ie221">
+                                <ref target="#p875 #p876 #p877 #p878 #p879 #p880 #p881 #p882 #p883 #p884 #p885 #p886 #p887 #p888 #p889 #p890 #p891 #p892 #p893 #p894 #p895 #p896 #p897 #p898 #p899 #p900 #p901 #p902 #p903">on publishing and women</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie222">
+                        <ref target="#p220">Devereux, Cecily</ref>
+                    </item>
+                    <item xml:id="ie223">
+                        <ref target="#p107 #p108"><title type="m">Dialogue sur la traduction</title> (Scott and Hébert)</ref>
+                    </item>
+                    <item xml:id="ie224">diaries in PEI <list> <item xml:id="ie225"><ref target="#p788 #p790 #p802 #p804 #p805 #p806">account/ledger diaries</ref></item> <item xml:id="ie226"><ref target="#p787 #p788 #p789 #p790 #p791 #p801 #p802 #p816">overview</ref></item> <item xml:id="ie227"><ref target="#p806 #p814">political and social issues in</ref></item> <item xml:id="ie228"><ref target="#p808 #p809 #p810 #p811 #p812 #p813 #p814">religious affiliations and</ref></item> <item xml:id="ie229"><ref target="#p806">travel diaries</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie589">life writing in PEI</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie230">digital commons <list> <item xml:id="ie231"><ref target="#p93">defined</ref></item> <item xml:id="ie232"><ref target="#p979">funding</ref></item> <item xml:id="ie233"><ref target="#p93 #p94 #p95 #p96 #p108 #p109">gendered work</ref></item> <item xml:id="ie234"><ref target="#p101 #p102 #p103 #p978 #p979">new digital tools</ref></item> <item xml:id="ie235"><ref target="#p104 #p108 #p109 #p978 #p980 #p981">partnerships</ref></item> <item xml:id="ie236"><ref target="#p93 #p108">as socialized space</ref></item> <item xml:id="ie237"><ref target="#p109 #p978">training initiatives</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie128">Canadian Writing Research Collaboratory/Collaboratoire scientifique des écrits du Canada (CWRC/CSÉC)</ref>; </item> <item><ref target="#ie287">Editing Modernism in Canada/Édition du modernisme au Canada (EMiC/EmaC)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie238"><title type="m">The Displaced View</title> (Onodera) <list> <item xml:id="ie239"><ref target="#p849 #p851 #p852 #p853 #p866 #p867 #p872 #p873">as community autobiography</ref></item> <item xml:id="ie240"><ref target="#p870 #p871">Daruma doll and narrative closure</ref></item> <item xml:id="ie241"><ref target="#p843 #p844">displacement by immigration</ref></item> <item xml:id="ie242"><ref target="#n32 #p837 #p843 #p844 #p849 #p868">displacement by relocation(s)</ref></item> <item xml:id="ie243"><ref target="#p840 #p853">diversity in</ref></item> <item xml:id="ie244"><ref target="#p841 #p862 #p864 #p865 #p866 #p870 #p871">fairy tales and fantasies</ref></item> <item xml:id="ie245"><ref target="#p837 #p840 #p841 #p842 #p850 #p851 #p852 #p859">film techniques</ref></item> <item xml:id="ie246"><ref target="#n35 #p867 #p868">funding</ref></item> <item xml:id="ie247"><ref target="#p840 #p841 #p842 #p843 #p852 #p861 #p865 #p866 #p869 #p870 #p871">generational relations</ref></item> <item xml:id="ie248"><ref target="#p853 #p854 #p855 #p856 #p857 #p858 #p862 #p864 #p865 #p866">generational relations, grandmother-granddaughter</ref></item> <item xml:id="ie249"><ref target="#p859 #p873">generational relations, mother-daughter</ref></item> <item xml:id="ie250"><ref target="#p840 #p844 #p845 #p846 #p847 #p848 #p849 #p853 #p862 #p863">historical context</ref></item> <item xml:id="ie251"><ref target="#p840 #p855">intercultural film</ref></item> <item xml:id="ie252"><ref target="#p838 #p839 #p840">interculturalism vs. multiculturalism</ref></item> <item xml:id="ie253"><ref target="#p843 #p853 #p854 #p855 #p856 #p857 #p858 #p869 #p870">language loss</ref></item> <item xml:id="ie254"><ref target="#p841 #p843 #p854 #p855 #p856">languages and film techniques</ref></item> <item xml:id="ie255"><ref target="#p841 #p851">non-actors in roles</ref></item> <item xml:id="ie256"><ref target="#p836 #p837 #p850 #p851 #p852 #p870 #p871 #p872 #p873 #p874">overview</ref></item> <item xml:id="ie257"><ref target="#p837 #p844 #p845 #p846 #p847 #p848 #p856 #p860 #p861 #p862 #p874">racial identity</ref></item> <item xml:id="ie258"><ref target="#p841 #p851 #p852 #p862 #p863">research and memory work</ref></item> <item xml:id="ie259"><ref target="#p845">screening</ref></item> <item xml:id="ie260"><ref target="#p837 #p844 #p852 #p860 #p874">sexual identity</ref></item> <item xml:id="ie261"><ref target="#p837 #p854 #p856 #p862 #p863 #p864 #p865 #p866">silences and cultural losses</ref></item> <item xml:id="ie262"><ref target="#p868 #p874">stagnant vs. fluid identities</ref></item> <item xml:id="ie263"><ref target="#p843 #p854 #p855 #p856 #p857 #p858">subtitles</ref></item> <item xml:id="ie264"><ref target="#n34 #p840 #p843">terms (issei, nisei, sansei, yonsei)</ref></item> <item xml:id="ie265"><ref target="#p843">title of film</ref></item> <item xml:id="ie266"><ref target="#p841 #p843 #p850 #p851">voice-over narratives</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie505">Japanese-Canadian history</ref>; </item> <item><ref target="#ie516">Japanese-Canadian identity</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie267"><title type="m">The Diviners</title> (Laurence) <list> <item xml:id="ie268"><ref target="#p250 #p251 #p252 #p253 #p254 #p262">cultural nationalism and identity in</ref></item> <item xml:id="ie269"><ref target="#p263 #p265 #p272">gendered equality in</ref></item> <item xml:id="ie270"><ref target="#p251 #p252 #p253 #p254">history of reception of</ref></item> <item xml:id="ie271"><ref target="#p262 #p264">Métis as symbol of national unity</ref></item> <item xml:id="ie272"><ref target="#p262 #p266 #p267 #p268 #p269 #p270 #p271">motherhood in</ref></item> <item xml:id="ie273"><ref target="#p251 #p252 #p262 #p269">realism and identity</ref></item> <item xml:id="ie274"><ref target="#p258 #p263">romance and identity</ref></item> </list></item>
+                    <item xml:id="ie275">
+                        <ref target="#p105">Dobson, Kit</ref>
+                    </item>
+                    <item xml:id="ie276">domestic life <list> <item xml:id="ie277"><ref target="#p944 #p945 #p946">radio as communication tool</ref></item> <item xml:id="ie278"><ref target="#p945 #p946 #p955 #p956 #p957 #p958 #p959 #p960 #p969">separation/integration of public, private, and social</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie583">life writing</ref>; <ref target="#ie561">Livesay, Dorothy</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie279">
+                        <ref target="#n36 #p906 #p907 #p910 #p911 #p912 #p913 #p914 #p915 #p916 #p917 #p918 #p923"><title type="a">Down North</title> (Ellis)</ref>
+                    </item>
+                    <item xml:id="ie280">
+                        <ref target="#p81">Drucker, Joanna</ref>
+                    </item>
+                    <item xml:id="ie281">
+                        <ref target="#p915">Dufferin, Marchioness of</ref>
+                    </item>
+                    <item xml:id="ie282">
+                        <ref target="#p255">Duncan, Ian</ref>
+                    </item>
+                    <item xml:id="ie283">
+                        <ref target="#p105">Dvorak, Marta</ref>
+                    </item>
+                    <item xml:id="ie284">
+                        <ref target="#p92">Eaton, Edith (Sui Sin Far)</ref>
+                    </item>
+                    <item xml:id="ie285">
+                        <ref target="#p902">Ebadi, Shirin</ref>
+                    </item>
+                    <item xml:id="ie286">
+                        <ref target="#p63 #p64 #p65">Ede, Lisa</ref>
+                    </item>
+                    <item xml:id="ie287">Editing Modernism in Canada/Édition du modernisme au Canada (EMiC/EmaC) <list> <item xml:id="ie288"><ref target="#p95 #p96">archives and</ref></item> <item xml:id="ie289"><ref target="#p109">community blog</ref></item> <item xml:id="ie290"><ref target="#p93">digital commons, defined</ref></item> <item xml:id="ie291"><ref target="#n11 #p92 #p101 #p102 #p108 #p109">digitization projects</ref></item> <item xml:id="ie292"><ref target="#p96 #p104 #p105">francophone collaboration</ref></item> <item xml:id="ie293"><ref target="#n17 #p93 #p94 #p95 #p96 #p108 #p109">gendered work</ref></item> <item xml:id="ie294"><ref target="#p95 #p96 #p97 #p98 #p103">intermediating space (co-op)</ref></item> <item xml:id="ie295"><ref target="#p91">mandate and funding</ref></item> <item xml:id="ie296"><ref target="#p104 #p105 #p106 #p107 #p108">multilingual projects</ref></item> <item xml:id="ie297"><ref target="#p101 #p102 #p103">new digital tools</ref></item> <item xml:id="ie298"><ref target="#p103 #p108 #p109 #p980">partnerships</ref></item> <item xml:id="ie299"><ref target="#p95">terms of access</ref></item> <item xml:id="ie300"><ref target="#n17 #p109">training in digital production</ref></item> </list></item>
+                    <item xml:id="ie301">
+                        <ref target="#p76 #p81">Edmond, Jacob</ref>
+                    </item>
+                    <item xml:id="ie302">
+                        <ref target="#p983">Education and Research Archive (ERA)</ref>
+                    </item>
+                    <item xml:id="ie303">
+                        <ref target="#p217">Edwards, Justin D.</ref>
+                    </item>
+                    <item xml:id="ie304">
+                        <ref target="#p223">Edwards, Mary Jane</ref>
+                    </item>
+                    <item xml:id="ie305">
+                        <ref target="#p92">Ellingwood, Leah</ref>
+                    </item>
+                    <item xml:id="ie306">
+                        <ref target="#p105">
+                            <title type="m">Ellipse</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie307">
+                        <ref target="#p908 #p909">Ellis, George</ref>
+                    </item>
+                    <item xml:id="ie308">Ellis, Miriam Green <list> <item xml:id="ie309"><ref target="#n36 #p906 #p907">archives</ref></item> <item xml:id="ie310"><ref target="#p908 #p909">early life and marriage</ref> </item> <item xml:id="ie311"><ref target="#p905 #p906 #p907 #p908 #p909 #p925">overview of career</ref></item> <item xml:id="ie312"><ref target="#p907 #p908 #p914 #p923 #p924 #p925">personal qualities</ref></item> <item xml:id="ie313"><ref target="#n36 #p906">photographs by</ref></item> <item xml:id="ie314"><ref target="#p905 #p906 #p908 #p916 #p925">roles in CWPC</ref></item> </list></item>
+                    <item xml:id="ie315">Ellis, Miriam Green, works <list> <item xml:id="ie316"><ref target="#p919 #p920 #p923"><title type="a">Alone,</title></ref></item> <item xml:id="ie317"><ref target="#p906 #p907 #p910 #p911 #p912 #p913 #p914 #p915 #p916 #p917 #p918 #p923"><title type="a">Down North,</title></ref></item> <item xml:id="ie318"><ref target="#p906"><title type="m">Pathfinders</title></ref></item> <item xml:id="ie319"><ref target="#p905"><title type="a">Special Fields,</title></ref></item> <item xml:id="ie320"><ref target="#p921 #p922 #p923"><title type="a">A War Bride's Return,</title></ref></item> </list></item>
+                    <item xml:id="ie321">EMiC/EmaC. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie287">Editing Modernism in Canada/Édition du modernisme au Canada (EMiC/EmaC)</ref></item> </list></item>
+                    <item xml:id="ie322"><title type="m">Emily Montague</title>. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie449"><title type="m">The History of Emily Montague</title> (Brooke)</ref></item> </list></item>
+                    <item xml:id="ie323">
+                        <ref target="#p847"><title type="m">Enemy Alien</title> (NFB)</ref>
+                    </item>
+                    <item xml:id="ie324">
+                        <ref target="#p252 #p253 #p254">Engel, Marian</ref>
+                    </item>
+                    <item xml:id="ie325">England <list> <item xml:id="ie326"><ref target="#p880">influence on Canadian publishing</ref></item> </list></item>
+                    <item xml:id="ie327">
+                        <ref target="#p804 #p805">entrepreneurship and life writing</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also</hi>
+                            </head>
+                            <item>
+                                <ref target="#ie583">life writing</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie328">ethnicity. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie771">race and ethnicity</ref></item> </list></item>
+                    <item xml:id="ie329">
+                        <ref target="#p92">Everett, Jane</ref>
+                    </item>
+                    <item xml:id="ie330">
+                        <ref target="#p847"><title type="m">Exodus of the Japanese</title> (Berton)</ref>
+                    </item>
+                    <item xml:id="ie331">
+                        <ref target="#n3 #p82"><title type="m">Expeditions of a Chimoera</title> (Moure and Avasilichioaei)</ref>
+                    </item>
+                    <item xml:id="ie332">
+                        <ref target="#p878 #p889"><title type="m">Fall on Your Knees</title> (MacDonald)</ref>
+                    </item>
+                    <item xml:id="ie333">
+                        <ref target="#p92">Far, Sui Sin (Edith Eaton)</ref>
+                    </item>
+                    <item xml:id="ie334">
+                        <ref target="#p915"><title type="m">The Far Islands and Other Cold Places</title> (Taylor)</ref>
+                    </item>
+                    <item xml:id="ie335">
+                        <ref target="#p239">Felski, Rita</ref>
+                    </item>
+                    <item xml:id="ie336">feminism, second wave <list> <item xml:id="ie337"><ref target="#p842">filmmaking techniques</ref></item> <item xml:id="ie338"><ref target="#p272">independence as success</ref></item> <item xml:id="ie339"><ref target="#p239 #p240 #p241 #p242 #p252 #p253 #p254">nationalism and gendered identity development</ref></item> <item xml:id="ie340"><ref target="#p255 #p256 #p257 #p258 #p259 #p260 #p263 #p273">romance, female identity, and national identity</ref></item> <item xml:id="ie341"><ref target="#p239">self-identification as oppressed group</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie555">Laurence, Margaret</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie342">feminism, third wave <list> <item xml:id="ie343"><ref target="#p253 #p254 #p264 #p265 #p272 #p273">identities in Laurence's works</ref></item> </list></item>
+                    <item xml:id="ie344">
+                        <ref target="#p73">Fierle-Hedrick, Kai</ref>
+                    </item>
+                    <item xml:id="ie345">
+                        <ref target="#p90"><title type="m">Fig 116</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie346">
+                        <ref target="#p92                   #p92">Filewod, Alan</ref>
+                    </item>
+                    <item xml:id="ie347"><title type="m">The Fire-Dwellers</title> (Laurence) <list> <item xml:id="ie348"><ref target="#p260 #p261 #p263 #p265">gendered identity</ref></item> <item xml:id="ie349"><ref target="#p247 #p248 #p261">realism and interest in the ordinary</ref></item> </list></item>
+                    <item xml:id="ie350">
+                        <ref target="#p215 #p219">Fleming, May Agnes</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also </hi>
+                            </head>
+                            <item>
+                                <ref target="#ie535"><title type="m">Kate Danton</title> (Fleming)</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie351">folk poetry <list> <item xml:id="ie352"><ref target="#p817 #p831">common elements</ref></item> <item xml:id="ie353"><ref target="#p834">cultural studies of</ref></item> <item xml:id="ie354"><ref target="#p822 #p832 #p833 #p834 #p835">folk vs. elite poetry</ref></item> <item xml:id="ie355"><ref target="#p817 #p821">publication of</ref></item> <item xml:id="ie356"><ref target="#p824 #p826">verse forms, rhythms, and tone</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie586">"LJ"</ref>; </item> <item><ref target="#ie734">popular culture</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie357">folksongs. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie862">songs</ref></item> </list></item>
+                    <item xml:id="ie358">
+                        <ref target="#p793 #p794 #p795 #p796 #p797">
+                            <title type="m">Folksongs from Prince Edward Island</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie359">
+                        <ref target="#p70 #p71">Forsyth, Louise</ref>
+                    </item>
+                    <item xml:id="ie360">
+                        <ref target="#p92">Fortin, Marc</ref>
+                    </item>
+                    <item xml:id="ie361">
+                        <ref target="#p70 #p71"><title type="a">Fragments of a Conversation</title> (Brossard)</ref>
+                    </item>
+                    <item xml:id="ie362">francophones <list> <item xml:id="ie363"><ref target="#p834">academic interest in popular culture</ref></item> <item xml:id="ie364"><ref target="#p105 #p106 #p107 #p108">bilingual modernist studies</ref></item> <item xml:id="ie365"><ref target="#p104 #p105 #p107 #p108">EMiC/EmaC collaborations</ref></item> </list></item>
+                    <item xml:id="ie366">
+                        <ref target="#p878">Frankfurt Book Fair</ref>
+                    </item>
+                    <item xml:id="ie367">
+                        <ref target="#p107 #p161 #p255 #p258 #p263">Frye, Northrop</ref>
+                    </item>
+                    <item xml:id="ie368">
+                        <ref target="#p97">Furey, Hester</ref>
+                    </item>
+                    <item xml:id="ie369">
+                        <ref target="#p884">Gallant, Mavis</ref>
+                    </item>
+                    <item xml:id="ie370">
+                        <ref target="#p805">Gammel, Irene</ref>
+                    </item>
+                    <item xml:id="ie371">
+                        <ref target="#n15 #p104">Garneau, Hector-de-Saint-Denys</ref>
+                    </item>
+                    <item xml:id="ie372">
+                        <ref target="#p990">Gault, Cinda</ref>
+                        <list>
+                            <item xml:id="ie373">
+                                <ref target="#p238 #p239 #p240 #p241 #p242 #p243 #p244 #p245 #p246 #p247 #p248 #p249 #p250 #p251 #p252 #p253 #p254 #p255 #p256 #p257 #p258 #p259 #p260 #p261 #p262 #p263 #p264 #p265 #p266 #p267 #p268 #p269 #p270 #p271 #p272 #p273">on Margaret Laurence</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie374">
+                        <ref target="#p794"><title type="a">The Gay Spanish Maid</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie375">gender <list> <item xml:id="ie376"><ref target="#n17 #p93 #p94 #p96 #p108 #p109">female labour in digitization projects</ref></item> <item xml:id="ie377"><ref target="#p93 #p94 #p96">gendered work and immaterial labour</ref></item> <item xml:id="ie378"><ref target="#p846">identity-politics discourse</ref></item> <item xml:id="ie379"><ref target="#p213 #p214 #p217">male vs. female authorship of Gothic romance</ref></item> <item xml:id="ie380"><ref target="#p239 #p240 #p241 #p242 #p243 #p251 #p252 #p263">nationalism and female identity in literary criticism</ref></item> <item xml:id="ie381"><ref target="#p99">poetry and mass culture in 1930s</ref></item> <item xml:id="ie382"><ref target="#p267 #p268">power dynamics in Manawaka series</ref></item> <item xml:id="ie383"><ref target="#p135 #p144 #p145 #p169">support for female writers</ref></item> <item xml:id="ie384"><ref target="#p138 #p139 #p140 #p141 #p142 #p143 #p144">writers and love for muses</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie336 #ie342">entries beginning with feminism</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie385">
+                        <ref target="#p216">Gerson, Carole</ref>
+                    </item>
+                    <item xml:id="ie386">
+                        <ref target="#p75"><title type="a">Ghost Cargo</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie387">
+                        <ref target="#p75"><title type="m">Ghost Pieces</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie388">
+                        <ref target="#p818">Giddens, Anthony</ref>
+                    </item>
+                    <item xml:id="ie389">
+                        <ref target="#p171"><title type="m">The Gift</title> (Hyde)</ref>
+                    </item>
+                    <item xml:id="ie390">
+                        <ref target="#p898">Gladwell, Malcolm</ref>
+                    </item>
+                    <item xml:id="ie391">
+                        <ref target="#p92 #p105">Glassco, John</ref>
+                    </item>
+                    <item xml:id="ie392">
+                        <ref target="#p85">Glissant, Édouard</ref>
+                    </item>
+                    <item xml:id="ie393">
+                        <ref target="#p965 #p966 #p967 #p968 #p969">globalization and consumerism</ref>
+                    </item>
+                    <item xml:id="ie394">
+                        <ref target="#p107">Godbout, Patricia</ref>
+                    </item>
+                    <item xml:id="ie395">
+                        <ref target="#p880">Godfrey, Dave</ref>
+                    </item>
+                    <item xml:id="ie396">
+                        <ref target="#p915">Godsell, Jean Walker</ref>
+                    </item>
+                    <item xml:id="ie397">
+                        <ref target="#p213 #p216 #p234"><title type="m">The Golden Dog</title> (Kirby)</ref>
+                    </item>
+                    <item xml:id="ie398">
+                        <ref target="#p809 #p810">Goldsmith, Violet</ref>
+                    </item>
+                    <item xml:id="ie399">Gothic fiction <list> <item xml:id="ie400"><ref target="#p228">anti-Catholicism</ref></item> <item xml:id="ie401"><ref target="#p215 #p218 #p219 #p223">characteristics</ref></item> <item xml:id="ie402"><ref target="#p217">critical reception</ref></item> <item xml:id="ie403"><ref target="#p217">decorative Gothic</ref></item> <item xml:id="ie404"><ref target="#p213 #p231">divided self</ref></item> <item xml:id="ie405"><ref target="#p217 #p223 #p224 #p225">emotional excess</ref></item> <item xml:id="ie406"><ref target="#p223">forbidden desire</ref></item> <item xml:id="ie407"><ref target="#p229 #p236 #p237">healing of social wounds in</ref></item> <item xml:id="ie408"><ref target="#p218 #p219 #p221 #p224 #p225">legacy of colonial history</ref></item> <item xml:id="ie409"><ref target="#p215">market for</ref></item> <item xml:id="ie410"><ref target="#p227">popular literary conventions</ref></item> <item xml:id="ie411"><ref target="#p217 #p228 #p230">uncanny</ref></item> <item xml:id="ie412"><ref target="#p217 #p222 #p223 #p225">wilderness tradition</ref></item> </list></item>
+                    <item xml:id="ie413">Gothic romance in Quebec literature <list> <item xml:id="ie414"><ref target="#p215 #p218 #p219 #p236 #p237">characteristics</ref></item> <item xml:id="ie415"><ref target="#p213 #p216 #p217 #p218">critical reception</ref></item> <item xml:id="ie416"><ref target="#p213 #p237">divided self</ref></item> <item xml:id="ie417"><ref target="#p213 #p218 #p237">domestic romance</ref></item> <item xml:id="ie418"><ref target="#p223 #p224 #p225">emotional excess</ref></item> <item xml:id="ie419"><ref target="#p213 #p214 #p215 #p216 #p217 #p218 #p219 #p234">historical context</ref></item> <item xml:id="ie420"><ref target="#p223 #p224 #p225">ideas of love</ref></item> <item xml:id="ie421"><ref target="#p215">market for</ref></item> <item xml:id="ie422"><ref target="#p214 #p220 #p221 #p222 #p223 #p224 #p225">representations of French society</ref></item> <item xml:id="ie423"><ref target="#p222 #p223 #p226 #p235">settings</ref></item> <item xml:id="ie424"><ref target="#p213 #p214 #p217 #p234">women's vs. men's authorship</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie27"><title type="m">Antoinette De Mirecourt</title> (Leprohon)</ref>; </item> <item><ref target="#ie449"><title type="m">The History of Emily Montague</title> (Brooke)</ref>; </item> <item><ref target="#ie535"><title type="m">Kate Danton</title> (Fleming)</ref>; </item> <item><ref target="#ie820"><title type="m">St. Ursula's Convent</title> (Beckwith)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie425">
+                        <ref target="#p258 #p265 #p271">Grace, Sherrill</ref>
+                    </item>
+                    <item xml:id="ie426">Great Britain. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie325">England</ref></item> </list></item>
+                    <item xml:id="ie427">Green Ellis, Miriam. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie315">Ellis, Miriam Green</ref></item> </list></item>
+                    <item xml:id="ie428">
+                        <ref target="#p216">Gross, Konrad</ref>
+                    </item>
+                    <item xml:id="ie429">
+                        <ref target="#p911">Grouard, Bishop Émile</ref>
+                    </item>
+                    <item xml:id="ie430">
+                        <ref target="#p84"><title type="m">O guardador de rebanhos</title> (Pessoa)</ref>
+                    </item>
+                    <item xml:id="ie431">
+                        <ref target="#p834">Hailey, Arthur</ref>
+                    </item>
+                    <item xml:id="ie432">
+                        <ref target="#p164"><title type="m">The Handmaid's Tale</title> (Atwood)</ref>
+                    </item>
+                    <item xml:id="ie433">
+                        <ref target="#p93 #p94 #p98 #p108">Hardt, Michael</ref>
+                    </item>
+                    <item xml:id="ie434">
+                        <ref target="#p790">Harris, Robert</ref>
+                    </item>
+                    <item xml:id="ie435">
+                        <ref target="#p835">Harris, Roy</ref>
+                    </item>
+                    <item xml:id="ie436">
+                        <ref target="#p92">Harvey, Katherine</ref>
+                    </item>
+                    <item xml:id="ie437">Haslam, Lucy Palmer <list> <item xml:id="ie438"><ref target="#p790 #p800 #p816">diaries</ref></item> <item xml:id="ie439"><ref target="#p810 #p811 #p812">influence of religion on writing</ref></item> <item xml:id="ie440"><ref target="#p800 #p810 #p812">life and career</ref></item> <item xml:id="ie441"><ref target="#p800">obituary</ref></item> <item xml:id="ie442"><ref target="#p789 #p807 #p812">silences and boundaries in writing</ref></item> </list></item>
+                    <item xml:id="ie443">
+                        <ref target="#p94">Hawkesworth, Mary</ref>
+                    </item>
+                    <item xml:id="ie444">Hébert, Anne <list> <item xml:id="ie445"><ref target="#n15 #p104 #p107">archives</ref></item> <item xml:id="ie446"><ref target="#p96 #p107 #p108">collaboration with F.R. Scott</ref></item> </list></item>
+                    <item xml:id="ie447">
+                        <ref target="#p915">Herring, Frances</ref>
+                    </item>
+                    <item xml:id="ie448">
+                        <ref target="#p900">Hirsi Ali, Ayaan</ref>
+                    </item>
+                    <item xml:id="ie449"><title type="m">The History of Emily Montague</title> (Brooke) <list> <item xml:id="ie450"><ref target="#p220 #p221 #p223">British supremacy in</ref></item> <item xml:id="ie451"><ref target="#p221">colonial ambivalence in</ref></item> <item xml:id="ie452"><ref target="#p221 #p222 #p223 #p224 #p225">French-Canadian women in</ref></item> <item xml:id="ie453"><ref target="#p212 #p215 #p221 #p222 #p223 #p224 #p225 #p236">as Gothic romance</ref></item> <item xml:id="ie454"><ref target="#p222 #p223 #p225">wilderness tradition</ref></item> </list></item>
+                    <item xml:id="ie455">
+                        <ref target="#p834">
+                            <title type="m">History of the Book in Canada</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie456">
+                        <ref target="#p92">Hjartarson, Paul</ref>
+                    </item>
+                    <item xml:id="ie457">
+                        <ref target="#p788">Hogan, Rebecca</ref>
+                    </item>
+                    <item xml:id="ie458">
+                        <ref target="#p888">Hogarth Press</ref>
+                    </item>
+                    <item xml:id="ie459">
+                        <ref target="#p911 #p912">Holroyd, Roland</ref>
+                    </item>
+                    <item xml:id="ie460">
+                        <ref target="#p991">Hotte, Lucie</ref>
+                    </item>
+                    <item xml:id="ie461">
+                        <ref target="#p880">House of Anansi</ref>
+                    </item>
+                    <item xml:id="ie462">housewife. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie276">domestic life</ref></item> </list></item>
+                    <item xml:id="ie463">
+                        <ref target="#p217">Howells, Coral Ann</ref>
+                    </item>
+                    <item xml:id="ie464">
+                        <ref target="#p92 #p105">Huculak, Matt</ref>
+                    </item>
+                    <item xml:id="ie465">
+                        <ref target="#p224 #p233">Hughes, William</ref>
+                    </item>
+                    <item xml:id="ie466">
+                        <ref target="#p956 #p959 #p961 #p963 #p964 #p965 #p969 #p972 #p974 #p975"><title type="m">The Human Condition</title> (Arendt)</ref>
+                    </item>
+                    <item xml:id="ie467">
+                        <ref target="#p968 #p969">Hunter, Lynette</ref>
+                    </item>
+                    <item xml:id="ie468">
+                        <ref target="#p880">Hurtig, Mel</ref>
+                    </item>
+                    <item xml:id="ie469">
+                        <ref target="#p171 #p176">Hyde, Lewis</ref>
+                    </item>
+                    <item xml:id="ie470">identity <list> <item xml:id="ie471"><ref target="#p273"><q>authentic</q> identity</ref></item> <item xml:id="ie472"><ref target="#p240 #p273">communal constructions</ref></item> <item xml:id="ie473"><ref target="#p249 #p272 #p273">historical changes in critical reception</ref></item> <item xml:id="ie474"><ref target="#p846">identity-politics discourse</ref></item> <item xml:id="ie475"><ref target="#p239 #p240 #p241 #p242 #p243">literary criticism, female identity, and nationalism</ref></item> <item xml:id="ie476"><ref target="#p251 #p252 #p253 #p254 #p255 #p256 #p257 #p258 #p259 #p260 #p263">romance, female identity, and national identity</ref></item> <item xml:id="ie477"><ref target="#p868 #p874">stagnant vs. fluid identities</ref></item> </list></item>
+                    <item xml:id="ie478">
+                        <ref target="#p73 #p75"><title type="m">I'll Drown My Book</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie479">immigration <list> <item xml:id="ie480"><ref target="#n31">Bhabha on migrant discourse</ref></item> <item xml:id="ie481"><ref target="#p892 #p893 #p894 #p895">influence on Canadian writing</ref></item> <item xml:id="ie482"><ref target="#p804 #p805 #p808">life writing and</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie505">Japanese-Canadian history</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie483">
+                        <ref target="#p900"><title type="m">Infidel</title> (Hirsi Ali)</ref>
+                    </item>
+                    <item xml:id="ie484">intellectuals <list> <item xml:id="ie485"><ref target="#p953 #p954 #p955 #p956 #p957 #p959 #p975">public vs. academic intellectuals</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie7">academy</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie486">intercultural film <list> <item xml:id="ie487"><ref target="#p856">grief and mourning in</ref></item> <item xml:id="ie488"><ref target="#p861">memory work in</ref></item> <item xml:id="ie489"><ref target="#p840 #p850 #p851 #p852 #p855">techniques</ref></item> <item xml:id="ie490"><ref target="#p841 #p850 #p851">voice-over narratives</ref></item> </list></item>
+                    <item xml:id="ie491">
+                        <ref target="#p838 #p839 #p840">interculturalism and multiculturalism</ref>
+                    </item>
+                    <item xml:id="ie492">
+                        <ref target="#p97">International Workers of the World song lyrics</ref>
+                    </item>
+                    <item xml:id="ie493">
+                        <ref target="#p912">Inuit prisoners</ref>
+                    </item>
+                    <item xml:id="ie494">
+                        <ref target="#p992">Irvine, Dean</ref>
+                        <list>
+                            <item xml:id="ie495">
+                                <ref target="#p91 #p92 #p93 #p94 #p95 #p96 #p97 #p98 #p99 #p100 #p101 #p102 #p103 #p104 #p105 #p106 #p107 #p108 #p109">on a modernist commons</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie496">
+                        <ref target="#p243">Iser, Wolfgang</ref>
+                    </item>
+                    <item xml:id="ie497">Islam, radical <list> <item xml:id="ie498"><ref target="#p899 #p900 #p901 #p902 #p903">female authors on</ref></item> <item xml:id="ie499"><ref target="#p877 #p902 #p903">stoning of women</ref></item> </list></item>
+                    <item xml:id="ie500">
+                        <ref target="#p103">Islandora (digital humanities project)</ref>
+                    </item>
+                    <item xml:id="ie501">
+                        <ref target="#p915"><title type="m">I Was No Lady</title> (Godsell)</ref>
+                    </item>
+                    <item xml:id="ie502">
+                        <ref target="#p892 #p893">Iyer, Pico</ref>
+                    </item>
+                    <item xml:id="ie503">
+                        <ref target="#p898">Jacobs, Jane</ref>
+                    </item>
+                    <item xml:id="ie504">
+                        <ref target="#p954">Jacoby, Russell</ref>
+                    </item>
+                    <item xml:id="ie505">Japanese-Canadian history <list> <item xml:id="ie506"><ref target="#p853 #p856 #p860 #p867 #p868 #p869 #p870">assimilation</ref></item> <item xml:id="ie507"><ref target="#p844">deportation to Japan</ref></item> <item xml:id="ie508"><ref target="#n30">history of immigration</ref></item> <item xml:id="ie509"><ref target="#p846">identity-politics discourse</ref></item> <item xml:id="ie510"><ref target="#n27 #n28 #p837 #p844 #p847 #p849 #p860 #p862">internment and relocation(s)</ref></item> <item xml:id="ie511"><ref target="#n27 #n28 #n32">internment terminology</ref></item> <item xml:id="ie512"><ref target="#p847 #p858 #p868">media representations</ref></item> <item xml:id="ie513"><ref target="#p853 #p856 #p868 #p873">postwar silencing of histories</ref></item> <item xml:id="ie514"><ref target="#p840 #p845 #p846 #p848 #p853 #p857 #p867 #p873">redress movement</ref></item> <item xml:id="ie515"><ref target="#n33 #p859 #p860 #p866">responses to wartime displacements</ref></item> </list></item>
+                    <item xml:id="ie516">Japanese-Canadian identity <list> <item xml:id="ie517"><ref target="#n30 #p840 #p867 #p872 #p873">diversity of</ref></item> <item xml:id="ie518"><ref target="#p849 #p850 #p853 #p854 #p855 #p870 #p871 #p872 #p873 #p874">family histories</ref></item> <item xml:id="ie519"><ref target="#p850 #p851">female voices</ref></item> <item xml:id="ie520"><ref target="#p840">generational differences</ref></item> <item xml:id="ie521"><ref target="#p869">issei as bearers of culture</ref></item> <item xml:id="ie522"><ref target="#p837 #p846 #p856 #p860 #p868">racial othering</ref></item> <item xml:id="ie523"><ref target="#p837 #p844 #p868">sexual othering</ref></item> <item xml:id="ie524"><ref target="#p868 #p874">stagnant vs. fluid identities</ref></item> <item xml:id="ie525"><ref target="#n34 #p840 #p843">terms (issei, nisei, sansei, yonsei)</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie238"><title type="m">The Displaced View</title> (Onodera)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie526">
+                        <ref target="#p821">Jaques, Edna</ref>
+                    </item>
+                    <item xml:id="ie527">
+                        <ref target="#p915 #p918">Jephson, Harriet Julia Campbell</ref>
+                    </item>
+                    <item xml:id="ie528">
+                        <ref target="#p260 #p263 #p267"><title type="m">A Jest of God</title> (Laurence)</ref>
+                    </item>
+                    <item xml:id="ie529">
+                        <ref target="#p795 #p796"><title type="a">The Jim Ross Song</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie530">
+                        <ref target="#p875">Johnston, Yvonne</ref>
+                    </item>
+                    <item xml:id="ie531">
+                        <ref target="#p802">
+                            <title type="m">journal intime</title>
+                        </ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also</hi>
+                            </head>
+                            <item>
+                                <ref target="#ie583">life writing</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie532">journalism, women in. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie308">Ellis, Miriam Green</ref></item> </list></item>
+                    <item xml:id="ie533">
+                        <ref target="#p951"><title type="m">Journey with My Selves</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie534">
+                        <ref target="#p955 #p956 #p959 #p963">Kant, Emmanuel</ref>
+                    </item>
+                    <item xml:id="ie535">
+                        <ref target="#p215 #p219 #p235 #p236"><title type="m">Kate Danton</title> (Fleming)</ref>
+                    </item>
+                    <item xml:id="ie536">
+                        <ref target="#p993">Kelly, Gary</ref>
+                        <list>
+                            <item xml:id="ie537">
+                                <ref target="#p817 #p818 #p819 #p820 #p821 #p822 #p823 #p824 #p825 #p826 #p827 #p828 #p829 #p830 #p831 #p832 #p833 #p834 #p835">on folk poetry and Canadian literature</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie538">
+                        <ref target="#p950">Kelly, Peggy Lynn</ref>
+                    </item>
+                    <item xml:id="ie539">
+                        <ref target="#p218 #p249">Kertzer, Jonathan M.</ref>
+                    </item>
+                    <item xml:id="ie540">
+                        <ref target="#p213 #p217 #p234">Kirby, William</ref>
+                    </item>
+                    <item xml:id="ie541">
+                        <ref target="#n33">Kitagawa, Muriel</ref>
+                    </item>
+                    <item xml:id="ie542">
+                        <ref target="#p899 #p900">Klein, Naomi</ref>
+                    </item>
+                    <item xml:id="ie543">
+                        <ref target="#p887">Knopf Canada</ref>
+                    </item>
+                    <item xml:id="ie544">
+                        <ref target="#p849 #p863 #p864">Kogawa, Joy</ref>
+                    </item>
+                    <item xml:id="ie545">
+                        <ref target="#p264">Kortenaar, Neil ten</ref>
+                    </item>
+                    <item xml:id="ie546">
+                        <ref target="#p880">Kroetsch, Robert</ref>
+                    </item>
+                    <item xml:id="ie547">
+                        <ref target="#p994">Lancit, Shauna</ref>
+                        <list>
+                            <item xml:id="ie548">
+                                <ref target="#p944 #p945 #p946 #p947 #p948 #p949 #p950 #p951 #p952 #p953 #p954 #p955 #p956 #p957 #p958 #p959 #p960 #p961 #p962 #p963 #p964 #p965 #p966 #p967 #p968 #p969 #p970 #p971 #p972 #p973 #p974 #p975">on Livesay as a public intellectual</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie549">
+                        <ref target="#p819 #p825"><title type="a">The Land of Counterpane</title> (Stevenson)</ref>
+                    </item>
+                    <item xml:id="ie550">
+                        <ref target="#p850">Lane, Jim</ref>
+                    </item>
+                    <item xml:id="ie551">languages <list> <item xml:id="ie552"><ref target="#p853 #p854 #p855 #p856 #p857 #p858 #p869 #p870">Japanese-Canadian language loss</ref></item> <item xml:id="ie553"><ref target="#p846">official languages and multiculturalism </ref></item> </list></item>
+                    <item xml:id="ie554">
+                        <ref target="#p954"><title type="m">The Last Intellectuals</title> (Jacoby)</ref>
+                    </item>
+                    <item xml:id="ie555">Laurence, Margaret <list> <item xml:id="ie556"><ref target="#p246 #p247 #p248 #p249">critical interest in the ordinary</ref></item> <item xml:id="ie557"><ref target="#p248 #p249 #p250 #p260 #p261 #p262 #p263 #p265 #p272 #p273">critical reception</ref></item> <item xml:id="ie558"><ref target="#p263 #p265 #p266">gendered freedom and equality</ref></item> <item xml:id="ie559"><ref target="#p248 #p249 #p250 #p261 #p273">gendered identity development</ref></item> <item xml:id="ie560"><ref target="#p265 #p266 #p267">gendered power dynamics</ref></item> <item xml:id="ie561"><ref target="#p238 #p239 #p241 #p242 #p243 #p249 #p250 #p251 #p252 #p253 #p254 #p255 #p256 #p257 #p258 #p259 #p260 #p263 #p272 #p273">historical changes in critical reception</ref></item> <item xml:id="ie562"><ref target="#p884">international reception</ref></item> <item xml:id="ie563"><ref target="#p266 #p267 #p268 #p270 #p271 #p272">motherhood and identity</ref></item> <item xml:id="ie564"><ref target="#p239 #p241 #p242 #p243 #p250 #p251 #p252 #p253 #p254 #p256 #p257 #p259 #p263 #p273">national and gendered identities</ref></item> <item xml:id="ie565"><ref target="#p239 #p248 #p249 #p250 #p273">realism and identity</ref></item> <item xml:id="ie566"><ref target="#p244 #p245 #p246 #p247 #p248 #p251 #p261">realism and mimetic truth</ref></item> <item xml:id="ie567"><ref target="#p268 #p269 #p270 #p271 #p272">realism and motherhood</ref></item> <item xml:id="ie568"><ref target="#p239 #p255 #p256 #p257 #p258 #p263">romance and gendered identity</ref></item> </list></item>
+                    <item xml:id="ie569">Laurence, Margaret, works <list> <item xml:id="ie570"><ref target="#p263 #p265"><title type="m">A Bird in the House</title></ref></item> <item xml:id="ie571"><ref target="#p247 #p248 #p263"><title type="m">The Fire-Dwellers</title></ref></item> <item xml:id="ie572"><ref target="#p263 #p267"><title type="m">A Jest of God</title></ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie267"><title type="m">The Diviners</title> (Laurence)</ref>; </item> <item><ref target="#ie877"><title type="m">The Stone Angel</title> (Laurence)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie573">
+                        <ref target="#p787 #p788 #p790 #p802 #p804 #p806">ledgers and account diaries in PEI</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also</hi>
+                            </head>
+                            <item>
+                                <ref target="#ie589">life writing in PEI</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie574">
+                        <ref target="#p105">Lent, Vanessa</ref>
+                    </item>
+                    <item xml:id="ie575">
+                        <ref target="#p213 #p216 #p219 #p232">Leprohon, Rosanna</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also </hi>
+                            </head>
+                            <item>
+                                <ref target="#ie27"><title type="m">Antoinette De Mirecourt</title> (Leprohon)</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie576">
+                        <ref target="#p213">Lespérance, John</ref>
+                    </item>
+                    <item xml:id="ie577">
+                        <ref target="#p788">letters in PEI</ref>
+                        <list>
+                            <head>
+                                <hi rend="italic">See also</hi>
+                            </head>
+                            <item>
+                                <ref target="#ie589">life writing in PEI</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie578">
+                        <ref target="#p85">Levanthal, Ann</ref>
+                    </item>
+                    <item xml:id="ie579">
+                        <ref target="#p244 #p245">Levine, George</ref>
+                    </item>
+                    <item xml:id="ie580">
+                        <ref target="#p92">Lewis, Wyndham</ref>
+                    </item>
+                    <item xml:id="ie581">
+                        <ref target="#p878 #p889"><title type="m">Life of Pi</title> (Martel)</ref>
+                    </item>
+                    <item xml:id="ie582">
+                        <ref target="#p971 #p972"><title type="a">Life of the Mind</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie583">life writing <list> <item xml:id="ie584"><ref target="#p811 #p813">Bible reading, literacy, and</ref></item> <item xml:id="ie585"><ref target="#p805 #p807">confessional modalities</ref></item> <item xml:id="ie586"><ref target="#p817">folk poetry as</ref></item> <item xml:id="ie587"><ref target="#p800">obituaries</ref></item> <item xml:id="ie588"><ref target="#p813">religious affiliation and</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie308">Ellis, Miriam Green</ref>; </item> <item><ref target="#ie351">folk poetry</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie589">life writing in PEI <list> <item xml:id="ie590"><ref target="#p809">access to religious documents</ref></item> <item xml:id="ie591"><ref target="#p788">critical approach to</ref></item> <item xml:id="ie592"><ref target="#p804 #p805 #p808">immigration</ref></item> <item xml:id="ie593"><ref target="#p800">obituaries</ref></item> <item xml:id="ie594"><ref target="#p787 #p788 #p816 #p817">overview</ref></item> <item xml:id="ie595"><ref target="#p788">paintings paired with</ref></item> <item xml:id="ie596"><ref target="#p808 #p809 #p810 #p811 #p812 #p813 #p814">religious affiliations and</ref></item> <item xml:id="ie597"><ref target="#p790 #p809">schoolteachers</ref></item> <item xml:id="ie598"><ref target="#p788 #p789 #p790 #p798 #p801 #p802 #p803 #p807 #p813">silences and boundaries in</ref></item> <item xml:id="ie599"><ref target="#p787 #p788">themes from everyday life</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie224">diaries in PEI</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie976">literature, Canadian. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie111">Canadian literature</ref></item> </list></item>
+                    <item xml:id="ie977">Livesay, Dorothy <list> <item xml:id="ie978"><ref target="#p959 #p960 #p961 #p962 #p963 #p964 #p973 #p974 #p975">advocacy for arts support</ref></item> <item xml:id="ie979"><ref target="#p951 #p952 #p953 #p954">career</ref></item> <item xml:id="ie980"><ref target="#p947 #p948 #p949 #p950 #p952 #p958 #p959 #p960 #p964 #p967 #p970 #p975">CBC projects</ref></item> <item xml:id="ie981"><ref target="#p100 #p101">collaboration with editors</ref></item> <item xml:id="ie982"><ref target="#p97 #p98 #p972">collective poetic voice</ref></item> <item xml:id="ie983"><ref target="#p92 #p96 #p101 #p102 #p109">digital commons projects on</ref></item> <item xml:id="ie984"><ref target="#p965 #p966 #p967 #p968 #p969">globalization and consumer identity</ref></item> <item xml:id="ie985"><ref target="#p945 #p946 #p947 #p948 #p949 #p950 #p951 #p952 #p953 #p957 #p958 #p959 #p960 #p961 #p962 #p963 #p964 #p968 #p969 #p970 #p971 #p972 #p973 #p975">housewife and public/private engagement</ref></item> <item xml:id="ie986"><ref target="#p945 #p946 #p947 #p948 #p960 #p969 #p970">housewife as private figure</ref></item> <item xml:id="ie987"><ref target="#p973">impoverishment of artists</ref></item> <item xml:id="ie988"><ref target="#p96 #p97 #p98 #p99 #p100 #p101 #p102">leftist archives</ref></item> <item xml:id="ie989"><ref target="#p972 #p973">motherhood and universal poetic</ref></item> <item xml:id="ie990"><ref target="#p955 #p956 #p957 #p958 #p959 #p960 #p961 #p962 #p963 #p964 #p965 #p966 #p969 #p970 #p975">separation/integration of public, private, and social</ref></item> </list></item>
+                    <item xml:id="ie991">Livesay, Dorothy, works <list> <item xml:id="ie992"><ref target="#p101"><title type="m">Archive for Our Times</title></ref></item> <item xml:id="ie993"><ref target="#p950 #p952"><title type="m">Call My People Home</title></ref></item> <item xml:id="ie994"><ref target="#p947"><title type="m">Critically Speaking</title></ref></item> <item xml:id="ie995"><ref target="#p101"><title type="m">Day and Night</title></ref></item> <item xml:id="ie996"><ref target="#p951"><title type="m">Journey with My Selves</title></ref></item> <item xml:id="ie997"><ref target="#p971 #p972"><title type="a">Life of the Mind,</title></ref></item> <item xml:id="ie998"><ref target="#p100 #p101 #p951"><title type="m">Right Hand Left Hand</title></ref></item> <item xml:id="ie999"><ref target="#p959 #p966"><title type="a">Statement for New Year's Day,</title></ref></item> <item xml:id="ie1000"><ref target="#p973"><title type="a">The Three Emilys,</title></ref></item> </list></item>
+                    <item xml:id="ie1001">
+                        <q>LJ</q>
+                        <list>
+                            <item xml:id="ie1002">
+                                <ref target="#p822 #p823 #p824 #p825 #p826 #p827 #p828 #p829 #p830 #p835">her folk poetry</ref>
+                            </item>
+                            <item xml:id="ie1003">
+                                <ref target="#p818 #p826 #p829 #p830">her life</ref>
+                            </item>
+                            <item xml:id="ie1004">
+                                <ref target="#p819 #p825">literary influences on</ref>
+                            </item>
+                            <item xml:id="ie1005">
+                                <ref target="#p821">media influences on</ref>
+                            </item>
+                            <item xml:id="ie1006">
+                                <ref target="#p820 #p822 #p823 #p825">musical influences on</ref>
+                            </item>
+                            <item xml:id="ie1007">
+                                <ref target="#p818 #p819 #p821 #p829">reading experiences</ref>
+                            </item>
+                            <item xml:id="ie1008">
+                                <ref target="#p827">theme of environment</ref>
+                            </item>
+                            <item xml:id="ie1009">
+                                <ref target="#p824 #p825">theme of motherhood</ref>
+                            </item>
+                            <item xml:id="ie1010">
+                                <ref target="#p820 #p823">theme of romantic love</ref>
+                            </item>
+                            <item xml:id="ie1011">
+                                <ref target="#p819 #p827">theme of solitude</ref>
+                            </item>
+                            <item xml:id="ie1012">
+                                <ref target="#p828 #p829">theme of writing experiences</ref>
+                            </item>
+                            <item xml:id="ie1013">
+                                <ref target="#p819 #p820 #p822 #p824 #p827">verse forms, rhythms, and tone</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie1014">
+                        <ref target="#p814">Lord, Margaret Gray</ref>
+                    </item>
+                    <item xml:id="ie600">
+                        <ref target="#p249 #p832">Lukács, Georg</ref>
+                    </item>
+                    <item xml:id="ie601">
+                        <ref target="#p66">Lundgren, Jodi</ref>
+                    </item>
+                    <item xml:id="ie602">
+                        <ref target="#p63 #p64 #p65">Lunsford, Andrea</ref>
+                    </item>
+                    <item xml:id="ie603">
+                        <ref target="#p878 #p889">MacDonald, Ann-Marie</ref>
+                    </item>
+                    <item xml:id="ie604">
+                        <ref target="#p798 #p803">MacDonald, Edward</ref>
+                    </item>
+                    <item xml:id="ie605">MacEwen, Gwendolyn <list> <item xml:id="ie606"><ref target="#p135 #p146 #p147 #p148 #p149 #p150 #p151 #p152 #p153 #p154 #p155 #p156 #p157 #p169 #p180">her life</ref></item> <item xml:id="ie607"><ref target="#p135 #p152 #p153 #p154 #p155 #p156 #p157 #p160 #p169">self-confidence as a writer</ref></item> </list></item>
+                    <item xml:id="ie608">magazines. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie688">newspapers and magazines</ref></item> </list></item>
+                    <item xml:id="ie609">
+                        <ref target="#p899 #p902">Manji, Irshad</ref>
+                    </item>
+                    <item xml:id="ie610">
+                        <ref target="#p213"><title type="m">The Manor House of de Villerai</title> (Leprohon)</ref>
+                    </item>
+                    <item xml:id="ie611">
+                        <ref target="#p92 #p105">Marcotte, Sophie</ref>
+                    </item>
+                    <item xml:id="ie612">
+                        <ref target="#p838 #p840 #p855 #p856 #p861">Marks, Laura U.</ref>
+                    </item>
+                    <item xml:id="ie613">
+                        <ref target="#p878 #p889">Martel, Yann</ref>
+                    </item>
+                    <item xml:id="ie614">
+                        <ref target="#p103">Maryland Institute for Technology in the Humanities</ref>
+                    </item>
+                    <item xml:id="ie615">mass culture. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie734">popular culture</ref></item> </list></item>
+                    <item xml:id="ie616">
+                        <ref target="#p221">McCarthy, Dermot</ref>
+                    </item>
+                    <item xml:id="ie617">
+                        <ref target="#p881">McClelland and Stewart</ref>
+                    </item>
+                    <item xml:id="ie618">
+                        <ref target="#p241">McClintock, Anne</ref>
+                    </item>
+                    <item xml:id="ie619">
+                        <ref target="#p995">McDonald-Rissanen, Mary</ref>
+                        <list>
+                            <item xml:id="ie620">
+                                <ref target="#p787 #p788 #p789 #p790 #p791 #p792 #p793 #p794 #p795 #p796 #p797 #p798 #p799 #p800 #p801 #p802 #p803 #p804 #p805 #p806 #p807 #p808 #p809 #p810 #p811 #p812 #p813 #p814 #p815 #p816">on life writing in PEI</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie621">
+                        <ref target="#p835">McHoul, Alec</ref>
+                    </item>
+                    <item xml:id="ie622">
+                        <ref target="#p996">McMaster, Lindsey</ref>
+                        <list>
+                            <item xml:id="ie623">
+                                <ref target="#p212 #p213 #p214 #p215 #p216 #p217 #p218 #p219 #p220 #p221 #p222 #p223 #p224 #p225 #p226 #p227 #p228 #p229 #p230 #p231 #p232 #p233 #p234 #p235 #p236 #p237">on Gothic romance in Quebec</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie624">
+                        <ref target="#p80"><title type="m">Meddle English</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie625">
+                        <ref target="#p790">The Meeting of the School Trustees (painting)</ref>
+                    </item>
+                    <item xml:id="ie626">
+                        <ref target="#p880">Melnyk, George</ref>
+                    </item>
+                    <item xml:id="ie627">Métis <list> <item xml:id="ie628"><ref target="#p262 #p264">as symbol of national unity</ref></item> </list></item>
+                    <item xml:id="ie629">
+                        <ref target="#n27 #n28 #n33 #p848">Miki, Roy</ref>
+                    </item>
+                    <item xml:id="ie630">
+                        <ref target="#p92">Millar-Usiskin, Jana</ref>
+                    </item>
+                    <item xml:id="ie631">
+                        <ref target="#n15 #p104">Miron, Gaston</ref>
+                    </item>
+                    <item xml:id="ie632">modernism and modernist studies <list> <item xml:id="ie633"><ref target="#p98">altermodernism and</ref></item> <item xml:id="ie634"><ref target="#p96 #p108 #p109">digital commons projects on</ref></item> <item xml:id="ie635"><ref target="#p106 #p107 #p108">multilingualism of</ref></item> <item xml:id="ie636"><ref target="#p105">neglect of Canadian writers</ref></item> </list></item>
+                    <item xml:id="ie637">
+                        <ref target="#p247 #p259">Montagnes, Anne</ref>
+                    </item>
+                    <item xml:id="ie638">
+                        <ref target="#p884">Montgomery, Lucy Maud</ref>
+                    </item>
+                    <item xml:id="ie639">
+                        <ref target="#p217">Moodie, Susanna</ref>
+                    </item>
+                    <item xml:id="ie640">
+                        <ref target="#p898">Morrison, Toni</ref>
+                    </item>
+                    <item xml:id="ie641">motherhood <list> <item xml:id="ie642"><ref target="#p266 #p267">gendered power dynamics and</ref></item> <item xml:id="ie643"><ref target="#p266 #p267 #p268 #p270 #p271">identity and</ref></item> <item xml:id="ie644"><ref target="#p972 #p973">poetic of universal and</ref></item> <item xml:id="ie645"><ref target="#p268 #p269 #p270 #p271 #p272">realism and single mothers</ref></item> <item xml:id="ie646"><ref target="#p826">theme in folk poetry</ref></item> </list></item>
+                    <item xml:id="ie647">Moure, Erín <list> <item xml:id="ie648"><ref target="#p82 #p83 #p84 #p85">authorial identities</ref></item> <item xml:id="ie649"><ref target="#p82 #p83 #p84 #p85 #p90">collaborations</ref></item> <item xml:id="ie650"><ref target="#p78 #p84 #p85">shared spaces with dead authors</ref></item> <item xml:id="ie651"><ref target="#p73 #p78">shared work spaces</ref></item> <item xml:id="ie652"><ref target="#n9 #p84 #p85 #p90">translations</ref></item> <item xml:id="ie653"><ref target="#p62">views of</ref></item> </list></item>
+                    <item xml:id="ie654">Moure, Erín, works <list> <item xml:id="ie655"><ref target="#p86 #p90"><title type="a">Curiously 'My' Writing</title> (with Avasilichioaei)</ref></item> <item xml:id="ie656"><ref target="#p82"><title type="m">Expeditions of a Chimoera</title> (with Avasilichioaei)</ref></item> <item xml:id="ie657"><ref target="#p82"><title type="m">Furious</title></ref></item> <item xml:id="ie658"><ref target="#p82"><title type="m">Little Theatres</title></ref></item> <item xml:id="ie659"><ref target="#p83"><title type="a">O YES</title> (with Bergvall)</ref></item> <item xml:id="ie660"><ref target="#p78 #p84 #p85"><title type="m">Sheep's Vigil by a Fervent Person</title></ref></item> </list></item>
+                    <item xml:id="ie661">
+                        <ref target="#p62">Moyes, Lianne</ref>
+                    </item>
+                    <item xml:id="ie662">
+                        <ref target="#p820"><title type="a">Mr. Wonderful</title> (song)</ref>
+                    </item>
+                    <item xml:id="ie663">
+                        <ref target="#p838">
+                            <title type="m">Multicultiphobia</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie664">multiculturalism <list> <item xml:id="ie665"><ref target="#p838 #p839 #p840 #p844 #p845 #p846">government policy and legislation</ref></item> <item xml:id="ie666"><ref target="#p838 #p839 #p840">interculturalism and</ref></item> </list></item>
+                    <item xml:id="ie667">
+                        <ref target="#p878 #p884">Munro, Alice</ref>
+                    </item>
+                    <item xml:id="ie668">
+                        <ref target="#p794"><title type="a">The Murder of Mary Tuplin</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie669">
+                        <ref target="#p229">Murphy, Carl</ref>
+                    </item>
+                    <item xml:id="ie670">
+                        <ref target="#p232">Murray, Heather</ref>
+                    </item>
+                    <item xml:id="ie671">
+                        <ref target="#p143 #p144"><title type="a">The Muse: His and Hers</title> (Smart)</ref>
+                    </item>
+                    <item xml:id="ie672">music. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie862">songs</ref></item> </list></item>
+                    <item xml:id="ie673">
+                        <ref target="#p915"><title type="m">My Canadian Journal</title> (Dufferin)</ref>
+                    </item>
+                    <item xml:id="ie674">
+                        <ref target="#p819 #p826"><title type="a">My Shadow</title> (Stevenson)</ref>
+                    </item>
+                    <item xml:id="ie675">
+                        <ref target="#p901">Nafisi, Azar</ref>
+                    </item>
+                    <item xml:id="ie676">national identity <list> <item xml:id="ie677"><ref target="#p218 #p219 #p221">colonial literature and internal divisions</ref></item> <item xml:id="ie678"><ref target="#p238 #p239 #p240 #p241 #p242 #p243 #p252 #p253 #p254">literary criticism, female identity, and</ref></item> <item xml:id="ie679"><ref target="#p238 #p890 #p891 #p892 #p893 #p894 #p895">literature and</ref></item> <item xml:id="ie680"><ref target="#p832 #p833 #p834 #p835">national vs. people's literatures</ref></item> <item xml:id="ie681"><ref target="#p256 #p257 #p258 #p259 #p260 #p263">romance, female identity, and</ref></item> <item xml:id="ie682"><ref target="#p216 #p220">self-definition in pre-Confederation English-language literature</ref></item> </list></item>
+                    <item xml:id="ie683">
+                        <ref target="#p93 #p94 #p98 #p108">Negri, Antonio</ref>
+                    </item>
+                    <item xml:id="ie684">
+                        <ref target="#p97 #p99">Nelson, Cary</ref>
+                    </item>
+                    <item xml:id="ie685">
+                        <ref target="#p798">Neuman, Shirley</ref>
+                    </item>
+                    <item xml:id="ie686">
+                        <ref target="#p880">NeWest Press</ref>
+                    </item>
+                    <item xml:id="ie687">
+                        <ref target="#p916 #p917 #p918 #p925"><title type="m">The New North</title> (Cameron)</ref>
+                    </item>
+                    <item xml:id="ie688">newspapers and magazines <list> <item xml:id="ie689"><ref target="#p185">creative writing program graduates</ref></item> <item xml:id="ie690"><ref target="#p817 #p821">folk poetry in</ref></item> <item xml:id="ie691"><ref target="#p99">leftist poetry in 1930s</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie124">Canadian Women's Press Club (CWPC)</ref>; </item> <item><ref target="#ie308">Ellis, Miriam Green</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie692">
+                        <ref target="#p826">Niedecker, Lorine</ref>
+                    </item>
+                    <item xml:id="ie693">
+                        <ref target="#p92">
+                            <title type="m">Le Nigog</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie694">
+                        <ref target="#p899">Nolen, Stephanie</ref>
+                    </item>
+                    <item xml:id="ie695">
+                        <ref target="#p899"><title type="m">No Logo</title> (Klein)</ref>
+                    </item>
+                    <item xml:id="ie696">
+                        <ref target="#p900"><title type="m">Nomad</title> (Hirsi Ali)</ref>
+                    </item>
+                    <item xml:id="ie697">
+                        <ref target="#p217">Northey, Margot</ref>
+                    </item>
+                    <item xml:id="ie698">Northwest Territories <list> <item xml:id="ie699"><ref target="#p919 #p920 #p921 #p922">Native/white relations</ref></item> <item xml:id="ie700"><ref target="#p906 #p910 #p911 #p912 #p913 #p914 #p915 #p916 #p917 #p918 #p923">travel accounts</ref></item> </list></item>
+                    <item xml:id="ie701">
+                        <ref target="#n34 #p849"><title type="m">Obāchan's Garden</title> (NFB)</ref>
+                    </item>
+                    <item xml:id="ie702">
+                        <ref target="#p849 #p863 #p864"><title type="m">Obasan</title> (Kogawa)</ref>
+                    </item>
+                    <item xml:id="ie703">
+                        <ref target="#p800">obituaries in PEI</ref>
+                    </item>
+                    <item xml:id="ie704">
+                        <ref target="#p847"><title type="m">Of Japanese Descent</title> (NFB)</ref>
+                    </item>
+                    <item xml:id="ie705">
+                        <ref target="#n34">Ohama, Linda</ref>
+                    </item>
+                    <item xml:id="ie706">
+                        <ref target="#p834">Oke, Janette</ref>
+                    </item>
+                    <item xml:id="ie707">
+                        <ref target="#p794 #p797"><title type="a">The Old Oak Tree</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie708">
+                        <ref target="#p848">Omatsu, Maryka</ref>
+                    </item>
+                    <item xml:id="ie709">
+                        <ref target="#p75"><title type="a">1DJ2MANY </title>(Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie710">Onodera, Midi <list> <item xml:id="ie711"><ref target="#n26 #n35 #p836 #p837 #p860">career</ref></item> <item xml:id="ie712"><ref target="#n35 #p855">on racial and cultural differences</ref></item> <item xml:id="ie713"><ref target="#p841 #p851 #p862 #p863 #p864">research and memory work</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie238"><title type="m">The Displaced View</title> (Onodera)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie714">
+                        <ref target="#n3"><title type="m">O Resplandor</title> (Moure)</ref>
+                    </item>
+                    <item xml:id="ie715">
+                        <ref target="#p64 #p981">Orlando Project</ref>
+                    </item>
+                    <item xml:id="ie716">
+                        <ref target="#p262">Oschacoff, Margaret</ref>
+                    </item>
+                    <item xml:id="ie717">
+                        <ref target="#p898"><title type="m">Outliers</title> (Gladwell)</ref>
+                    </item>
+                    <item xml:id="ie718">
+                        <ref target="#p888">Outram, Richard</ref>
+                    </item>
+                    <item xml:id="ie719">
+                        <ref target="#p83"><title type="a">O YES</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie720">
+                        <ref target="#p92">Page, P.K.</ref>
+                    </item>
+                    <item xml:id="ie721">Palmer, Lucy. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie437">Haslam, Lucy Palmer</ref></item> </list></item>
+                    <item xml:id="ie722">
+                        <ref target="#p834"><title type="m">Paperwork</title> (Wayman)</ref>
+                    </item>
+                    <item xml:id="ie723">
+                        <ref target="#p213 #p217 #p234">Parker, Gilbert</ref>
+                    </item>
+                    <item xml:id="ie724">
+                        <ref target="#p906"><title type="m">Pathfinders</title> (Ellis)</ref>
+                    </item>
+                    <item xml:id="ie725">
+                        <ref target="#p878"><title type="m">Penelopiad</title> (Atwood)</ref>
+                    </item>
+                    <item xml:id="ie726">
+                        <ref target="#p78 #p84 #p85">Pessoa, Fernando</ref>
+                    </item>
+                    <item xml:id="ie727">
+                        <ref target="#p960 #p961 #p962">Pierce, Jonathan C.</ref>
+                    </item>
+                    <item xml:id="ie728">poetry <list> <item xml:id="ie729"><ref target="#p99">collective voices in</ref></item> <item xml:id="ie730"><ref target="#p822 #p832 #p833 #p834 #p835">elite vs. folk poetry</ref></item> <item xml:id="ie731"><ref target="#p99">leftist culture of 1930s</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie351">folk poetry</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie732">
+                        <ref target="#p848"><title type="m">The Politics of Racism</title> (Sunahara)</ref>
+                    </item>
+                    <item xml:id="ie733">
+                        <ref target="#p163">Polk, Jim</ref>
+                    </item>
+                    <item xml:id="ie734">popular culture <list> <item xml:id="ie735"><ref target="#p968">art vs. popular culture</ref></item> <item xml:id="ie736"><ref target="#p817 #p823 #p834 #p835">folk poetry </ref></item> <item xml:id="ie737"><ref target="#p834">francophone academic interest in</ref></item> <item xml:id="ie738"><ref target="#p965 #p966 #p967 #p968 #p969">globalization and consumer identity</ref></item> <item xml:id="ie739"><ref target="#p97">IWW songbooks and leftist poetry</ref></item> <item xml:id="ie740"><ref target="#p832 #p833 #p834 #p835">national vs. people's literatures</ref></item> <item xml:id="ie741"><ref target="#p944 #p945 #p946 #p959">radio as two-way communication tool</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie862">songs</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie742">press. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie688">newspapers and magazines</ref></item> </list></item>
+                    <item xml:id="ie743">Prince Edward Island, 19th c. culture <list> <item xml:id="ie744"><ref target="#p799">advertisements</ref></item> <item xml:id="ie745"><ref target="#p792 #p793 #p794 #p795 #p796 #p797 #p816">folksongs</ref></item> <item xml:id="ie746"><ref target="#p798">historical vignettes</ref></item> <item xml:id="ie747"><ref target="#p800">obituaries</ref></item> <item xml:id="ie748"><ref target="#p808 #p809 #p810 #p811 #p812 #p813 #p814">religion</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie224">diaries in PEI</ref>; <ref target="#ie589">life writing in PEI</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie749">
+                        <ref target="#n10 #p92">Le projet HyperRoy</ref>
+                    </item>
+                    <item xml:id="ie750">Protestants <list> <item xml:id="ie751"><ref target="#p808 #p809 #p810 #p811 #p812 #p813 #p814">life writing in PEI</ref></item> <item xml:id="ie752"><ref target="#p811">literacy and Bible reading</ref></item> <item xml:id="ie753"><ref target="#p810">statistics in PEI</ref></item> </list></item>
+                    <item xml:id="ie754">publishing in Canada <list> <item xml:id="ie755"><ref target="#p833 #p880 #p884 #p886 #p887">American influences on</ref></item> <item xml:id="ie756"><ref target="#p833 #p834 #p889">bestseller lists</ref></item> <item xml:id="ie757"><ref target="#p880 #p884 #p886 #p888">British influences on</ref></item> <item xml:id="ie758"><ref target="#p892 #p893 #p894 #p895 #p898 #p899 #p903 #p905">cultural margins and</ref></item> <item xml:id="ie759"><ref target="#p878 #p880">elements of success</ref></item> <item xml:id="ie760"><ref target="#p171 #p172 #p173 #p174 #p175 #p176 #p177 #p178 #p179 #p180 #p181 #p182">gift-giving vs. consumer paradigm</ref></item> <item xml:id="ie761"><ref target="#p167 #p168 #p179–180 #p183 #p876 #p877 #p880 #p881 #p882 #p883 #p886 #p887 #p888">history of</ref></item> <item xml:id="ie762"><ref target="#p876 #p877 #p878 #p879 #p880 #p889 #p890 #p891 #p892 #p903">international prominence</ref></item> <item xml:id="ie763"><ref target="#p833 #p834 #p835">national vs. people's literatures</ref></item> <item xml:id="ie764"><ref target="#p167 #p168 #p180 #p880">small presses</ref></item> <item xml:id="ie765"><ref target="#p881 #p889">statistics on sales</ref></item> <item xml:id="ie766"><ref target="#p896 #p897 #p898 #p899 #p900 #p901">women as authors</ref></item> </list></item>
+                    <item xml:id="ie767">
+                        <ref target="#p880">Pulp Press</ref>
+                    </item>
+                    <item xml:id="ie768">Quebec literature. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie43">Association des littératures canadiennes et québecoise/Association of Canadian and Quebec Literatures</ref>; </item> <item><ref target="#ie362">francophones</ref>; </item> <item><ref target="#ie413">Gothic romance in Quebec literature</ref></item> </list></item>
+                    <item xml:id="ie769">Quebec literature in translation. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie909">translations</ref></item> </list></item>
+                    <item xml:id="ie770">
+                        <ref target="#p94">Quinby, Lee</ref>
+                    </item>
+                    <item xml:id="ie771">race and ethnicity <list> <item xml:id="ie772"><ref target="#p253">critical reception of Laurence's works</ref></item> <item xml:id="ie773"><ref target="#p846">identity politics</ref></item> <item xml:id="ie774"><ref target="#p262">Métis identity</ref></item> <item xml:id="ie775"><ref target="#p838 #p847 #p848">multiculturalism and interculturalism</ref></item> <item xml:id="ie776"><ref target="#p919 #p920 #p921 #p922">Native/white relations</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie2">Aboriginal people, Western Canada</ref>; </item> <item><ref target="#ie238"><title type="m">The Displaced View</title> (Onodera)</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie778">radio <list> <item xml:id="ie779"><ref target="#p944 #p945 #p974">Brecht's <q>vast network of pipes,</q></ref></item> <item xml:id="ie780"><ref target="#p947 #p948 #p949 #p950 #p952 #p958 #p959 #p960 #p964 #p967 #p970 #p975">Livesay's CBC projects</ref></item> </list></item>
+                    <item xml:id="ie781">reader response <list> <item xml:id="ie782"><ref target="#p243 #p245">historical variations in process</ref></item> <item xml:id="ie783"><ref target="#p835">literary meanings and</ref></item> </list></item>
+                    <item xml:id="ie784">
+                        <ref target="#p901"><title type="m">Reading Lolita in Tehran</title> (Nafisi)</ref>
+                    </item>
+                    <item xml:id="ie785">realism <list> <item xml:id="ie786"><ref target="#p246 #p247 #p248 #p249">critical interest in the ordinary</ref></item> <item xml:id="ie787"><ref target="#p253 #p263 #p273">critical reception of Laurence's works</ref></item> <item xml:id="ie788"><ref target="#p244 #p245 #p246 #p247">mimetic claims to truth</ref></item> <item xml:id="ie789"><ref target="#p269 #p270 #p271 #p272">motherhood and</ref></item> <item xml:id="ie790"><ref target="#p244 #p245">reader response variations</ref></item> <item xml:id="ie791"><ref target="#p244 #p255 #p256 #p257 #p258 #p263">romance vs. realism continuum</ref></item> </list></item>
+                    <item xml:id="ie792">
+                        <ref target="#p902">Reisman, Heather</ref>
+                    </item>
+                    <item xml:id="ie793">religion in PEI. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie743">Prince Edward Island, 19th c. culture</ref></item> </list></item>
+                    <item xml:id="ie794">
+                        <ref target="#p66 #p67 #p68 #p69"><title type="m">Rethinking Women's Collaborative Writing</title> (York)</ref>
+                    </item>
+                    <item xml:id="ie795">
+                        <ref target="#p92">Ricard, François</ref>
+                    </item>
+                    <item xml:id="ie796">
+                        <ref target="#p217 #p222">Richardson, John</ref>
+                    </item>
+                    <item xml:id="ie797">
+                        <ref target="#p884">Richler, Mordecai</ref>
+                    </item>
+                    <item xml:id="ie798">
+                        <ref target="#p100 #p101 #p951"><title type="m">Right Hand Left Hand</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie799">
+                        <ref target="#p243">Robinson, Sally</ref>
+                    </item>
+                    <item xml:id="ie800">Roman Catholic Church. <list> <head><hi rend="italic">See</hi> </head> <item><ref target="#ie131">Catholic Church</ref></item> </list></item>
+                    <item xml:id="ie801">romance <list> <item xml:id="ie802"><ref target="#p217">critical reception</ref></item> <item xml:id="ie803"><ref target="#p254 #p257 #p258 #p259 #p260 #p263">female identity, national identity, and</ref></item> <item xml:id="ie804"><ref target="#p223 #p224 #p225">ideas of love</ref></item> <item xml:id="ie805"><ref target="#p244 #p255 #p256 #p257 #p258 #p263">realism vs. romance continuum</ref></item> <item xml:id="ie806"><ref target="#p137 #p138 #p139 #p140 #p141 #p142">romantic obsession</ref></item> <item> <list> <head><hi rend="italic">See also</hi> </head> <item><ref target="#ie413">Gothic romance in Quebec literature</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie807">
+                        <ref target="#p997">Romaniuk, Mary-Jo</ref>
+                        <list>
+                            <item xml:id="ie808">
+                                <ref target="#p976 #p977 #p978 #p979 #p980 #p981 #p982 #p983 #p984">on women's writing in Canada</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie809">
+                        <ref target="#p67 #p68 #p69 #p70 #p896 #p897"><title type="m">A Room of One's Own</title> (Woolf)</ref>
+                    </item>
+                    <item xml:id="ie810">
+                        <ref target="#p795 #p796"><title type="a">Rose of Cumberland</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie811">
+                        <ref target="#p234">Rothenburger, Sunnie</ref>
+                    </item>
+                    <item xml:id="ie812">
+                        <ref target="#p217"><title type="m">Roughing It in the Bush</title> (Moodie)</ref>
+                    </item>
+                    <item xml:id="ie813">
+                        <ref target="#p788">Rowbotham, Sheila</ref>
+                    </item>
+                    <item xml:id="ie814">
+                        <ref target="#p92">Roy, Gabrielle</ref>
+                    </item>
+                    <item xml:id="ie815">
+                        <ref target="#p917">Roy, Wendy</ref>
+                    </item>
+                    <item xml:id="ie816">
+                        <ref target="#p999">Rudy, Susan</ref>
+                        <list>
+                            <item xml:id="ie817">
+                                <ref target="#p62 #p63 #p64 #p65 #p66 #p67 #p68 #p69 #p70 #p71 #p72 #p73 #p74 #p75 #p76 #p77 #p78 #p79 #p80 #p81 #p82 #p83 #p84 #p85 #p86 #p87 #p88 #p89 #p90">on collaborative writing</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie818">
+                        <ref target="#p838">Ryan, Phil</ref>
+                    </item>
+                    <item xml:id="ie819">
+                        <ref target="#p92">Ryan, Toby Gordon</ref>
+                    </item>
+                    <item xml:id="ie820"><title type="m">St. Ursula's Convent</title> (Beckwith) <list> <item xml:id="ie821"><ref target="#p229">battlefield scene</ref></item> <item xml:id="ie822"><ref target="#p216 #p226 #p229 #p231">critical reception</ref></item> <item xml:id="ie823"><ref target="#p230">Freud's uncanny</ref></item> <item xml:id="ie824"><ref target="#p215 #p226 #p227 #p228 #p229 #p230 #p231 #p236">as Gothic romance</ref></item> <item xml:id="ie825"><ref target="#p226 #p228 #p229 #p230 #p231 #p233 #p236">healing of social wounds</ref></item> <item xml:id="ie826"><ref target="#p219">hybrid cultural form</ref></item> <item xml:id="ie827"><ref target="#p227">popular literary conventions</ref></item> </list></item>
+                    <item xml:id="ie828">
+                        <ref target="#n34 #p849">Sakamoto, Kerri</ref>
+                    </item>
+                    <item xml:id="ie829">
+                        <ref target="#p794"><title type="a">Sally Munroe</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie830">
+                        <ref target="#p834">Saunders, Marshall (Margaret)</ref>
+                    </item>
+                    <item xml:id="ie831">
+                        <ref target="#n2 #p76"><title type="m">Say Parsley</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie832">Scott, F.R. <list> <item xml:id="ie833"><ref target="#p96 #p107 #p108">collaboration with Anne Hébert</ref></item> <item xml:id="ie834"><ref target="#p92">digital research</ref></item> <item xml:id="ie835"><ref target="#p880">promotion of Canadian culture</ref></item> <item xml:id="ie836"><ref target="#p105 #p107 #p108">translations</ref></item> </list></item>
+                    <item xml:id="ie837">
+                        <ref target="#p213 #p217 #p234"><title type="m">The Seats of the Mighty</title> (Parker)</ref>
+                    </item>
+                    <item xml:id="ie838">
+                        <ref target="#p878"><title type="m">Self</title> (Martel)</ref>
+                    </item>
+                    <item xml:id="ie839">sexuality <list> <item xml:id="ie840"><ref target="#p79 #p87">collaborative writing and</ref></item> <item xml:id="ie841"><ref target="#p253">critical reception of Laurence's works</ref></item> </list></item>
+                    <item xml:id="ie842">
+                        <ref target="#p148 #p149 #p150 #p151 #p152 #p153 #p154 #p155 #p156 #p157"><title type="m">Shadow Maker</title> (Sullivan)</ref>
+                    </item>
+                    <item xml:id="ie843">
+                        <ref target="#p78 #p84 #p85"><title type="m">Sheep's Vigil by a Fervent Person</title> (Moure)</ref>
+                    </item>
+                    <item xml:id="ie844">
+                        <ref target="#p899"><title type="m">The Shock Doctrine</title> (Klein)</ref>
+                    </item>
+                    <item xml:id="ie845">
+                        <ref target="#p63 #p64 #p65"><title type="m">Singular Texts/Plural Authors</title> (Ede and Lunsford)</ref>
+                    </item>
+                    <item xml:id="ie846">
+                        <ref target="#p887">Škvorecky, Josef</ref>
+                    </item>
+                    <item xml:id="ie847">Smart, Elizabeth <list> <item xml:id="ie848"><ref target="#p92">digital research</ref></item> <item xml:id="ie849"><ref target="#p136 #p137 #p138 #p139 #p140 #p141 #p142 #p143 #p144 #p145 #p168">her life</ref></item> <item xml:id="ie850"><ref target="#p137 #p138 #p139 #p140 #p141 #p142">romantic obsession</ref></item> <item xml:id="ie851"><ref target="#p135 #p143 #p144 #p145 #p157 #p160 #p168">self-confidence as a writer</ref></item> </list></item>
+                    <item xml:id="ie852">
+                        <ref target="#p224 #p233">Smith, Andrew</ref>
+                    </item>
+                    <item xml:id="ie853">
+                        <ref target="#p820"><title type="a">Smoke Gets in Your Eyes</title> (song)</ref>
+                    </item>
+                    <item xml:id="ie854">social class <list> <item xml:id="ie855"><ref target="#p253">critical reception of Laurence's works</ref></item> <item xml:id="ie856"><ref target="#p241">hierarchies as category of nature</ref></item> <item xml:id="ie857"><ref target="#p245 #p246 #p247 #p248 #p249">realism and interest in the ordinary</ref></item> </list></item>
+                    <item xml:id="ie858">social media <list> <item xml:id="ie859"><ref target="#p877 #p902 #p903">international protests</ref></item> <item xml:id="ie860"><ref target="#p84">writers for</ref></item> </list></item>
+                    <item xml:id="ie861">
+                        <ref target="#p819"><title type="a">The Solitary Reaper</title> (Wordsworth)</ref>
+                    </item>
+                    <item xml:id="ie862">songs <list> <item xml:id="ie863"><ref target="#p820">influences on folk poetry</ref></item> <item xml:id="ie864"><ref target="#p97">IWW songbooks and leftist poetry</ref></item> <item xml:id="ie865"><ref target="#p834">in literature anthologies</ref></item> <item xml:id="ie866"><ref target="#p820 #p823">as literature for everyday life</ref></item> <item xml:id="ie867"><ref target="#p838">performances as multiculturalism</ref></item> <item xml:id="ie868"><ref target="#p792 #p793 #p794 #p795 #p796 #p797 #p816">themes in PEI folksongs</ref></item> </list></item>
+                    <item xml:id="ie869">
+                        <ref target="#p905"><title type="a">Special Fields</title> (Ellis)</ref>
+                    </item>
+                    <item xml:id="ie870">
+                        <ref target="#p248">Spettigue, Douglas O.</ref>
+                    </item>
+                    <item xml:id="ie871">
+                        <ref target="#p813">Stanley, Liz</ref>
+                    </item>
+                    <item xml:id="ie872">
+                        <ref target="#p959 #p966"><title type="a">Statement for New Year's Day</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie873">
+                        <ref target="#p142">Stead, Christina</ref>
+                    </item>
+                    <item xml:id="ie874">
+                        <ref target="#p819 #p825 #p826">Stevenson, Robert Louis</ref>
+                    </item>
+                    <item xml:id="ie875">
+                        <ref target="#p216">Stockdale, John</ref>
+                    </item>
+                    <item xml:id="ie876">
+                        <ref target="#p875"><title type="m">Stolen Life</title> (Wiebe and Johnston)</ref>
+                    </item>
+                    <item xml:id="ie877"><title type="m">The Stone Angel</title> (Laurence) <list> <item xml:id="ie878"><ref target="#p263 #p266 #p267 #p268 #p271">gendered freedom</ref></item> <item xml:id="ie879"><ref target="#p259">Hagar as symbol of national identity</ref></item> <item xml:id="ie880"><ref target="#p266 #p270">motherhood in</ref></item> <item xml:id="ie881"><ref target="#p246 #p247">realism and interest in the ordinary</ref></item> <item xml:id="ie882"><ref target="#p260 #p262 #p263 #p264">reconciliation in</ref></item> </list></item>
+                    <item xml:id="ie883">stories, folk. <list>
+                        <?oxy_comment_start author="mikalson" timestamp="20150211T131959-0700" comment="no folk stories item to target."?> <head><hi rend="italic">See</hi> </head>
+                        <?oxy_comment_end?> <item><ref>folk stories</ref></item> </list></item>
+                    <item xml:id="ie884">
+                        <ref target="#p217"><title type="m">A Strange Manuscript Found in a Copper Cylinder</title> (De Mille)</ref>
+                    </item>
+                    <item xml:id="ie885">
+                        <ref target="#n34"><title type="m">The Strawberry Fields</title> (film)</ref>
+                    </item>
+                    <item xml:id="ie886">
+                        <ref target="#p789 #p804 #p805 #p806 #p807">Stretch, Emma Chadwick</ref>
+                    </item>
+                    <item xml:id="ie887">
+                        <ref target="#n4"><title type="m">Structure and Agency in the Neoliberal University</title> (Church)</ref>
+                    </item>
+                    <item xml:id="ie888">
+                        <ref target="#p219 #p231">Sugars, Cynthia</ref>
+                    </item>
+                    <item xml:id="ie889">
+                        <ref target="#p1002">Sullivan, Rosemary</ref>
+                        <list>
+                            <item xml:id="ie890">
+                                <ref target="#p135 #p136 #p137 #p138 #p139 #p140 #p141 #p142 #p143 #p144 #p145 #p146 #p147 #p148 #p149 #p150 #p151 #p152 #p153 #p154 #p155 #p156 #p157 #p158 #p159 #p160 #p161 #p162 #p163 #p164 #p165 #p166 #p167 #p168 #p169 #p170 #p171 #p172 #p173 #p174 #p175 #p176 #p177 #p178 #p179 #p180 #p181 #p182 #p183 #p184 #p185 #p186">on biographies of women writers</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie891">
+                        <ref target="#p848">Sunahara, Ann Gomer</ref>
+                    </item>
+                    <item xml:id="ie892">
+                        <ref target="#p880"><title type="m">Survival</title> (Atwood)</ref>
+                    </item>
+                    <item xml:id="ie893">
+                        <ref target="#p261">Sykes, Philip</ref>
+                    </item>
+                    <item xml:id="ie894">
+                        <ref target="#p238">Szeman, Imre</ref>
+                    </item>
+                    <item xml:id="ie895">
+                        <ref target="#n34">Tajiri, Rea</ref>
+                    </item>
+                    <item xml:id="ie896">
+                        <ref target="#p880">Talonbooks</ref>
+                    </item>
+                    <item xml:id="ie897">
+                        <ref target="#p915">Taylor, Elizabeth</ref>
+                    </item>
+                    <item xml:id="ie898">
+                        <ref target="#p798"><title type="m">Them Times</title> (Weale)</ref>
+                    </item>
+                    <item xml:id="ie899">
+                        <ref target="#p75"><title type="a">THEREISNOTACLEARBRIGHTLINE</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie900">
+                        <ref target="#p247 #p250 #p252 #p260">Thomas, Clara</ref>
+                    </item>
+                    <item xml:id="ie901">
+                        <ref target="#p973"><title type="a">The Three Emilys</title> (Livesay)</ref>
+                    </item>
+                    <item xml:id="ie902">
+                        <ref target="#p915"><title type="m">Through Canada with a Kodak</title> (Aberdeen)</ref>
+                    </item>
+                    <item xml:id="ie903">
+                        <ref target="#p946 #p947">Tiessen, Paul</ref>
+                    </item>
+                    <item xml:id="ie904">
+                        <ref target="#p109">Timney, Meagan</ref>
+                    </item>
+                    <item xml:id="ie905">
+                        <ref target="#p100">Todd, Kim</ref>
+                    </item>
+                    <item xml:id="ie906">
+                        <ref target="#p878 #p889">Toews, Miriam</ref>
+                    </item>
+                    <item xml:id="ie907">
+                        <ref target="#n6 #p73">
+                            <title type="a">The Tolerance Project,</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie908">
+                        <ref target="#p107"><title type="m">Le tombeau des rois</title> (Hébert)</ref>
+                    </item>
+                    <item xml:id="ie909">translations <list> <item xml:id="ie910"><ref target="#p107 #p108">collaboration of Scott and Hébert</ref></item> <item xml:id="ie911"><ref target="#p66">collaboration with author</ref></item> <item xml:id="ie912"><ref target="#p105">neglect of modernist works</ref></item> </list></item>
+                    <item xml:id="ie913">travel accounts <list> <item xml:id="ie914"><ref target="#p915 #p916 #p917 #p918">Arctic and Western Canada</ref></item> <item xml:id="ie915"><ref target="#n36 #p91 #p906">photographs</ref></item> <item> <list> <head><hi rend="italic">See also</hi></head> <item><ref target="#ie308">Ellis, Miriam Green</ref></item> </list> </item> </list></item>
+                    <item xml:id="ie916">
+                        <ref target="#p92">Tremblay, Tony</ref>
+                    </item>
+                    <item xml:id="ie917">
+                        <ref target="#p899"><title type="m">The Trouble with Islam Today</title> (Manji)</ref>
+                    </item>
+                    <item xml:id="ie918">
+                        <ref target="#p217 #p219 #p226 #p231">Turcotte, Gerry</ref>
+                    </item>
+                    <item xml:id="ie919">
+                        <ref target="#p899"><title type="m">28: Stories of AIDS in Africa</title> (Nolen)</ref>
+                    </item>
+                    <item xml:id="ie920">
+                        <ref target="#n9"><title type="m">Typhon Dru</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie921">United States <list> <item xml:id="ie922"><ref target="#p880">influences on Canadian publishing</ref></item> </list></item>
+                    <item xml:id="ie923">
+                        <ref target="#n15 #p104">l'Université de Laval</ref>
+                    </item>
+                    <item xml:id="ie924">
+                        <ref target="#n15 #p104">l'Université de Montréal</ref>
+                    </item>
+                    <item xml:id="ie925">
+                        <ref target="#n15 #p104">l'Université de Sherbrooke</ref>
+                    </item>
+                    <item xml:id="ie926">university collaborative digitization projects. <list> <head><hi rend="italic">See </hi></head> <item><ref target="#ie287">Editing Modernism in Canada/Édition du modernisme au Canada (EMiC/EmaC)</ref></item> </list></item>
+                    <item xml:id="ie927">University of Alberta Libraries <list> <item xml:id="ie928"><ref target="#p982 #p983 #p984">digital research</ref></item> <item xml:id="ie929"><ref target="#n36 #p906 #p907">Ellis Collection</ref></item> </list></item>
+                    <item xml:id="ie930">
+                        <ref target="#p984">University of Alberta Press</ref>
+                    </item>
+                    <item xml:id="ie931">University of Prince Edward Island <list> <item xml:id="ie932"><ref target="#p103">digital commons</ref></item> </list></item>
+                    <item xml:id="ie933">University of Toronto <list> <item xml:id="ie934"><ref target="#p135">writing workshops</ref></item> </list></item>
+                    <item xml:id="ie935">University of Victoria <list> <item xml:id="ie936"><ref target="#n17 #p109">gender and digital commons</ref></item> <item xml:id="ie937"><ref target="#p103">new digital tools</ref></item> </list></item>
+                    <item xml:id="ie938">
+                        <ref target="#p880">van Herk, Aritha</ref>
+                    </item>
+                    <item xml:id="ie939">
+                        <ref target="#p101">Vautour, Bart</ref>
+                    </item>
+                    <item xml:id="ie940">
+                        <ref target="#p229">Veeder, William</ref>
+                    </item>
+                    <item xml:id="ie941">
+                        <ref target="#p75 #p81"><title type="m">VIA: Poems 1994–2004</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie942">
+                        <ref target="#p75"><title type="a">VIA (48 Dante Translations)</title> (Bergvall)</ref>
+                    </item>
+                    <item xml:id="ie943">
+                        <ref target="#p915">Vyvyan, Clara</ref>
+                    </item>
+                    <item xml:id="ie944">
+                        <ref target="#p217 #p222"><title type="m">Wacousta</title> (Richardson)</ref>
+                    </item>
+                    <item xml:id="ie945">
+                        <ref target="#p92">Waddington, Miriam</ref>
+                    </item>
+                    <item xml:id="ie946">
+                        <ref target="#p921 #p922 #p923"><title type="a">A War Bride's Return</title> (Ellis)</ref>
+                    </item>
+                    <item xml:id="ie947">
+                        <ref target="#p838">Ward, W. Peter</ref>
+                    </item>
+                    <item xml:id="ie948">
+                        <ref target="#p92">Watson, Sheila</ref>
+                    </item>
+                    <item xml:id="ie949">
+                        <ref target="#p92">Watson, Wilfred</ref>
+                    </item>
+                    <item xml:id="ie950">
+                        <ref target="#p107">Watteyene, Nathalie</ref>
+                    </item>
+                    <item xml:id="ie951">
+                        <ref target="#p834">Wayman, Tom</ref>
+                    </item>
+                    <item xml:id="ie952">
+                        <ref target="#p798">Weale, David</ref>
+                    </item>
+                    <item xml:id="ie953">
+                        <ref target="#p246">Weaver, Robert</ref>
+                    </item>
+                    <item xml:id="ie954">
+                        <ref target="#p88">Weir, Alison</ref>
+                    </item>
+                    <item xml:id="ie955">
+                        <ref target="#p795 #p796"><title type="a">What Do You Think of My Darling?</title> (folksong)</ref>
+                    </item>
+                    <item xml:id="ie956">
+                        <ref target="#p955"><title type="a">What is Enlightenment?</title> (Kant)</ref>
+                    </item>
+                    <item xml:id="ie957">
+                        <ref target="#p898"><title type="a">What the Hell, Malcolm Gladwell</title> (Cheiffetz)</ref>
+                    </item>
+                    <item xml:id="ie958">
+                        <ref target="#p838"><title type="m">White Canada Forever</title> (Ward)</ref>
+                    </item>
+                    <item xml:id="ie959">
+                        <ref target="#p837 #p838 #p839 #p841 #p842 #p847">white Canadians and ethnocultural identities</ref>
+                    </item>
+                    <item xml:id="ie960">
+                        <ref target="#p898">
+                            <title type="a">Why Don't Women Write <q>Big Ideas</q> Books?,</title>
+                        </ref>
+                    </item>
+                    <item xml:id="ie961">
+                        <ref target="#p875 #p880 #p883 #p893">Wiebe, Rudy</ref>
+                    </item>
+                    <item xml:id="ie962">
+                        <ref target="#p92">Wilkinson, Anne</ref>
+                    </item>
+                    <item xml:id="ie964">
+                        <ref target="#p244">Williams, Raymond</ref>
+                    </item>
+                    <item xml:id="ie965">
+                        <ref target="#p151 #p152">Wilson, Carol</ref>
+                    </item>
+                    <item xml:id="ie966">
+                        <ref target="#p1003">Wilson, Sheena</ref>
+                        <list>
+                            <item xml:id="ie967">
+                                <ref target="#p836–874">on Onodera's <title type="m">The Displaced View</title></ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="ie1016">
+                        <ref target="#p67 #p68 #p69 #p70 #p82 #p896 #p897">Woolf, Virginia</ref>
+                    </item>
+                    <item xml:id="ie968">
+                        <ref target="#p819 #p822">Wordsworth, William</ref>
+                    </item>
+                    <item xml:id="ie969">
+                        <ref target="#p99"><title type="j">Worker</title> (newspaper)</ref>
+                    </item>
+                    <item xml:id="ie970">writing workshops. <note><hi rend="italic">See</hi> <ref target="#ie191">creative writing programs</ref></note></item>
+                    <item xml:id="ie971">
+                        <ref target="#p92">Yeo, Reilly</ref>
+                    </item>
+                    <item xml:id="ie972">
+                        <ref target="#p66 #p67 #p68 #p69">York, Lorraine</ref>
+                    </item>
+                    <item xml:id="ie973">
+                        <ref target="#p820"><title type="a">You Don't Know Me</title> (song)</ref>
+                    </item>
+                    <item xml:id="ie974">
+                        <ref target="#n6 #p73">Zolf, Rachel</ref>
+                    </item>
+                </list>
+                <list>
+                    <item xml:id="if1">
+                        <ref target="#p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941">actualité et événements, subjectivation</ref>
+                    </item>
+                    <item xml:id="if2">
+                        <ref target="#n21 #p197"><title level="m">L’amèr, ou le chapitre effrité</title> (Brossard)</ref>
+                    </item>
+                    <item xml:id="if3">
+                        <ref target="#p122">Amossy, Ruth</ref>
+                    </item>
+                    <item xml:id="if4">
+                        <ref target="#p288 #p289 #p290 #p291"><title level="m">À perce-poche</title> (Martin) </ref>
+                    </item>
+                    <item xml:id="if5">
+                        <ref target="#p200 #p201 #p202 #p203 #p204 #p205 #p206">appartenance et identité, écriture migrante</ref>
+                    </item>
+                    <item xml:id="if6">
+                        <ref target="#p29 #p30 #p31 #p32 #p33 #p34 #p35 #p36 #p37 #p38 #p39 #p40">arbres des connaissances</ref>
+                    </item>
+                    <item xml:id="if7">
+                        <ref target="#p28">archives, et changement</ref>
+                    </item>
+                    <item xml:id="if8">
+                        <ref target="#p12">attitudes sociales, et femmes</ref>
+                    </item>
+                    <item xml:id="if9">
+                        <ref target="#p288 #p289 #p290 #p291"><title level="m">Au soleil du souffle</title> (Lacelle)</ref>
+                    </item>
+                    <item xml:id="if10">
+                        <ref target="#p29">Authier, Michel</ref>
+                    </item>
+
+                    <item xml:id="if11">
+                        <ref target="#p927"><title level="a">Backslide with Michael</title> (Mavrikakis)</ref>
+                    </item>
+                    <item xml:id="if12">
+                        <ref target="#p199 #p200 #p201 #p202 #p203 #p204 #p205 #p206">Balzano, Flora</ref>
+                    </item>
+                    <item xml:id="if13">
+                        <ref target="#p942">Barthes, Roland</ref>
+                    </item>
+                    <item xml:id="if14">
+                        <ref target="#p928">Bernadet, Arnaud</ref>
+                    </item>
+                    <item xml:id="if15">
+                        <ref target="#p207 #p208 #p209 #p210">Bismuth, Nadine</ref>
+                    </item>
+                    <item xml:id="if16">
+                        <ref target="#p192">Blanchette, Josée</ref>
+                    </item>
+                    <item xml:id="if17">
+                        <ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941 #p942 #p943">blogue catherinemavrikakis.com</ref>
+                    </item>
+                    <item xml:id="if18">
+                        <ref target="#p190 #p276 #p283">Boisclair, Isabelle</ref>
+                    </item>
+                    <item xml:id="if19">
+                        <ref target="#p292">Boivin, Aurélien</ref>
+                    </item>
+                    <item xml:id="if20">
+                        <ref target="#p190">Bordeleau, Francine</ref>
+                    </item>
+                    <item xml:id="if21">
+                        <ref target="#p288 #p293 #p294">Brodeur, Hélène</ref>
+                    </item>
+                    <item xml:id="if22">
+                        <ref target="#p985">Brossard, Nicole</ref>
+                        <list>
+                            <item xml:id="if23">
+                                <ref target="#n21 #p197">
+                                    <title level="m">L’amèr, ou le chapitre effrité</title>
+                                </ref>
+                            </item>
+                            <item xml:id="if24">
+                                <ref target="#p36 #p40">
+                                    <title level="m">La lettre aérienne</title>
+                                </ref>
+                            </item>
+                            <item xml:id="if25">
+                                <ref target="#p8 #p9 #p10 #p11 #p12 #p13 #p14 #p15 #p16 #p17 #p18 #p19 #p20 #p21 #p22 #p23 #p24 #p25 #p26 #p27 #p28 #p29 #p30 #p31 #p32 #p33 #p34 #p35 #p36 #p37 #p38 #p39 #p40 #p41 #p42 #p43 #p44 #p45 #p46 #p47 #p48 #p49 #p50 #p51 #p52 #p53 #p54 #p55 #p56 #p57 #p58 #p189 #p190">narration et générations</ref>
+                            </item>
+                            <item xml:id="if26">
+                                <ref target="#p17">œuvres</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="if27">
+                        <ref target="#p191">Butler, Judith</ref>
+                    </item>
+
+                    <item xml:id="if28">Canada français <list> <item xml:id="if29"><ref target="#p279 #p280 #p281">contexte sociopolitique 1970 à 1985</ref></item> <item xml:id="if30"><ref target="#p279 #p294">identité et expression</ref></item> <item xml:id="if31"><ref target="#p194 #p195">présence littéraire féminine</ref></item> <item><list><head><hi rend="italic">Voir aussi</hi></head> <item><ref target="#if199">Ontario français</ref></item></list></item> </list> </item>
+                    <item xml:id="if32">
+                        <ref target="#p987">Carrière, Marie</ref>
+                        <list>
+                            <item xml:id="if33">
+                                <ref target="#p187 #p188 #p189 #p190 #p191 #p192 #p193 #p194 #p195 #p196 #p197 #p198 #p199 #p200 #p201 #202 #p203 #p204 #p205 #p206 #p207 #p208 #p209 #p210 #p211">métaféminisme et histoires au féminin</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="if34">
+                        <ref target="#p290 #p291">Chamberland, Roger</ref>
+                    </item>
+                    <item xml:id="if35">changement <list> <item xml:id="if36"><ref target="#p21">analyse et impact</ref></item> <item xml:id="if37"><ref target="#p12">attitudes sociales</ref></item> <item xml:id="if38"><ref target="#p19 #p20 #p23 #p189 #p190 #p191 #p192 #p193">et féminisme</ref></item> <item xml:id="if39"><ref target="#p11 #p12 #p23 #p24 #p25 #p26 #p27">et femmes</ref></item> <item xml:id="if40"><ref target="#p10 #p14 #p19 #p20">et mémoire</ref></item> <item xml:id="if41"><ref target="#p22 #p23 #p54">sens et symbolisme</ref></item></list></item>
+                    <item xml:id="if42">
+                        <ref target="#p279">Chiasson, Herménégilde</ref>
+                    </item>
+                    <item xml:id="if43">
+                        <ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941 #p942 #p943"><title level="m">Le Ciel de Bay City</title> (Mavrikakis)</ref>
+                    </item>
+                    <item xml:id="if44">
+                        <ref target="#p288 #p292"><title level="m">Cogne la caboche</title> (Poulin)</ref>
+                    </item>
+                    <item xml:id="if45">
+                        <ref target="#p195 #p297">Collaboratoire scientifique des écrits du Canada (CSÉC), et présence littéraire féminine</ref>
+                    </item>
+                    <item xml:id="if46">
+                        <ref target="#p39">compétence, mise en commun</ref>
+                    </item>
+                    <item xml:id="if47">
+                        <ref target="#p29 #p30 #p31 #p32 #p33 #p34 #p35 #p36 #p37 #p38 #p39 #p111">connaissances</ref>
+                    </item>
+                    <item xml:id="if48">
+                        <ref target="#p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941">le contemporain</ref>
+                    </item>
+                    <item xml:id="if49">
+                        <ref target="#p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129"><title level="j">Courrier du Canada</title>, analyse</ref>
+                    </item>
+                    <item xml:id="if50">critique littéraire <list> <item xml:id="if51"><ref target="#p280">littérature en contexte minoritaire</ref></item> <item xml:id="if52"><ref target="#p286 #p287 #p288 #p289 #p290 #p291 #p292 #p293 #p294">poésie et romans d'écrivaines franco-ontariennes</ref></item> </list> </item>
+                    <item xml:id="if53">
+                        <ref target="#p191">
+                            <title level="m">cryptofeminism</title>
+                        </ref>
+                    </item>
+
+                    <item xml:id="if54">
+                        <ref target="#p192">D. Kimm</ref>
+                    </item>
+                    <item xml:id="if55">
+                        <ref target="#p274"><title level="m">Des femmes en littérature</title> (Reid)</ref>
+                    </item>
+                    <item xml:id="if56">
+                        <ref target="#p292">Dionne, René</ref>
+                    </item>
+                    <item xml:id="if57">
+                        <ref target="#p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129">discours, et scènes</ref>
+                    </item>
+                    <item xml:id="if58">
+                        <ref target="#p49">Djebar, Assia</ref>
+                    </item>
+                    <item xml:id="if59">
+                        <ref target="#p196 #p197 #p198">Dorion, Hélène</ref>
+                    </item>
+                    <item xml:id="if60">
+                        <ref target="#p290">
+                            <title level="j">Le Droit</title>
+                        </ref>
+                    </item>
+                    <item xml:id="if61">
+                        <ref target="#p192 #p197">Dupré, Louise</ref>
+                    </item>
+                    <item xml:id="if62">
+                        <ref target="#p928 #p939 #p942">Duras, Marguerite</ref>
+                    </item>
+
+                    <item xml:id="if63">
+                        <ref target="#p38 #p39 #p40 #p41 #p42 #p43 #p44 #p45 #p46">échange et partage</ref>
+                    </item>
+                    <item xml:id="if64">
+                        <ref target="#p199 #p200 #p201 #p202 #p203 #p204 #p205 #p206">écriture migrante des femmes</ref>
+                    </item>
+                    <item xml:id="if65">
+                        <ref target="#p130 #p131">enchâssement, rhétorique</ref>
+                    </item>
+                    <item xml:id="if66">
+                        <ref target="#p49 #p50">enfance, interdictions</ref>
+                    </item>
+                    <item xml:id="if67">
+                        <ref target="#p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941">événements et actualité, subjectivation</ref>
+                    </item>
+                    <item xml:id="if68">
+                        <ref target="#p24 #p43">Facebook</ref>
+                    </item>
+                    <item xml:id="if69">féminisme <list> <item xml:id="if71"><ref target="#p17 #p193">deuxième vague</ref></item> <item xml:id="if72"><ref target="#p189 #p190 #p191">engagement</ref></item> <item xml:id="if73"><ref target="#p19 #p20 #p23 #p189 #p190 #p191 #p192 #p193">et changement</ref></item> <item xml:id="if74"><ref target="#p188 #p189">et liberté d'expression</ref></item> <item xml:id="if75"><ref target="#p195 #p196 #p197 #p198 #p199 #p200 #p201 #p202 #p203 #p204 #p205 #p206 #p207 #p208 #p209 #p210">étude de textes</ref></item> <item xml:id="if76"><ref target="#p188 #p189 #p190 #p191 #p192 #p193 #p194 #p195 #p196 #p197 #p198 #p199 #p200 #p201 #p202 #p203 #p204 #p205 #p206 #p207 #p208 #p209 #p210 #p211">existence dans l'écriture au féminin</ref></item> <item xml:id="if77"><ref target="#p40">logique d'intérêt et solidarité</ref></item> <item xml:id="if78"><ref target="#p17 #p18 #p19 #p20">mémoire</ref></item> <item xml:id="if79"><ref target="#p39">mise en commun des connaissances</ref></item> <item xml:id="if80"><ref target="#p188 #p191">postféminisme</ref></item> <item xml:id="if81"><ref target="#p40">refus par les femmes</ref></item> <item xml:id="if82"><ref target="#p192">régénération</ref></item> <item><list><head><hi rend="italic">Voir aussi</hi></head> <item><ref target="#if178">métaféminisme</ref></item></list></item> </list> </item>
+                    <item xml:id="if83">
+                        <ref target="#p110 #p112">filiation, principes</ref>
+                    </item>
+                    <item xml:id="if84">
+                        <ref target="#p49 #p50">filles, identité et interdictions</ref>
+                    </item>
+                    <item xml:id="if85">
+                        <ref target="#p192">Les filles électriques</ref>
+                    </item>
+                    <item xml:id="if86">
+                        <ref target="#p13 #p16">
+                            <hi rend="italic" xml:lang="en-CA">flash mobs</hi>
+                        </ref>
+                    </item>
+                    <item xml:id="if87">franco-ontariennes et franco-ontariens, <list><head><hi rend="italic">Voir</hi> </head><item><ref target="#if199">Ontario français</ref></item></list></item>
+                    <item xml:id="if88">francophones, <list><head><hi rend="italic">Voir</hi> </head><item><ref target="#if28">Canada français</ref></item></list></item>
+
+                    <item xml:id="if89">
+                        <ref target="#p196">Gaboury-Diallo, Lise</ref>
+                    </item>
+                    <item xml:id="if90">
+                        <ref target="#p290 #p291 #p293">Gay, Paul</ref>
+                    </item>
+                    <item xml:id="if91">
+                        <ref target="#p17 #p47 #p48 #p49 #p50">générations</ref>
+                    </item>
+                    <item xml:id="if92">
+                        <ref target="#p284">Girard, Suzanne</ref>
+                    </item>
+                    <item xml:id="if93">
+                        <ref target="#p293">Grisé, Yolande</ref>
+                    </item>
+
+                    <item xml:id="if94">
+                        <ref target="#p18">Harper, Stephen et son gouvernement</ref>
+                    </item>
+                    <item xml:id="if95">
+                        <ref target="#p926">Héliotrope</ref>
+                    </item>
+                    <item xml:id="if96">
+                        <ref target="#p284">Hémond, Lise</ref>
+                    </item>
+                    <item xml:id="if97">
+                        <ref target="#p191">Henderson, Jennifer</ref>
+                    </item>
+                    <item xml:id="if98">histoire <list> <item xml:id="if99"><ref target="#p17 #p18">apport culturel des femmes</ref></item> <item xml:id="if100"><ref target="#p13 #p14 #p15 #p16 #p17 #p18 #p19 #p20">et mémoire collective</ref></item> </list> </item>
+                    <item xml:id="if101">
+                        <title level="a">Histoire littéraire des femmes au Québec : stratégies de légitimation et principes de filiation</title>
+                        <list>
+                            <item xml:id="if102">
+                                <ref target="#p111 #p118 #p119 #p121 #p132">analyse des données</ref>
+                            </item>
+                            <item xml:id="if103">
+                                <ref target="#p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131">analyse des scènes, exemples</ref>
+                            </item>
+                            <item xml:id="if104">
+                                <ref target="#p113 #p114 #p115">auteures et pseudonymes</ref>
+                            </item>
+                            <item xml:id="if105">
+                                <ref target="#p116 #p117">classes auxiliaires et relations</ref>
+                            </item>
+                            <item xml:id="if106">
+                                <ref target="#p110 #p111 #p112">description et objectifs</ref>
+                            </item>
+                            <item xml:id="if107">
+                                <ref target="#p112 #p133">et ontologie informatique</ref>
+                            </item>
+                            <item xml:id="if108">
+                                <ref target="#p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131 #p132">et scènes</ref>
+                            </item>
+                            <item xml:id="if109">
+                                <ref target="#p118 #p119 #p120 #p132">posture littéraire</ref>
+                            </item>
+                            <item xml:id="if110">
+                                <ref target="#p133 #p134">résultats</ref>
+                            </item>
+                            <item xml:id="if111">
+                                <ref target="#p130 #p131">rhétorique de l'enchâssement</ref>
+                            </item>
+                            <item xml:id="if112">
+                                <ref target="#p119 #p120">sociopoétique</ref>
+                            </item>
+                            <item xml:id="if113">
+                                <ref target="#p115">textes</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="if114">
+                        <ref target="#p991">Hotte, Lucie</ref>
+                        <list>
+                            <?oxy_comment_start author="mikalson" timestamp="20150203T135923-0700" comment="range: 274- 786"?>
+                            <item xml:id="if115">
+                                <ref target="#p194 #p274 #p275 #p276 #p277 #p278 #p282 #p283 #p284 #p285 #p286 #p287 #p288 #p289 #p290 #p291 #p292 #p293 #p294 #p295 #p296 #p297 #p298 #p299 #p300 #p301 #p302 #p303 #p304 #p305 #p306 #p307 #p308 #p309 #p310 #p311 #p312 #p313 #p314 #p315 #p316 #p317 #p318 #p319 #p320 #p321 #p322 #p323 #p324 #p325 #p326 #p327 #p328 #p329 #p330 #p331 #p332 #p333 #p334 #p335 #p336 #p337 #p338 #p339 #p340 #p341 #p342 #p343 #p344 #p345 #p346 #p347 #p348 #p349 #p350 #p351 #p352 #p353 #p354 #p355 #p356 #p357 #p358 #p359 #p360 #p361 #p362 #p363 #p364 #p365 #p366 #p367 #p368 #p369 #p370 #p371 #p372 #p373 #p374 #p375 #p376 #p377 #p378 #p379 #p380 #p381 #p382 #p383 #p384 #p385 #p386 #p387 #p388 #p389 #p390 #p391 #p392 #p393 #p394 #p395 #p396 #p397 #p398 #p399 #p400 #p401 #p402 #p403 #p404 #p405 #p406 #p407 #p408 #p409 #p410 #p411 #p412 #p413 #p414 #p415 #p416 #p417 #p418 #p419 #p420 #p421 #p422 #p423 #p424 #p425 #p426 #p427 #p428 #p429 #p430 #p431 #p432 #p433 #p434 #p435 #p436 #p437 #p438 #p439 #p440 #p441 #p442 #p443 #p444 #p445 #p446 #p447 #p448 #p449 #p450 #p451 #p572 #p573 #p574 #p575 #p576 #p577 #p578 #p579 #p580 #p581 #p582 #p583 #p584 #p585 #p586 #p587 #p588 #p589 #p590 #p591 #p592 #p593 #p594 #p595 #p596 #p597 #p598 #p599 #p600 #p601 #p602 #p603 #p604 #p605 #p606 #p607 #p608 #p609 #p610 #p611 #p612 #p613 #p614 #p615 #p616 #p617 #p618 #p619 #p620 #p621 #p622 #p623 #p624 #p625 #p626 #p627 #p628 #p629 #p630 #p631 #p632 #p633 #p634 #p635 #p636 #p637 #p638 #p639 #p640 #p641 #p642 #p643 #p645 #p646 #p647 #p648 #p649 #p650 #p651 #p652 #p653 #p654 #p655 #p656 #p657 #p658 #p659 #p660 #p661 #p662 #p663 #p664 #p665 #p666 #p667 #p668 #p669 #p670 #p671 #p672 #p673 #p674 #p675 #p676 #p677 #p678 #p679 #p680 #p681 #p682 #p683 #p684 #p685 #p686 #p687 #p688 #p689 #p690 #p691 #p692 #p693 #p694 #p695 #p696 #p697 #p698 #p699 #p700 #p701 #p702 #p703 #p704 #p705 #p706 #p707 #p708 #p709 #p710 #p711 #p712 #p713 #p714 #p715 #p716 #p717 #p718 #p719 #p720 #p721 #p722 #p723 #p724 #p725 #p726 #p727 #p728 #p729 #p730 #p731 #p732 #p733 #p734 #p735 #p736 #p737 #p738 #p739 #p740 #p741 #p742 #p743 #p744 #p745 #p746 #p747 #p748 #p749 #p750 #p751 #p752 #p753 #p754 #p755 #p756 #p757 #p758 #p759 #p760 #p761 #p762 #p763 #p764 #p765 #p766 #p767 #p768 #p769 #p770 #p771 #p772 #p773 #p774 #p775 #p776 #p777 #p778 #p779 #p780 #p781 #p782 #p783 #p784 #p785 #p786">écriture en contexte minoritaire franco-canadien</ref>
+                            </item>
+                            <?oxy_comment_end?>
+                        </list>
+                    </item>
+
+                    <item xml:id="if116">identité <list> <item xml:id="if117"><ref target="#p279 #p294">Canada français</ref></item> <item xml:id="if118"><ref target="#p200 #p201 #p202 #p203 #p204 #p205 #p206">écriture migrante</ref></item> </list> </item>
+                    <item xml:id="if119">
+                        <ref target="#p122">Images de soi dans le discours. La construction d’un éthos.</ref>
+                    </item>
+                    <item xml:id="if120">
+                        <ref target="#p54 #p55 #p56 #p57 #p58">information, et sens de la vie</ref>
+                    </item>
+                    <item xml:id="if121">Internet, <list><head><hi rend="italic">Voir</hi></head> <item><ref target="#if189">numérique</ref></item></list></item>
+                    <item xml:id="if122">
+                        <ref target="#p43 #p44 #p45 #p46">intimité et intimité non privée</ref>
+                    </item>
+                    <item xml:id="if123">
+                        <ref target="#p37 #p51 #p52 #p53">invisibilité/visibilité</ref>
+                    </item>
+
+                    <item xml:id="if124">
+                        <ref target="#p927 #p933 #p934">Jackson, Michael</ref>
+                    </item>
+                    <item xml:id="if125">
+                        <ref target="#p927 #p930">
+                            <hi rend="italic" xml:lang="en-CA">Joe the plumber</hi>
+                        </ref>
+                    </item>
+                    <item xml:id="if126">
+                        <ref target="#p189 #p190 #p191">Joubert, Lucie</ref>
+                    </item>
+                    <item xml:id="if127">
+                        <ref target="#p942"><title level="m">Journal de deuil</title> (Barthes)</ref>
+                    </item>
+
+                    <item xml:id="if128">
+                        <ref target="#p192">Kimm, D.</ref>
+                    </item>
+
+                    <item xml:id="if129">
+                        <ref target="#p196 #p288 #p289 #p290 #p291">Lacelle, Andrée</ref>
+                    </item>
+                    <item xml:id="if130">
+                        <ref target="#p130 #p131">Larivière, Élise</ref>
+                    </item>
+                    <item xml:id="if131">
+                        <ref target="#p110 #p112">légitimation, stratégies</ref>
+                    </item>
+                    <item xml:id="if132">
+                        <ref target="#p200">Lequin, Lucie</ref>
+                    </item>
+                    <item xml:id="if133">
+                        <ref target="#p36 #p40"><title level="m">La lettre aérienne</title> (Brossard)</ref>
+                    </item>
+                    <item xml:id="if134">
+                        <ref target="#p190">
+                            <title level="j">Lettres québécoises</title>
+                        </ref>
+                    </item>
+                    <item xml:id="if135">
+                        <ref target="#p29">Lévy, Pierre</ref>
+                    </item>
+                    <item xml:id="if136">
+                        <ref target="#p188 #p189">liberté d'expression</ref>
+                    </item>
+                    <item xml:id="if137">
+                        <ref target="#p284"><title level="m">Lignes/Signes</title> (Prise de parole)</ref>
+                    </item>
+                    <item xml:id="if138">
+                        <ref target="#p17">L'Intégrale</ref>
+                    </item>
+                    <item xml:id="if139">littérature <list> <item xml:id="if140"><ref target="#p280">Canada français hors Québec</ref></item> <item xml:id="if141"><ref target="#p280">en contexte minoritaire</ref></item> <item xml:id="if142"><ref target="#p17">et féminisme</ref></item> <item xml:id="if143"><ref target="#p49">et mémoire</ref></item> <item xml:id="if144"><ref target="#p42">et partage et dialogue</ref></item> <item xml:id="if145"><ref target="#p51 #p52 #p53">et partie invisible</ref></item> <item xml:id="if146"><ref target="#p118 #p119 #p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131 #p132">et posture</ref></item> <item xml:id="if147"><ref target="#p191 #p192 #p193 #p194 #p195">métaféminisme</ref></item> <item xml:id="if148"><ref target="#p274 #p275 #p276 #p277 #p278 #p282 #p283 #p284 #p285 #p294 #p295 #p296 #p297">place des femmes vs celle des hommes</ref></item> <item xml:id="if149"><ref target="#p295 #p296 #p297">préjugés influant sur la place des femmes</ref></item> <item xml:id="if150"><ref target="#p188 #p189 #p190 #p191 #p192 #p193 #p194 #p195">présence littéraire féminine</ref></item> <item xml:id="if151"><ref target="#p926">relève au Québec</ref></item> </list> </item>
+                    <item xml:id="if152">
+                        <ref target="#p40">logique d'intérêt</ref>
+                    </item>
+                    <item xml:id="if153">
+                        <ref target="#p943">Lou, Savannah</ref>
+                    </item>
+                    <item xml:id="if154">
+                        <ref target="#p196 #p197">lyrisme au féminin</ref>
+                    </item>
+
+                    <item xml:id="if155">
+                        <ref target="#p280">Maazaoui, Abbes</ref>
+                    </item>
+                    <item xml:id="if156">
+                        <ref target="#p132">Maingueneau, Dominique</ref>
+                    </item>
+                    <item xml:id="if157">
+                        <ref target="#p293">Martel, Réginald</ref>
+                    </item>
+                    <item xml:id="if158">
+                        <ref target="#p288 #p289 #p290 #p291">Martin, Danielle</ref>
+                    </item>
+                    <item xml:id="if159">Mavrikakis, Catherine <list> <item xml:id="if160"><ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941 #p942 #p943">blogue</ref></item> <item xml:id="if161"><ref target="#p926 #p927">œuvres et formats</ref></item> </list> </item>
+                    <item xml:id="if162">
+                        <ref target="#p119 #p120">Meizoz, Jérôme</ref>
+                    </item>
+                    <item xml:id="if163">
+                        <ref target="#p280">Melançon, Johanne</ref>
+                    </item>
+                    <item xml:id="if164">mémoire <list> <item xml:id="if165"><ref target="#p10 #p14 #p19 #p20">et changement</ref></item> <item xml:id="if166"><ref target="#p17 #p18 #p19 #p20">et féminisme</ref></item> <item xml:id="if167"><ref target="#p20">et histoire</ref></item> <item xml:id="if168"><ref target="#p54 #p55 #p56 #p57 #p58">et sens de la vie</ref></item> <item xml:id="if169"><ref target="#p19 #p20">interprétation</ref></item> <item xml:id="if170"><ref target="#p14 #p15 #p17">rôle</ref></item> </list> </item>
+                    <item xml:id="if171">mémoire collective <list> <item xml:id="if172"><ref target="#p32 #p33 #p34 #p35">arbres de connaissances</ref></item> <item xml:id="if173"><ref target="#p294">dans l'œuvre franco-ontarienne</ref></item> <item xml:id="if174"><ref target="#p13 #p14 #p15 #p16">et espace virtuel</ref></item> <item xml:id="if175"><ref target="#p17 #p18 #p19 #p20">et féminisme</ref></item> <item xml:id="if176"><ref target="#p13 #p14 #p15 #p16 #p17 #p18 #p19 #p20">et histoire</ref></item> <item xml:id="if177"><ref target="#p14 #p15 #p16 #p17">participation</ref></item> </list> </item>
+                    <item xml:id="if178">métaféminisme <list> <item xml:id="if179"><ref target="#p191 #p192 #p193 #p194 #p195">dans la littérature</ref></item> <item xml:id="if180"><ref target="#p195 #p196 #p197 #p198 #p199 #p200 #p201 #p202 #p203 #p204 #p205 #p206 #p207 #p208 #p209 #p210">étude de textes</ref></item> </list> </item>
+                    <item xml:id="if181">
+                        <ref target="#p123 #p124 #p125 #p126 #p127 #p128 #p129">
+                            <title level="a">Mgr. L’Archevêque de Québec à Villa Maria</title>
+                        </ref>
+                    </item>
+                    <item xml:id="if182">minorités et milieux minoritaires <list> <item xml:id="if183"><ref target="#p280 #p294">littérature canadienne française</ref></item> <item xml:id="if184"><ref target="#p194 #p294">présence littéraire féminine</ref></item> </list> </item>
+                    <item xml:id="if185">
+                        <ref target="#p188">Moi, Toril</ref>
+                    </item>
+                    <item xml:id="if186">
+                        <ref target="#p927 #p936"><title level="a">Moments fragiles</title> (Mavrikakis)</ref>
+                    </item>
+
+                    <item xml:id="if187">
+                        <ref target="#p927 #p929 #p930 #p931"><title level="a">Nos rêves les plus fous</title> (Mavrikakis)</ref>
+                    </item>
+                    <item xml:id="if188">
+                        <ref target="#p49"><title level="m">Nulle part dans la maison de mon père</title> (Djebar)</ref>
+                    </item>
+                    <item xml:id="if189">numérique <list> <item xml:id="if190"><ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p939 #p940 #p941 #p942 #p943">blogue</ref></item> <item xml:id="if191"><ref target="#p43 #p44 #p45 #p46">et intimité</ref></item> <item xml:id="if192"><ref target="#p13 #p14 #p15 #p16">et mémoire collective</ref></item> <item xml:id="if193"><ref target="#p112">et ontologie informatique</ref></item> <item xml:id="if194"><ref target="#p22">et présence</ref></item> <item xml:id="if195"><ref target="#p24 #p25 #p26 #p27">et violence</ref></item> <item xml:id="if196"><ref target="#p926 #p927">formats d'œuvres</ref></item> <item xml:id="if197"><ref target="#p12">influence sur l'apport des femmes</ref></item> <item xml:id="if198"><ref target="#p21">vérité-réalité</ref></item> </list> </item>
+
+                    <item xml:id="if199">Ontario français <list> <item xml:id="if200"><ref target="#p286 #p733 #p734 #p735 #p736 #p737 #p738 #p739 #p740 #p741 #p742 #p743 #p744 #p745 #p746 #p747 #p748 #p749 #p750 #p751 #p752 #p753 #p754 #p755 #p756 #p757 #p758 #p759 #p760 #p761 #p762 #p763 #p764 #p765">comptes rendus d'ouvrages</ref></item> <item xml:id="if201"><ref target="#p279 #p280 #p281">contexte sociopolitique 1970 à 1985</ref></item> <item xml:id="if202"><ref target="#p282 #p283 #p284">corpus étudié</ref></item> <item xml:id="if203"><ref target="#p283">critères d'appartenance au corpus littéraire</ref></item> <item xml:id="if204"><ref target="#p282 #p283 #p284 #p285 #p298 #p299 #p300 #p301 #p302 #p303 #p304 #p305 #p306 #p307 #p308 #p309 #p310 #p311 #p312 #p313 #p314 #p315 #p316 #p317 #p318 #p319 #p320 #p321 #p322 #p323 #p324 #p325 #p326 #p327 #p328 #p329 #p330 #p331 #p332 #p333 #p334 #p335 #p336 #p337 #p338 #p339 #p340 #p341 #p342 #p343 #p344 #p345 #p346 #p347 #p348 #p349 #p350 #p351 #p352 #p353 #p354 #p355 #p356 #p357 #p358 #p359 #p360 #p361 #p362 #p363 #p364 #p365 #p366 #p367">écrivaines de 1970 à 1985</ref></item> <item xml:id="if205"><ref target="#p282 #p283 #p284 #p285 #p452 #p453 #p454 #p455 #p456 #p457 #p458 #p459 #p460 #p461 #p462 #p463 #p464 #p465 #p466 #p467 #p468 #p469 #p470 #p471 #p472 #p473 #p474 #p475 #p476 #p477 #p478 #p479 #p480 #p481 #p482 #p483 #p484 #p485 #p486 #p487 #p488 #p489 #p490 #p491 #p492 #p493 #p494 #p495 #p496 #p497 #p498 #p499 #p500 #p501 #p502 #p503 #p504 #p505 #p506 #p507 #p508 #p509 #p510 #p511 #p512 #p513 #p514 #p515 #p516 #p517 #p518 #p519 #p520 #p521 #p522 #p523 #p524 #p525 #p526 #p527 #p528 #p529 #p530 #p531 #p532 #p533 #p534 #p535 #p536 #p537 #p538 #p539 #p540 #p541 #p542 #p543 #p544 #p545 #p546 #p547 #p548 #p549 #p550 #p551 #p552 #p553 #p554 #p555 #p556 #p557 #p558 #p559 #p560 #p561 #p562 #p563 #p564 #p565 #p566 #p567 #p568 #p569 #p570 #p571">écrivains de 1970 à 1985</ref></item> <item xml:id="if206"><ref target="#p287 #p766 #p767 #p768 #p769 #p770 #p771 #p772 #p773 #p774 #p775 #p776 #p777 #p778 #p779 #p780 #p781 #p782 #p783 #p784 #p785 #p786">études critiques, essais et thèses</ref></item> <item xml:id="if207"><ref target="#p285 #p368 #p369 #p370 #p371 #p372 #p373 #p374 #p375 #p376 #p377 #p378 #p379 #p380 #p381 #p382 #p383 #p384 #p385 #p386 #p387 #p388 #p389 #p390 #p391 #p392 #p393 #p394 #p395 #p396 #p397 #p398 #p399 #p400 #p401 #p402 #p403 #p404 #p405 #p406 #p407 #p408 #p409 #p410 #p411 #p412 #p413 #p414 #p415 #p416 #p417 #p418 #p419 #p420 #p421 #p422 #p423 #p424 #p425 #p426 #p427 #p428 #p429 #p430 #p431 #p432 #p433 #p434 #p435 #p436 #p437 #p438 #p439 #p440 #p441 #p442 #p443 #p444 #p445 #p446 #p447 #p448 #p449 #p450 #p451 #p572 #p573 #p574 #p575 #p576 #p577 #p578 #p579 #p580 #p581 #p582 #p583 #p584 #p585 #p586 #p587 #p588 #p589 #p590 #p591 #p592 #p593 #p594 #p595 #p596 #p597 #p598 #p599 #p600 #p601 #p602 #p603 #p604 #p605 #p606 #p607 #p608 #p609 #p610 #p611 #p612 #p613 #p614 #p615 #p616 #p617 #p618 #p619 #p620 #p621 #p622 #p623 #p624 #p625 #p626 #p627 #p628 #p629 #p630 #p631 #p632 #p633 #p634 #p635 #p636 #p637 #p638 #p639 #p640 #p641 #p642 #p643 #p645 #p646 #p647 #p648 #p649 #p650 #p651 #p652 #p653 #p654 #p655 #p656 #p657 #p658 #p659 #p660 #p661 #p662 #p663 #p664 #p665 #p666 #p667 #p668 #p669 #p670 #p671 #p672 #p673 #p674 #p675 #p676 #p677 #p678 #p679 #p680 #p681 #p682 #p683 #p684 #p685 #p686 #p687 #p688 #p689 #p690 #p691 #p692 #p693 #p694 #p695 #p696 #p697 #p698 #p699 #p700 #p701 #p702 #p703 #p704 #p705 #p706 #p707 #p708 #p709 #p710 #p711 #p712 #p713 #p714 #p715 #p716 #p717 #p718 #p719 #p720 #p721 #p722 #p723 #p724 #p725 #p726 #p727 #p728 #p729 #p730 #p731 #p732">genres pratiqués par les écrivaines et les écrivains</ref></item> <item xml:id="if208"><ref target="#p294">identité et collectivité</ref></item> <item xml:id="if209"><ref target="#p277 #p278 #p282 #p283 #p284 #p285 #p294 #p295 #p296 #p297">place des femmes vs celles des hommes dans la littérature</ref></item> <item xml:id="if210"><ref target="#p295 #p296 #p297">préjugés influant sur la place des femmes dans la littérature</ref></item> <item xml:id="if211"><ref target="#p286 #p287 #p288 #p289 #p290 #p291 #p292 #p293 #p294">réception critique de poésie et de romans écrits par les femmes</ref></item> <item xml:id="if212"><ref target="#p294">thématiques des œuvres</ref></item> </list> </item>
+                    <item xml:id="if213">
+                        <ref target="#p112 #p133">ontologie et ontologie informatique</ref>
+                    </item>
+                    <item xml:id="if214">
+                        <ref target="#p12 #p14">oppression des femmes</ref>
+                    </item>
+                    <item xml:id="if215">ordinateurs, <list><head><hi rend="italic">Voir</hi></head> <item><ref target="#if189">numérique</ref></item></list></item>
+                    <item xml:id="if216">
+                        <ref target="#p292">Ostiguy, Denise</ref>
+                    </item>
+                    <item xml:id="if217">
+                        <ref target="#p294">Ouellet, François</ref>
+                    </item>
+                    <item xml:id="if218">
+                        <ref target="#p283"><title level="m">Ouvrir la voie/x</title> (Boisclair)</ref>
+                    </item>
+
+                    <item xml:id="if219">
+                        <ref target="#p38 #p39 #p40 #p41 #p42 #p43 #p44 #p45 #p46">partage et échange</ref>
+                    </item>
+                    <item xml:id="if220">
+                        <ref target="#p51 #p52 #p53">partie invisible</ref>
+                    </item>
+                    <item xml:id="if221">
+                        <ref target=" #p39 #p50">patriarcat</ref>
+                    </item>
+                    <item xml:id="if222">
+                        <ref target="#p49">plaisirs, interdictions</ref>
+                    </item>
+                    <item xml:id="if223">poésie et poétique <list> <item xml:id="if224"><ref target="#p192">et métaféminisme</ref></item> <item xml:id="if225"><ref target="#p130 #p131">presse périodique</ref></item> <item xml:id="if226"><ref target="#p288 #p289 #p290 #p291">réception critique d'œuvres franco-ontariennes</ref></item> </list> </item>
+                    <item xml:id="if227">
+                        <ref target="#p18 #p21">politique canadienne</ref>
+                    </item>
+                    <item xml:id="if228">
+                        <ref target="#p198"><title level="m">Portraits de mers</title> (Dorion)</ref>
+                    </item>
+                    <item xml:id="if229">
+                        <ref target="#p188 #p191">postféminisme</ref>
+                    </item>
+                    <item xml:id="if230">
+                        <ref target="#p118 #p119 #p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131 #p132">posture littéraire</ref>
+                    </item>
+                    <item xml:id="if231">
+                        <ref target="#p288 #p292 #p293">Poulin, Gabrielle</ref>
+                    </item>
+                    <item xml:id="if232">
+                        <ref target="#p10 #p942">le présent</ref>
+                    </item>
+                    <item xml:id="if233">presse périodique du Québec au XIXe siècle <list> <item xml:id="if234"><ref target="#p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131">analyse, exemple</ref></item> <item xml:id="if235"><ref target="#p110 #p111 #p112 #p113 #p114 #p115 #p116 #p117">corpus, constitution et étude</ref></item> <item xml:id="if236"><ref target="#p110 #p111 #p112 #p113 #p114 #p115 #p116 #p117 #p118 #p119 #p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131 #p132 #p133 #p134">écriture des femmes</ref></item> <item xml:id="if237"><ref target="#p130 #p131">poétique</ref></item> <item xml:id="if238"><ref target="#p134">relecture des textes</ref></item> <item xml:id="if239"><ref target="#p119 #p120">sociopoétique</ref></item> <item><list><head><hi rend="italic">Voir aussi</hi></head> <item><ref target="#if101"><title level="a">Histoire littéraire des femmes au Québec</title></ref></item></list></item> </list> </item>
+                    <item xml:id="if240">
+                        <ref target="#p16">printemps arabe</ref>
+                    </item>
+                    <item xml:id="if241">
+                        <ref target="#p16">printemps érable</ref>
+                    </item>
+                    <item xml:id="if242">
+                        <ref target="#p284 #p289">Prise de parole</ref>
+                    </item>
+                    <item xml:id="if243">production littéraire <list> <item xml:id="if244"><ref target="#p274 #p275 #p276 #p277 #p278 #p282 #p283 #p284 #p285">femmes <hi rend="italic">vs</hi> hommes</ref></item> <item xml:id="if245"><ref target="#p296 #p297">préjugés influant sur la place des femmes</ref></item> </list> </item>
+                    <item xml:id="if246">
+                        <ref target="#p191">Proulx, Monique</ref>
+                    </item>
+
+                    <item xml:id="if247">
+                        <ref target="#p926">Quartier libre</ref>
+                    </item>
+                    <item xml:id="if248">Québec <list> <item xml:id="if249"><ref target="#p279 #p280 #p281">contexte sociopolitique 1970 à 1985</ref></item> <item xml:id="if250"><ref target="#p276 #p283 #p284">place des femmes vs celle des hommes dans la littérature</ref></item> <item xml:id="if251"><ref target="#p926">relève littéraire</ref></item> <item><list><head><hi rend="italic">Voir aussi</hi></head> <item><ref target="#if233">presse périodique du Québec au XIXe siècle</ref></item></list></item> </list> </item>
+                    <item xml:id="if252">
+                        <ref target="#p288 #p293 #p294"><title level="m">La quête d'Alexandre</title> (Brodeur)</ref>
+                    </item>
+
+                    <item xml:id="if253">
+                        <ref target="#p943">radio, capsule</ref>
+                    </item>
+                    <item xml:id="if254">
+                        <ref target="#p13 #p16">rassemblements éclair</ref>
+                    </item>
+                    <item xml:id="if255">
+                        <ref target="#p31 #p36">reconnaissance</ref>
+                    </item>
+                    <item xml:id="if256">
+                        <ref target="#p192">régénération du féminisme</ref>
+                    </item>
+                    <item xml:id="if257">
+                        <ref target="#p19"><title level="m">Régénérations</title>, importance</ref>
+                    </item>
+                    <item xml:id="if258">
+                        <ref target="#p274">Reid, Martine</ref>
+                    </item>
+                    <item xml:id="if259">
+                        <ref target="#p12 #p14">religion, oppression des femmes</ref>
+                    </item>
+                    <item xml:id="if260">
+                        <ref target="#p279">Révolution tranquille</ref>
+                    </item>
+                    <item xml:id="if261">
+                        <ref target="#p130 #p131">rhétorique de l'enchâssement</ref>
+                    </item>
+                    <item xml:id="if262">
+                        <ref target="#p275"><title level="m">The Rise of the Novel: Studies in Defoe, Richardson and Fielding</title> (Watt)</ref>
+                    </item>
+                    <item xml:id="if263">
+                        <ref target="#p276">Robert, Lucie</ref>
+                    </item>
+                    <item xml:id="if264">
+                        <ref target="#p998">Roy, Julie</ref>
+                        <list>
+                            <item xml:id="if265">
+                                <ref target="#p110 #p111 #p112 #p113 #p114 #p115 #p116 #p117 #p118 #p119 #p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131 #p132 #p133 #p134">ontologie informatique et histoire littéraire des femmes</ref>
+                            </item>
+                        </list>
+                    </item>
+
+                    <item xml:id="if266">
+                        <ref target="#p188 #p191">Saint-Martin, Lori</ref>
+                    </item>
+                    <item xml:id="if267">
+                        <ref target="#p1000">Savoie, Chantal</ref>
+                        <list>
+                            <item xml:id="if268">
+                                <ref target="#p110 #p111 #p112 #p113 #p114 #p115 #p116 #p117 #p118 #p119 #p120 #p121 #p122 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p130 #p131 #p132 #p133 #p134">ontologie informatique et histoire littéraire des femmes</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="if269">
+                        <ref target="#p120 #p121 #p122 #p128 #p132">scène de la parole</ref>
+                    </item>
+                    <item xml:id="if270">
+                        <ref target="#p120 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p131 #p132">scène englobante et d'énonciation</ref>
+                    </item>
+                    <item xml:id="if271">
+                        <ref target="#p120 #p121 #p127 #p131 #p132">scène générique</ref>
+                    </item>
+                    <item xml:id="if272">
+                        <ref target="#p120 #p123 #p124 #p125 #p126 #p127 #p128 #p129 #p131 #p132">scènes et discours/posture littéraire</ref>
+                    </item>
+                    <item xml:id="if273">
+                        <ref target="#p207 #p208 #p209 #p210"><title level="m">Scrapbook</title> (Bismuth)</ref>
+                    </item>
+                    <item xml:id="if274">
+                        <ref target="#p22 #p23 #p54 #p55 #p56 #p57 #p58">sens (signification)</ref>
+                    </item>
+                    <item xml:id="if275">
+                        <ref target="#p191"><title level="m">Le sexe des étoiles</title> (Proulx)</ref>
+                    </item>
+                    <item xml:id="if276">
+                        <ref target="#p1001">Snauwaert, Maïté</ref>
+                        <list>
+                            <item xml:id="if277">
+                                <ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941 #p942 #p943">au sujet de Catherine Mavrikakis</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item xml:id="if278">
+                        <ref target="#p119 #p120">sociopoétique</ref>
+                    </item>
+                    <item xml:id="if279">
+                        <ref target="#p199 #p200 #p201 #p202 #p203 #p204 #p205 #p206"><title level="m">Soigne ta chute</title> (Balzano)</ref>
+                    </item>
+                    <item xml:id="if280">souvenir, <list><head><hi rend="italic">Voir</hi></head> <item><ref target="#if164">mémoire</ref></item></list></item>
+                    <item xml:id="if281">
+                        <ref target="#p275">Spender, Dale</ref>
+                    </item>
+
+                    <item xml:id="if282">technologie numérique, <list><head><hi rend="italic">Voir</hi></head> <item><ref target="#if189">numérique</ref></item></list></item>
+                    <item xml:id="if283">
+                        <ref target="#p119">Thérenty, Marie-Ève</ref>
+                    </item>
+                    <item xml:id="if284">
+                        <ref target="#p12 #p14">tradition, et oppression des femmes</ref>
+                    </item>
+                    <item xml:id="if285">
+                        <ref target="#p48 #p937 #p938">transmission, par les textes</ref>
+                    </item>
+                    <item xml:id="if286">
+                        <ref target="#p43">Twitter</ref>
+                    </item>
+
+                    <item xml:id="if287">
+                        <ref target="#p119">Vaillant, Alain</ref>
+                    </item>
+                    <item xml:id="if288">
+                        <ref target="#p292">Vanasse, André</ref>
+                    </item>
+                    <item xml:id="if289">
+                        <ref target="#p21">vérité-réalité, et mémoire historique</ref>
+                    </item>
+                    <item xml:id="if290">
+                        <ref target="#p119">Viala, Alain</ref>
+                    </item>
+                    <item xml:id="if291">
+                        <ref target="#p43 #p44 #p45 #p46">vie privée</ref>
+                    </item>
+                    <item xml:id="if292">
+                        <ref target="#p24 #p25 #p26 #p27">violence et femmes</ref>
+                    </item>
+                    <item xml:id="if293">
+                        <ref target="#p37 #p51 #p52 #p53">visibilité/invisibilité</ref>
+                    </item>
+                    <item xml:id="if294">
+                        <ref target="#p290"><title level="m">Le Voyageur</title> (Sudbury)</ref>
+                    </item>
+
+                    <item xml:id="if295">
+                        <ref target="#p275">Watt, Ian</ref>
+                    </item>
+                    <item xml:id="if296">
+                        <ref target="#p208 #p209">Woolf, Virginia</ref>
+                    </item>
+                    <item xml:id="if397">
+                        <ref target="#p926 #p927 #p928 #p929 #p930 #p931 #p932 #p933 #p934 #p935 #p936 #p937 #p938 #p939 #p940 #p941 #p942 #p943">www.catherinemavrikakis.com</ref>
+                    </item>
+
+                </list>
+            </div>
+            
+            
+        </back>
+
+    </text>
+</TEI>

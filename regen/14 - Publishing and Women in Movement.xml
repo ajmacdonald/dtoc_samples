@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            
+            
+            <div type="part">
+                
+                <div type="chapter" xml:lang="en-CA">
+                    <head><title level="a">Publishing and Women in Movement</title></head>
+                    <byline>Changing the Game</byline>
+                    <docAuthor>
+                        <persName>Louise Dennys</persName>
+                    </docAuthor>
+                    <p xml:id="p875">I’ve had some very happy times in <placeName cert="high" ref="http://www.geonames.org/5946768">Edmonton</placeName>, not least when <persName ref="http://viaf.org/viaf/39385421" cert="high">Rudy Wiebe</persName> and I launched his now classic book written with <persName cert="medium" ref="http://viaf.org/viaf/4385437">Yvonne Johnston</persName>, <title level="m">Stolen Life: The Journey of A Cree Woman</title>, and somehow, due to Rudy’s unusual contacts in high and low places, we held a full-scale media book launch inside the prison for Native women. It was an important occasion, giving recognition to the women of the prison who participated in the full Native ceremony honouring one woman’s courage in telling her story. <ref target="#recognitions">It was also a transformative moment for women and a telling moment for me as a publisher since the book’s success nationwide and as a Governor General’s Award winner underlined our need to tell the stories of our country—not least through the eyes and experiences of women.</ref></p>
+                    <p xml:id="p876"><ref target="#theme_or_topic">Publishing, writing, and the power of new media</ref> are critical components in our fast-transforming world. <ref target="#nationality_issue">And in <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> it is especially fast changing if you consider that only thirty-odd years ago, this country played almost no role on the international publishing stage, few of our writers were recognized globally, and all struggled to reach audiences beyond our borders. Today, myriad Canadian writers are acclaimed and honoured, translated in every country.</ref> To help picture how this came about, I will offer here a couple of stories about this change that I’ve witnessed personally. They both reflect the importance of imagination in achieving far-reaching change: they tell us something about courage, and how we effect change; and how we use our stories—whether in fiction, non-fiction, poetry, whether in print or electronically—to speak to others, and for others, to that end.</p>
+                    <p xml:id="p877">The first story is about <ref target="#theme_or_topic"><q>publishing in movement</q></ref> and the second is about <ref target="#theme_or_topic"><q>women’s writing in movement.</q></ref> In the <date cert="low" from="1980" to="1989">1980s</date>, a conference titled <q>women in movement</q> would have had a specific feminist agenda—and with good reason. Those reasons need no naming today, and are not altogether gone. But in many parts of the world they still hold medieval sway. <ref target="#violence"><ref target="#technology">So I will bring us around at the end to a remarkable online campaign that I and a few friends helped create in <date cert="high" when="2010-07">July 2010</date> to try to stop the death by stoning of a woman accused of adultery in <placeName cert="high" ref="http://www.geonames.org/130758">Iran</placeName>, <persName>Sakineh Ashtiani</persName>—which you will have read about, if the digital world is working!—because for me the threads come together in that final story.</ref></ref> <ref target="#nationality_issue">The first is a story about how and why Canadian writing suddenly leapt to prominence on the world stage during the <date cert="low" from="1970" to="1979">1970s</date> and <date cert="low" from="1980" to="1989">1980s</date>, rather like Venus leaping out of her shell onto the beach. The power and appeal of Canadian writing has grown so swiftly internationally since then that it’s taken us from being widely seen as a largely colonial backwater to the centre of the world stage, with a globally valued national literature. I’ve been lucky enough to have witnessed it, and to play a small part in the battles.</ref></p>
+                    <p xml:id="p878">Imagine it is <date when="1996" cert="high">1996</date> and you are at the autumnal <placeName cert="high" ref="http://www.geonames.org/2925533">Frankfurt</placeName> Book Fair, which is the fast-beating heart of international publishing. The annual fair has been in existence since the fourteenth century, and publishers from all countries meet there each year to do the business of publishing. It’s a bazaar, a souk—thousands of excited publishers buying and selling the country-rights to their authors’ works. It’s the largest trade fair in that city of year-long trade fairs, with the automotive industry in second place—which is notable. <ref target="#nationality_issue">That year, I was there for one of the first great moments for Canadian new fiction. <orgName ref="http://viaf.org/viaf/311377903" cert="high">Knopf Canada</orgName> had just published four remarkable first novels in a literary program, the New Face of Fiction, which I’d created to support new fictional voices. <ref target="#recognitions">We were celebrating <persName cert="high" ref="http://viaf.org/viaf/61710472">Gail Anderson Dargatz</persName>, who at that time worked and lived on a farm outside <placeName>Millett</placeName>, and was just taking the country by storm with her beautiful first novel, <title level="m">The Cure for Death By Lightning</title>, while <persName ref="http://viaf.org/viaf/32833814" cert="high">Ann-Marie MacDonald</persName> was being feted for winning the Commonwealth Prize for the best work of fiction for her first novel, <title level="m">Fall on Your Knees</title>, and <persName cert="high" ref="http://viaf.org/viaf/61584279">Dionne Brand</persName> (who would become Toronto’s poet laureate) was being feted for her luminous first novel.</ref> In <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName>, we all know the depth of our writing talent; but to see the excitement at Frankfurt that year for these <q>unknowns</q> from <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> was exhilarating. It was a scrum, with publishers from <placeName ref="http://www.geonames.org/1861060" cert="high">Japan</placeName> to <placeName cert="high" ref="http://www.geonames.org/2661886">Sweden</placeName> bidding for the rights of first-time novelists (though, it must be said, <persName ref="http://viaf.org/viaf/85372278" cert="high">Yann Martel</persName>’s experimental first novel <title level="m">Self</title> rather struggled to find publishers, but some did see in it the power of imagination that would soon produce <title level="m">Life of Pi</title>). <ref target="#intertextuality">Ten years later, when I returned to the <listEvent> <event> <label>Frankfurt Book Fair</label> </event> </listEvent>, publishers from thirty-six countries would gather to celebrate the simultaneous publication in all languages—a first in history—of one book, <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>’s <title level="m">Penelopiad</title>, which was being heralded by the <title level="j">Sunday Times</title> as the most exciting retelling of Homer’s <title level="m">Odyssey</title> in generations</ref>; and later that week, I would find myself addressing another roomful of foreign publishers who had come together to celebrate <persName ref="http://viaf.org/viaf/56942779" cert="high">Miriam Toews</persName> and the translations of her brilliant, dark, funny, endearing novel, <title level="m">A Complicated Kindness</title>. Much had changed in that one decade. <ref target="#recognitions">Today, newspapers in all parts of the world headline the appeal and power of Canadian writers, and <persName cert="high" ref="http://viaf.org/viaf/68944521">Alice Munro</persName> is the <date cert="high" when="2013">2013</date> Nobel laureate, but you’d be hard pressed to find headlines quoting a Canadian politician or referencing a major trade deal or important international situation in which Canada had played a role.</ref></ref></p>
+                    <p xml:id="p879">
+                        <ref target="#nationality_issue">The fact is, for the most part, <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>’s profile abroad is its culture. It’s an extraordinary success story. But it didn’t come about easily. It was only a short time ago that Canadian writers were struggling dismally to be recognized abroad. So it’s intriguing to look at <hi rend="italic">why</hi> Canadian writers have found such a welcome internationally. Was it the priceless early investments in the arts, province by province and federally, now largely mourned and buried? Was it simply made possible by the newly developed strengths of publishing businesses in Canada? Was it the undoubted merit of the writing? <ref target="#collaboration">It’s a combination of factors, of course, a partnership, in which the community, its citizens, its universities, its businesses, its politicians, have all played essential roles, many hands helping to nurture the shining results we see today in the books we read and love. Anybody who thinks that what has happened in Canadian publishing is the result of a handful of good writers appearing all of a sudden, out of the blue, has completely missed the investments of the last forty years.</ref></ref>
+                    </p>
+                    <p xml:id="p880">In <date cert="high" when="1972">1972</date>, when I was fortunate enough to come to <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>, publishing—books and magazines—was a small industry. Canada was still a cultural colony as far as <placeName cert="high" ref="http://www.geonames.org/6269131">England</placeName> was concerned, and a slightly backward northern state as far as the <placeName ref="http://www.geonames.org/6252001" cert="high">United States</placeName> was concerned. I mean that literally. <ref target="#nationality_issue">In international publishing contracts the English automatically claimed Canada as their territory, while the Americans simultaneously claimed us too. We were like a bone being fought over by two dogs. And they chose not to understand why Canadian publishers and writers found this irritating and stultifying for the development of our own ideas, our own businesses. A full two decades earlier, the lawyer-poet <persName cert="high" ref="http://viaf.org/viaf/108944267">F.R. Scott</persName>, who understood the importance of giving the writers of the nation a voice, had struggled against this: Is Canada, he asked, to remain a hewer of wood and drawer of water for her richer and more powerful neighbours, first <placeName ref="http://www.geonames.org/2635167" cert="high">Britain</placeName> and then America forever? In <date cert="high" when="1957">1957</date>, when the writer <persName cert="high" ref="http://viaf.org/viaf/114760114">Dave Godfrey</persName>, the founder of the <orgName ref="http://viaf.org/viaf/268199074" cert="high">House of Anansi</orgName> along with the great poet <persName cert="high" ref="http://viaf.org/viaf/150749702">Dennis Lee</persName>, famously asked the <orgName ref="http://viaf.org/viaf/130333233" cert="high">University of Toronto</orgName> when it would set up a course in Canadian Literature, he was told, <q>Maybe in ten years—if the right people die.</q> Well, some of the right people did die. But mostly, the writers wanted out, wanted their voices heard. <ref target="#intellectual_history">In the decade following Canada’s Centennial year, when a surge of cultural, nationalist feeling swept the country, a few inspired, inspiring alternative small presses dedicated to Canadian literature sprang up, run by the rebellious writers themselves to give voice to those feelingsin <placeName cert="high" ref="http://www.geonames.org/5946768">Edmonton</placeName>, radical <orgName>NeWest Press</orgName> with <persName ref="http://viaf.org/viaf/79126936" cert="high">George Melnyk</persName> and <persName cert="high" ref="http://viaf.org/viaf/14864700">Douglas Barbour</persName> and then <persName ref="http://viaf.org/viaf/39385421" cert="high">Rudy Wiebe</persName>, <persName cert="high" ref="http://viaf.org/viaf/120613489">Robert Kroetsch</persName>, and <persName ref="http://viaf.org/viaf/110789564" cert="high">Aritha van Herk</persName>; <persName cert="high" ref="http://viaf.org/viaf/18033617">Mel Hurtig</persName>, who later gave us our first national encyclopedia, went from bookseller to publisher; <ref target="#place_of_publication">in <placeName ref="http://www.geonames.org/5909050" cert="high">BC</placeName>, <orgName cert="high" ref="http://viaf.org/viaf/131660786">Talonbooks</orgName> and <orgName ref="http://viaf.org/viaf/158331342" cert="high">Pulp Press</orgName>; in <placeName cert="high" ref="http://www.geonames.org/6093943">Ontario</placeName>, <orgName ref="http://viaf.org/viaf/158199848" cert="high">Coach House Press</orgName> (whose proud motto was <q>Printed in Canada by Mindless Acid Freaks</q>), which first published <persName cert="high" ref="http://viaf.org/viaf/111941870">Michael Ondaatje</persName>, <persName ref="http://viaf.org/viaf/76350280" cert="high">bp Nichol</persName>, and then, in <date cert="high" when="1972">1972</date>, the House of Anansi published <title level="m">Survival</title>—which, to the astonishment of the twenty-three-year-old <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName> herself, became a major Canadian bestseller—a fierce, challenging, funny, activist essay that reflected the ferment of social and cultural ideas boiling up all around. These were the seedbeds of our new literary culture.:</ref> </ref></ref></p>
+                    <p xml:id="p881">
+                        <ref target="#economics">But while what was happening was irrepressible in its creative strength, very few writers could make a living or even sustain themselves on their writing. In <date when="1967" cert="high">1967</date>, domestic sales of Canadian books were barely $200 million (by <date cert="high" when="1997">1997</date>, they would be over $2 billion; to put that in perspective, ten years later, that had more than doubled). There were very few large Canadian publishing houses—above all, <orgName cert="high" ref="http://viaf.org/viaf/140384426">McClelland and Stewart</orgName> with the charismatic Jack at the helm, and <orgName ref="http://viaf.org/viaf/125405553" cert="high">Clarke Irwin</orgName> with the teetotalling Clarkes and Irwins, and the indomitable Mrs. Clarke setting out to create a solid base for Canadian literature in schools.</ref>
+                    </p>
+                    <p xml:id="p882">It was a tough battle that amazing generation fought, defying the odds—that generation before mine. An exciting time—marked, it seems when you talk to the protagonists, as much by a great deal of alcohol, fraught love affairs, and broken marriages as by good writing or publishing.</p>
+                    <p xml:id="p883">But the books we loved, then as now, were those that showed us who we are, gave shape to our hearts, to the challenges and mysteries of life, and gave voice to the familiar places we call home: in <placeName cert="high" ref="http://www.geonames.org/5883102">Alberta</placeName>, the incomparable and beloved <persName ref="http://viaf.org/viaf/115304988" cert="high">W.O. Mitchell</persName> and <persName ref="http://viaf.org/viaf/39385421" cert="high">Rudy Wiebe</persName>; in <placeName cert="high" ref="http://www.geonames.org/6093943">Ontario</placeName>, <persName cert="high" ref="http://viaf.org/viaf/110405550">Timothy Findley</persName> and <persName ref="http://viaf.org/viaf/110344377" cert="high">Robertson Davies</persName>; in <placeName cert="high" ref="http://www.geonames.org/6325494">Quebec</placeName>, <persName ref="http://viaf.org/viaf/7387642" cert="high">Nicole Brossard</persName> and <persName cert="high" ref="http://viaf.org/viaf/79020626">Marie-Claire Blais</persName>.</p>
+                    <p xml:id="p884"><ref target="#nationality_issue">But <date cert="low" from="1960" to="1989">through the sixties, seventies, and even the eighties</date>, the creative ferment wasn’t making its way outside our borders. The problem largely was that the power structure was colonial. The British publishers, like the Americans, who sold their own books into <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> for gain, had no interest in taking home the <q>colonial</q> literature of Canada. But the big world market was the blood that many of our writers craved—and also needed in order to make a living. Rare exceptions—such as <persName cert="high" ref="http://viaf.org/viaf/27203212">Lucy Maud Montgomery</persName>—had made it out of Canada in significant numbers.</ref> You could count on the fingers of one hand the writers whose books travelled: the young <persName ref="http://viaf.org/viaf/44317974" cert="high">Margaret Laurence</persName> and younger <persName cert="high" ref="http://viaf.org/viaf/68944521">Alice Munro</persName>; <persName ref="http://viaf.org/viaf/92466956" cert="high">Mavis Gallant</persName> (living in <placeName cert="high" ref="http://www.geonames.org/2988507">Paris</placeName>); <persName cert="high" ref="http://viaf.org/viaf/97277621">Mordecai Richler</persName> (living in <placeName ref="http://www.geonames.org/2643743" cert="high">London</placeName> then).</p>
+                    <p xml:id="p885">I’ve been truly lucky to work with some of our finest writers, men and women, including <persName cert="high" ref="http://viaf.org/viaf/111941870">Michael Ondaatje</persName>, <persName ref="http://viaf.org/viaf/56942779" cert="high">Miriam Toews</persName>, <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>, or internationally, <persName ref="http://viaf.org/viaf/109406177" cert="high">Toni Morrison</persName>, <persName cert="high" ref="http://viaf.org/viaf/4961254">Jeanette Winterson</persName>, <persName ref="http://viaf.org/viaf/101752435" cert="high">P.D. James</persName>. But you can imagine a nerdy bookworm of twenty-two back then, as I was, arriving in the middle of all this fledgling cultural excitement. Growing up in <placeName cert="high" ref="http://www.geonames.org/6269131">England</placeName>, I was completely unaware of Canadian writers, <orgName ref="http://viaf.org/viaf/142129514" cert="high">Oxford</orgName> education notwithstanding. But I loved stories, and I took the first job I could get in a publishing house: <orgName ref="http://viaf.org/viaf/125405553" cert="high">Clarke Irwin</orgName>. I began as a coffee girl and made the steep climb up the ladder to editorial assistant, and finally, just before I left, <persName cert="medium" ref="http://viaf.org/viaf/102778829">Bill Clarke</persName> made me an assistant editor. But at that age, movement is never fast enough. I wanted to publish the writers I liked, and to do it quickly. So I began my own small publishing house, with nothing to go on but the confidence of the innocent, a transcendent love of literature, a belief in the power of the book to help shape the world, and two brave authors who had failed to find a publisher and were both desperate enough and generous enough to sign up with a kid crammed into the dusty backroom of a second-hand bookstore.</p>
+                    <p xml:id="p886">I was lucky to arrive then because the tough battles to make a mark within <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> had already been fought by that first brilliant wave of publishers and writers. My aggravation was that the doors of the wider publishing world were closed against us—often literally closed in our faces. It was hard to get an appointment in <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName> or <placeName cert="high" ref="http://www.geonames.org/2643743">London</placeName>, the centres of publishing then. It was dispiriting, sometimes humiliating. <ref target="#nationality_issue">But youthful passion needs very little in the way of sustenance, and I believed then, as now, that we have not only a unique Canadian voice but a voice that speaks uniquely to the world.</ref></p>
+                    <p xml:id="p887">
+                        <ref target="#manuscript_history">One day I borrowed money from equally penniless but supportive friends to make the trip to <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName>—and went knocking on the doors of world publishing, clutching a manuscript by one of my two authors in the hope of finding a publisher for it there. I remember how terrified I was, when I actually stood in the doorway of the famous house of <orgName ref="http://viaf.org/viaf/142395924" cert="high">Alfred A. Knopf</orgName> on Fifty-Fourth Street. I’d never even been to New York before, but—ironically, considering I ended up twenty years later founding Knopf in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>—I’d decided I might as well start at the top. Of course I found out, having come all that way on borrowed funds, that the grand editor with whom I’d made an appointment had already cancelled it and passed me on to an underling. But I was lucky again. It was his young assistant’s first week too, and she saw my face—I was clearly about to burst into tears—and took pity on me: we went out and had many drinks in the Oyster Bar on her boss’s tab, and she went back clutching the manuscript and convinced the grand editor to read it, and <ref target="#response_formal">shortly thereafter our Canadian-Czech writer <persName cert="high" ref="http://viaf.org/viaf/83176668">Josef Škvorecký</persName> had an American deal for his novel <title level="m">The Bass Saxophone</title>, which would soon be acclaimed by the <title level="j">New Yorker</title> as <q>the greatest jazz novel ever written.</q></ref></ref>
+                    </p>
+                    <p xml:id="p888">That was a scene repeated a few months later in <placeName cert="high" ref="http://www.geonames.org/2643743">London</placeName>, when the venerable house of the <orgName ref="http://viaf.org/viaf/266360169" cert="high">Hogarth Press</orgName>—founded by <persName cert="high" sameAs="Virginia Woolf" ref="http://viaf.org/viaf/39385478">Virginia</persName> and <persName ref="http://viaf.org/viaf/2534183" cert="high">Leonard Woolf</persName>—called on <date cert="high" when="--10-25">Christmas Day</date> to accept a manuscript I’d dropped off by the poet <persName cert="high" ref="http://viaf.org/viaf/90886338">Richard Outram</persName>. And so on. Early forays to open doors, the beginning of a concerted effort by a handful of determined young publishers and supportive writers, and by the early festivals such as the <listEvent><event><label>International Authors’ Festival</label></event></listEvent> at <placeName ref="http://www.geonames.org/7870801" cert="medium">Harbourfront</placeName>. Until, in <date cert="high" when="1984">1984</date>, when I led the first Canadian Publishing Trade Mission to London, the headline about the event, in the business section of the London <title level="j">Times</title> read, to our great delight, <title level="a">The Empire Strikes Back.</title> The Brits had got the message.</p>
+                    <p xml:id="p889">
+                        <ref target="#economics">
+                            <ref target="#nationality_issue">Today, Canadian literature is published, sold, read, acclaimed, and taught around the world. I must be clear: most writers do not shine in the sun but work in obscurity and exist on poverty-level incomes. But never before have our domestic book sales had the potential to be so high, with our expectation for a major hardcover bestseller not being the 5,000 copies that it was just ten years ago, but more like 15,000 or 20,000 or even 60,000 or 80,000 in Canada. Internationally, <persName ref="http://viaf.org/viaf/56942779" cert="high">Miriam Toews</persName>’s <title level="m">A Complicated Kindness</title>, for instance, has sold over half a million copies. <persName cert="high" ref="http://viaf.org/viaf/32833814">Ann-Marie MacDonald</persName>’s <title level="m">Fall on Your Knees</title> is at well over two million, thanks to the power of <persName ref="http://viaf.org/viaf/27226716" cert="high" sameAs="Oprah Winfrey">Oprah</persName>. <persName cert="high" ref="http://viaf.org/viaf/85372278">Yann Martel</persName>’s luminous <title level="m">Life of Pi</title>, one of five Canadian novels to walk away with the Booker Prize, and has now sold almost 900,000 copies in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> and over nine million around the world.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p890">
+                        <ref target="#nationality_issue">Our stories, our arts—that is largely what people think of when they think of <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>. People elsewhere see and understand Canada through our writers. We have a voice, an image, on the world’s stage that has broad benefits for our writers, our communities and cities, and unexpected political and business implications. <ref target="#technology">When it comes time for Canada to buy or to negotiate, the attitude towards Canada and the kind of people we are has been determined to a surprising extent by the projection of our culture abroad. In the digital borderless world, it will be more important than ever to find ways to cherish and sustain that, and easier to project it.</ref></ref>
+                    </p>
+                    <p xml:id="p891">So what is it in our society, in our values, that makes our writing—our fiction and our non-fiction—so appealing and sexy to the world at large? The answer, I think, lies somewhere off to the side.</p>
+                    <p xml:id="p892">
+                        <ref target="#response_informal">The novelist and essayist <persName ref="http://viaf.org/viaf/27994903" cert="high">Pico Iyer</persName> called <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>’s literature <q>the most exciting in the English-speaking world,</q> and <ref target="#race_and_ethnicity">he places the cause firmly in what he calls our <q>mongrel</q> society. He pointed out that many of the finest writers in English are now men and women with names like <persName cert="high" ref="http://viaf.org/viaf/29540187">Salman Rushdie</persName>, <persName ref="http://viaf.org/viaf/29581388" cert="high">Rohinton Mistry</persName>, <persName cert="high" ref="http://viaf.org/viaf/7605720">Anita Rau Badami</persName>, <persName ref="http://viaf.org/viaf/96951910" cert="high">M.G. Vassanji</persName>, <persName cert="high" ref="http://viaf.org/viaf/87194517">Chimamanda Adichie</persName>, <persName>Jumpha Lahiri</persName>, and <persName cert="high" ref="http://viaf.org/viaf/111941870">Michael Ondaatje</persName>.</ref> And that many of these writers come from Canada. The power of Anglo-Saxon literature has been taken over by a literature that springs from the old colonial margins.</ref>
+                    </p>
+                    <p xml:id="p893">
+                        <ref target="#race_and_ethnicity">
+                            <ref target="#nationality_issue">There’s something about our marginal, mongrel status that forms a particular type of writer whose sense of social justice and injustice, of humanity and inhumanity is keen. You become a particularly capable, acute observer if you live long in the margins. Ours is now a literature written by people from many diverse cultures that have been distilled into the Canadian culture. To draw from a lovely phrase of <persName ref="http://viaf.org/viaf/98055768" cert="high">Anne Michaels</persName>, our writers at their best <q>put together shattered pieces to make a stained-glass whole.</q> <ref target="#recognitions">Or, as <persName cert="high" ref="http://viaf.org/viaf/39385421">Rudy Wiebe</persName> said on receiving the Governor General’s Award for fiction, <q>It is only the stories we tell each other that will make us a true Canadian people.</q></ref></ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p894">
+                        <ref target="#intellectual_history">The historical lesson is plain: when we look at the greatness of <placeName ref="http://www.geonames.org/3169070" cert="high">Rome</placeName> or <placeName cert="high" ref="http://www.geonames.org/390903">Greece</placeName>, or <placeName ref="http://www.geonames.org/361058" cert="high">Alexandria</placeName>, do we think of their business record? It is our writers, our artists, our scientists, and our philosophers—and sometimes their patrons—that make known the character of a nation. It is only the societies that have paid their dues to their arts that are remembered and glorified. But the rewards are not just in some far-off future. They begin in the present, when our own people as well as the world at large hears the voice of <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> through its writers and its artists, sits up, pays attention, and comes knocking on our doors. As they are knocking today.</ref>
+                    </p>
+                    <p xml:id="p895">If our writers are touching the centre of the world now, it is to some degree because we speak from knowledge of the margins—messy, intolerant, dominated and rebellious, confused and optimistic, as the margins are wont to be. As is much of the world today. And that understanding out of the margins, from the sidelines and the alleyways, brings us to the second story, because it is, I believe, the very thing that has been moving a certain aspect of women’s writing in a fascinating new direction.</p>
+                    <p xml:id="p896">Let me start with reading you a quote from that wise, tough-minded woman, <persName cert="high" ref="http://viaf.org/viaf/39385478">Virginia Woolf</persName>, in her essay <title level="a">A Room of One’s Own</title>—we think we know everything about her and then, like <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>, she becomes prophetic in unexpected ways.</p>
+                    <p xml:id="p897">
+                        <ref target="#women_writing">
+                            <ref target="#close_reading">Not quite one hundred years ago—<date cert="high" when="1928">1928</date>—<persName cert="high" ref="http://viaf.org/viaf/39385478">Virginia Woolf</persName> exhorted mothers to provide their daughters with <q>money and a room of her own if she is to write fiction.</q> And what else could they do but write fiction? she asks, in that very cool, clever essay, since <q>the only training that a woman had…was…in the observation of character, in the analysis of emotion. Her sensibility had been educated for centuries by the influences of the common sitting room. People’s feelings were impressed upon her; personal relations were always before her eyes. Therefore, when the middle-class woman took to writing, she naturally wrote novels</q> (61). When Virginia looks around her: <q>I find no noble sentiments about…influencing the world to higher ends.…Do not dream,</q> she says wryly, <q>of influencing other people</q> (100). She hoped that women might attain that influence within a hundred years. <q type="block">For if we live another century or so and have five hundred [pounds] a year each of us and rooms of our own; if we can get out of the common sitting room, and have the habit of freedom and the courage to write exactly what we think; if we see human beings not always in relation to each other but in relation to reality; and the sky too, and the trees or whatever it may be in themselves; if we face the fact that our relation is to the world of reality and not only to the world of men and women, then the opportunity will come.… It calls for gigantic courage and strength. More than anything, perhaps…it calls for confidence in oneself.</q> (102, 31) Well, we’re there, and just ahead of her estimated century.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p898">
+                        <ref target="#women_writing">
+                            <ref target="#genre_non-fiction">There’s still an argument about it, but those who argue are those who like flogging dead donkeys. In <date when="2008-11" cert="high">November 2008</date>, <title level="j">The Independent</title>(UK) titled a discussion piece about how there seems to be a lack of women non-fiction writers <title level="a">Why Don’t Women Write <q>Big Ideas</q> Books?</title> <persName>Julia Cheiffetz</persName>, a senior editor at <orgName ref="http://viaf.org/viaf/129138489" cert="high">HarperCollins</orgName>, not a position of minor influence, in a <date cert="high" when="2008">2008</date> piece in the <title level="j">Huffington Post</title> called <title level="a">What the Hell, <persName cert="high" ref="http://viaf.org/viaf/25481798">Malcolm Gladwell</persName>,</title> responded to the absence of women in Gladwell’s book <title level="m">Outliers</title>: <q>It’s hard to know whether women are better at telling stories than propagating ideas…or whether the intellectual audacity required to sell our hypotheses about the world simply isn’t in our genetic makeup.</q> But the tides of change have swept over her. While twenty, even fifteen years ago, the many manuscripts from women that crossed my desk were largely fiction. Even then much of the non-fiction was world-changing for readers in its power. From <persName ref="http://viaf.org/viaf/4927694" cert="high">Rachel Carson</persName> to <persName cert="high" ref="http://viaf.org/viaf/90712053">Jane Jacobs</persName>, a great Canadian whom I published and counted a friend, we’ve been blessed with great non-fiction women writers. Their books have been gigantic building blocks for all humankind. But still, fifteen years ago I received comparatively few manuscripts by women that embraced <q>Big Ideas,</q> tackled head-on society’s major concerns, politics, economics, human rights, strove to influence and change the world directly and overtly. But today many of the most passionately raised voices in the world are women’s voices, dealing with broad human issues with sensibility, empathy, and activism, speaking in much needed voices and with much needed ideas. Give a woman a room and the next thing you know she’s taken the world.…<persName cert="high" ref="http://viaf.org/viaf/109406177">Toni Morrison</persName>, whom I publish, said so beautifully in her <date cert="high" when="1993">1993</date> Nobel lecture, <q>Tell us what it is to be a woman…what moves at the margin. What it is to have no home in this place. To be set adrift from the one you knew. What it is to live at the edge of towns that cannot bear your company.</q> Our mongrel nation understands the margins.</ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p899">
+                        <ref target="#genre_non-fiction"><ref target="#textual_agency">In <date cert="high" when="1999">1999</date>, I published one of the early world-changing Canadian non-fiction <q>Big Ideas</q> books, <persName cert="high" ref="http://viaf.org/viaf/98653009">Naomi Klein</persName>’s <title level="m">No Logo</title>, which has sold in about forty-five languages. A brilliant, rabble-rousing work for a whole generation, it tore the branding consumer culture to shreds and took on the misconceptions of globalization; many of those who took to the streets in protest in <placeName ref="http://www.geonames.org/6077243" cert="high">Montreal</placeName> and in <placeName cert="high" ref="http://www.geonames.org/5809844">Seattle</placeName>, who camped outside the walls of <orgName cert="low" ref="http://viaf.org/viaf/162777858">Davos</orgName> in <placeName ref="http://www.geonames.org/2658434" cert="high">Switzerland</placeName> for the economic summits, the workers who demonstrated in the streets of <placeName ref="http://www.geonames.org/1701668" cert="high">Manila</placeName> and <placeName cert="high" ref="http://www.geonames.org/3435910">Buenos Aires</placeName>, carried that book as their bible.</ref> I was Naomi’s editor; she was just twenty-six at the time, and I know many people initially told her that she should move on, that she was inadequately trained to the task, that she would be ignored by the experts in the field, that the world would not pay attention to her. <ref target="#formal_response">She followed <title level="m">No Logo</title> with <title level="m">The Shock Doctrine</title>, also a #1 bestseller in many countries, and hailed by the Nobel-winning economist <persName ref="http://viaf.org/viaf/32057966" cert="high">Joseph Stiglitz</persName> as a book to be read by all economists who cared about the word they live in.</ref> <ref target="#non-book_media"><persName cert="high" ref="http://viaf.org/viaf/39385478">Virginia Woolf</persName> is an odd great-grandmother for <persName cert="high" ref="http://viaf.org/viaf/98653009">Naomi Klein</persName>, but she would not have disapproved of her desire to influence and shed light on reality, or, as Naomi said in her own succinct way in an online video on <title level="m">Big Think</title>, <q>When you read strong analysis, clear analysis, it makes you feel better equipped; it’s sort of ammo. As an opinion writer, as a columnist, that’s my goal: helping people get more of those clicks of understanding.</q></ref> <ref target="#health_issue">Other books followed in my own working life—<persName cert="high" ref="http://viaf.org/viaf/64240365">Stephanie Nolen</persName>’s groundbreaking book on <hi rend="small-caps">AIDS</hi>, <title level="m">28</title>;</ref> and <ref target="#religion"><persName ref="http://viaf.org/viaf/17470230" cert="high">Irshad Manji</persName>’s <title level="m">The Trouble with Islam Today</title>. As a young woman in her early twenties living in <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>, Manji decided to speak up for the generous moderate Islam that she passionately advocates for in her book. A brave move—she lives under a fatwa—but her book is read and debated around the world, forging a path for tolerance.</ref></ref>
+                    </p>
+                    <p xml:id="p900">
+                        <ref target="#politics"><ref target="#gender_issue"><ref target="#religion">Another woman who has moved out of the margins and pulled down a fatwa on her head in so doing is <persName ref="http://viaf.org/viaf/100329178" cert="high">Ayaan Hirsi Ali</persName>. She wrote in her bestselling <title level="m">Infidel</title> of her flight from a forced marriage as a child to a much older man (living in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>)—and in <title level="m">Nomad</title>, her inspiring <date cert="high" when="2010">2010</date> book, she tells the story of her continuing journey to escape and find a new life. She is articulate, astonishing, beautiful, and unbelievably courageous. She has taken on the cause of eradicating female genital mutilation and fully knows she is writing inflammatory work, but tells me, when I worry for <hi rend="italic">her</hi> safety, that to inspire change on any level, she <hi rend="italic">must</hi> be as staunch as possible. She sees the plight of women and radical Islam as the most urgent problem on the planet, one that affects us all: she is not a feminist, she says, but a human being. There is, she says, <q>a horrific silence from the mainstream.</q> And note there is no unified political perspective or women’s perspective.</ref></ref> Ayaan and <persName cert="high" ref="http://viaf.org/viaf/98653009" sameAs="Naomi Klein">Naomi</persName> would not be political bedfellows, but they are nevertheless both critical important voices in the world debate.</ref>
+                    </p>
+                    <p xml:id="p901">
+                        <ref target="#education">In many parts of the world, however, <q>a room of one’s own</q> is still a secret room. <persName cert="high" ref="http://viaf.org/viaf/305136376">Azar Nafisi</persName>, in her bestselling book <title level="m">Reading Lolita in <placeName ref="http://www.geonames.org/112931" cert="high">Tehran</placeName></title>, about teaching Western literature in secret to her students, wrote: <q type="block">For nearly two years, almost every Thursday morning, rain or shine, they came to my house, and almost every time, I could not get over the shock of seeing them shed their mandatory veils and robes and burst into color. When my students came into that room, they took off more than their scarves and robes. Gradually, each one gained an outline and a shape, becoming her own inimitable self. Our world, in that small room, with its window framing my beloved Elburz Mountains became our sanctuary, our self-contained universe, mocking the reality of black-scarved, timid faces in the city that sprawled below.</q> (5–6)</ref>
+                    </p>
+                    <p xml:id="p902">
+                        <ref target="#technology">
+                            <ref target="#politics">
+                                <ref target="#gender_issue">I want to end by telling you of a personal story of a fight for the rights of one woman, which brings us into the powerful world of electronic communication. In <date cert="high" when="2010-07">July 2010</date>, <persName>Heather Reisman</persName>, who runs the <orgName ref="http://viaf.org/viaf/160536848" cert="high">Indigo</orgName> book chain, called me to say she had that morning read a plea from a twenty-two-year-old boy in <placeName cert="high" ref="http://www.geonames.org/130758">Iran</placeName>, begging the world to intervene to save his mother’s life, alleging her innocence. Forty-two-year-old <persName>Sakineh Ashtiani</persName> was in <placeName ref="http://www.geonames.org/113646" cert="high">Tabriz</placeName> prison and due to be executed that weekend by stoning for so-called adultery—buried up to her neck and then stoned to death by a gathered crowd. That day we created a small committee—women and men—<persName cert="high" ref="http://viaf.org/viaf/305136376">Azar Nafisi</persName>, <persName ref="http://viaf.org/viaf/17470230" cert="high">Irshad Manji</persName>, <persName cert="high" ref="http://viaf.org/viaf/119834922">Shirin Ebadi</persName>, the Nobel-winning Iranian lawyer whose book I had published, lawyers, and advisors—and started emailing. Within twenty-four hours, we had a website up with a petition to the regime. Within five days, we had sent off three hundred thousand signed petitions. Sakineh’s stoning was delayed, as the regime regrouped. Eight hard-working people managed to bring this barbaric, cruel practice to the news of every country—all through the new digital world of social media. A publishing friend in <placeName ref="http://www.geonames.org/3469034" cert="high">Brazil</placeName> created a brilliant social media campaign he called Lula Liga: Lula call. <persName cert="high" ref="http://viaf.org/viaf/98020187" sameAs="Luiz Inacio Da Silva">President Lula</persName>, being in the middle of an election and bombarded by thousands of Brazilians calling on him to call <persName sameAs="Mahmoud Ahmadinejad" ref="http://viaf.org/viaf/84235616" cert="high">President Ahmadinejad</persName> in Iran, reluctantly called and offered Sakineh and her family a home in Brazil. Ahmadinejad told him, in so many words, that he was a fool. Brazil responded by imposing sanctions on Iran. <persName cert="high" ref="http://viaf.org/viaf/102308054" sameAs="Nicholas Sarkozy">Sarkozy</persName> in <placeName cert="high" ref="http://www.geonames.org/3017382">France</placeName> became involved, and when the Iranian regime called his wife a prostitute, world politics changed yet again. <ref target="#violence"><persName sameAs="Sakineh Ashtiani">Sakineh</persName> was not stoned to death and is still alive. Yet she is still in prison. Many more women wait on death row to be stoned, and the world continues to appeal to the regime for compassion and for the abolishment of stoning and of adultery as a capital punishment.</ref></ref>
+                            </ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p903">
+                        <ref target="#nationality_issue">Transformative change is part of our legacy and our lifeblood in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>. Canadian writers have moved from the colonial margins to the very centre of world literature; and <ref target="#women_writing">women writers have taken their place in that centre, provoking change, as much as witnessing it.</ref> Our goal is to keep moving, to continue to address injustice, the meaning of life, and to celebrate its joys and sorrows. Whether that is pushing against racial, sexual, or political boundaries, whether it’s <persName cert="high" ref="http://viaf.org/viaf/98653009">Naomi Klein</persName> raising her voice in the public forum or a group of women learning together in secret in a room of their own in <placeName ref="http://www.geonames.org/112931" cert="high">Tehran</placeName>, we move forward, we grow together through our need to participate in our own reality. As Canadians we know, just as writers in all fields know, that we must never stop struggling against those who would give us <q>no</q> for an answer or shut a door in our face, never stop struggling against the barriers that hinder our ability to dream aloud, to write, or paint, or make music, to challenge the darkness, and dream a humane society into being. And if we do it well, here in Canada, the world will listen.</ref>
+                    </p>
+                    <div type="section">
+                        <head>Works Cited</head>
+                        <listBibl>
+                            <bibl><persName>Cheiffetz, Julia</persName>. <title level="a">What the Hell, <persName cert="high" ref="http://viaf.org/viaf/25481798">Malcolm Gladwell</persName>.</title> <title level="j">Huffington Post</title>, <date cert="high" when="2008-10-22">22 October 2008</date>. Web.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/100329178" cert="high">Hirsi Ali, Ayaan</persName>. <title level="m">Infidel: Ayaan Hirsi Ali: My Life</title>. <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/311352319">Free Press</orgName>, <date when="2007" cert="high">2007</date>. Print.</bibl>
+                            <bibl>---. <title level="m">Nomad: From Islam to <placeName ref="http://www.geonames.org/6252001" cert="high">America</placeName>: A Personal Journey Through the Clash of Civilizations</title>. <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/149958803">Simon and Schuster</orgName>, <date cert="high" when="2010">2010</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/98653009">Klein, Naomi</persName>. <title level="a">Why Do You Write?</title> <title level="m">Big Think</title>. N.d. Video. Web.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/17470230" cert="high">Manji, Irshad</persName>. <title level="m">The Trouble with Islam Today: A Muslim’s Call for Reform in Her Faith</title>. <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName>: <orgName ref="http://viaf.org/viaf/134878895" cert="high">St. Martin’s Griffin</orgName>, <date when="2005" cert="high">2005</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/109406177" cert="high">Morrison, Toni</persName>. <title level="a">The Nobel Prize in Literature <date cert="high" when="1993">1993</date>, Toni Morrison.</title> Nobel Lecture, <date when="1993-10-07">December 7, 1993</date>. <title level="m">Nobelprize.org</title>. Audio recording. Web.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/305136376">Nafisi, Azar</persName>. <title level="m">Reading Lolita in Tehran: A Memoir in Books.</title> <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/153153594">Random House</orgName>, <date when="2004" cert="high">2004</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/39385478">Woolf, Virginia</persName>. <title level="m">A Room of One’s Own</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/24597381">Michèle Barrett</persName>. <placeName ref="http://www.geonames.org/2643743" cert="high">London</placeName>: <orgName ref="http://viaf.org/viaf/134443168" cert="medium">Penguin</orgName>, <date cert="high" when="1993">1993</date>. Print.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </body>
+        
+
+    </text>
+</TEI>

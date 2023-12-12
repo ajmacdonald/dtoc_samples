@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            
+            
+            <div type="part">
+                
+                
+                
+                
+                <div type="chapter" xml:lang="en-CA">
+                    <head><title level="a">This is What a Public Intellectual Looks Like</title></head>
+                    <byline><persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName>’s Housewife Years and the Public Sphere</byline>
+
+                    <docAuthor><persName>Shauna Lancit</persName></docAuthor>
+
+                    <p xml:id="p944">
+                        <ref target="#technology">In discussing <ref target="#theme_or_topic"><persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName>’s conception of the public, as seen through her engagement with <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> radio</ref>, it may be useful to begin with <persName cert="high" ref="http://viaf.org/viaf/2467372" sameAs="Bertolt Brecht">Brecht</persName>’s utopian dream for the role of radio: <q type="block">As for the radio’s object, I don’t think it can consist simply in prettifying public life. Nor is radio in my view an adequate means of bringing back cosiness to the home and making family life bearable again. But quite apart from the dubiousness of its functions, radio is one-sided when it should be two. It is purely an apparatus for distribution, for mere sharing out. So here is a positive suggestion: change this apparatus over from distribution to communication. The radio would be the finest possible communication apparatus in public life, a vast network of pipes. That is to say, it would be if it knew how to receive as well as to transmit, how to let the listener speak as well as hear, how to bring him into a relationship instead of isolating him.(51)</q> This <q>vast network of pipes,</q> sounds, of course, uncannily like the Internet. Given current fears about the atomizing effects of the Internet and its part in the erosion of what had been understood as public life, it is refreshing to encounter such a utopian vision of the power of a communication tool to draw us into relation, rather than to isolate. In short, Brecht is proposing a view of communications technology as a means of producing a public rather than eroding it.</ref>
+                    </p>
+                    <p xml:id="p945">
+                        <ref target="#close_reading">What is most interesting for my reading of <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s view of the radio, however, is<persName cert="high" ref="http://viaf.org/viaf/2467372" sameAs="Bertolt Brecht">Brecht</persName>’s contrast of family life to public life. <ref target="#non-book_media">The radio is un-interesting in its functions of <q>prettifying</q> public life (as a housewife might prettify her home) and of bolstering the cosiness of the home. Here, for Brecht, the radio’s alignment with the domestic, the private, is beside the point. On the other hand, radio’s potential as a <q>communications apparatus</q> is ideally realized in the public sphere, which is marked by speech, rather than by mere private reception.</ref> This is a contrast that had frequently been taken for granted until the feminist movement and gay liberation movement convincingly challenged the convenient and containing opposition between the private and the public. Brecht’s contrast between radio as reinstating the cosiness and tolerability of the domestic and the possibility of radio as a genuinely public tool illustrates how this construct may have specific implications for how radio as a mass medium has been viewed. Radio may be exemplary of tensions between private and public, domestic and political because of its relationship to space: it comes from the public, out there, into the home where, at least in Brecht’s view, it is absorbed and conservatised by the domestic. The receptivity of the home is isolating; the listener does not speak.</ref>
+                    </p>
+                    <p xml:id="p946">Compare this to <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s <q>housewife</q> figure, so productively read by <persName ref="http://viaf.org/viaf/71426952" cert="high">Paul Tiessen</persName> in his article <title level="a">Dorothy Livesay, the <q>Housewife,</q> and the Radio in <date cert="high" when="1951">1951</date>.</title> Tiessen, interested in the corporeality of the radio listener, suggests that Livesay’s housewife figure offers a counterpoint to intellectual anxieties about the passive consumption of mass media. Tiessen describes Livesay’s housewife as <q>a citizen passionate about a Canadian cultural agenda, [who] was also a radio listener who asserted the primacy of the self, of the sensate listener in real space</q> (207). Building on Tiessen’s reading, I wish to dwell a little longer on what the citizenship of Livesay’s housewife implies. <ref target="#methodology"><ref target="#social_movement">This chapter argues that <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s mobilization of the image of the housewife destabilizes <ref target="#theme_or_topic">the division between public and private</ref> (and alongside this, production and consumption, masculine and feminine) in advance of the social movements that were to articulate the political operation of this distinction with greater clarity and force.</ref></ref></p>
+                    <p xml:id="p947"><persName ref="http://viaf.org/viaf/71426952" cert="high" sameAs="Paul Tiessen">Tiessen</persName> refers us to a series of talks that <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> prepared in <date cert="high" from="1950" to="1959">the 1950s</date> for the program <title level="m">Critically Speaking (Dorothy Livesay and the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi>)</orgName></title>. Here Livesay talks back to the <hi rend="small-caps">CBC</hi> programmers, making programming suggestions from the point of view of a mother and, in her own words, a housewife. <q>Like most housewives,</q> she says in one <date cert="high" when="1951">1951</date> address, <q>I am more frequently a daytime than an evening listener. And in looking back over the year’s daytime programs it is impossible not to say: <q>What a good friend the radio was to me</q></q> (10).</p>
+                    <p xml:id="p948">
+                        <ref target="#gender_issue">
+                            <ref target="#representation_of_women">The radio in this account visits the isolated housewife during her lonely hours and refrains from judging her unfinished chores. <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> carefully positions herself as a representative of the domestic, feminine, consumer of radio; this is the very figure that looms large for many contemporaneous intellectuals as representative of the pacifying effects of mass media. Contradicting these assumptions about the interests of the housewife, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> asks for the <hi rend="small-caps">CBC</hi> to block together its highbrow offerings so that they might be more easily found.</ref>
+                        </ref>
+                        <ref target="#genre_performance"> In a <date cert="high" when="1952">1952</date> discussion of <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> dramas, she expresses her excitement for a production of <persName cert="high" ref="http://viaf.org/viaf/39390274">A.M. Klein</persName>’s <title level="m" ref="http://viaf.org/viaf/185105738" cert="high">The Second Scroll</title>.</ref>
+                    </p>
+                    <p xml:id="p949">
+                        <ref target="#non-book_media">She is not, however, merely asking for a <q>higher level</q> of programming from the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName>; rather, she advocates for the <hi rend="small-caps">CBC</hi> to take a place as a truly public and interactive medium. For example, echoing her ongoing concern with documentary, she argues for <q>actuality broadcasts</q> to connect citizens across <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> (<title level="m"><persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName> and the <hi rend="small-caps">CBC</hi></title> 12). This desire for access to the <hi rend="small-caps">CBC</hi> as a public medium is expressed in tandem with a desire for the distribution of highbrow art and literature; it is public, but not populist. This is a distinction that still has much to offer current discussions about <hi rend="small-caps">CBC</hi> programming. <ref target="#representation_of_women">In these brief talks, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> paints a picture of the housewife as not a mere passive consumer but as an engaged participant in a public conversation—indeed, as potentially an intellectual.</ref></ref>
+                    </p>
+                    <p xml:id="p950">Are we to take this housewife identification as anything other than ironic given that <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s ambitious and politically passionate documentary poem <title level="a">Call My People Home</title> was first broadcast on the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> just a few years earlier in <date cert="high" when="1949">1949</date>, and again in <date when="1952" cert="high">1952</date>? We might keep in mind Livesay’s ongoing struggle with the <hi rend="small-caps">CBC</hi> to get her work on air. <ref target="#tone_or_style"><persName cert="high" ref="http://viaf.org/viaf/7141254">Peggy Lynn Kelly</persName> shows that <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s literary style, departing from the <hi rend="small-caps">CBC</hi>’s preferred dramatic realism and straight narrative, was a major obstacle in this relationship.</ref> <ref target="#textual_strategies"><persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s housewife may be seen as a pose that allows her to communicate her ideas about public engagement and formal experimentation.</ref></p>
+                    <p xml:id="p951">Yet, in this period, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> <hi rend="italic">was</hi> a housewife. In her memoir <title level="m">Journey with My Selves</title>, the period is treated only briefly, as a time of retreat from public life: <q>The war and having children changed all my perspectives: from being a participant in the struggle for a better world I became an observer. All community efforts narrowed down to that of the home</q> (174). Livesay also paints an image of this time as one of retreat in <title level="m">Right Hand Left Hand</title>: <q>Our solution was to withdraw, settle down to family life on the North Shore</q> (278). <ref target="#politics"><ref target="#history">In the wake of the dissolution of the radical Left during the <listEvent><event><label>Second World War</label></event></listEvent>, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> claims that she substituted the suburbs and domestic retreat for political engagement.</ref></ref> The representation of this time in Livesay’s life as one of domestic retreat between her publicly engaged work of the <date cert="high" from="1930" to="1939">1930s</date> and from the <date cert="high" from="1960" to="1969">1960s</date> on has become pervasive.</p>
+                    <p xml:id="p952">Despite this perceived preoccupation with domestic life, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> was in fact remarkably artistically and intellectually productive during the years in which she raised young children. <ref target="#recognitions">In addition to the broadcasting of <title level="m">Call My People Home</title>, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> was awarded two Governor General’s awards</ref>, wrote <ref target="#genre_fiction">fiction</ref>, <ref target="#genre_poetry">poetry</ref>, and radio texts,<ref target="#genre_journalism"> reported for the <title level="j" cert="high" ref="http://viaf.org/viaf/132473809">Toronto Star</title></ref> and participated in the founding of <title level="j">Contemporary Verse</title>. But was her work publicly engaged, or part of a general retreat from political and public concerns? I argue that, in her years of <q>domestic retreat,</q> Livesay continues to be concerned with the public sphere. It is through her <ref target="#theme_or_topic">mobilization of the figure of the housewife</ref> that I wish to think about how this public appears in Livesay’s work of this period.</p>
+                    <p xml:id="p953">
+                        <ref target="#methodology">Theories of the public have, of course, a longer history than I will be able to articulate here; however, I will offer a couple of views of the relationship of the intellectual to the public that might be useful in thinking about what <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> accomplishes with her housewife figure.</ref>
+                    </p>
+                    <p xml:id="p954">
+                        <ref target="#intellectual_history">Following <persName ref="http://viaf.org/viaf/46781061" cert="high">Russell Jacoby</persName>’s popularization of the term <q>public intellectual</q> in his <date cert="high" when="1987">1987</date> book <title level="m" cert="high" ref="http://viaf.org/viaf/312361862">The Last Intellectuals</title>, much thinking about the relationship of the intellectual to the public has taken for granted that a public intellectual takes on a partisan (usually, but not always, Left) and populist approach to intellectual work, in contrast to, say, the academic intellectual. Jacoby identifies a lost generation of public intellectuals: the baby boom generation, whose Marxist politics were effectively consumed by their academic success. The term <q>public intellectual</q> has circulated beyond Jacoby’s original thesis to include a number of intellectuals speaking directly to a non-academic audience, frequently on topics relating to public life.</ref>
+                    </p>
+                    <p xml:id="p955">
+                        <ref target="#intellectual_history">It is worthwhile, then, to remember that as recently as the <date cert="low" from="1950" to="1959">1950s</date>, when <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> was producing her <title level="s">Critically Speaking</title> talks, the intellectual was almost centrally defined by a <hi rend="italic">lack</hi> of partisan passions. This view of the intellectual frequently employed the term <q>disinterest</q> in describing the ideal function of the intellectual. This is the disinterest that we know best in English literary scholarship through <persName ref="http://viaf.org/viaf/73868557" cert="high">Matthew Arnold</persName>, the origins of which can be found in <persName cert="high" ref="http://viaf.org/viaf/82088490">Emmanuel Kant</persName>. In <title level="a" ref="http://viaf.org/viaf/314227100" cert="high">What is Enlightenment?</title> written in <date cert="high" when="1784">1784</date>, Kant attempts to designate the private and public rights and responsibilities of the intellectual. For Kant, the freedom of original thought allowed for by the Enlightenment comes with a limit on the expression of that thought; it belongs purely to the public realm. Thus, the intellectual has a split function. For example, a clergyman has responsibilities to his congregants and must, in that capacity, reflect the values and beliefs of the church he represents. In his capacity as a scholar, however, he must enjoy an unlimited freedom to use his reason. His actions as a free intellectual are bound with the public nature of intellectual discourse. Significantly, Kant describes the intellectual’s sphere of limitation as <q>domestic</q> (in the German, <q>Hausliche</q>). Insofar as the intellectual has any institutional responsibilities, he is not free, and his thought is not protected as legitimately public. Here there is a division between the domestic and the public. The public is the realm of disinterested freedom; the domestic is the realm of partiality and institutional responsibility.</ref>
+                    </p>
+                    <p xml:id="p956">
+                        <ref target="#intellectual_history">Skipping ahead to <date when="1958" cert="high">1958</date>, <persName cert="high" ref="http://viaf.org/viaf/105151053">Hannah Arendt</persName>, in <title level="m" ref="http://viaf.org/viaf/183361508" cert="high">The Human Condition</title> elaborates extensively on the view, espoused by <persName cert="high" ref="http://viaf.org/viaf/82088490" sameAs="Emmanuel Kant">Kant</persName>, that the public role of the intellectual is defined by disinterest, suggesting a lineage for this conception of the public that begins in ancient <placeName cert="high" ref="http://www.geonames.org/390903">Greece</placeName>. In Arendt’s schema, human affairs can be grouped into three realms: the public, the private, and the social. For the Greeks, the public realm was a neutral space; its antithesis is the domestic. Whereas the home contends with necessity, the public allows freedom from material necessity. The domestic is where women, children, and slaves contend with the animal business of life; the public is where man achieves agency and acts freely. The key idea for Arendt is that the domestic is inherently concerned with what we have come to call <q>interest,</q> and the public is only truly public to the extent that it is free from interest. That much of what we understand as the public realm today is constituted by warring interests is a sign of the impoverishment of our conception of the public. In fact, we no longer have much of a public, according to Arendt, but rather a new realm—the social. The social is defined by the introduction of the material concerns, traditionally belonging to the household, into public discourse. The domination of politics by economics attests to this ascension of necessity and the material.</ref>
+                    </p>
+                    <p xml:id="p957">
+                        <ref target="#methodology">I’ve necessarily condensed this trajectory of thought about the nature of the public, the private, and the social. Key to my reading of <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>, however, is the opposition between the domestic and the public, and the alignment of the intellectual’s project with the public, which is thought to be a disinterested site. It is in this context that I am interested in Livesay’s mobilization of the figure of the housewife at this point in her career.</ref>
+                    </p>
+                    <p xml:id="p958">
+                        <ref target="#social_movement">Writing in the <date cert="high" from="1950" to="1959">1950s</date>, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> poses a challenge to the split between the domestic and the public before the second wave of the feminist movement does so in a more overtly theorized fashion. <ref target="#representation_of_women">In positioning the housewife as the listener who <q>transmits,</q> that is to say, produces programming for the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName>, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> challenges the conception of the domestic, and the feminine, as passive receptacle of mass media. Livesay seems keenly aware of the limits on women’s intellectual engagement in this time. Consequently, she uses the image of the housewife to leverage her way into broadcast, to keep doing what she was already doing in the 1930s and would continue doing after the rise of second-wave feminism and the new Left: engage wholeheartedly in public discourse.</ref></ref>
+                    </p>
+                    <p xml:id="p959"><ref target="#non-book_media">To see this leveraging in action, we might look at <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s <title level="a">Statement for New Year’s Day,</title> written to be broadcast through the <hi rend="small-caps">CBC</hi> for a European audience on <date cert="high" when="1953-01-01">New Year’s 1953</date> (<title level="m">Dorothy Livesay</title>).</ref> <ref target="#nationality_issue">Here she argues for a Canadian arts policy that would provide support for cultural production, suggesting the building of a functional and funded national arts council, a working and representative authors’ association, and the institutional machinery necessary to represent Canada properly to <orgName cert="high" ref="http://viaf.org/viaf/139500314"><hi rend="small-caps">UNESCO</hi></orgName>.</ref> The larger context of these concerns is a humanist argument for the arts as a source of connection in an increasingly alienating world. In this talk, not only is Livesay engaging publicly but she is also foregrounding the public context and public role of the writer. A significance of this rapid movement from housewife to, one might say, public intellectual, is that it directly contradicts the opposition between the private and the public that has been central to <persName cert="high" ref="http://viaf.org/viaf/82088490" sameAs="Emmanuel Kant">Kant</persName> and <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>’s understanding of the intellectual. Whereas Kant and Arendt see intellectual work as public, and necessarily sheared from the domestic, Livesay, in these talks, moves in fairly short order from being a housewife to being a writer with opinions on the structuring of arts funding. Doing so, she elides the distinction between the housewife, a vehicle for all that is private, and the intellectual, who is inherently public.</p>
+                    <p xml:id="p960">
+                        <ref target="#voice_or_narration">The relationship between private and public has been an ongoing concern in <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> scholarship. In the <date cert="high" when="1986">1986</date> conference proceedings <title level="s">A Public and Private Voice</title>, a number of people theorize the contradiction and, in some cases, the permeability between Livesay’s two <q>voices.</q> <ref target="#genre_poetry">The poetry <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> was writing in the <date cert="high" from="1950" to="1959">1950s</date> has been mostly aligned with her private voice</ref>, in line with the belief, mentioned earlier, that the <date cert="high" from="1950" to="1959">1950s</date> represented a time of domestic retreat in Livesay’s life. Looking at Livesay’s <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> projects from this period may serve to call into question the possibility of a truly private voice for Livesay, suggesting instead that, at least after the <date from="1930" to="1939" cert="high">1930s</date>, historical circumstances may account for the appearance of a private voice, but deeper readings might reveal the public investments of even that voice. Jonathan C. Pierce hints at this in his suggestion that the importance of Livesay as a public poet resides in the <hi rend="italic">link</hi> she makes between the private and public in her work (23).</ref>
+                    </p>
+                    <p xml:id="p961">For Pierce, however, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s public constitutes an extension of the concerns of her private work (26). If this is the case, we might be justified in aligning her not with a true public voice but with the social, to use <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>’s terms. When we look at her speech, we see this is not entirely correct; instead, we see Livesay bridging the vast space between the domestic and the public with the<hi rend="italic"> language</hi> of the social. In addressing arts funding, the role of public broadcast, and the possibilities of radio for making connections between communities, Livesay appears to be interested in calling into being a public realm, in Arendt’s sense. <ref target="#nationality_issue"><date cert="high" from="1950" to="1959">1950s</date> <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> may not have had the privileged and neutral space of the polis, but the ideal of an infrastructure of funded institutions, which support cultural production by independent artists, approaches a fantasy of the polis.</ref></p>
+                    <p xml:id="p962"><ref target="#textual_strategies">In calling upon the housewife figure, <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> appears to be drawing domestic concerns into the public realm, only to turn nearly immediately to conversations regarding programming, funding, and public policy.</ref> It seems likely that Livesay the writer held Livesay the housewife at a distance. Given Livesay’s enduring commitment to a vision of <q>the people</q>—an inherently public interest—it makes sense to complicate Pierce’s argument and attend to the extent to which the private as represented by Livesay appears as an extension of her public concerns.</p>
+                    <p xml:id="p963">While <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s approach to the public can be said to line up with <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>’s in that it is concerned with an institutional space of appearance for discussions that exceed personal material interest, Livesay differs from Arendt in one significant way. <ref target="#politics">Unlike <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>, for <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> the domestic is not an abject zone in which the necessities underlying public life are sequestered. Instead, it is a politicized realm, affected by and implicated in the public realm. Succinctly, it is not outside of the polis. Put somewhat ahistorically, she demonstrates that <q>the personal is political.</q> This slogan distills the insights of the movements that would come to radically call into question the division between the public and the private that <persName cert="high" ref="http://viaf.org/viaf/82088490" sameAs="Emmanuel Kant">Kant</persName> and Arendt rely on. It is, however, important to note that this is a very different claim than that of the social, which may be condensed as <q>the political is personal.</q> This distinction is of increasing political significance.</ref></p>
+                    <p xml:id="p964">In these <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> talks, when the private <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> is extended into the public sphere it is in the form of a figure. It is through an understanding of the private Livesay as figural rather than expressive that we can most clearly see the cultural relevance of the tremendous fluidity with which the public and private circulate in Livesay’s work.<ref target="#textual_strategies"> When we read <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s private voice, her housewife, as a self-conscious pose created in the service of public concerns, we can see that what appears to be most private in Arendt’s sense, most domestic, is in fact a guise under which Livesay may engage with the public.</ref></p>
+                    <p xml:id="p965">
+                        <ref target="#history">One way to situate the complicated circulation of the private and the public in <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s writing is as reflective of a general cultural and economic shift that would go on to shape our understandings of the political, the public, and the personal. In this framing, Livesay’s circulation of the public and the private in terms that exceed <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>’s category of the social come to seem not only prescient but also inevitable. Arendt’s concern over the rise of the social occurs in the context of the postwar solidification of two trends in political and cultural organization: American consumer culture on the one hand, and the Soviet Union’s bureaucratization of public life on the other. The ultimate victory of the American model, which was even at the time threatening to become a global structure, may distract us from the commonality Arendt diagnosed in these trends: the creation of mass society at the expense of genuine individual engagement with democratic structures. <ref target="#politics">This constituted both a political and a subjective crisis for Arendt. <ref target="#economics">The rise of the social as the dominant realm in both the Soviet Union and the <placeName cert="high" ref="http://www.geonames.org/6252001">United States</placeName> was symptomatic of the abandonment of the projects of individuality and democracy. Truly political concerns no longer appeared; in both systems, they came to be replaced by economic ones.</ref></ref></ref>
+                    </p>
+                    <p xml:id="p966">
+                        <ref target="#politics"><persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s prescience in her articulation of the relationship of the personal to the political could be a coincidence. <ref target="#social_movement">Certainly, she had no way of knowing the political insights of the second wave of feminism that were soon to emerge.</ref> But I wonder if Livesay did have an intuitive knowledge about the changing nature of the public and private. In the <date cert="high" from="1950" to="1959">1950s</date>, even as state structures appear to be consolidating (for example, the influential role of the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> that grounds Livesay’s interest in radio during this period) a movement away from nation toward global trade was already underway. The establishment of the General Agreement on Tariffs and Trade, forerunner to the <orgName ref="http://viaf.org/viaf/312770601" cert="high">World Trade Organization</orgName>, in <date cert="high" when="1947">1947</date>, might be seen as the base to the superstructure of <hi rend="small-caps">CBC</hi>’s international New Year’s Day broadcast.</ref>
+                    </p>
+                    <p xml:id="p967">
+                        <ref target="#economics"><ref target="#representation_of_women">If <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> participates in this liberal internationalism in the context of the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> talks, her understanding of the subjectivity of the housewife as something other than a consumer identity pushes back on the kinds of subjectivity that globalization encourages. As we will see, there is a tremendous difference between the housewife as a consumer and the housewife as a situated subjective position.</ref> <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s disposition to notice the effects of economic systems on people’s lives may account for what I have called her intuitive understanding of the impact of globalization on the national public sphere.</ref>
+                    </p>
+                    <p xml:id="p968">
+                        <ref target="#nationality_issue"><ref target="#politics"><persName cert="high" ref="http://viaf.org/viaf/27086693">Lynette Hunter</persName> provides us with useful vocabulary for discussing the shift in the constitution of the public that globalization is still in the process of being established. In her <date cert="high" when="2006">2006</date> article <title level="a"><persName cert="high" ref="http://viaf.org/viaf/92127388">Daphne Marlatt</persName>’s Poetics,</title> Hunter addresses the changes in public culture that result from the changing nature of the nation.</ref> This article offers a working definition of public culture that accounts well for the way in which <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> appears as a public writer: <q type="block">If <q>art</q> is the culture of the empowered and relatively-empowered group with special rights which have the money both to consume and produce, to disseminate and market, and <q>popular culture</q> is the culture of people excluded from that empowered group, then <q>public culture</q> could be defined as the culture of people at last included in <q>rights,</q> including the right to cultural power. (145)</q> <persName cert="high" ref="http://viaf.org/viaf/27086693" sameAs="Lynette Hunter">Hunter</persName> notes that the situation of knowledge is a strategy through which these newcomers may appear in the public realm, and notes that it is the model of situated knowledge that challenges what she calls <q>the universal/relative split of the liberal social contract</q> (145). We might consider Livesay’s housewife as exemplifying this situatedness.</ref>
+                    </p>
+                    <p xml:id="p969">
+                        <ref target="#gender_issue">In a historical moment when the increasing exclusion of women from the public was accompanied by a retrenchment of domesticity for women, Livesay appears as a housewife to access the public. But this is not the same as <hi rend="italic">being</hi> a housewife, wherein housewife is a rising consumer identity. </ref>
+                        <ref target="#close_reading">
+                            <ref target="#politics"><persName cert="high" ref="http://viaf.org/viaf/27086693" sameAs="Lynette Hunter">Hunter</persName>’s article addresses the significance of this distinction quite forcefully. <persName cert="high" ref="http://viaf.org/viaf/27086693" sameAs="Lynette Hunter">Hunter</persName> argues that the twentieth century has seen a shift from <persName sameAs="Louis Althusser" ref="http://viaf.org/viaf/24596917" cert="high">Althusser</persName>’s Institutional State Apparatuses, those that serve the nation, to Global State Apparatuses (<hi rend="small-caps">GSA</hi>s), which serve the interests of global capital. Nations in general, and <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> in particular, are caught in a tension between protecting individuals against <hi rend="small-caps">GSA</hi>s and enabling <hi rend="small-caps">GSA</hi>s to operate within their borders (144). In this context, partiality and situatedness, which had previously been excluded from public representation and derided as <q>interest,</q> come to be seen as differences between subjects; these differences acquire political relevance. Hunter warns that there is a crucial distinction to be made between the situated as a politically relevant fact for previously excluded subjects and the situated as marker of consumer identity and niche marketing. Hunter asserts, <q>partiality and the situated in themselves are no guarantee of democratic agency. They employ rhetorical techniques often similar to those used by <hi rend="small-caps">GSA</hi>s to establish representations, which even if they are not representations for the individual in the nation state, are still representations for the consumer in global state structures</q> (147).<ref target="#economics"> <persName cert="high" ref="http://viaf.org/viaf/27086693" sameAs="Lynette Hunter">Hunter</persName>’s distinction is between the representations that enable new subjectivities to enter public discourse (those she calls <hi rend="italic">partial</hi>), and the representations that tie difference to the individual’s role as consumer (those she calls <hi rend="italic">relative</hi>) (147). To cast this in the language of <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>, Hunter argues that there is an expanded role for a citizen who is articulated in terms that challenge those of the universal subject in the public sphere. This is seen in our increasing belief that material previously cast as private is, in fact, infused with the political. The public must come to acknowledge and include elements that had previously been relegated to the private. This is not, however, a total evacuation of the difference between public and private, or in Arendt’s language, the social. Relative identities, those that are aligned with corporate economic interests, are in Hunter’s model the location of the social, and, for Hunter as much as for Arendt, they threaten the existence of a genuine public.</ref></ref>
+                        </ref>
+                    </p>
+                    <p xml:id="p970">
+                        <ref target="#textual_strategies"><persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s leveraging of the housewife figure in her <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName> broadcasts shows Livesay using the guise of the unthreatening relative subject (the housewife as consumer of radio in her lonely hours) to do the work of the situated subject. This is a further elaboration on my earlier claim that Livesay bridges the space between the domestic and the public with the language of the social. She stages the housewife as a private figure and then embodies that position to recuperate her access to the public sphere.</ref>
+                    </p>
+                    <p xml:id="p971">
+                        <ref target="#genre_poetry">In <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s poetry written in the <date cert="high" from="1950" to="1959">1950s</date>, there is evidence that the experience of the housewife as a relative subject is in her view an unpromising basis for participation in a wider, public discussion. <ref target="#close_reading">In the tension between two poems of this period, we can see <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> considering, and rejecting, the notion that the private activities of the housewife connect her with anything outside of the domestic. In <date cert="high" when="1951">1951</date>’s <title level="a">Life of the Mind,</title> Livesay traces the fantasies of a female <q>inhabitant / Of silence; of one land; / Yet in the mind /Many times a traveler</q> (<title level="m">Archive</title> 93–95). The title suggests two meanings: that the subject of the poem is an intellectual, engaged, if only in fantasy, in the life of the mind, and that the subject of the poem is isolated from the stream of life and discourse, a participant only in her mind. In successive scenarios, she imagines herself travelling to various European locations, then as <q>realmed in other consciousnesses</q> (93) presumably a man in a <q>community where all men think, yet think alike</q> (94). In the final imaginary scenario of the poem, the subject revisits her own childhood, and childhood in general: <q>Later she is thrust again / into the early area of pain.</q> Following this we are asked if the <q>traveler</q> who lives with an <q>abundant throng</q> has lost access to her voice, before redefining the role of the voice of the poet. Instead of <q>being part singer, dissonant,</q> it <q>must become the total song.</q></ref></ref>
+                    </p>
+                    <p xml:id="p972">
+                        <ref target="#close_reading">There are two ways one can read this transition from <q>part singer, dissonant</q> to <q>total song.</q> The first reading positions the subject as multiplied by her imagination, and thereby expanded to a more universal subject. In this reading, the <q>abundant throng</q> is the multiple interior life of the artist. In a second possible reading, the final scenario is not a purely imaginary one, but a life experience of the subject, maternity. <q>Later she is thrust again/ Into the early area of pain,/ Her own child life; sees children grow</q> can be read as a return to the experience of childhood, through motherhood. In this reading, the <q>abundant throng</q> is not an internal one, but an external one comprised of the lively distractions of family. Here it is not the imagination but rather maternal experience that allows the subject to become universal. She moves, through association with the stream of domestic life from <q>part singer, dissonant</q> to <q>the total song.</q> This calls to mind <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s earlier mass chants, which are concerned with a collective poetic voice. Perhaps the <q>total song,</q> accessed through the labour of mothering has this in common with Livesay’s more political poetry. This second reading’s understanding of the universal is an almost exact inversion of <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>’s claims about the role of the domestic. The false universal of a <q>community where all men think, yet think alike</q> is usurped by a true universal, a total song, which is only accessible through the domestic.</ref>
+                    </p>
+                    <p xml:id="p973">
+                        <ref target="#representation_of_women">This vision of the mother as accessing a poetic of the universal is significantly at odds with her evocation of the housewife as a solitary figure awaiting the arrival of the outside world through radio programming. In addition, this universal, <q>total song</q> seems more in the realm of a mythologized and ahistorical femininity than in the realm of public discourse. Her decision not to further develop and publish this poem may suggest that she ultimately could not side with a poem that suggests that maternity is the route through which the female poet participates in a <q>total song.</q></ref>
+                        <ref target="#genre_poetry"><title level="a">The Three Emilys</title> (<title level="m" cert="high" ref="http://viaf.org/viaf/313981778">Self-Completing Tree</title>, 83), a poem of this period that did make it into print, represents a position that <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName> may have ultimately been more comfortable with. Written in tribute to <persName ref="http://viaf.org/viaf/97097302" cert="high">Emily Brontë</persName>, <persName cert="high" ref="http://viaf.org/viaf/31995584">Emily Dickinson</persName>, and <persName ref="http://viaf.org/viaf/56618171" cert="high">Emily Carr</persName>, the poem insists on the impoverishment of the domestic. In this poem, family life does not bring the artist to a fusion with a larger human song but rather keeps her from an experience of the self, which is seen as necessary for the artist.</ref>
+                    </p>
+                    <p xml:id="p974">
+                        <ref target="#non-book_media">To return to <persName sameAs="Bertolt Brecht" cert="high" ref="http://viaf.org/viaf/2467372">Brecht</persName>’s <q>vast network of pipes,</q> I would like to reflect on what the fulfilment of this hope has offered, and what it has taken away. To the extent that the relative democratization of broadcast has allowed new voices to circulate, and enabled the circumvention of a tight corporate hold on the means of mass communication, it is undoubtedly a good thing. Nonetheless, at the risk of sounding nostalgic, I wonder if this unlimited circulation between private and public has produced, in <persName sameAs="Bertolt Brecht" cert="high" ref="http://viaf.org/viaf/2467372">Brecht</persName>’s terms, an <q>apparatus in public life,</q> or merely furthered the tendency <persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName> saw toward the encroachment of the small concerns of the private into our understanding of the public. <ref target="#technology">That the rise of the Internet parallels, in <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName>, the dissolution of the structure of public funding for the arts and intellectual engagement that Livesay was interested in establishing may suggest that it is in fact part of a general diminishing of the public sphere. One doesn’t have to spend a long time reading the online comments section of a major newspaper to come to the conclusion that individual grievance rather than abstract concern for good policy forms the bulk of reader responses to major political events. Similarly, a proliferation of blogs and overtly ideological media outlets may signal that while the <q>listener</q> on the Internet can talk back, he talks not to peers, but in an echo chamber.</ref> It does not appear that the decentralized democratization promised by this moment does in fact constitute (to repeat Brecht’s words) <q>the finest possible communication apparatus in public life.</q> Perhaps we need institutions, and certain moments of listening in the absence of the possibility of broadcasting back, to allow a truly public sphere to exist.</ref>
+                    </p>
+                    <p xml:id="p975">It is through public and non-partisan institutions, like <persName cert="high" ref="http://viaf.org/viaf/116854541" sameAs="Dorothy Livesay">Livesay</persName>’s vision of the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi></orgName>, that the individual voice can participate in a discourse that is public in Arendt’s sense of the word. Counterintuitively, an institutional gatekeeper placing limits on access to public speech allows for individuals to appear as partial rather than simply relative. <ref target="#economics"><ref target="#politics"><persName cert="high" ref="http://viaf.org/viaf/105151053" sameAs="Hannah Arendt">Arendt</persName>’s insistence on the neutrality of the public intellectual may strike us as naïve or conservative in the light of movements that establish the political content of the personal. However, quite relevantly for our political moment, Arendt warns that outside the neutral ideal of the public sphere lies not freedom but rather an encroaching and all-consuming economicism.</ref></ref></p>
+                    <div type="section">
+                        <head>Works Cited</head>
+                        <listBibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/105151053">Arendt, Hannah</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/183361508">The Human Condition</title>. 2nd ed. <placeName ref="http://www.geonames.org/4887398" cert="high">Chicago</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/122888939">U of Chicago P</orgName>, <date cert="high" when="1998">1998</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/2467372" cert="high">Brecht, Bertolt</persName>. <title level="a">The Radio as an Apparatus of Communication.</title> <title level="m">Brecht on Theatre: The Development of an Aesthetic</title>. Trans. <persName cert="high" ref="http://viaf.org/viaf/56621190">John Willett</persName>. Ed. John Willett. 32nd ed. <placeName cert="high" ref="http://www.geonames.org/5128581">New York</placeName>: <orgName ref="http://viaf.org/viaf/149294063" cert="high">Hill and Wang</orgName>, <date when="2001" cert="high">2001</date>. 51–52. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/27086693">Hunter, Lynette</persName>. <title level="a"><persName ref="http://viaf.org/viaf/92127388" cert="high">Daphne Marlatt</persName>’s Poetics: What is an Honest Man? And Can There Be an Honest Woman?</title> <title level="j">Open Letter: A Canadian Journal of Writing and Theory</title> 12.8 (<date cert="high" when="2006">2006</date>): 143–69. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/46781061">Jacoby, Russell</persName>. <title level="m" ref="http://viaf.org/viaf/312361862" cert="high">The Last Intellectuals: American Culture in the Age of Academe</title>. <placeName cert="high" ref="http://www.geonames.org/5128581">New York</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/169368934">Basic Books</orgName>, <date when="2000" cert="high">2000</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/82088490" cert="high">Kant, Immanuel</persName>. <title level="a" cert="high" ref="http://viaf.org/viaf/314227100">What is Enlightenment?</title> <title level="m">On History</title>. Trans. <persName>Louis W. Beck</persName>. Ed. Louis W. Beck. <placeName cert="high" ref="http://www.geonames.org/5128581">New York</placeName>: <orgName ref="http://viaf.org/viaf/155934606" cert="high">Bobbs-Merrill</orgName>, <date cert="high" when="1963">1963</date>. 3–10. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/7141254">Kelly, Peggy L.</persName> <title level="a"><persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName> and the <orgName ref="http://viaf.org/viaf/124250538" cert="high"><hi rend="small-caps">CBC</hi> Radio</orgName>: The Politics of Modernist Aesthetics, Gender and Regionalism.</title> <title level="m">Wider Boundaries of Daring: The Modernist Impulse in Canadian Women’s Poetry</title>. Ed. <persName ref="http://viaf.org/viaf/8566613" cert="high">Di Brandt</persName> and <persName cert="high" ref="http://viaf.org/viaf/67996917">Barbara Godard</persName>. <placeName ref="http://www.geonames.org/6176823" cert="high">Waterloo, ON</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/157391394">Wilfrid Laurier UP</orgName>, <date when="2009" cert="high">2009</date>. 213–36. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/116854541">Livesay, Dorothy</persName>. <title level="m">Archive for Our Times: Previously Uncollected and Unpublished Poems of Dorothy Livesay</title>. Ed. <persName ref="http://viaf.org/viaf/56891114" cert="high">Dean J. Irvine</persName>. <placeName cert="high" ref="http://www.geonames.org/6173331">Vancouver</placeName>: <orgName ref="http://viaf.org/viaf/155778530" cert="high">Arsenal Pulp Press</orgName>, <date cert="high" when="1998">1998</date>. Print.</bibl>
+                            <bibl>---. <title level="m"><persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName> and the <hi rend="small-caps">CBC</hi>: Early Texts for Radio by Dorothy Livesay</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/76359250">Hildi F. Tiessen</persName> and <persName ref="http://viaf.org/viaf/71426952" cert="high">Paul Tiessen</persName>. <placeName cert="high" ref="http://www.geonames.org/6176823">Waterloo, ON</placeName>: <hi rend="small-caps">MLR</hi> Editions, <date when="1994" cert="high">1994</date>. Print.</bibl>
+                            <bibl>---. <title level="m">Journey with My Selves: A Memoir <date cert="high" from="1909" to="1963">1909–1963</date></title>. <placeName cert="high" ref="http://www.geonames.org/6173331">Vancouver</placeName>: <orgName ref="http://viaf.org/viaf/134824560" cert="high">Douglas and McIntyre</orgName>, <date cert="high" when="1991">1991</date>. Print.</bibl>
+                            <bibl> ---. <title level="m">Right Hand Left Hand: A True Life of the Thirties</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/115570529">David Arnason</persName> and <persName>Kim Todd Erin</persName>, <placeName ref="http://www.geonames.org/6093943" cert="high">ON</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/311378991">Porcépic</orgName>, <date when="1977" cert="high">1977</date>. Print. </bibl>
+                            <bibl>---. <title level="m" ref="http://viaf.org/viaf/313981778" cert="high">The Self-Completing Tree</title>. 2nd ed. <placeName cert="high" ref="http://www.geonames.org/6173331">Vancouver</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/311378991">Porcepic Books</orgName>, <date cert="high" when="1999">1999</date>. Print.</bibl>
+                            <bibl>Pierce, Jonathan C. <title level="a">A Tale of Two Generations: The Public and Private Voices of <persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName>.</title> <title level="m">A Public and Private Voice: Essays on the Life and Work of <persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName></title>. Ed. <persName ref="http://viaf.org/viaf/72871170" cert="high">Lindsay Dorney</persName>, <persName cert="high" ref="http://viaf.org/viaf/238915438">Gerald Noonan</persName>, and <persName ref="http://viaf.org/viaf/71426952" cert="high">Paul Tiessen</persName>. 2nd ed. <placeName cert="high" ref="http://www.geonames.org/6176823">Waterloo, ON</placeName>: <orgName>U of Waterloo P</orgName>, <date when="1988" cert="high">1988</date>. Print.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/71426952" cert="high">Tiessen, Paul</persName>. <title level="a"><persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName>, the <q>Housewife,</q> and the Radio in <date cert="high" when="1951">1951</date>: Modernist Embodiments of Audience.</title> <title level="m">The Canadian Modernists Meet</title>. Ed. <persName ref="http://viaf.org/viaf/56891114" cert="high">Dean Irvine</persName>. <placeName cert="high" ref="http://www.geonames.org/6094817">Ottawa</placeName>: <orgName ref="http://viaf.org/viaf/135965961" cert="high">U of Ottawa P</orgName>, <date when="2005" cert="high">2005</date>. 205–30. Print.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+            </div>
+        </body>
+        
+
+    </text>
+</TEI>

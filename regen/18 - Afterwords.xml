@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body><div/></body>
+        <back>
+            <div type="afterword" xml:lang="en-CA">
+                <head><title level="a">Afterword</title></head>
+                <docAuthor>
+                    <persName cert="medium" ref="http://viaf.org/viaf/171626610">Susan Brown</persName>
+                </docAuthor>
+                <docAuthor>
+                    <persName>Mary-Jo Romaniuk</persName>
+                </docAuthor>
+                <p xml:id="p976">
+                    <ref target="#women_writing">Knowledge of <ref target="#theme_or_topic">women’s writing</ref> in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> is on the move. New paths of inquiry, connections, and insights, as this collection richly illustrates, are emerging as this field of research embarks on major discoveries enabled by new methods of literary inquiry.</ref>
+                </p>
+                <p xml:id="p977"><hi rend="italic">Regenerations / <hi xml:lang="fr-CA">Régénérations:</hi> Canadian Women’s Writing / <hi xml:lang="fr-CA">Écriture des femmes au Canada</hi></hi> emerged from the inaugural conference of the <ref target="#theme_or_topic"><orgName>Canadian Writing Research Collaboratory</orgName></ref> (<ref target="www.cwrc.ca">www.cwrc.ca</ref>), hosted by the <orgName cert="high" ref="http://viaf.org/viaf/145376209" sameAs="Canadian Literature Centre">Canadian Literature Centre/<hi xml:lang="fr-CA">Centre de la littérature canadienne</hi></orgName> (<hi rend="small-caps">CLC</hi>). The Collaboratory, or <hi rend="small-caps">CWRC</hi> (pronounced <q>quirk</q>), is a path-breaking experiment in devising new ways of undertaking scholarship in a digital environment.</p>
+                <p xml:id="p978">
+                    <ref target="#methodology">
+                        <ref target="#technology">
+                            <ref target="#collaboration">Virtually all of us do our research as <ref target="#theme_or_topic">digital writing</ref>, using email, Internet resources, and word processors as key tools in our scholarly work. But email connects us fleetingly, Internet resources are often in silos on their own and not easily collected or connected to our notes on them, and our materials remain in word processing files on our hard drives until they emerge, in print or in digital form, to be consumed but not often interacted with or reused in a digital environment. The <orgName sameAs="Canadian Writing Research Collaboratory"><hi rend="small-caps">CWRC</hi></orgName> project aims to create a new kind of environment for literary research on and about <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>. It will make it easier for scholars to work together and to share the raw materials of their research (such as bibliographies, timelines, annotations, or digitized primary texts) with each other and with the wider scholarly community. It will also provide a space for publishing in nontraditional online forms and interconnecting research results in innovative ways. <hi rend="small-caps">CWRC</hi> aims particularly to support the work of junior scholars by mentoring, by furnishing mechanisms for tracking and reporting collaborative contributions, and by offering a welcoming space within which anyone can explore the potential of digital tools for their work.</ref>
+                        </ref>
+                    </ref>
+                </p>
+                <p xml:id="p979">
+                    <ref target="#non-book media">
+                        <ref target="#technology">The <orgName sameAs="Canadian Writing Research Collaboratory">Collaboratory</orgName> is not a research project, but rather an infrastructure project. It is funded by the <orgName>Canada Foundation for Innovation</orgName> to create a research environment that will demonstrate the potential of online tools to support literary inquiry and foster practices that contribute to the interoperability and longevity of digital knowledge. <ref target="#methodology">It will combine a repository for primary and secondary materials with an array of tools, some for creating or placing materials in the repository and others for gathering, analyzing, visualizing, and mapping materials from within and beyond the repository collections.</ref></ref>
+                    </ref>
+                </p>
+                <p xml:id="p980">
+                    <ref target="#collaboration"><ref target="#women_writing">As its name suggests, at the heart of the <orgName>Canadian Writing Research Collaboratory</orgName> are participation, partnership, and <ref target="#theme_or_topic">collaboration</ref>—all forms of connection that have been important in scholarship on women’s writing in the past, but that take new prominence and embody new possibilities in the digital era.</ref> The scholars whose work is represented in this volume represent a fraction of those who have affiliated themselves with <hi rend="small-caps">CWRC</hi>. This participation, whether of individual projects that scholars wish to carry forward into a collaborative environment, large-scale projects such as the <orgName>Editing Modernism in Canada</orgName> Project or the <orgName>Canadian Women's Writing Project</orgName>, or of our colleagues whose research is on technical aspects of the Collaboratory, is essential to building <hi rend="small-caps">CWRC</hi> into an environment that will meet scholars’ needs.</ref>
+                </p>
+                <p xml:id="p981">
+                    <ref target="#technology">The diverse investigations that make up the <orgName>Canadian Women's Writing Project</orgName>, some of which are reported in this volume, are representative of ways that digital scholarship can allow us to collaborate outside of a centralized model of large-scale research. So long as we provide the basis for connections among digital scholarly materials in ways that computers can process, the wealth of materials that the various contributors to this project produce—whether biocritical profiles of writers, bibliographies, readerly or critical responses, or analysis of patterns in publishing or poetics—will be able to interact within the <orgName sameAs="Canadian Writing Research Collaboratory"><hi rend="small-caps">CWRC</hi></orgName> environment in ways that allow unforeseen connections between texts and generations to emerge. <ref target="#women_writing">In this respect, the Collaboratory emerges from the <orgName>Orlando Project</orgName>, upon whose systems <hi rend="small-caps">CWRC</hi> builds, and its vision of the potential of computers to serve feminist literary studies. <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> needs better online representation of the strength of its female writing and fuller and more inclusive scholarly accounts: this volume shows how much both will enrich our understanding of Canada’s cultural wealth.</ref></ref>
+                </p>
+                <p xml:id="p982">
+                    <ref target="#technology">The digital turn is transforming research so thoroughly that it is remaking our institutions. Research libraries have a long-established tradition of collecting and preserving scholarly works, albeit in the analog formats in which they were created. As research and scholarship evolve, so must the roles and practices of libraries in this new digital era. The <orgName cert="high" ref="http://viaf.org/viaf/125238209" sameAs="University of Alberta. Library">University of Alberta Libraries</orgName> are national leaders in rethinking the relationship of the library to digital research.</ref>
+                </p>
+                <p xml:id="p983">
+                    <ref target="#archival_location">The <orgName>Education and Research Archive</orgName> (<hi rend="small-caps">ERA</hi>), which has its genesis and home in the <orgName>University of Alberta Libraries</orgName>, is more than a repository for research and scholarly output. <hi rend="small-caps">ERA</hi> embodies a technological and philosophical framework that not only supports collaboration but invites experimentation and fosters a robust relationship with researchers and new ways of doing research. The capacity and future potential of <hi rend="small-caps">ERA</hi> has propelled the Libraries to be both a more frequent and a more active partner in research ventures. The Libraries are partnering with <orgName cert="high" ref="http://viaf.org/viaf/125238209" sameAs="University of Alberta. Library"><hi rend="small-caps">CWRC</hi></orgName> to enhance the repository and, moreover, to ensure that the <orgName sameAs="Canadian Writing Research Collaboratory"><hi rend="small-caps">CWRC</hi></orgName> materials are ingested and curated in such a way that they are accessible, available for future research, and amenable to preservation in the long term.</ref>
+                </p>
+                <p xml:id="p984">
+                    <ref target="#place_of_publication">
+                        <ref target="#technology">The mode of publication of this book itself, a result of a four-way collaboration among the <orgName cert="high" ref="http://viaf.org/viaf/125238209" sameAs="University of Alberta. Library">University of Alberta Libraries</orgName>, the <orgName cert="high" ref="http://viaf.org/viaf/311351545">University of Alberta Press</orgName>, <orgName sameAs="Canadian Writing Research Collaboratory"><hi rend="small-caps">CWRC</hi></orgName>, and the <orgName cert="high" ref="http://viaf.org/viaf/145376209" sameAs="Canadian Literature Centre"><hi rend="small-caps">CLC</hi></orgName>, signals, in important ways, the changing roles and relationships of university libraries and academic presses in relation to the dissemination of scholarship. This scholarly work takes advantage of traditional analog publication while simultaneously existing in an enhanced digital environment that contemplates, without presuming the specifics, the future research potential and needs of the scholarly community. This is not simply a monograph with a digital surrogate; it is a publication that lives with untapped future potential in its evolving digital representation. We are collectively excited by this exemplar of print publishing combined with the power of a repository enabling digital dissemination, access, and preservation as not only a vehicle for scholarly output but an impetus for future research and continuing scholarship.</ref>
+                    </ref>
+                </p>
+            </div>
+            
+            
+            
+            
+        </back>
+
+    </text>
+</TEI>

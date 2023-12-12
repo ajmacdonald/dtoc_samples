@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p/>
+            </seriesStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline/>
+                <item/>
+                <index>
+                    <term/>
+                </index>
+                <byline/>
+                <index>
+                    <term/>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <figure>
+                <graphic url="http://cwrc.ca/logos/Regenerations/cover.jpg"/>
+            </figure>
+            <titlePage>
+                <docTitle xml:lang="en-CA">
+                    <titlePart type="main">Regenerations</titlePart>
+                    <titlePart type="sub">Canadian Women's Writing</titlePart>
+                </docTitle>
+                <docTitle xml:lang="fr-CA">
+                    <titlePart type="main">Régénérations</titlePart>
+                    <titlePart type="sub">Écriture des femmes au Canada</titlePart>
+                </docTitle>
+                <byline><docAuthor>Marie Carrière</docAuthor> &amp; <docAuthor>Patricia Demers</docAuthor>, <roleName xml:lang="en-CA">Editors</roleName>/<roleName xml:lang="fr-CA">Directrices</roleName></byline>
+                <docImprint>
+                    <publisher>The University of Alberta Press</publisher>
+                </docImprint>
+            </titlePage>
+            <titlePage>
+                <docEdition>
+                    <s>Published by:</s>
+                    <biblFull>
+                        <titleStmt>
+                            <title/>
+                        </titleStmt>
+                        <publicationStmt>
+                            <publisher>The University of Alberta Press</publisher>
+                            <address>
+                                <addrLine>Ring House 2</addrLine>
+                                <addrLine>Edmonton, Alberta, Canada T6G 2E1</addrLine>
+                                <addrLine>www.uap.ualberta.ca</addrLine>
+                            </address>
+                            <availability>
+                                <p>Copyright © 2015 The University of Alberta Press</p>
+                            </availability>
+                        </publicationStmt>
+                        <notesStmt>
+                            <note>
+                                <p>Library and Archives Canada Cataloguing in Publication</p>
+                                <p>Regenerations : Canadian women's writing = Régénérations : écriture des femmes au Canada / Marie Carrière &amp; Patricia Demers, editors/directrices.</p>
+                                <p>Includes bibliographical references and index.</p>
+                                <p>Issued in print and electronic formats.</p>
+                                <p>Text chiefly in English; some text in French.</p>
+                                <p>ISBN 978-0-88864-627-9 (pbk.).—ISBN 978-1-77212-026-4 (epub).—</p>
+                                <p>ISBN 978-1-77212-027-1 (Amazon kindle).—ISBN 978-1-77212-028-8 (pdf)</p>
+                                <p> 1. Canadian literature (English)-Women authors-History and criticism.</p>
+                                <p>2. Canadian literature (French)-Women authors-History and criticism. I. Carrière, Marie J., 1971–, author, editor II. Demers, Patricia, 1946–, author, editor III. Title: Régénérations.</p>
+                                <p>PS8089.5.W6R436 2014</p>
+                                <p>C810.9'9287</p>
+                                <p>C2014-905233-2</p>
+                                <p>C2014-905234-0</p>
+                            </note>
+                        </notesStmt>
+                        <sourceDesc>
+                            <p>Index available in print, PDF and DToC editions.</p>
+                            <p>ISBN 978-088864-627-9 print edition</p>
+                            <p>ISBN 978-177212-028-8 PDF edition</p>
+                            <p>ISBN 978-177212-026-4 ePub edition</p>
+                            <p>First edition, print, PDF, ePub and Amazon Kindle, 2014.</p>
+                            <p>First Dynamic Table of Contexts edition, 2015.</p>
+                            <p>ISBN 978-1-55195-345-9 DToC edition. Vesrion 1.0</p>
+                        </sourceDesc>
+
+                    </biblFull>
+
+                </docEdition>
+                <docEdition>
+                    <biblFull>
+                        <titleStmt>
+                            <title/>
+                        </titleStmt>
+                        <editionStmt>
+                            <edition/>
+                            <respStmt>
+                                <resp>Dynamic Table of Contexts editors: </resp>
+                                <name>
+                                    <forename>Susan</forename>
+                                    <surname>Brown</surname>
+                                </name>
+                                <name>
+                                    <forename>Mihaela</forename>
+                                    <surname>Ilovan</surname>
+                                </name>
+                                <name>
+                                    <forename>Ruth</forename>
+                                    <surname>Knechtel</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Copyediting and proofreading: </resp>
+                                <name>
+                                    <forename>Joanne</forename>
+                                    <surname>Muzak</surname>
+                                </name>
+                                <name>
+                                    <forename>Anna</forename>
+                                    <surname>Oliver</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Indexing: </resp>
+                                <name>
+                                    <forename>Judy</forename>
+                                    <surname>Dunlop</surname>
+                                </name>
+                                <name><forename>François</forename> Trahan</name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Cover design: </resp>
+                                <name>
+                                    <forename>Marvin</forename>
+                                    <surname>Harder</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Interface design lead: </resp>
+                                <name>
+                                    <forename>Stan</forename>
+                                    <surname>Ruecker</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Interface development lead: </resp>
+                                <name>
+                                    <forename>Stéfan</forename>
+                                    <surname>Sinclair</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Researcher: </resp>
+                                <name>
+                                    <forename>Brent</forename>
+                                    <surname>Nelson</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Designers: </resp>
+                                <name>
+                                    <forename>Jennifer</forename>
+                                    <surname>Windsor</surname>
+                                </name>
+                                <name>
+                                    <forename>Milena</forename>
+                                    <surname>Radzikowska</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Publishing director: </resp>
+                                <name>
+                                    <forename>Linda</forename>
+                                    <surname>Cameron</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Digital coordinator: </resp>
+                                <name>
+                                    <forename>Duncan</forename>
+                                    <surname>Turner</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Production manager: </resp>
+                                <name>
+                                    <forename>Mary Lou</forename>
+                                    <surname>Roy</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Developer: </resp>
+                                <name>
+                                    <forename>Andrew</forename>
+                                    <surname>MacDonald</surname>
+                                </name>
+                            </respStmt>
+                            <respStmt>
+                                <resp>Encoded by: </resp>
+                                <name>
+                                    <forename>Nadine</forename>
+                                    <surname>Adelaar</surname>
+                                </name>
+                                <name>
+                                    <forename>Olga</forename>
+                                    <surname>Ivanova</surname>
+                                </name>
+                                <name>
+                                    <forename>Samantha</forename>
+                                    <surname>Fitzner</surname>
+                                </name>
+                                <name>
+                                    <forename>Kaarina</forename>
+                                    <surname>Mikalson</surname>
+                                </name>
+                            </respStmt>
+                        </editionStmt>
+                        <publicationStmt>
+                            <publisher/>
+                            <availability>
+                                <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                            </availability>
+                        </publicationStmt>
+                        <notesStmt>
+                            <note>The University of Alberta Press gratefully acknowledges the support received for its publishing program from The Canada Council for the Arts. The University of Alberta Press also gratefully acknowledges the ﬁnancial support of the Government of Canada through the Canada Book Fund (CBF) and the Government of Alberta through the Alberta Media Fund (AMF) for its publishing activities.</note>
+                            <note>
+                                <figure>
+                                    <graphic url="http://cwrc.ca/logos/Regenerations/Wordmark_Bl_Rd_RGB.jpg"/>
+                                </figure>
+                                <figure>
+                                    <graphic url="http://cwrc.ca/logos/Regenerations/logo.jpg"/>
+                                </figure>
+                                <figure>
+                                    <graphic url="http://cwrc.ca/logos/Regenerations/AB-Gov-2Color-Sky-RGB-V.png"/>
+                                </figure>
+                            </note>
+                        </notesStmt>
+                    </biblFull>
+                </docEdition>
+            </titlePage>
+            <div type="contents">
+                <head>Contents / Table des matières</head>
+                <list>
+                    <item>
+                        <title level="a" type="main">Preface/Préface</title>
+                        <ab><persName rend="bold" role="editor"><forename>Marie</forename> <surname>Carrière</surname></persName> &amp; <persName rend="bold" role="editor"><forename>Patricia</forename> <surname>Demers</surname></persName> </ab>
+                    </item>
+                    <item> <title level="a" type="main">Au Fil de la Narration</title> <list><item> <title level="a" type="main">Au fill de la narration et des générations</title> <ab><persName role="author"> <forename>Nicole</forename> <surname>Brossard</surname> </persName> </ab></item> <item> <title level="a" type="main">Women Who Invite Collaboration</title> <title type="sub">Caroline Bergvall, Erín Moure, et al.</title> <ab><persName role="author"> <forename>Susan</forename> <surname>Rudy</surname> </persName> </ab></item> <item> <title level="a" type="main">A Modernist Commons in Canada/Une commune moderniste au Canada</title> <ab><persName role="author"> <forename>Dean</forename> <surname>Irvine</surname> </persName> </ab></item> <item><title level="a" type="main">L'apport du concept d'ontologie informatique à l'étude de l'histoire littéraire des femmes au XIXe siècle</title> <ab><persName role="author"><forename>Chantal</forename> <surname>Savoie</surname></persName> &amp; <persName role="author"><forename>Julie</forename> <surname>Roy</surname></persName></ab></item></list> </item>
+                    <item><title level="a" type="main">Back to the Future</title> <list><item> <title level="a" type="main">Reclaiming the Past, Nurturing the Future</title> <ab><persName role="author"> <forename>Rosemary</forename> <surname>Sullivan</surname> </persName> </ab></item> <item> <title level="a" type="main">Du métaféminisme et des histoires au féminin</title><ab> <persName role="author"> <forename>Marie</forename> <surname>Carrière</surname> </persName> </ab></item> <item> <title level="a" type="main">Gothic Romance in Quebec</title> <title type="sub">Engaging English and French in Nineteenth-Century English-Canadian Fiction by Women</title> <ab><persName role="author"> <forename>Lindsay</forename> <surname>McMaster</surname> </persName> </ab></item> <item> <title level="a" type="main">Readers Reading Margaret Laurence, 1965–1980</title> <ab><persName role="author"> <forename>Cinda</forename> <surname>Gault</surname> </persName> </ab></item></list> </item>
+                    <item><title level="a" type="main">Des contextes minoritaires</title> <list> <item> <title level="a" type="main">Être écrivaine en contexte minoritaire franco-canadien (1970–1985)</title> <ab><persName role="author"> <forename>Lucie</forename> <surname>Hotte</surname> </persName> </ab></item> <item> <title level="a" type="main">Crooked Ribs, Modern Martyrs, and Dull Days</title> <title type="sub">Recovering Hidden Prince Edward Island Women through Their Life Writing</title> <ab><persName role="author"> <forename>Mary</forename> <surname>McDonald-Rissanen</surname> </persName> </ab></item> <item> <title level="a" type="main">Common Measure</title> <title type="sub">“Folk Poetry” and the Scandal of Canadian Literature</title> <ab><persName role="author"> <forename>Gary</forename> <surname>Kelly</surname> </persName> </ab></item> <item> <title level="a" type="main">Recuperating Oblivion in <title level="m">The Displaced View (1988)</title></title> <title type="sub">Midi Onodera’s Intercultural Feminist Experimental Cinematic Polyphony</title> <ab><persName role="author"> <forename>Sheena</forename> <surname>Wilson</surname> </persName> </ab></item></list> </item>
+                    <item><title level="a" type="main">Women in Movement</title> <list> <item> <title level="a" type="main">Publishing and Women in Movement</title> <title type="sub">Changing the Game</title> <ab><persName role="author"> <forename>Louise</forename> <surname>Dennys</surname> </persName> </ab></item> <item> <title level="a" type="main">"To Get In Behind the Curtain"</title> <title type="sub">Miriam Green Ellis’s Travels and Tales</title> <ab><persName role="author"> <forename>Patricia</forename> <surname>Demers</surname> </persName> </ab></item> <item> <title level="a" type="main">Catherine Mavrikakis</title> <title type="sub">La force de penser (chaque jour)</title> <ab><persName role="author"> <forename>Maïté</forename> <surname>Snauwaert</surname> </persName> </ab></item> <item> <title level="a" type="main">This is What a Public Intellectual Looks Like</title> <title type="sub">Dorothy Livesay’s Housewife Years and the Public Sphere</title> <ab><persName role="author"> <forename>Shauna</forename> <surname>Lancit</surname> </persName> </ab></item></list> </item>
+                    <item>
+                        <title level="a" type="main">Afterword</title>
+                        <ab> <persName role="author"><forename>Susan</forename> <surname>Brown</surname></persName> &amp; <persName role="author"><forename>Mary-Jo</forename> <surname>Romaniuk</surname></persName></ab>
+                    </item>
+                    <item>
+                        <title level="a" type="main">Contributors/Collaborateurs</title>
+                    </item>
+                </list>
+            </div>
+            
+        </front>
+        <body><div/>
+        </body>
+        
+
+    </text>
+</TEI>

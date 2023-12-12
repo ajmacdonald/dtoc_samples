@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body><div/></body>
+        <back>
+            
+            <div type="contributors">
+                <head><title level="a"><hi xml:lang="en-CA" rend="italic">Contributors</hi> / <hi xml:lang="fr-CA">Collaborateurs</hi></title></head>
+                <p xml:id="p985" xml:lang="fr-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/7387642">Nicole Brossard</persName></hi> est poète, romancière et essayiste. Elle est née à <placeName cert="high" ref="http://www.geonames.org/6077243">Montréal</placeName>. Depuis <date cert="high" when="1965">1965</date>, elle a publié une trentaine de livres dont <title level="m" cert="high" ref="http://viaf.org/viaf/202967649">Le Désert mauve</title>, <title level="m" cert="high" ref="http://viaf.org/viaf/307029645">Musée de l’os et de l’eau, La lettre aérienne</title> ainsi qu’une <title level="m">Anthologie de la poésie des femmes au <placeName cert="high" ref="http://www.geonames.org/6115047">Québec</placeName></title> (avec <persName cert="high" ref="http://viaf.org/viaf/94503924">Lisette Girouard</persName>) et <title level="m">Poèmes à dire la francophonie</title> (<date cert="high" when="2002">2002</date>). Sa poésie a influencé toute une génération de poètes. <ref target="#recognitions">Ses livres sont traduits en plusieurs langues et son œuvre a été célébrée par de nombreux prix littéraires majeurs dont le Prix du Gouverneur général en <date cert="high" from="1974" to="1984">1974 et 1984</date> et le prix Athanase-David.</ref> Son plus récent recueil est <title level="m" cert="high" ref="http://viaf.org/viaf/305371880">Piano blanc</title>.</p>
+                <p xml:id="p986" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/171626610">Susan Brown</persName></hi> is professor of English at the <orgName cert="high" ref="http://viaf.org/viaf/125486960">University of Guelph</orgName> and visiting professor at the <orgName cert="high" ref="http://viaf.org/viaf/147166987">University of Alberta</orgName>. Her research interests include the digital humanities, Victorian literature, and women’s writing. All of these interests inform <title level="m"><orgName>Orlando: Women’s Writing in the British Isles from the Beginnings to the Present</orgName></title>, an ongoing experiment in digital literary history published online by <orgName cert="high" ref="http://viaf.org/viaf/127979069">Cambridge University Press</orgName> since <date cert="high" when="2006">2006</date> that she directs and co-edits. She leads the <orgName>Canadian Writing Research Collaboratory</orgName> infrastructure project.</p>
+                <p xml:id="p987" xml:lang="fr-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/120027154">Marie Carrière</persName></hi> est directrice du <orgName cert="high" ref="http://viaf.org/viaf/145376209" sameAs="Canadian Literature Centre">Centre de littérature canadienne</orgName> à l’<orgName cert="high" ref="http://viaf.org/viaf/147166987" sameAs="University of Alberta">Université de l’Alberta</orgName>, où elle enseigne aussi la littérature québécoise, française et comparée. Elle a publié récemment <title level="m">Médée protéiforme</title> (<date cert="high" when="2012">2012</date>) aux <orgName cert="high" ref="http://viaf.org/viaf/135965961" sameAs="University of Ottawa Press">Presses de l’Université d’Ottawa</orgName>. Carrière mène des recherches sur l’écriture contemporaine des femmes, l’évolution de la pensée féministe ainsi que l’éthique en littérature.</p>
+                <p xml:id="p988" xml:lang="en-CA"><ref target="#recognitions"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/56665698">Patricia Demers</persName></hi>, Distinguished University Professor in the Department of English and Film Studies and the Comparative Literature Program at the <orgName cert="high" ref="http://viaf.org/viaf/147166987">University of Alberta</orgName>, has received numerous awards for her research and teaching.</ref> The author or editor of seventeen books and over fifty articles, she has served in senior positions with the <orgName cert="high" ref="http://viaf.org/viaf/150876296" sameAs="Social Sciences and Humanities Research Council">Social Sciences and Humanities Research Coucil</orgName> and the <orgName cert="high" ref="http://viaf.org/viaf/159113084">Royal Society of Canada</orgName>.</p>
+                <p xml:id="p989" xml:lang="en-CA"><hi rend="small-caps"><persName>Louise Dennys</persName></hi> is executive publisher, <orgName>Knopf Random Vintage Canada Publishing Group</orgName>, and executive vice-president, <orgName cert="high" ref="http://viaf.org/viaf/311379199" sameAs="Random House of Canada">Random House of Canada Limited</orgName>. <ref target="#recognitions">She is a recipient of the Order of Canada for her contribution to Canadian culture; a recipient of the Queen’s Diamond Jubilee Medal; and most recently the <date cert="high" when="2013">2013</date> winner of the Ivy Award for her contribution to Canadian publishing and writers.</ref> She is a Doctor of Civil Law, <hi rend="italic" xml:lang="la-150">honoris causa</hi>, <orgName cert="high" ref="http://viaf.org/viaf/131293372">Bishop’s University</orgName>, and a past president of <orgName cert="high" ref="http://viaf.org/viaf/172689641"><hi rend="small-caps">PEN</hi> Canada</orgName>.</p>
+                <p xml:id="p990" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/33915041">Cinda Gault</persName></hi> teaches at the <orgName cert="high" ref="http://viaf.org/viaf/125486960">University of Guelph</orgName>. In <date cert="high" when="2012">2012</date>, she published <title level="m">National and Female Identity in Canadian Literature, <date cert="high" from="1965" to="1980">1965–1980</date></title>. <ref target="#health_issue"><ref target="#gender_issue">Her new project, <title level="m">Abortion in Canadian Literature</title>, analyzes <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>’s story of abortion over the twentieth century. From the mid-twentieth century to contemporary times, we see a nation and its writers wrestle with an issue that signifies myriad meanings in a changing culture.</ref></ref></p>
+                <p xml:id="p991" xml:lang="fr-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/32220127">Lucie Hotte</persName></hi> est vice-doyenne à la recherche à la faculté des arts de l’<orgName cert="high" ref="http://viaf.org/viaf/149530551" sameAs="University of Ottawa">Université d’Ottawa</orgName> où elle est aussi titulaire de la Chaire de recherche sur les cultures et les littératures francophones du <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> et professeure titulaire au département de français. Ses recherches portent surtout sur les théories de la lecture, les littératures minoritaires et l’écriture des femmes. <ref target="#response_formal">Elle s’intéresse aussi à la réception critique des œuvres d’écrivains marginaux.</ref> Elle a beaucoup publié sur les littératures franco-canadiennes et les enjeux institutionnels propres aux littératures minoritaires.</p>
+                <p xml:id="p992" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/56891114">Dean Irvine</persName></hi> is director of <orgName>Editing Modernism in Canada/<hi xml:lang="fr-CA">Édition du modernisme au Canada</hi></orgName> and associate professor in the Department of English at <orgName cert="high" ref="http://viaf.org/viaf/127757839">Dalhousie University</orgName>. He is the author of <title level="m">Editing Modernity: Women and Little-Magazine Cultures in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>, <date cert="high" from="1916" to="1956">1916–1956</date></title>, and editor of <title level="m">The Canadian Modernists Meet</title>; <title level="m">Heresies: The Complete Poems of <persName cert="high" ref="http://viaf.org/viaf/66513221">Anne Wilkinson</persName>, <date cert="high" from="1924" to="1961">1924–1961</date></title>; and <title level="m">Archive for Our Times: Previously Uncollected and Unpublished Poems of <persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName></title>. With <persName cert="high" ref="http://viaf.org/viaf/93165633">Zalig Pollock</persName> and <persName cert="high" ref="http://viaf.org/viaf/32010922">Sandra Djwa</persName>, he is a general editor of the Collected Works of <persName cert="high" ref="http://viaf.org/viaf/59208470">P.K. Page</persName> and its online companion, <title level="m">The Digital Page</title>.</p>
+                <p xml:id="p993" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/110237888">Gary Kelly</persName></hi>, at the <orgName cert="high" ref="http://viaf.org/viaf/147166987">University of Alberta</orgName>, has published books and essays on and editions of the eighteenth-century Bluestocking circle and women writers of Revolution and Romanticism in <placeName cert="medium" ref="http://www.geonames.org/2648147">Britain</placeName> and the American republic. He has also written on the Romantic novel and Newgate literature and is general editor of the multivolume <title level="m">Oxford History of Popular Print Culture</title>. He is working on a history of British Romanticism; Romantic chronotopes; and women, learning, and lore in Romantic Britain. </p>
+                <p xml:id="p994" xml:lang="en-CA"><hi rend="small-caps"><persName>Shauna Lancit</persName></hi> is writing a dissertation on the public intellectual contributions of <persName cert="high" ref="http://viaf.org/viaf/56774589">Pauline Johnson</persName>, <persName cert="high" ref="http://viaf.org/viaf/116854541">Dorothy Livesay</persName>, and <persName cert="high" ref="http://viaf.org/viaf/61584279">Dionne Brand</persName>. Her writing, which theorizes and fantasizes the relationships between intellectual work, poetics, and publics, has appeared in <title level="j">Open Letter</title>, <title level="j">Tessera</title>, and <title level="j">Fireweed</title>, in numerous zines, and in the form of public performance. <ref target="#methodology">She wrote her contribution to this collection mostly during her son’s nap time.</ref></p>
+                <p xml:id="p995" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/305358828">Mary McDonald-Rissanen</persName></hi> traces her roots back to <placeName cert="high" ref="http://www.geonames.org/6113358">Prince Edward Island</placeName> where she was born, brought up, completed her earlier degrees, and now spends her summers. For the rest of the year, Mary teaches English at the <orgName cert="medium" ref="http://viaf.org/viaf/122610343" sameAs="Tampereen yliopisto">University of Tampere</orgName> (<placeName cert="high" ref="http://www.geonames.org/660013">Finland</placeName>) where she defended her doctoral dissertation on early women’s life writing. Mary’s archival research on ordinary PEI women’s diaries has culminated in her new book, <title level="m">In the Interval of the Wave: Prince Edward Island Women’s Nineteenth- and Early Twentieth-Century Life Writing</title> (<orgName cert="high" ref="http://viaf.org/viaf/141809819">McGill-Queen’s University Press</orgName>, <date cert="high" when="2013">2013</date>).</p>
+                <p xml:id="p996" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/36720142">Lindsey McMaster</persName></hi> teaches in the Department of English Studies at <orgName cert="high" ref="http://viaf.org/viaf/124254622">Nipissing University</orgName>. Her research and teaching focus on early Canadian literature, especially the works of women writers and the genre of Canadian gothic. <ref target="#representation_of_women">Her book, <title level="m">Working Girls in the West: Representations of Wage-Earning Women</title> (<date cert="high" when="2007">2007</date>), examines depictions of women in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>’s workforce, focusing on writers such as <placeName cert="high" ref="http://www.geonames.org/6077243">Montreal</placeName>’s <persName cert="high" ref="http://viaf.org/viaf/105426589">J.G. Sime</persName> and turn-of-the-century prostitute <persName>Madeleine Blair</persName>.</ref> She has also published on gothic dimensions in the works of <persName cert="high" ref="http://viaf.org/viaf/27203212">L.M. Montgomery</persName>.</p>
+                <p xml:id="p997" xml:lang="en-CA"><hi rend="small-caps"><persName>Mary-Jo Romaniuk</persName></hi> is an adjunct professor at the <orgName cert="high" ref="http://viaf.org/viaf/148870312" sameAs="University of Alberta. School of Library and Information Studies">School of Library and Information Studies, University of Alberta</orgName> while at the <orgName cert="high" ref="http://viaf.org/viaf/135889690" sameAs="University of Southern California. Library">University of Southern California Libraries</orgName> and <orgName cert="high" ref="http://viaf.org/viaf/128158107">Marshall School of Business</orgName>. Prior to her current positions she was chief librarian (acting) at the <orgName cert="high" ref="http://viaf.org/viaf/147166987">University of Alberta</orgName>, having previously been associate university librarian—Information and Financial Resources. <ref target="#technology">At that time, she first engaged with the <orgName>Canadian Writing Research Collaboratory</orgName> initiatives and this project. She is committed to fostering and preserving traditional formats for scholarly publication while exploring innovative interfaces and technologies that expand the reach and interactivity of scholarship and scholarly communication.</ref></p>
+                <p xml:id="p998" xml:lang="fr-CA"><ref target="#recognitions"><hi rend="small-caps"><persName cert="medium" ref="http://viaf.org/viaf/58502465">Julie Roy</persName></hi> a obtenu le Prix de la Chaire d’étude Claire-Bonenfant sur la condition des femmes en <date cert="high" when="2004">2004</date> pour sa thèse de doctorat intitulée <title level="m">Stratégies épistolaires et écritures féminines : Les Canadiennes à la conquête des lettres (<date cert="high" from="1639" to="1839">1639–1839</date>)</title>.</ref> Ses recherches post-doctorales ont porté sur l’histoire littéraire des femmes, la presse et la formation des couventines et elle a codirigé le projet <title level="m">Histoire littéraire des femmes : stratégies de légitimation et principes de filiation (<date cert="high" from="1837" to="1882">1837–1882</date>)</title> (<hi rend="small-caps"><orgName cert="high" ref="http://viaf.org/viaf/150876296" sameAs="Social Sciences and Humanities Research Council">CRSH</orgName></hi>, <date cert="high" from="2006" to="2011">2006–2011</date>). Elle est archiviste à <orgName cert="high" ref="http://viaf.org/viaf/122051864" sameAs="Library and Archives Canada">Bibliothèque et Archives Canada</orgName> depuis <date cert="high" when="2007">2007</date>.</p>
+                <p xml:id="p999" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/51948730">Susan Rudy</persName></hi> is a literary critic and feminist theorist whose research focuses on the connections between feminist theory and women’s lives. On extended leave from her position as professor of English at the <orgName cert="high" ref="http://viaf.org/viaf/143270900">University of Calgary</orgName>, she is currently director of <orgName>The Rhodes Project</orgName> in <placeName cert="high" ref="http://www.geonames.org/2643741">London</placeName> and visiting research fellow, <orgName cert="medium" ref="http://viaf.org/viaf/131406935" sameAs="Institute of English Studies">Institute of English Studies, School of Advanced Study, University of London</orgName>. <ref target="#gender_issue">Her current research includes, with <persName cert="high" ref="http://viaf.org/viaf/226167868">Kate Blackmon</persName> (<orgName cert="high" ref="http://viaf.org/viaf/151630447" sameAs="Saïd Business School">Said School of Business, University of Oxford</orgName>), a forthcoming <orgName cert="high" ref="http://viaf.org/viaf/140705396">Oxford University Press</orgName> book on the gender gap in leadership. See <title level="a"><q>and you think you have it all mapped out</q>: Women Rhodes Scholars’ Work-Life Identity Narratives</title> (<ref target="http://rhodesproject.com/publications/">http://rhodesproject.com/publications/</ref>)<!--<a id="Anchor-124"/> MWVI: not sure where it came from; preceding url should be surrounded by a ref tag-->.</ref> </p>
+                <p xml:id="p1000" xml:lang="fr-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/105437213">Chantal Savoie</persName></hi> est professeure au département d’études littéraires de l’<orgName cert="high" ref="http://viaf.org/viaf/148525754">Université du Québec à Montréal</orgName> et chercheure au <orgName cert="high" ref="http://viaf.org/viaf/145371179">Centre de recherche interuniversitaire sur la littérature et la culture québécoises</orgName> (<hi rend="small-caps">CRILCQ</hi>). Elle fait partie du collectif qui rédige la série <title level="m">La vie littéraire au <placeName cert="high" ref="http://www.geonames.org/6115047">Québec</placeName></title> (<orgName cert="high" ref="http://viaf.org/viaf/125659869">Presses de l’Université Laval</orgName>, six tomes parus) et elle s’intéresse principalement aux pratiques littéraires des femmes et à leur place dans le champ littéraire canadien-français, de même qu’à la culture de grande consommation.</p>
+                <p xml:id="p1001" xml:lang="fr-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/125077482">Maïté Snauwaert</persName></hi>, professeure adjointe à l’<orgName cert="high" ref="http://viaf.org/viaf/147166987" sameAs="University of Alberta">Université de l’Alberta</orgName>, s’intéresse au vieillissement, au deuil et à la fin de la vie dans la littérature française, canadienne et américaine. Son ouvrage <title level="m"><persName cert="medium" ref="http://viaf.org/viaf/19716623">Philippe Forest</persName>, la littérature à contretemps</title> (<orgName>Éditions Cécile Defaut</orgName>, <date cert="high" when="2012">2012</date>) est la première monographie sur un écrivain français dont l’œuvre s’inspire de l’expérience de la perte d’un enfant. À ses publications s’ajoutent la direction et codirection de numéros spéciaux sur <persName cert="high" ref="http://viaf.org/viaf/10365">Marguerite Duras</persName> (<title level="j" xml:lang="en-CA">Dalhousie French Studies</title> 95, <date cert="high" when="2011">2011</date>) et <persName cert="high" ref="http://viaf.org/viaf/17233743">Sophie Calle</persName> (<title level="j">Intermédialités</title> 7, <date cert="high" when="2006">2006</date>). Chroniqueuse pour <title level="j">Lettres québécoises</title>, elle collabore aussi à la revue culturelle <title level="j">Spirale</title>.</p>
+                <p xml:id="p1002" xml:lang="en-CA"><hi rend="small-caps"><persName cert="high" ref="http://viaf.org/viaf/7436967">Rosemary Sullivan</persName></hi>, OC, is the author of thirteen books, including biographies of <persName cert="high" ref="http://viaf.org/viaf/46814469">Elizabeth Smart</persName>, <persName cert="high" ref="http://viaf.org/viaf/115290827">Gwendolyn MacEwen</persName>, <persName cert="high" ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>, and the collective biography, <title level="m" cert="high" ref="http://viaf.org/viaf/308575187">Villa Air-Bel: <listEvent> <event> <label>World War II</label> </event> </listEvent>, Escape, and a House in Marseille</title>. <ref target="#recognitions">She has won numerous prizes for her books, including the Governor General’s Award for Non-fiction, the <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName> Book Award, and the Yad Vashem Canadian Book Prize. She worked as the director of Literary Journalism at the <orgName cert="high" ref="http://viaf.org/viaf/157249450">Banff Centre for the Arts</orgName>, and has held Trudeau, Jackman, and Guggenheim Fellowships.</ref></p>
+                <p xml:id="p1003" xml:lang="en-CA"><hi rend="small-caps"><persName cert="medium" ref="http://viaf.org/viaf/308227105">Sheena Wilson</persName></hi> is an assistant professor at <orgName cert="high" ref="http://viaf.org/viaf/125414591" sameAs="University of Alberta. Faculté Saint-Jean">Campus Saint-Jean, University of Alberta</orgName>. <ref target="#historical_oppression"><ref target="#gender_issue">Her research involves an interdisciplinary approach to studying cultural representation of human and civil rights abuses and women’s issues in literature, film, and media.</ref></ref> Dr. Wilson is director of the <orgName>Centre d’écriture bilingue</orgName> at Campus Saint-Jean, co-director of the <orgName>Petrocultures Research Group</orgName> (<ref target="petrocultures.com">petrocultures.com</ref>) and editor-in-chief of the online journal <title level="j">Imaginations: Journal of Cross-Cultural Image Studies/<hi xml:lang="fr-CA">Revue d’études interculturelles de l’image</hi></title>.</p>
+
+                <!--
+        MVI: images missing in the pdf version
+        
+        
+        <div rend="frame-3">
+        <graphic rend="frame-2" url="image/14085.png"/>
+      </div>
+      <div rend="Basic-Graphics-Frame frame-3">
+        <graphic rend="frame-4" url="image/CarriereDemers_Figure%202_fmt.png"/>
+      </div>
+      <div rend="Basic-Text-Frame">
+        <p>
+          Figure 2.1
+           Contents page for dandelion 37.1, Mapping. 
+          [Image designed by Blair Prentice]
+        </p>-->
+            </div>
+            
+            
+            
+        </back>
+
+    </text>
+</TEI>

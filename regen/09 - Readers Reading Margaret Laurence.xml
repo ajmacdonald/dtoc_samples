@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p></p>
+            </projectDesc>
+            <classDecl>
+                <taxonomy>
+                    <desc>Library and Archives Canada Cataloguing in Publication</desc>
+                </taxonomy>
+
+                <!--<taxonomy>
+
+                    <!-\- Life tagset: -\->
+                    <category xml:id="class_issue">
+                        <catDesc>Encodes discussion related to class.</catDesc>
+                    </category>
+                    <category xml:id="nationality_issue">
+                        <catDesc>Encodes passages discussing nationality.</catDesc>
+                    </category>
+                    <category xml:id="race_and_ethnicity">
+                        <catDesc>Encodes passages dealing with the unstable, historically constituted categories of race and ethnicity.</catDesc>
+                    </category>
+                    <category xml:id="sexuality">
+                        <catDesc>Encodes discussions of sexuality in terms of culture, behaviour, or identity.</catDesc>
+                    </category>
+                    <category xml:id="education">
+                        <catDesc>Encodes information about educational background: schools or institutions, gender issues (conditions affecting women's access to education), subjects and crucial works studied, people encountered, behaviour, awards, and qualifications gained. </catDesc>
+                    </category>
+                    <category xml:id="health_issue">
+                        <catDesc>Encodes passages relating to well-being or illness (mental or physical).</catDesc>
+                    </category>
+                    <category xml:id="history">
+                        <catDesc>Encodes references to historical events or periods.</catDesc>
+                    </category>
+                    <category xml:id="politics">
+                        <catDesc>Encodes information concerning political activity.</catDesc>
+                    </category>
+                    <category xml:id="violence">
+                        <catDesc>Encodes instances of physical, sexual, institutional, or emotional abuse.</catDesc>
+                    </category>
+                    <category xml:id="gender_issue">
+                        <catDesc>Encodes the relation of a particular political engagement to gender issues, broadly defined.</catDesc>
+                    </category>
+                    <category xml:id="religion">
+                        <catDesc>Encodes discussion of religious issues.</catDesc>
+                    </category>
+                    <category xml:id="technology">
+                        <catDesc>Encodes substantial discussion of technology.</catDesc>
+                    </category>
+                    <category xml:id="collaboration">
+                        <catDesc>Encodes substantial discussion of collaboration.</catDesc>
+                    </category>
+                    <!-\-  Production tagset: -\->
+                    <category xml:id="authorship">
+                        <catDesc>Contains discussions of authorship</catDesc>
+                    </category>
+                    <category xml:id="literary_schools">
+                        <catDesc>Encodes a single reference to a school of thought.</catDesc>
+                    </category>
+                    <category xml:id="writing_climate">
+                        <catDesc>Encodes any physical, economic, or emotional circumstances affecting a writer's work.</catDesc>
+                    </category>
+                    <category xml:id="attitudes_to_women_writing">
+                        <catDesc>Contains material about authors' attitudes specifically to authorship, gender, and the relations between them.</catDesc>
+                    </category>
+                    <category xml:id="place_of_publication">
+                        <catDesc>Encloses significant statements about where books were published.</catDesc>
+                    </category>
+                    <category xml:id="editions">
+                        <catDesc> Contains information about later editions, re-issues, reprints or translations.</catDesc>
+                    </category>
+                    <category xml:id="anthologization">
+                        <catDesc> Encodes information about reprinting a work in collections with work by other people.</catDesc>
+                    </category>
+                    <category xml:id="manuscript_history">
+                        <catDesc>Encodes discussion of the history of unpublished or pre-published texts.</catDesc>
+                    </category>
+                    <category xml:id="non-survival_of_text">
+                        <catDesc>Encodes material on non-extant texts.</catDesc>
+                    </category>
+                    <category xml:id="archive">
+                        <catDesc>Encodes discussion about archived material.</catDesc>
+                    </category>
+                    <category xml:id="archival_location">
+                        <catDesc>Encodes information about location or ownership of manuscript or rare printed texts.</catDesc>
+                    </category>
+                    <category xml:id="non-book_media">
+                        <catDesc>Refers to a non-textual work or non-textual packaging of a written work.</catDesc>
+                    </category>
+                    <!-\-  Textual Features tagset: -\->
+
+                    <category xml:id="genre">
+                        <!-\- List below is tentatively replaced with the CWRC primary genres. User testing will tell if this is a good alternative for this collection  -\->
+                       <!-\- 
+                        <catDesc xml:id="adaptation">Adaptation</catDesc>
+                        <catDesc xml:id="afterword">Afterword</catDesc>
+                        <catDesc xml:id="allegory">Allegory</catDesc>
+                        <catDesc xml:id="annotation">Annotation</catDesc>
+                        <catDesc xml:id="anthology">Anthology</catDesc>
+                        <catDesc xml:id="aphorism">Aphorism</catDesc>
+                        <catDesc xml:id="autobiography">Autobiography</catDesc>
+                        <catDesc xml:id="ballad">Ballad</catDesc>
+                        <catDesc xml:id="bildungsroman">Bildungsroman</catDesc>
+                        <catDesc xml:id="biography">Biography</catDesc>
+                        <catDesc xml:id="catechism">Catechism</catDesc>
+                        <catDesc xml:id="childrens_literature">Children's Literature</catDesc>
+                        <catDesc xml:id="comedy">Comedy</catDesc>
+                        <catDesc xml:id="comic_book">Comic Book</catDesc>
+                        <catDesc xml:id="detective_fiction">Detective Fiction</catDesc>
+                        <catDesc xml:id="dialogue_or_debate">Dialogue or Debate</catDesc>
+                        <catDesc xml:id="diary">Diary</catDesc>
+                        <catDesc xml:id="didactic">Didactic</catDesc>
+                        <catDesc xml:id="documentary">Documentary</catDesc>
+                        <catDesc xml:id="drama">Drama</catDesc>
+                        <catDesc xml:id="dystopia">Dystopia</catDesc>
+                        <catDesc xml:id="elegy">Elegy</catDesc>
+                        <catDesc xml:id="epic">Epic</catDesc>
+                        <catDesc xml:id="epilogue">Epilogue</catDesc>
+                        <catDesc xml:id="epistolary">Epistolary</catDesc>
+                        <catDesc xml:id="erotica">Erotica</catDesc>
+                        <catDesc xml:id="essay">Essay</catDesc>
+                        <catDesc xml:id="fable">Fable</catDesc>
+                        <catDesc xml:id="fairy_tale">Fairy Tale</catDesc>
+                        <catDesc xml:id="fantasy">Fantasy</catDesc>
+                        <catDesc xml:id="folksong">Folksong</catDesc>
+                        <catDesc xml:id="gothic">Gothic</catDesc>
+                        <catDesc xml:id="government_report">Government Report</catDesc>
+                        <catDesc xml:id="historical">Historical</catDesc>
+                        <catDesc xml:id="introduction">Introduction</catDesc>
+                        <catDesc xml:id="journalism">Journalism</catDesc>
+                        <catDesc xml:id="literary_criticism">Literary Criticism</catDesc>
+                        <catDesc xml:id="liturgy">Liturgy</catDesc>
+                        <catDesc xml:id="magic_realism">Magic Realism</catDesc>
+                        <catDesc xml:id="manifesto">Manifesto</catDesc>
+                        <catDesc xml:id="mixed_media">Mixed Media</catDesc>
+                        <catDesc xml:id="mystery">Mystery</catDesc>
+                        <catDesc xml:id="novel">Novel</catDesc>
+                        <catDesc xml:id="parody">Parody</catDesc>
+                        <catDesc xml:id="philosophy">Philosophy</catDesc>
+                        <catDesc xml:id="poetry">Poetry</catDesc>
+                        <catDesc xml:id="propoganda">Propaganda</catDesc>
+                        <catDesc xml:id="science_fiction">Science Fiction</catDesc>
+                        <catDesc xml:id="short_story">Short Story</catDesc>
+                        <catDesc xml:id="social_science">Social Science</catDesc>
+                        <catDesc xml:id="song">Song</catDesc>
+                        <catDesc xml:id="sonnet">Sonnet</catDesc>
+                        <catDesc xml:id="tragedy">Tragedy</catDesc>
+                        <catDesc xml:id="translation">Translation</catDesc>
+                        <catDesc xml:id="treatise">Treatise</catDesc>
+                        <catDesc xml:id="young_adult_writing">Young Adult Writing</catDesc>-\->
+                    </category>
+                    <category xml:id="genre_drama"><catDesc>Drama</catDesc></category>
+                    <category xml:id="genre_fiction"><catDesc>Fiction</catDesc></category>
+                    <category xml:id="genre_journalism"><catDesc>Journalism</catDesc></category>
+                    <category xml:id="genre_lifeWriting"><catDesc>Life writing</catDesc></category>
+                    <category xml:id="genre_music"><catDesc>Music</catDesc></category>
+                    <category xml:id="genre_novel"><catDesc>Novel</catDesc></category>
+                    <category xml:id="genre_non-ficion"><catDesc>Non-fiction</catDesc></category>
+                    <category xml:id="genre_poetry"><catDesc>Poetry</catDesc></category>
+                    <category xml:id="genre_performance"><catDesc>Performance</catDesc></category>
+                    <category xml:id="genre_short_story"><catDesc>Short story</catDesc></category>
+                    <category xml:id="genre_scholarlyWriting"><catDesc>Scholarly writing </catDesc></category>
+                    <category xml:id="genre_issue">
+                        <catDesc>Encodes discussions of disputable generic allegiance or unusual generic mixtures.</catDesc>
+                    </category>
+                    <category xml:id="voice_or_narration">
+                        <catDesc>Encodes discussion of narrative techniques.</catDesc>
+                    </category>
+                    <category xml:id="textual_strategies">
+                        <catDesc>Rhetorical and discursive effects.</catDesc>
+                    </category>
+                    <category xml:id="characterization">
+                        <catDesc>Encodes discussions of fictional characters.</catDesc>
+                    </category>
+                    <category xml:id="intertextuality">
+                        <catDesc>Encodes discussion of gestures in a text towards other texts. Includes exchange, debate, rivalries, influence of one writer on another.</catDesc>
+                    </category>
+                    <category xml:id="theme_or_topic">
+                        <catDesc>Encodes both theme (concepts central to a particular text) and topic (subjects of less central weight).</catDesc>
+                    </category>
+                    <category xml:id="motif">
+                        <catDesc>Encodes a recurring element that has symbolic significance.</catDesc>
+                    </category>
+                    <!-\-  Reception tagset: -\->
+                    <category xml:id="response_recent">
+                        <catDesc>Encodes time frame of a literary response to a work.</catDesc>
+                    </category>
+                    <category xml:id="response_re-evaluation">
+                        <catDesc>Encodes a response that is a re-evaluation of a literary work.</catDesc>
+                    </category>
+                    <category xml:id="response_formal">
+                        <catDesc>Encodes a formal response to a literary work (e.g. a review).</catDesc>
+                    </category>
+                    <category xml:id="response_informal">
+                        <catDesc>Encodes an informal response to a literary work (e.g. a comment or a letter).</catDesc>
+                    </category>
+                    <category xml:id="response_gendered">
+                        <catDesc>Indicates whether or not a literary response is predicated on the writer's gender.</catDesc>
+                    </category>
+                    <category xml:id="recognitions">
+                        <catDesc>Encodes material about acclaim offered to literary works, usually in the form of awards and prizes.</catDesc>
+                    </category>
+                    <category xml:id="censorship">
+                        <catDesc>Encodes discussion of censorship.</catDesc>
+                    </category>
+                    <!-\-  Critcal Interpretation tagset: -\->
+                    <category xml:id="authority">
+                        <catDesc>Encodes statements about larger issues of cultural authority.</catDesc>
+                    </category>
+                    <category xml:id="economics">
+                        <catDesc>Encodes material related to wealth, power, etc.</catDesc>
+                    </category>
+                    <category xml:id="men_writing">
+                        <catDesc>Discussions of male writing as gendered, or as a tradition (not all discussions of writing by men).</catDesc>
+                    </category>
+                    <category xml:id="women_writing">
+                        <catDesc>Discussions of women's writing as gendered, or as a tradition (not all discussions of writing by women).</catDesc>
+                    </category>
+                    <category xml:id="textual_agency">
+                        <catDesc>Encodes material about the relation between books and social transformation and development (i.e. effects of a certain text on worldly conditions).</catDesc>
+                    </category>
+                    <category xml:id="canon_formation">
+                        <catDesc>Encodes material about the transmission and production of the canon.</catDesc>
+                    </category>
+                    <category xml:id="critique_of_canon">
+                        <catDesc>Encodes critical discussions of the canon.</catDesc>
+                    </category>
+                    <category xml:id="intellectual_history">
+                        <catDesc>Encodes discussion of literary communities and their influences on intellectual history. </catDesc>
+                    </category>
+                    <category xml:id="social_movement">
+                        <catDesc>Encodes discussion of social movements.</catDesc>
+                    </category>
+                    <category xml:id="close_reading">
+                        <catDesc>Encodes passages of close reading.</catDesc>
+                    </category>
+                    <category xml:id="methodology">
+                        <!-\- Should we create subcategories for methodology? Or include these methodological approaches as categories in 'genre'? -\->
+                        <catDesc>Encodes discussion of someone's methodological approach, or that of another critic. Methodological categories include: feminist, Canadianist, new historical, deconstructionist, psychoanalytic, globalism, post-colonialism, sustainability, etc.</catDesc>
+                    </category>
+                    <category xml:id="representation_of_women">
+                        <catDesc>Encodes discussion of the representation of women, literary or other.</catDesc>
+                    </category>
+                    <category xml:id="representation_of_men">
+                        <catDesc>Encodes discussion of the representation of men, literary or other.</catDesc>
+                    </category>
+                    <category xml:id="historical_oppression">
+                        <catDesc>Encodes material on the exclusion of certain groups from the production of history (literary or other).</catDesc>
+                    </category>
+                </taxonomy>-->
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            <div type="part">
+                
+                
+                
+                
+                <div type="chapter" xml:lang="en-CA">
+                    <head><title level="a">Readers Reading <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>, <date cert="high" from="1965" to="1980">1965–1980</date></title></head>
+                    <docAuthor>
+                        <persName cert="high" ref="http://viaf.org/viaf/33915041">Cinda Gault</persName>
+                    </docAuthor>
+                    <div type="section">
+                        <p xml:id="p238">
+                            <ref target="#nationality_issue"><ref target="#theme_or_topic"><persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName></ref> rose as a shining star in the Canadian literary world of the <date cert="medium" from="1960" to="1979">1960s and 1970s</date>, especially appreciated for her portrayals of <ref target="#theme_or_topic">national and female identity</ref>. This claim would prompt few objections among critics then or now, but disagreements do exist about how these portraits should be interpreted. <persName cert="high" ref="http://viaf.org/viaf/61787936">Imre Szeman</persName> offers a point of departure with his claim that in this era the concept of nation emerged <q>pre-eminently as a strategy of reading</q> to the point that <q>in <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName> the concept of nation [was] articulated differently within literary criticism than within literature</q> (164). <ref target="#canon_formation">A splinter between criticism and literature in the articulation of nation raises the possibility that judgements of works considered central to the category of <ref target="#genre">Canadian fiction</ref> might be in part a function of overly enthusiastic criticism that stretched the fiction to represent nationalism.</ref></ref>
+                        </p>
+                        <p xml:id="p239">
+                            <ref target="#theory">
+                                <ref target="#women_writing">
+                                    <ref target="#response_gendered">Another contemporaneous split between reading and writing at this time emerged around gender. Many critics propagated a transnational and self-avowed mission to read for gender in fiction written by women about women. <ref target="#gender_issue">As <persName cert="high" ref="http://viaf.org/viaf/73982249">Rita Felski</persName> elaborates, <q type="block"> the emergence of a <ref target="#social_movement"><ref target="#theme_or_topic">second wave of feminism</ref></ref> in the <date cert="medium" from="1967" to="1969">late 1960s</date> justifies the analysis of women’s literature as a separate category, not because of automatic and unambiguous differences between the writings of women and men, but because of the recent cultural phenomenon of women’s explicit self-identification as an oppressed group, which is in turn articulated in literary texts in the exploration of gender-specific concerns centred around the problem of female identity. (1) </q></ref></ref>
+                                    <ref target="#genre_issue">As critics considered the meaning of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work, they attended to issues raised by <ref target="#theme_or_topic">English-Canadian nationalism</ref> and <ref target="#theme_or_topic"><ref target="#social_movement">second-wave feminism</ref></ref> using literary tools of their trade, including genre. Laurence’s stories, like most contemporary fiction, evinced characteristics of both <ref target="#theme_or_topic">realism</ref> and <ref target="#theme_or_topic">romance</ref>, yet most of her critics favoured interpretation as romance: any discovery of viable identities was good news for those wishing for autonomous versions of women and Canadians. Even commitments to realism made room for the discovery of unified identity conventionally associated with romance. <ref target="#response_re-evaluation">It is important to consider the effects of a politically infused reception on interpretations of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work because, as conventional wisdom has changed over time from optimism about unified identity to scepticism, understandings of Laurence’s identity portrayals have been markedly affected, perhaps even more so than those of her contemporaries, because her portraits were maximally amenable to interpretation as romance.</ref></ref>
+                                </ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>National and Female Identities Together</head>
+                        <p xml:id="p240">
+                            <ref target="#gender_issue">
+                                <ref target="#nationality_issue">At a time when feminists around the world were grappling with what defined and bound them as part of a female community, Canadian literary critics found value in multiple communal entities: <q>In Canadian fiction the old identity questions (<q>Who am I? Where did I come from? Where am I going?</q>) are usually translated not so much in terms of personal identity as by expressions of a search for an identity which is collective and cultural</q> (<persName cert="high" ref="http://viaf.org/viaf/255248526" sameAs="David L. Jeffrey">Jeffrey</persName> 87). Nationalists and feminists alike sought self-understanding according to communal constructions of identity.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p241">
+                            <ref target="#nationality_issue">
+                                <ref target="#gender_issue">In retrospect, there were some indications that these identities may indeed prove less than harmoniously linked. <ref target="#social_movement">Looking back from <date cert="high" when="1995">1995</date>, some critics claim that the <date cert="medium" from="1970" to="1976">early to mid-1970s</date> saw <q>nationalistic concerns outweighed by those that were specifically focused on women,</q> thereby pointing to an implicit competition between identities (<persName cert="high" ref="http://viaf.org/viaf/98280052" sameAs="Christl Verduyn">Verduyn</persName> 115). Others hold a contradictory retrospective view, that <q>in this period the national pole of identification held sway over other social identities</q> (<persName cert="high" ref="http://viaf.org/viaf/110306620" sameAs="Ian Angus">Angus</persName> 23).</ref> This impression of competing agendas between nationalist and feminist movements gives credence to more recent claims that women are inevitably positioned differently from men within a nation: the paradox that <q>everyone can, should, will <q>have</q> a nationality, as he or she <q>has</q> a gender vs. the irremediable particularity of its concrete manifestations</q> suggests the potential for tensions between national and female interests that may arise despite the veneer of concordant parallel identity (<persName cert="medium" ref="http://viaf.org/viaf/284739408" sameAs="M. Jean Anderson">Anderson</persName> 5). <ref target="#theory"><persName cert="high" ref="http://viaf.org/viaf/92109836">Anne McClintock</persName> further theorizes that such tension is concretized in basic understandings of social <choice><sic>or-ganization</sic><corr>organization</corr></choice> when she suggests that, <q>since the subordination of woman to man and child to adult was deemed a natural fact, hierarchies within the nation could be depicted in familial terms to guarantee social difference as a category of nature.…But the putatively universalist concept of national citizenship becomes unstable when seen from the position of women</q> (358). The suggestion is that identity autonomy may be more complicated, even differentially corrosive, than merely ascribing multiplicity to all.</ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p242">
+                            <ref target="#nationality_issue">
+                                <ref target="#representation_of_women">
+                                    <ref target="#gender_issue">Three decades after this era of <date cert="high" from="1965" to="1980">1965 to 1980</date>, critics still disagree about which of these movements was more important in the end, and these disagreements raise new questions. If conflict between national and gendered interests was suppressed in the social world, how might its open recognition at the time have affected the reading of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work? If women are inevitably positioned differently from men within a nation, were Laurence’s female protagonists portrayed as compromised in their equality as citizens within a recognizably Canadian society? What was the nature of national identity in her work, and how did it relate to female identity? Critics who saw Laurence’s characters as symbolically amalgamating competing values in both female and national representations tended to downplay what realism could not help but emphasize, that Canadians had not yet resolved the issues that separated them, and the interests of women and Canadians were sometimes in conflict with each other. <ref target="#genre">Ultimately, such speculation about the operation of genre in <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s stories has an important impact on what we understand her stories to mean.</ref> </ref>
+                                </ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head><persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>, Realism, and Identity, <date cert="high" from="1965" to="1980">1965–1980</date></head>
+                        <p xml:id="p243">
+                            <ref target="#genre_fiction">
+                                <ref target="#theory">Critics have often pointed out that looking for individual identity or collective subjectivity through fiction is as slippery as it is a tempting business. <ref target="#representation_of_women"><persName cert="high" ref="http://viaf.org/viaf/112159340">Sally Robinson</persName> points out that the phenomenon of subjectivity engages both social and discursive practices, thus encouraging assumptions that the same contradictions at work in the lives of women in the historical world are likely to be found in representations of women’s lives in fiction (190–92).</ref> Depending on the social and historical context, different readers may interpret differently by virtue of a process that <persName cert="high" ref="http://viaf.org/viaf/49239148">Wolfgang Iser</persName> describes as including <q>both the prestructuring of the potential meaning by the text, and the reader’s actualization of this potential through the reading process…which will vary historically from one age to another</q> (xii). Overall, readers are likely to interpret an imaginary world according to their perceptions of their own social world, their experiences in that world, and their responses to narrative strategies that create fictional worlds.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p244">
+                            <ref target="#genre">
+                                <ref target="#genre_issue"><ref target="#theory">Although realism and romance often coexist in a single work, each instigates a different readerly expectation.</ref> At one end of the spectrum, realism promises explanations of historical processes that are associated with the dilemmas of ordinary people in ordinary circumstances. While realism cannot represent the world directly, it does give the impression of some sort of mimetic claim to a world beyond the text, despite the difficulties attached to any belief in language as being able to represent what is ultimately unrepresentable in textual form. As <persName cert="high" ref="http://viaf.org/viaf/109769875" sameAs="George Lewis Levine">George Levine</persName> suggests, <q>whatever else [realism] means, it always implies an attempt to use language to get beyond language, to discover some nonverbal truth out there</q> (6). Part of the explanatory power of realism is its capacity to account for the realities of the social and historical world. Curiously, <persName cert="high" ref="http://viaf.org/viaf/87380498">Raymond Williams</persName> understands this aspect of realism to be ultimately limiting; the world in all its manifestations is assumed to be the conditioner, even determiner, of human individuality, making realism <q>a conscious commitment to understanding and describing…the movement of psychological or social or physical forces</q> (261). Evidently, in the real world, anything can happen, but in a realist world, certain things are presumed more likely to happen, so that, for example, in the real world, a person can win the lottery, but in a realist world, that might be unrealistic.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p245">
+                            <ref target="#genre">
+                                <ref target="#theory">Realism as a form of narrative, then, suggests a <q>habit of mind</q> in that it helps the reader to <q>recognize the complex intermeshing of the individual consciousness with larger technological, social, and political structures</q> (<persName cert="high" ref="http://viaf.org/viaf/39499773" sameAs="Harry E. Shaw">Shaw</persName> 106, 107). The association of realism with the world <q>beyond language</q> makes manifest a heightened pressure to make sense of the social world, in that <q>writers and critics return to <q>realism</q> from generation to generation, because each culture’s perception of reality changes and because literature requires ever new means to intimate the reality</q> (<persName cert="high" ref="http://viaf.org/viaf/109769875" sameAs="George Lewis Levine">Levine</persName> 7). In so doing, <q>[realism] presumes that the <q>ordinary</q> (another difficult but persistent word) has a value hitherto ascribed almost exclusively to a select few</q> (Levine 6). This urge to understand the realities of the masses engages complexities of the social life of ordinary people in ordinary circumstances, with the word <q>ordinary</q> taking on a broad-based relevance.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p246">
+                            <ref target="#genre">Realism was always recognized as characteristic of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work, but in the era of original reception it was not seen as inconsistent with unified identities. <ref target="#response_formal">Much of the enthusiasm that issued from writers, journalists, and academics alike in response to her Manawaka novels in particular was based upon an interpretation of her characters as believably ordinary people who confront real-world problems. The first and perhaps most acclaimed novel of the Manawaka cycle, <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>, attracted early criticism that emphasized its portrayals of characters from the <date cert="low" from="1880" to="1950">late nineteenth and early to mid-twentieth century</date>. In <date cert="high" when="1965">1965</date>, editor <persName cert="high" ref="http://viaf.org/viaf/85106075">Robert Weaver</persName> praised <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> for illuminating <q>this small world through a study of character</q> whereby she was able <q>in a few sentences [to capture] the feeling of an era</q> (28).</ref> The view of characters and setting as especially important in a historical context suggests mimesis in an apprehension of this fictional world as familiar and typical—concretely described places and characters with individual but readily recognizable psyches.</ref>
+                        </p>
+                        <p xml:id="p247">
+                            <ref target="#genre">
+                                <ref target="#response_formal">Writer <persName cert="high" ref="http://viaf.org/viaf/9717119">Anne Montagnes</persName>, in <date cert="high" when="1964">1964</date>, made no apology for her commitment to reading <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title> as realism. She reported having been disappointed about loose ends being perhaps too firmly tied up, but dismissed her own concerns on the basis of the realism the novel offered: <q>but it was done, like the whole book, with such throat-catching realism that I really can’t complain</q> (17). Focusing on <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title> in <date cert="high" when="1975">1975</date>, academic <persName cert="high" ref="http://viaf.org/viaf/50465962">Clara Thomas</persName> extended her appreciation for its realism by suggesting that Stacey shared with the other protagonists of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s first three Manawaka novels the distinction of being an ordinary woman <q>whom Margaret Laurence has challenged us to recognize as individual and extraordinary</q> (<title level="m">Manawaka World</title> 115).</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p248">
+                            <ref target="#genre">
+                                <ref target="#characterization">Although Stacey is seen here as special and valuable, her character never breaks away from her representation as an ordinary Canadian housewife of her times. <ref target="#response_formal">In a <date cert="high" when="1969">1969</date> review of <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title>, <persName cert="high" ref="http://viaf.org/viaf/105432479">Douglas O. Spettigue</persName> grouped the novel with two others not written by <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>, opining that they all had <q>in common the realistic representations of contemporary life</q> (722). He wonders about the capacity of this novel to find its way out of all the reality: <q>Margaret Laurence has caught the sense of the domestic rat-race so well that the reader soon wonders how Stacey is going to get out of it, unless she goes romantic</q> (723). While he notes some romantic <q>releases,</q> in his view, the more important dynamic in the fiction is generally that of realism.</ref> Rather than presuming no psyche to be knowable, these myriad critics imply that the reader can understand how it feels to share Stacey’s experience. They believe she confronts her problems in ways that most people in her situation would.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p249">
+                            <ref target="#genre">Critics tended to agree on themes, and quibbled over which characteristics bound her writing most convincingly to realism. <ref target="#voice_or_narration"><ref target="#response_formal">As <persName cert="high" ref="http://viaf.org/viaf/49323230" sameAs="Jonathan Kertzer">J.M. Kertzer</persName> noted, <q><persName cert="high" ref="http://viaf.org/viaf/115554910">Henry Kreisel</persName>, <persName cert="high" ref="http://viaf.org/viaf/16801540">Hilda Kirkwood</persName>, and <persName cert="high" ref="http://viaf.org/viaf/11087625">Kent Thompson</persName> all praised <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s use of narrative voice and the ironic, double perspective that it affords: a child’s point of view as registered in an adult’s idiom. <persName cert="medium" ref="http://viaf.org/viaf/112011110">Edward Weeks</persName>, <persName cert="medium" ref="http://viaf.org/viaf/104537803">William French</persName>, and <persName cert="high" ref="http://viaf.org/viaf/108358609">George Woodcock</persName> were all impressed by her attention to precise details, interwoven to give density to a credible fictional world</q> (18).</ref> Whether the emphasis is on the narrative voice or familiar details, what is captured here is appreciation for a vision of ordinary characters, what <persName cert="high" ref="http://viaf.org/viaf/46764285" sameAs="György Lukács">Georg Lukács</persName> described as characters whose <q>human significance, their specific individuality cannot be separated from the context in which they were created</q> (<title level="m">Meaning</title> 19).</ref> <ref target="#genre_fiction">Laurence’s fiction was often credited with her realization of <q>full human beings with full contradictory human histories,</q> the assumption being that recognizable historical forces in a fictional world create the realistic character just as overarching historical forces shape ordinary people at their mercy in the historical world (Thompson 110). In sum, the ordinariness of characters in Laurence’s fictional worlds tended to be seen as built on layers of identity issues.</ref></ref>
+                        </p>
+                        <p xml:id="p250">
+                            <ref target="#women_writing">
+                                <ref target="#representation_of_women">It was a widely held view in <date cert="high" when="1975">1975</date> that <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> could be placed in a group of women writers who wrote novels <q>in which the central character is a woman…who is focussing on details of self-awareness and self-discovery</q> (<persName cert="high" ref="http://viaf.org/viaf/75470330" sameAs="Lydia Burton">Burton</persName> and <persName cert="medium" ref="http://viaf.org/viaf/117141276" sameAs="David Morley">Morley</persName> 57).</ref>
+                            </ref>
+                            <ref target="#nationality_issue"><persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s depictions of self-awareness and self-discovery were additionally credited as significant for their national dimension, as <persName cert="high" ref="http://viaf.org/viaf/50465962" sameAs="Clara Thomas">Thomas</persName> pointed out when she suggested that <q>the Manawaka cycle…seems to Canadian readers to be quintessentially their own</q> (<title level="a">Planted Firmly</title> 1). <ref target="#canon_formation">Thus, <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s Manawaka novels appeared especially relevant to those involved in the national cultural project of establishing Canadian literature as a legitimate and studied national category, as well as those involved in a similar and simultaneous effort to establish the importance of women’s fiction.</ref></ref>
+                        </p>
+                        <p xml:id="p251">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre">
+                                    <ref target="#gender_issue">Claims of realist interpretations helped critics identify with characters on the basis of gender or nationality or both, underscoring that <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> had devoted herself to <q>exploring different aspects of womanhood, problems that all women in Western cultures experience in some form or another</q> (<persName cert="high" ref="http://viaf.org/viaf/14756566" sameAs="Phyllis Grosskurth">Grosskurth</persName> 35). In Morag of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>, for example, Laurence demonstrates her <q>special gift of delineating the conscious and unconscious processes of the feminine psyche; to read her novels is to identify oneself with the mind and imagination of her heroines</q> (<persName cert="high" ref="http://viaf.org/viaf/163387174" sameAs="Phyllis Bruce">Bruce</persName> 15). These characters were often admired for their relevance beyond imaginary worlds: <q>The people in this book are all alive and real.…Margaret Laurence certainly knows and can put down what women feel in our times and our places</q> (<persName cert="high" ref="http://viaf.org/viaf/79326642" sameAs="Phyllis Gotlieb">Gotlieb</persName> 81).</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p252">
+                            <ref target="#nationality_issue">
+                                <ref target="#gender_issue">Realist expectations extended issues of female identity to those of national self-understandings. <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>, for example, was seen as the culmination of such a double exploration because <q>cultural nationalism and women’s liberation dovetail nicely</q> (<persName cert="medium" ref="http://viaf.org/viaf/42684687" sameAs="Barbara Hehner">Hehner</persName> 41). Parallels between female and national identities were posited and reinforced by an increasingly accepted conviction among critics that difficulties faced by women in achieving autonomy were similar to those faced by Canadians in achieving nationhood. The issues might differ, but critics held fast to arguments that women in particular and Canadians in general needed empowerment in their respective spheres. <persName cert="high" ref="http://viaf.org/viaf/50465962" sameAs="Clara Thomas">Thomas</persName> posited this relationship succinctly when she noted that <q>every woman’s struggle of the psyche to know, be and act as and for herself is a paradigm of the situation Canadians feel themselves to be in</q> (<title level="a">Planted Firmly</title> 3). <ref target="#characterization">Morag was regarded as achieving such widespread psychological believability that writer <persName cert="high" ref="http://viaf.org/viaf/24754124">Marian Engel</persName> described her as <q>a variant of an emotional history common to all writers, common to all women, common to all Canadians</q> (25).</ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p253">
+                            <ref target="#class_issue">
+                                <ref target="#race_and_ethnicity">Of course, <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work raises additional identity claims beyond those of gender and nationality. Issues of class, race, ethnicity, orientation, and colonialism are evident in her work, but destined to become <choice><sic>preoccu-pations</sic><corr>preoccupations</corr></choice> of a subsequent historical period. Had <persName cert="high" ref="http://viaf.org/viaf/24754124" sameAs="Marian Engel">Engel</persName> written about Morag a few years later, she likely would have expanded her list of projected commonalities.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p254">
+                            <ref target="#nationality_issue">
+                                <ref target="#representation_of_women"><persName cert="high" ref="http://viaf.org/viaf/24754124" sameAs="Marian Engel">Engel</persName>’s enthusiasm suggests that, just as female characters encourage readers to understand the dilemmas of women in the real world, so too does the <q>Canadianness</q> of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s characters draw readers into dilemmas that involve all Canadians. <ref target="#genre">Evidence of realism assisted in the project of making connections between characters in these fictional worlds and readers in the real world, who themselves had made commitments to female and national identities, but rumblings of romance are audible even in these commitments to realism. </ref></ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head><persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>, Romance, and Identity, <date cert="high" from="1965" to="1980">1965–1980</date></head>
+                        <p xml:id="p255">
+                            <ref target="#genre"><ref target="#genre_issue">Romance, at the other end of the continuum, is less time-and-history bound than realism because it is expected to offer a more idealized sense of community. Romance constitutes the illusion that realism supposedly corrects. </ref><persName cert="high" ref="http://viaf.org/viaf/49236705">Northrop Frye</persName> explains this continuum: <q>One direction is called <q>romantic,</q> the other <q>realistic.</q> The realistic tendency moves in the direction of the representational and the displaced, the romantic tendency in the opposite direction, concentrating on the formulaic units of myth and metaphor</q> (<title level="m" cert="high" ref="http://viaf.org/viaf/308033465">Secular Scripture</title> 37). Frye figures romance as a way of envisioning a transformation in the world, helping it along the trajectory of integration, in that <q>the mode of romance presents an idealized world: in romance heroes are brave, heroines beautiful, villains villainous, and the frustrations, ambiguities, and embarrassments of ordinary life are made little of</q> (<title level="m" cert="high" ref="http://viaf.org/viaf/187010218">Anatomy of Criticism</title> 151). <persName cert="high" ref="http://viaf.org/viaf/100293806">Ian Duncan</persName> challenges the idea that romance is quite so simple or innocent as Frye suggests, in part because he sees romance as inevitably sentimental and purposeful. To Duncan, romance is the effect of history because history provides useful myths. Once <q>discovered,</q> these ancestral stories give a writer the wherewithal to recreate myths and make use of them toward new cultural ends. Romance is what Duncan calls <q>a specific historical process: the appropriation, and reinvention, of a <q>common cultural heritage</q> as individual literary property</q> (58). While realism depicts the complicated world and its constraining effects on ordinary people, romance reinvents a past to justify powerful individual action toward fulfilling current wishes.</ref>
+                        </p>
+                        <p xml:id="p256">
+                            <ref target="#representation_of_women">
+                                <ref target="#nationality_issue"><persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s fiction has certainly been appreciated for telling such stories of common heritage to envision new cultural identities. Her work has been used by real-world women and Canadians to reinvent their understandings of themselves as national and gendered beings. <ref target="#genre_issue">Seen as romance, her stories move us toward the conviction that female or Canadian identity is something pre-existent, and therefore discoverable and possible, while realism modulates toward obstacles presented by social and historical forces that get in the way of such unity.</ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p257">
+                            <ref target="#social_movement">
+                                <ref target="#genre_issue">Critical reaction to <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work became polarized along the axis between realism and romance during the years <date cert="high" from="1965" to="1980">1965 to 1980</date>, when social movements politicized issues of female and Canadian identity. While readers recognized conflicting elements of both realism and romance in Laurence’s work, some tended to emphasize romance because it led to the then desired conclusion that female and national identities existed in some recognizable form. Even when realism was identified, disappointment was more likely to be articulated when the realist portrayal did not lead to the conclusion that female or national identity was possible. As a result, the more sceptical nuances of Laurence’s depiction of identity were more often muted.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p258">
+                            <ref target="#representation_of_women">
+                                <ref target="#nationality_issue"><ref target="#genre_issue">Considering the investment of many critics during this era in supporting <ref target="#social_movement">second-wave feminist</ref> and Canadian nationalist efforts to promote unified identity on the basis of gender and nationality, it is not surprising that claims of authenticity in <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s fiction might actually slide away from reading practices associated with realism and toward romance on <persName cert="high" ref="http://viaf.org/viaf/49236705" sameAs="Northrop Frye">Frye</persName>’s continuum.</ref> In particular, there was special admiration for characters who discovered themselves as female or national beings by transcending whatever once stood in the way as obstacles to unified identity. <ref target="#characterization"><persName cert="high" ref="http://viaf.org/viaf/34469280">Sherrill Grace</persName>’s confidence, in <date cert="high" when="1978">1978</date>, that Morag is <q>a successful quester in an age that disbelieves in quests</q> demonstrates a critic’s willingness to interpret fictional representations of such successes as both possible and believable (70).</ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p259">
+                            <ref target="#nationality_issue">
+                                <ref target="#characterization">In <date cert="high" when="1964">1964</date>, <persName cert="high" ref="http://viaf.org/viaf/9717119" sameAs="Anne Montagnes">Montagnes</persName> offered specific appreciation to Hagar Shipley’s characterization for its contribution to national identity: <q>one of the great characters of Canadian fiction…who stands as a symbol of <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName></q> (17). Not only is Hagar seen as indicative of <q>the central conflict of Canadian psychology, our bondage to a puritan heritage,</q> but she was born <q>about the time of <listEvent> <event> <label>Confederation</label> </event> </listEvent></q> and still manages to engage <q>one’s sympathy, perhaps even one’s love</q> (17). This character is seen to rise above the confused tensions of real people dealing with ordinary problems to inspire love as the symbol of a nation.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p260">
+                            <ref target="#characterization"><ref target="#response_formal">Other novels of the Manawaka cycle that were more difficult to read as romance were met with comparatively less enthusiasm.</ref> In <date cert="high" when="1972">1972</date>, <persName cert="high" ref="http://viaf.org/viaf/50465962" sameAs="Clara Thomas">Thomas</persName> differentiated <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title> from <title level="m" cert="high" ref="http://viaf.org/viaf/207942914">A Jest of God</title> and <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title> by suggesting that Hagar, who <q>comes to peace with herself,</q> contrasts with the other two protagonists: <q>Neither Rachel’s nor Stacey’s stories come full circle as Hagar’s does…Their lives are in mid-passage and each story stops at a point of qualified truce and acceptance—but neither story is finished and neither voice is still</q> (<title level="m">Our Nature, Our Voices</title> 159). Similarly, the latter two protagonists are seen to be less vibrant and heroic: <q>Both Rachel and Stacey Cameron seem to be less vigorous, their lives less hopeful…[Stacey] remains trapped in her situation, redeemed only by her sardonic sense of humour</q> (<persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace</persName> 66). While such differentiation does not automatically imply disappointment, these distinctions were often used to express disappointment. For example, <title level="m" cert="high" ref="http://viaf.org/viaf/207942914">A Jest of God</title> could be seen as unsatisfying, not only because of characterization, as <q>Rachel Cameron is no very engaging human being,</q> but also because of plot: she will <q>probably not [have a] much happier life elsewhere</q> (<persName cert="high" ref="http://viaf.org/viaf/94943884" sameAs="Dennis Duffy">Duffy</persName> 80). </ref>
+                        </p>
+                        <p xml:id="p261">
+                            <ref target="#response_formal">Critical expressions of disappointment in or frustration with aspects of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work often appear when identity quests do not seem successful. For example, a complaint about <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title> that <q>the realistic representation of contemporary life</q> includes <q>real problems of coping with the family [that are] not solved but temporarily got around</q> implies that the critic is interested in a realistic depiction of life but perhaps pining for more convincingly permanent resolutions to family problems (<persName cert="high" ref="http://viaf.org/viaf/105432479" sameAs="Douglas O. Spettigue">Spettigue</persName> 722–23). <ref target="#characterization">The view that <q>we celebrate <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName> for her women,</q> and that such a celebration stems from an <q>interior voice…[that] invests Stacey MacAindra with charm and her story with unity,</q> reveals a wish that this same interior voice will also successfully articulate Stacey’s story as a woman (<persName cert="medium" ref="http://viaf.org/viaf/104650564" sameAs="Philip F. Sykes">Sykes</persName> 98).</ref> Disappointment is evident when such unity is not achieved, as in the representation of spousal conflict: <q>The trouble with stating so universal a problem is that you can never hope to resolve it, and <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title> never does. It is an inconclusive story</q> (Sykes 98). Inconclusiveness is arguably not out of place in this story of an individual housewife compromised in her sense of fulfilment. Regardless, critical disappointment with the lack of success, or the spectre of inevitable compromise, belies deeper critical wishes for a more indisputable resolution.</ref>
+                        </p>
+                        <p xml:id="p262">
+                            <ref target="#response_formal">Not surprisingly, the concluding text of the Manawaka cycle differed from <title level="m" cert="high" ref="http://viaf.org/viaf/207942914">A Jest of God</title> and <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title>. Critics saw full-circle similarities between <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title> and <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>, in that <q>both of them relate the journey through life of a country girl into a wise and heroic adulthood</q> (<persName cert="high" ref="http://viaf.org/viaf/17002126" sameAs="R. J. MacSween">MacSween</persName> 108). <ref target="#characterization">Just as Hagar was generally seen as a character coming to peace with herself at the end of <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>, so too Pique, Morag’s daughter with Métis Jules, <q>can be seen as a symbolic answer to reconciliation for <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>, which should treasure and preserve what it has. Thus <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title> ends on a decidedly optimistic note with Pique accepting her twin ancestry, having found her place in Canada</q> (<persName cert="high" ref="http://viaf.org/viaf/31157281" sameAs="Bernice Lever">Lever</persName> 96). <ref target="#race_and_ethnicity">In the same vein, <q>[Pique] plays a symbolic role as a kind of reconciliation between the native peoples of Canada and the whites who conquered them</q> (<persName cert="high" ref="http://viaf.org/viaf/94296765" sameAs="Robert Fulford">Fulford</persName> H5). And, <q type="block"> Pique’s major role seems…to be a symbolic one; she embodies Morag’s urge to grow into full maturity, she completes Morag’s existence as a woman in a way a man cannot, and in the final scenes of the novel she embodies Morag’s understanding and acceptance of the future—she will repeat Morag’s quest and Morag must allow her to do so. Parts I and V portray a Morag who has completed her search for meaning. Not only does she know who she is, she knows where she is. (<persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace</persName> 70) </q></ref> <ref target="#nationality_issue"><persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> is credited here with resolving in the imaginary realm a national political and cultural unity that had not yet been resolvable in the social world. Even if critics truly believed they appreciated the realistic portrayal of all the Manawaka protagonists, the more favoured ones are those who triumphed in their discovery of themselves as women and as Canadians. Referring to <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>, <persName>Margaret Oschacoff</persName> reveals a manifesto of sorts when she warns that the integrity of a unified sense of nation must be preserved in its fiction: <q>pride in one’s heritage is not the same as colonial spirit as long as that pride leaves room for each Canadian’s pride in his or her ethnic background, and as long as it does not interfere with the emergence of a Canadian culture</q> (235). </ref></ref></ref>
+                        </p>
+                        <p xml:id="p263">
+                            <ref target="#characterization">In <date cert="high" when="1978">1978</date>, <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> herself also favoured this view of her protagonists in her discussion of the <ref target="#theme_or_topic">themes of freedom and equality for women and Canadians that recur in her work: <q type="block"> Hagar, in <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>, who finally even in extreme old age can find something of that inner freedom; to Rachel in <title level="m" cert="high" ref="http://viaf.org/viaf/207942914">A Jest of God</title>, who will remain nervous and neurotic to some extent but who does succeed in freeing herself from her mother’s tyranny and from her own self-doubt and self-hatred; to Stacey in <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title>, who comes to terms with her life and recognizes herself as a survivor; to Vanessa in <title level="m" cert="high" ref="http://viaf.org/viaf/187215613">A Bird in the House</title>, who escapes from the authoritarian regime of her grandfather and who is ultimately able to be released from her hatred and fear of the old man; and finally, to Morag in <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>, who, more than any of the others, is able to assimilate her past and to accept herself as a strong and independent woman, able to love and to create. (<title level="a">Ivory</title> 24) </q> <ref target="#genre"><ref target="#nationality_issue"> Since romance <q>avoids the ambiguities of ordinary life,</q></ref> as <persName cert="high" ref="http://viaf.org/viaf/49236705" sameAs="Northrop Frye">Frye</persName> notes, it can deliver a more definitive message regarding the likelihood of successful female and national identification (<title level="m" cert="high" ref="http://viaf.org/viaf/308033465">Secular Scripture</title> 50). Romance contains the anxieties of the real world, but offers solutions or manners of transcending them, suggesting that if women and Canadians can achieve symbolic peace and success in a particular story, perhaps they can hope to find such resolution in their lives. Displacement away from romance and toward realism commits interpretation to a decreased focus on enduring codes of honour implied by romance, and an increased focus on the ambiguities of life understood according to historical and social processes.</ref> <ref target="#genre_issue">It should go without saying that both realism and romance are evident in <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s fiction, and that their interaction creates contradictions and tensions that present challenges still. Evidence abounds of ordinary problems being wrestled with and heroic resolutions being attempted, even achieved.</ref> Nevertheless, Laurence’s narrative push for characters to solve their identity problems as women and Canadians seems to be most sought and encouraged by critics during these years. </ref></ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head> Contradictions of National and Female Identities: Two Communities Collide? </head>
+                        <p xml:id="p264">
+                            <ref target="#characterization"><date cert="medium" notBefore="1990">Post-1980s</date> critical debates have increasingly tended to hone in on contradictions within <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s characters. <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>’s Hagar, for example, has been re-examined. Was she really<sic> is </sic> at peace with herself at the end of the novel? (<persName cert="high" ref="http://viaf.org/viaf/27354730" sameAs="Paul Comeau">Comeau</persName>). Her eleventh-hour redemption is now seen as questionable after a lifetime of dedication to resisting any kind of reconciliation or transformation. <ref target="#nationality_issue">Similarly, Morag’s Pique of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title> has elicited doubt about her ability to integrate Native and Scots inheritances into a Canadian context (<persName cert="high" ref="http://viaf.org/viaf/105527940" sameAs="Neil ten Kortenaar">Kortenaar</persName>).</ref></ref>
+                        </p>
+                        <p xml:id="p265">
+                            <ref target="#characterization"><ref target="#representation_of_women">Morag perhaps comes the closest of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s protagonists to successfully integrating the tensions associated with being female. She seems to have it all. Seen as <q>a woman who succeeds without a man,</q> she can support herself, experience sexual liberation, and have a child (<persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace</persName> 70).</ref> Morag was more likely to be seen as achieving what the Manawaka protagonists that came before her could not: <q type="block"> [Stacey] remains trapped in her situation, redeemed only by her sardonic sense of humour. That she <q>may mutate into a matriarch</q> like Hagar in another forty years is not encouraging. Of all Laurence’s women Rachel and Stacey are closest to <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> victims, unable to break out of self-defeating postures. Vanessa, however, has broken free and is, in many ways, a prototype of the more complex Morag. Vanessa…defines her freedom by returning to her roots in order to celebrate her past. This is precisely what occurs in <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title> on a larger scale, implying that the status and nature of the hero is inextricable from the necessary <hi rend="italic">process</hi> of growth through return. (<persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace</persName> 66, emphasis in original) </q> Yet Morag remains mired in dilemmas arising from her resentment and anger as a woman. <ref target="#close_reading">While Stacey seems committed to keeping her own thoughts from Mac, Morag is otherwise committed to finding a voice she can use to resist her husband, Brooke. He pronounces that <q>we will cease worrying about things that don’t matter,</q> and his authoritative <q>we</q> marks the fault line between his waning ability to contain her and her incipient resistance and independence: <q>She is, she realizes, very very angry, and at the same time doubtful about her right to be angry, at him or at the composition of her own composite self</q> (277). A character consumed by her identity predicament is qualitatively different from one who liberates herself, integrated and free.</ref></ref>
+                        </p>
+                        <p xml:id="p266">
+                            <ref target="#characterization">
+                                <ref target="#representation_of_women">Dilemmas of female identity infuse Morag, like Hagar and Stacey, with experiences of a suffering marriage that offer an unhappy trade-off between leaving her husband for the sake of her independence or staying with him for the sake of her own need for family and community. It seems these protagonists cannot have both. At the point when Morag needs moral support to leave Brooke, her controlling husband, an unconventional lover comes back into her life in the form of Jules. He is a qualitatively different spousal figure for Morag because he shares her past, understands her as a friend, and gives her the child that Brooke refused. Jules offers a meaningful emotional connection while respecting her need for independence. He appears to be the kind of man who could accommodate an independent woman because he never expresses sexual jealousy or possessiveness. Important, too, is the fact that his acceptance of her independence does not diminish his expression of concern for her, as is clear in his reaction to her request to forego birth control: <q>Look, I didn’t say before, but you don’t want to get pregnant, do you?</q> to which Morag replies, <q>Would you mind very much if I didn’t do anything to try not to?</q> (301). His response is genial, but underscores that she is embarking on a responsibility that he chooses not to share:</ref>
+                            </ref>
+                        </p>
+                        <q type="block"> <q>Jesus. You’re a crazy woman. Do you have to ask permission? I don’t mind, no, Only—</q><lb></lb> <q>It’s all right. I wouldn’t claim support or anything.</q> (301) </q>
+                        <p xml:id="p267">
+                            <ref target="#characterization">Such negotiation allows Morag the freedom to decide for herself what she wants to do as a woman, and enables her to take a step beyond Rachel (<title level="m" cert="high" ref="http://viaf.org/viaf/207942914">A Jest of God</title>) by actually bearing and raising a child on her own. <ref target="#representation_of_women">Still, Morag’s new self-image as an independent woman carving out new territory for herself does not lead to a workable life with Jules in it. Power dynamics associated with unequal social relations continue to produce resentment between women and men across the generations, whether it be Morag to Brooke or Jules to Morag or Hagar to her father and husband. <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> thus keeps in play barriers between independent women and their families.</ref></ref>
+                        </p>
+                        <p xml:id="p268">
+                            <ref target="#characterization">
+                                <ref target="#representation_of_women">The most crushing challenge for Morag, and one that undermines any claim to reconciled womanhood, is her anxiety over what she is doing to her daughter. Her initial bravado about having a child on her own degenerates later into anguish over having denied her daughter a father: <q>never having had an ever-present father myself, I managed to deny her one, too. Although not wittingly. I wasn’t very witting in those days, I guess</q> (69). This anguish recalls Hagar’s regret that her independence cost her the comfort of a family. Morag, too, is torn between what is important to her and what would be harmonious for her loved ones. For example, Pique’s need for an integrated family is exactly what Morag does not know how to address. Pique’s resentment about being denied a sense of belonging impedes her relationship with everyone in her life: <q>There is no way [Jules] is ever going to apologize to Pique for his absence, and to defend himself would be to knock Morag, as it was her wish originally to have Pique. Still, Pique is his, and he will never in his life deny her</q> (<persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>, <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">Diviners</title> 450). Despite Jules’s apparent narrative function to encourage Morag’s independence, he offers stereotypical explanations about women being in charge of domestic connections: <q>Women like to stay put. But I can’t. I just can’t. Lazarus, he was like that</q> (294).</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p269">
+                            <ref target="#characterization">
+                                <ref target="#representation_of_women">It was tempting in <date cert="high" when="1978">1978</date> to see Morag as a triumphant woman: <q>Significantly, she does not wed herself to life in the form of any one of these men; as an artist she must fully experience life without enmeshing herself in it to the extent that she cannot withdraw sufficiently to write</q> (<persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace</persName> 69–70). Alternatively, Morag as a character of realism reveals compromises often made in the social world, including the unhappiness she has visited upon her daughter in the name of her own female independence. Upon reflection, Morag’s torment due to her role in depriving Pique of a community makes her less convincing as a resolved or unified female identity. In fact, as a single mother at the head of her household, she suffers from potentially irresolvable tensions.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p270">
+                            <ref target="#characterization">This view of Morag’s independence as haunted by dilemma is suggested by the plot’s organization according to Morag’s anxieties concerning Pique’s well-being. Each retrospective story about Morag’s life is prompted by her present-day anxiety about Pique, and the effect is to make Pique’s future the central dilemma of the novel. Morag’s retrospective view of her own life becomes less focused on her achievements in the public world and more concerned with her uneasiness about the happiness of her female child who despairs over not having a father in her life: <q type="block"> <q>Why did you <hi rend="italic">have</hi> me?</q><lb></lb> <q>I wanted you,</q> Morag said, stunned.<lb></lb> <q>For your own satisfaction, yes. You never thought of him, or of me.</q><lb></lb> And to that accusation there was no answer. None. Because it was partly true. To have someone of her own blood. But only partly. She had not conned a kid out of him, after all. Or not quite, anyway. How did he look at it? She didn’t know. (255) </q> Morag’s exhilaration about her own independence is routinely deflated by self-doubt, an emotional rollercoaster that dramatizes her daughter’s ambivalence about her single mother.<ref target="#representation_of_women"> Morag is not a model for Pique as a woman, and so the job of resolving contradictions has been put off to a new generation. Hagar rejects her father, and Morag loses hers. Both characters in such different times and historical circumstances choose to be single mothers who dwell on their anxieties about what they have done to their children. </ref></ref>
+                        </p>
+                        <p xml:id="p271">
+                            <ref target="#characterization">
+                                <ref target="#representation_of_women">
+                                    <ref target="#gender_issue">Significantly, and despite their anguish, neither character seems likely to change any of her choices, regardless of the suffering caused. Like Hagar’s, Morag’s independence from conventional female roles frequently functions to subvert the patriarchal order, from women living without husbands to <ref target="#economics">women enjoying financial independence</ref>. In both novels, gender-based contradictions between independence and family betray an emphasis on unworkability. Although the <date cert="high" when="1978">1978</date> view that Pique <q>completes Morag’s existence as a woman in a way a man cannot</q> was often seen as an embodiment of <q>Morag’s understanding and acceptance of the future,</q> <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> presents obstacles again and again that cast doubt on the possibility of reconciliation (<persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace</persName> 70). How are we to understand Morag in the context of her daughter? Are we to understand these realistic characters as crushed by the weight of gender roles that cannot be resolved in a way that liberates Morag from guilt and yet provides Pique with a sense of familial stability? What is lost if Morag is considered a hero—is the solution for women to jettison the happiness and emotional security of their children for the sake of their own autonomy?</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p272">
+                            <ref target="#representation_of_women">
+                                <ref target="#genre">
+                                    <ref target="#gender_issue">When Morag is deemed a symbol of independent womanhood, her independence is depicted as both desirable and possible in ways that had not worked outside of fiction. Her success in the imaginative world gives hope to women of the real world (like <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> herself) who struggle with the same obstacles and still stare down their own guilt in the attempt to combine their own careers with raising children. Independence often signaled success to a generation of second-wave feminists, but if Morag is mired in dilemmas and unsure whether her insistence on freedom has been worth the cost, then the interpretive emphasis modulates toward realism.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p273">
+                            <ref target="#genre">
+                                <ref target="#nationality_issue">
+                                    <ref target="#gender_issue">After <date cert="high" when="1980">1980</date>, when identity itself became a more suspicious and multiple concept to critics of Canadian fiction, elements of realism in <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s novels became pertinent to readers in new ways. This paradigm shift from integration to complication makes sense of readerly interests in her work during the era of reception for the Manawaka novels, as well as for the revisionary work being done now. <ref target="#methodology"><ref target="#response_re-evaluation">Postmodern, feminist, and postcolonial critiques of <q>authentic</q> identity that have subsequently come to dominate discourses of female and national identity open new doors for the interpretation of <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s work.</ref></ref> Feminist identity debates about how to handle questions of biology and social equality, and nationalist identity debates over whether disparate populations can be successfully incorporated into a bicultural or multicultural Canada, are still relevant today, with the twist that these debates are now decades old. <ref target="#genre_issue">It is arguable that realism now speaks more pointedly to the difficulties inherent in questions of identity in <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>’s fiction, contrary to the resolutions that romance once promised.</ref></ref>
+                                </ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Works Cited</head>
+                        <listBibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/110306620" sameAs="Ian Angus">Angus, Ian</persName>. <title level="m">A Border Within: National Identity, Cultural Plurality, and Wilderness</title>. <placeName cert="high" ref="http://www.geonames.org/6077243">Montreal</placeName> and <placeName cert="high" ref="http://www.geonames.org/5992500">Kingston</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/141809819" sameAs="McGill-Queen's University Press">McGill-Queen’s UP</orgName>, <date cert="high" when="1997">1997</date>. Print.</bibl>
+                            <bibl><persName cert="medium" ref="http://viaf.org/viaf/284739408" sameAs="M. Jean Anderson">Anderson, M. Jean</persName>. <title level="a"><q>We’ll all end up leavin</q>: Regionalism, Nationalism and Individual Identity in Some Recent Canadian Novels by Women.</title> <title level="m">Regionalism and National Identity: Multi-Disciplinary Essays on <placeName cert="high" ref="http://www.geonames.org/6251999">Canada</placeName>, <placeName cert="high" ref="http://www.geonames.org/2077456">Australia</placeName>, and <placeName cert="high" ref="http://www.geonames.org/2186224">New Zealand</placeName></title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/32069319">Reginald Berry</persName> and <persName cert="medium" ref="http://viaf.org/viaf/93603754" sameAs="James Acheson">James Acheson</persName>. <placeName cert="high" ref="http://www.geonames.org/2192362">Christchurch, NZ</placeName>: <orgName cert="medium" ref="http://viaf.org/viaf/146564554">U of Canterbury P</orgName>, <date cert="high" when="1985">1985</date>. 71–77. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/163387174" sameAs="Phyllis Bruce">Bruce, Phyllis</persName>. Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>. <title level="j">Canadian Forum</title> (<date cert="high" from="1974-05" to="1974-06">May–June 1974</date>): 15–16. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/75470330" sameAs="Lydia Burton">Burton, Lydia</persName>, and <persName cert="medium" ref="http://viaf.org/viaf/117141276" sameAs="David Morley">David Morley</persName>. <title level="a">A Sense of Grievance: Attitudes Toward Men in Contemporary Fiction.</title> <title level="j">Canadian Forum</title> (<date cert="high" when="1975-09">September 1975</date>): 57–60. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/27354730" sameAs="Paul Comeau">Comeau, Paul</persName>. <title level="a">Hagar in Hell: <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>’s Fallen Angel.</title> <title level="j">Canadian Literature</title> 128 (<date cert="high" when="1991">1991</date>): 11–22. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/94943884" sameAs="Dennis Duffy">Duffy, Dennis</persName>. <title level="a">Critical Sympathies.</title> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/207942914">A Jest of God</title>. <title level="j">Tamarack Review</title> 42 (<date cert="medium" from="1967-01" to="1967-03">Winter 1967</date>): 80–82. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/100293806" sameAs="Ian Duncan">Duncan, Ian</persName>.<title level="m"> Modern Romance and Transformations of the Novel: The Gothic, <persName cert="high" ref="http://viaf.org/viaf/95207079" sameAs="Walter Scott">Scott</persName>, <persName cert="high" ref="http://viaf.org/viaf/88666393" sameAs="Charles Dickens">Dickens</persName></title>. <placeName cert="high" ref="http://www.geonames.org/2653941">Cambridge</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/127979069" sameAs="Cambridge University Press">Cambridge UP</orgName>, <date cert="high" when="1992">1992</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/24754124" sameAs="Marian Engel">Engel, Marian</persName>. <title level="a">Encounter <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>: Her New Book Divines Women’s Truths.</title> <title level="j">Chatelaine</title> (<date cert="high" when="1974-05">May 1974</date>): 25. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/73982249" sameAs="Rita Felski">Felski, Rita</persName>. <title level="m">Beyond Feminist Aesthetics: Feminist Literature and Social Change</title>. <placeName cert="high" ref="http://www.geonames.org/4931972">Cambridge, MA</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/139568154" sameAs="Harvard University Press">Harvard UP</orgName>, <date cert="high" when="1989">1989</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/49236705" sameAs="Northtrop Frye">Frye, Northrop</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/187010218">Anatomy of Criticism: Four Essays</title>. <placeName cert="high" ref="http://www.geonames.org/5102922">Princeton, NJ</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/158317684" sameAs="Princeton University Press">Princeton UP</orgName>, <date cert="high" when="1957">1957</date>. Print.</bibl>
+                            <bibl>---. <title level="m" cert="high" ref="http://viaf.org/viaf/308033465">The Secular Scripture: A Study of the Structure of Romance</title>. <placeName cert="high" ref="http://www.geonames.org/4931972">Cambridge, MA</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/139568154" sameAs="Harvard University Press">Harvard UP</orgName>, <date cert="high" when="1976">1976</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/94296765" sameAs="Robert Fulford">Fulford, Robert</persName>. <title level="a">It’s Fascinating Despite the Flaws.</title> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>. <title level="j">Toronto Star</title> <date cert="high" when="1974-05-18">18 May 1974</date>: H5. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/79326642" sameAs="Phyllis Gotlieb">Gotlieb, Phyllis</persName>. Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>. <title level="j">Tamarack Review</title> 63 (<date cert="high" when="1974-10">October 1974</date>): 80–81. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/34469280" sameAs="Sherrill Grace">Grace, Sherrill E.</persName> <title level="a">A Portrait of the Artist as <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName> Hero.</title> <title level="j">Journal of Canadian Studies</title> 13.3 (<date cert="medium" from="1978-09" to="1978-12">Fall 1978</date>): 64–71. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/14756566" sameAs="Phyllis Grosskurth">Grosskurth, Phyllis</persName>. <title level="a">A Looser, More Complex, More Sexually Uninhibited <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>: And Never an <persName cert="high" ref="http://viaf.org/viaf/109322990" sameAs="Margaret Atwood">Atwood</persName> Victim.</title> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>. <title level="j">Globe and Mail</title> <date cert="high" when="1974-05-04">4 May 1974</date>: 35. Print.</bibl>
+                            <bibl><persName cert="medium" ref="http://viaf.org/viaf/42684687" sameAs="Barbara Hehner">Hehner, Barbara</persName>. <title level="a">River of Now and Then: <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>’s Narratives.</title> <title level="j">Canadian Literature</title> 74 (<date cert="medium" from="1977-09" to="1977-12">Autumn 1977</date>): 40–57. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/49239148" sameAs="Wolfgang Iser">Iser, Wolfgang</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/312518804" sameAs="Implizite Leser">The Implied Reader: Patterns of Communication in Prose Fiction from <persName cert="high" ref="http://viaf.org/viaf/71388170" sameAs="John Bunyan">Bunyan</persName> to <persName cert="high" ref="http://viaf.org/viaf/7386737" sameAs="Samuel Beckett">Beckett</persName></title>. <placeName cert="high" ref="http://www.geonames.org/4347778">Baltimore, MD</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/157408888" sameAs="Johns Hopkins University Press">Johns Hopkins UP</orgName>, <date cert="high" when="1974">1974</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/255248526" sameAs="David L. Jeffrey">Jeffrey, David L.</persName> <title level="a">Biblical Hermeneutic and Family History in Contemporary Canadian Fiction: <persName cert="high" ref="http://viaf.org/viaf/39385421" sameAs="Rudy Wiebe">Wiebe</persName> and <persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence</persName>.</title> <title level="j">Mosaic</title> 11.3 (<date cert="medium" from="1978-03" to="1978-06">Spring 1978</date>): 87–106. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/49323230" sameAs="Jonathan Kertzer">Kertzer, J.M.</persName> <title level="m"><q>That House in Manawaka</q>: <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>’s <title level="m" cert="high" ref="http://viaf.org/viaf/187215613">A Bird in the House</title></title>. <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/137764636" sameAs="ECW Press">ECW</orgName>, <date cert="high" when="1992">1992</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/105527940" sameAs="Neil ten Kortenaar">Kortenaar, Neil ten</persName>. <title level="a">The Trick of Divining a Postcolonial Canadian Identity: <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName> Between Race and Nation.</title> <title level="j">Canadian Literature</title> 149 (<date cert="medium" from="1996-06" to="1996-09">Summer 1996</date>): 11–33. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/44317974" sameAs="Margaret Laurence">Laurence, Margaret</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>. <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/140384426">McClelland and Stewart</orgName>, <date cert="high" when="1974">1974</date>. Print.</bibl>
+                            <bibl>---. <title level="a">Gadgetry or Growing: Form and Voice in the Novel.</title> <title level="m">A Place to Stand On: Essays By and About <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName></title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/108358609">George Woodcock</persName>. <placeName cert="high" ref="http://www.geonames.org/5946768">Edmonton, AB</placeName>: <orgName>NeWest Press</orgName>, <date cert="high" when="1983">1983</date>. 80–89. Print.</bibl>
+                            <bibl>---. <title level="a">Ivory Tower or Grassroots?: The Novelist as Socio-Political Being.</title> <title level="m">A Political Art: Essays and Images in Honour of <persName cert="high" ref="http://viaf.org/viaf/108358609">George Woodcock</persName></title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/54169528">W.H. New</persName>. <placeName cert="high" ref="http://www.geonames.org/6173331">Vancouver</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/149538769" sameAs="University of British Columbia Press">U of British Columbia P</orgName>, <date cert="high" when="1978">1978</date>. 15–25. Print.</bibl>
+                            <bibl>---. <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>. <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/140384426">McClelland and Stewart</orgName>, <date cert="high" when="1965">1965</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/31157281" sameAs="Bernice Lever">Lever, Bernice</persName>. <title level="a">Manawaka Magic.</title> <title level="j">Journal of Canadian Fiction</title> 3.3 (<date cert="medium" from="1974-06" to="1974-09">Summer 1974</date>): 93–96. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/109769875" sameAs="George Lewis Levine">Levine, George</persName>. <title level="m">The Realistic Imagination: English Fiction from Frankenstein to Lady Chatterley</title>. <placeName cert="high" ref="http://www.geonames.org/4887398">Chicago</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/122888939" sameAs="University of Chicago Press">U of Chicago P</orgName>, <date cert="high" when="1981">1981</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/46764285" sameAs="György Lukács">Lukács, Georg</persName>. <title level="a">Marxist Aesthetics and Literary Realism.</title> <title level="m">Essentials of the Theory of Fiction</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/273784150">Michael J. Hoffman</persName> and <persName cert="medium" ref="http://viaf.org/viaf/18658569">Patrick D. Murray</persName>. <placeName cert="high" ref="http://www.geonames.org/4464368">Durham, NC</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/264801395" sameAs="Duke University Press">Duke UP</orgName>, <date cert="high" when="1996">1996</date>. 134–46. Print.</bibl>
+                            <bibl>---. <title level="m">The Meaning of Contemporary Realism</title>. <placeName cert="high" ref="http://www.geonames.org/2643743">London</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/151539750">Merlin Press</orgName>, <date cert="high" when="1963">1963</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/17002126" sameAs="R. J. MacSween">MacSween, R.J.</persName> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187586333">The Diviners</title>. <title level="j">Antigonish Review</title> 18 (<date cert="medium" from="1974-06" to="1974-09">Summer 1974</date>): 107–08. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/92109836" sameAs="Anne McClintock">McClintock, Anne</persName>. <title level="m">Imperial Leather: Race, Gender and Sexuality in the Colonial Context</title>. <placeName cert="high" ref="http://www.geonames.org/5128581">New York</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/123500307">Routledge</orgName>, <date cert="high" when="1995">1995</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/9717119" sameAs="Anne Montagnes">Montagnes, Anne</persName>. <title level="a">Piercing Canadian Symbol.</title> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>. <title level="j">Globe and Mail</title> <date cert="high" when="1964-06-13">13 June 1964</date>: 17. Print.</bibl>
+                            <bibl><persName sameAs="Margaret Oschacoff">Oschacoff, Margaret</persName>. <title level="a">Colonialism in the Fiction of <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>.</title> <title level="j">Southern Review</title> 13 (<date cert="high" when="1980">1980</date>): 222–38. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/112159340" sameAs="Sally Robinson">Robinson, Sally</persName>. <title level="m">Engendering the Subject: Gender and Self-Representation in Contemporary Women’s Fiction</title>. <placeName cert="high" ref="http://www.geonames.org/5106834">Albany</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/311354004" sameAs="State of University of New York Press">State U of New York P</orgName>, <date cert="high" when="1991">1991</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/39499773" sameAs="Harry E. Shaw">Shaw, Harry E.</persName> <title level="m">Narrating Reality: <persName cert="high" ref="http://viaf.org/viaf/102333412" sameAs="Jane Austen">Austen</persName>, <persName cert="high" ref="http://viaf.org/viaf/95207079" sameAs="Walter Scott">Scott</persName>, <persName cert="high" ref="http://viaf.org/viaf/89000553" sameAs="George Eliot">Eliot</persName></title>. <placeName cert="high" ref="http://www.geonames.org/5122432">Ithaca, NY</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/297828202" sameAs="Cornell University Press">Cornell UP</orgName>, <date cert="high" when="1996">1996</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/105432479" sameAs="Douglas O. Spettigue">Spettigue, D.</persName> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title>. <title level="j">Queen’s Quarterly</title> 76 (<date cert="medium" from="1969-01" to="1969-03">Winter 1969</date>): 722–24. Print.</bibl>
+                            <bibl><persName cert="medium" ref="http://viaf.org/viaf/104650564" sameAs="Philip F. Sykes">Sykes, Philip</persName>. <title level="a"><persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName>’s New Woman.</title> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/186798982">The Fire-Dwellers</title>. <title level="j">Maclean’s</title> <date cert="high" when="1969-06">June 1969</date>: 98. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/61787936" sameAs="Imre Szeman">Szeman, Imre</persName>. <title level="m">Zones of Instability: Literature, Postcolonialism, and the Nation</title>. <placeName cert="high" ref="http://www.geonames.org/4347778">Baltimore, MD</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/157408888" sameAs="Johns Hopkins University Press">Johns Hopkins UP</orgName>, <date cert="high" when="2003">2003</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/50465962" sameAs="Clara Thomas">Thomas, Clara</persName>. <title level="m">The Manawaka World of <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName></title>. <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/140384426">McClelland and Stewart</orgName>, <date cert="high" when="1975">1975</date>. Print.</bibl>
+                            <bibl>---. <title level="m">Our Nature, Our Voices: A Guidebook to English-Canadian Literature</title>. <placeName cert="high" ref="http://www.geonames.org/6167865">Toronto</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/142985504">New Press</orgName>, <date cert="high" when="1972">1972</date>. Print.</bibl>
+                            <bibl>---. <title level="a"><q>Planted Firmly in Some Soil</q>: <persName cert="high" ref="http://viaf.org/viaf/44317974">Margaret Laurence</persName> and the Canadian Tradition in Fiction.</title> <title level="m">Critical Approaches to the Fiction of Margaret Laurence</title>. Ed. <persName cert="high" ref="http://viaf.org/viaf/93006861">Colin Nicholson</persName>. <placeName cert="high" ref="http://www.geonames.org/2643743">London</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/132609580" sameAs="Macmillan Company of Canada">Macmillan</orgName>, <date cert="high" when="1990">1990</date>. 1–15. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/11087625" sameAs="Kent Thompson">Thompson, Kent</persName>. Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187215613">A Bird in the House</title>. <title level="j">Fiddlehead</title> 84 (<date cert="high" from="1970-03" to="1970-04">March–April 1970</date>): 108–10. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/98280052" sameAs="Christl Verduyn">Verduyn, Christl</persName>. <title level="m">Lifelines: <persName cert="high" ref="http://viaf.org/viaf/24754124">Marian Engel</persName>’s Writings</title>. <placeName cert="high" ref="http://www.geonames.org/6077243">Montreal</placeName> and <placeName cert="high" ref="http://www.geonames.org/5992500">Kingston</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/141809819" sameAs="McGill-Queen's University Press">McGill-Queen’s UP</orgName>, <date cert="high" when="1995">1995</date>. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/85106075" sameAs="Robert Weaver">Weaver, Robert</persName>. <title level="a">Crowning <q>Angel.</q></title> Rev. of <title level="m" cert="high" ref="http://viaf.org/viaf/187423217">The Stone Angel</title>. <title level="j">Toronto Star</title> <date cert="high" when="1964-05-23">23 May 1964</date>: 28. Print.</bibl>
+                            <bibl><persName cert="high" ref="http://viaf.org/viaf/87380498" sameAs="Raymond Williams">Williams, Raymond</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/312338050">Keywords: A Vocabulary of Culture and Society</title>. <placeName cert="high" ref="http://www.geonames.org/2643743">London</placeName>: <orgName cert="high" ref="http://viaf.org/viaf/311377196">Fontana Press</orgName>, <date cert="high" when="1983">1983</date>. Print.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </body>
+        
+
+    </text>
+</TEI>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei-DToC.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en-CA" level="m" type="main">Regenerations</title>
+                <title xml:lang="en-CA" level="m" type="sub">Canadian Women's Writing</title>
+                <title xml:lang="fr-CA" level="m" type="main">Régénérations</title>
+                <title xml:lang="fr-CA" level="m" type="sub">Écriture des femmes au Canada</title>
+                <editor role="editor">
+                    <forename>Marrie</forename>
+                    <forename>Carrière</forename>
+                </editor>
+                <editor role="editor">
+                    <forename>Patricia</forename>
+                    <surname>Demers</surname>
+                </editor>
+                <principal>
+                    <forename>Susan</forename>
+                    <surname>Brown</surname>
+                </principal>
+                <editor role="markup_editor">
+                    <forename>Mihaela</forename>
+                    <forename>Ilovan</forename>
+                </editor>
+                <editor role="markup_editor">
+                    <forename>Ruth</forename>
+                    <surname>Knechtel</surname>
+                </editor>
+                <funder>
+                    <orgName>University of Alberta Libraries</orgName>
+                </funder>
+                <funder>
+                    <orgName>Social Sciences and Humanities Research Council of Canada</orgName>
+                </funder>
+                <sponsor><orgName xml:lang="en-CA">Canadian Literature Centre</orgName>/<orgName xml:lang="fr-CA">Centre de littérature canadienne</orgName></sponsor>
+                <sponsor>
+                    <orgName>Canadian Writing Research Collaboratory</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Implementing New Knowledge Environments</orgName>
+                </sponsor>
+                <sponsor>
+                    <orgName>Text Mining and Visualization for Literary History</orgName>
+                </sponsor>
+            </titleStmt>
+            <editionStmt>
+                <edition>Dynamic Table of Contexts edition</edition>
+                <respStmt>
+                    <resp>Interface design lead:</resp>
+                    <name role="designer">
+                        <forename>Stan</forename>
+                        <surname>Ruecker</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Interface development lead:</resp>
+                    <name role="programmer">
+                        <forename>Stéfan</forename>
+                        <surname>Sinclair</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Researcher: </resp>
+                    <name role="researcher">
+                        <forename>Brent</forename>
+                        <surname>Nelson</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designers: </resp>
+                    <name role="designer">
+                        <forename>Jennifer</forename>
+                        <surname>Windsor</surname>
+                    </name>
+                    <name role="designer">
+                        <forename>Milena</forename>
+                        <surname>Radzikowska</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Publishing director: </resp>
+                    <name role="publishing_director">
+                        <forename>Linda</forename>
+                        <surname>Cameron</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Copy editors and proofreaders: </resp>
+                    <name role="proofreader">
+                        <forename>Joanne</forename>
+                        <surname>Muzak</surname>
+                    </name>
+                    <name role="proofreader">
+                        <forename>Anna</forename>
+                        <surname>Oliver</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Designer - cover and text: </resp>
+                    <name role="book_designer">
+                        <forename>Marvin</forename>
+                        <surname>Harder</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Digital coordinator: </resp>
+                    <name role="contributor">
+                        <forename>Duncan</forename>
+                        <surname>Turner</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Indexers: </resp>
+                    <name role="contributor">
+                        <forename>Judy</forename>
+                        <surname>Dunlop</surname>
+                    </name>
+                    <name><forename>François</forename> Trahan</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Production manager: </resp>
+                    <name role="book_producer">
+                        <forename>MaryLou</forename>
+                        <surname>Roy</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Developer: </resp>
+                    <name role="programmer">
+                        <forename>Andrew</forename>
+                        <surname>Macdonald</surname>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <name role="markup_editor">
+                        <forename>Nadine</forename>
+                        <surname>Adelaar</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Olga</forename>
+                        <surname>Ivanova</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Samantha</forename>
+                        <surname>Fitzner</surname>
+                    </name>
+                    <name role="markup_editor">
+                        <forename>Kaarina</forename>
+                        <surname>Mikalson</surname>
+                    </name>
+                </respStmt>
+
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName role="publisher">University of Alberta Press</orgName>
+                    <address> 
+                        <addrLine>Ring House 2</addrLine>
+                        <addrLine>Edmonton, Alberta, Canada   T6G 2E1</addrLine>
+                        <addrLine>www.uap.ualberta.ca</addrLine>
+                    </address>
+                </publisher>
+                <publisher>
+                    <orgName role="publisher">Canadian Writing Research Collaboratory</orgName>
+                    <address><addrLine>www.cwrc.ca</addrLine></address>
+                </publisher>
+                <idno type="ISBN">ISBN: 978-1-55195-345-8</idno>
+                <availability>
+                    <p>Copyright © 2015 The University of Alberta Press</p>
+                    <p>All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise) without prior written consent. Contact the University of Alberta Press for further details.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p>
+            </seriesStmt>
+            <notesStmt>
+                <note></note>
+            </notesStmt>
+        </fileDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="fr-CA">French</language>
+                <language ident="en-CA">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <byline></byline>
+                <item></item>
+                <index>
+                    <term></term>
+                </index>
+                <byline></byline>
+                <index>
+                    <term></term>
+                </index>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            
+            
+            <div type="part">
+                
+                
+                <div type="chapter" xml:lang="fr-CA">
+                    <head><title level="a">Du métaféminisme et des histoires au féminin</title></head>
+                    <docAuthor>
+                        <persName ref="http://viaf.org/viaf/120027154" cert="high">Marie Carrière</persName>
+                    </docAuthor>
+                    <q type="block"> <hi xml:lang="en-CA">To be inside and outside a position at the same time—to occupy a territory while loitering sceptically on the boundary—is often where the most intensely creative ideas stem from. It is a resourceful place to be, if not always a painless one</hi>.</q>
+                    <ab xml:id="p187">— <hi rend="italic" xml:lang="en-CA"><persName ref="ttp://viaf.org/viaf/73874087" cert="high">Terry Eagleton</persName>, <title level="m" ref="http://viaf.org/viaf/308049374" cert="high">After Theory</title></hi></ab>
+                    <div type="section">
+                        <p xml:id="p188"><ref target="#canon_formation"><ref target="#literary_schools">L’on pourrait bien se demander ce que peut une écriture au féminin à notre époque lorsque la qualification de la littérature fait souvent appel au <hi rend="italic" xml:lang="en-CA">post</hi>, si on pense à la postmodernité, au postcolonialisme, au postnationalisme ou au postféminisme. Ce dernier terme de postféminisme, néologisme proposé par <persName ref="http://viaf.org/viaf/64055912" cert="high">Toril Moi</persName> en <date when="1985">1985</date> dans <title level="m" ref="http://viaf.org/viaf/309278103" cert="high"><hi xml:lang="en-CA">Sexual/Textual Politics</hi></title>, serait <q>piégé, démobilisateur, à proscrire</q>, remarque <persName ref="http://viaf.org/viaf/9966293" cert="high">Lori Saint-Martin</persName> (163). Toujours selon Saint-Martin, <q>la liberté d’expression [semble] prime[r] l’engagement</q> au nom d’une <q>féminité tranquille et assumée</q> (164) dans une littérature québécoise d’après l’éclosion du féminisme radical des années <date when="1970" cert="high">1970</date></ref></ref>.</p>
+                        <p xml:id="p189">
+                            <ref target="#women_writing">
+                                <ref target="#canon_formation">L’on pourrait bien être portée à se demander si cette liberté serait donc venue éradiquer la présence même d’une pensée et d’une éthique féministe dans l’écriture des femmes. Comme s’interroge <persName ref="http://viaf.org/viaf/54329196" cert="high">Lucie Joubert</persName>, le discours féministe aurait-il abouti à une simple <q>référence historique</q> dans <q>les œuvres des plus jeunes auteurs</q> (77) du <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>? Ou serait-ce <q>sous le mode ludique, essentiellement, que se détecte l’influence du féminisme</q> dans la littérature québécoise d’aujourd’hui — et cela, tant chez les hommes (tels un <persName ref="http://viaf.org/viaf/70124222" cert="high">Guillaume Vigneault</persName>, un <persName ref="http://viaf.org/viaf/28685297" cert="high">Christian Mistral</persName> ou un <persName ref="http://viaf.org/viaf/87061403" cert="high">Dany Laferrière</persName>) que chez les femmes (77)? Les nouvelles formes d’expression au féminin, y compris celles se voulant intimistes, transculturelles ou ludiques et se produisant au Québec comme dans le reste du <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> français, n’auraient-elles pas plutôt forcé l’engagement (et les notions qu’on y associe, comme le collectif, l’identitaire et l’agentivité) non à battre en retraite, mais à se manifester autrement? Comme l’indique <persName ref="http://viaf.org/viaf/7387642" cert="high">Nicole Brossard</persName> dans un texte d’une grande sensibilité au début du présent recueil : <q type="block">Est-ce que je continue de penser et d’agir en fonction du même fond de pensées et de croyances que celles qui m’ont animée il y a 40 ans? Suis-je ailleurs en pensée et en action vivant avec d’autres urgences, d’autres angoisses et révoltes qui, sans être à l’opposé de ce que je pensais il y a 40 ans, occupent désormais le devant de mes solidarités et de ma réflexion?</q></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p190"><ref target="#critique_of_canon"><ref target="#women_writing"><ref target="#canon_formation">Posée par <persName ref="http://viaf.org/viaf/105216612" cert="high">Francine Bordeleau</persName> en <date when="1998">1998</date> dans un dossier de <title level="j"><?oxy_comment_start author="Olga" timestamp="20150128T191352-0700" comment="Not on the VIAF list "?>Lettres québécoises<?oxy_comment_end?></title>, la question <q>L’écriture au féminin existe-t-elle</q> invitait à explorer si le féminisme était à bout de souffle, si on avait encore besoin de ce travail d’inscription d’une subjectivité féminine dans la textualité. Difficile, semblait-il d’emblée, de reconnaître l’empreinte du féminisme sur les écritures actuelles au féminin. Bref, peut-on toujours dire que la pensée féministe, avouée ou non, réfléchie ou non dans les œuvres, continue à influencer la majorité des écrivaines, particulièrement en Amérique du Nord, et ce, depuis la parution du <title level="m" ref=" http://viaf.org/viaf/185451435" cert="high">Deuxième sexe</title> de <persName ref="http://viaf.org/viaf/2466221" cert="high">Simone de Beauvoir</persName> en <date>1949</date>, comme l’affirme <persName ref="http://viaf.org/viaf/78818356" cert="high">Isabelle Boisclair</persName></ref></ref></ref>?</p>
+                        <p xml:id="p191">
+                            <ref target="#theme_or_topic">Selon <persName ref="http://viaf.org/viaf/9966293" cert="high">Saint-Martin</persName>, les textes de femmes d’après la grande époque féministe au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> renvoient à une conception plutôt métaféministe de la littérature — le méta désignant ce qui suit, mais aussi <q>ce qui dépasse <hi rend="italic">ou englobe</hi> l’objet dont il est question</q> (165). Le métaféminisme ferait preuve d’un <q><hi rend="italic">double mouvement</hi></q>, celui de <q>remettre en cause les stratégies et les orientations des aînées féministes tout en intégrant des préoccupations similaires</q> (164). Une quinzaine d’années plus tard, <persName ref="http://viaf.org/viaf/57746094" cert="high">Jennifer Henderson</persName> avance dans la même veine la notion de <q><hi xml:lang="en-CA" rend="italic">cryptofeminism</hi></q> pour décrire <q><hi xml:lang="en-CA" rend="italic">a kind of work that is feminist in a subterranean way</hi></q>, qu’elle relie également au postféminisme. <persName ref=" http://viaf.org/viaf/54329196" cert="medium">Joubert</persName> fait remarquer de son côté que <q>le discours des femmes a bien été entendu dans la littérature actuelle : on le rapporte, on le colporte, on l’assimile, tant dans les textes féminins que masculins</q> (90). <ref target="#gender_issue">Se manifeste ainsi un retrait vis-à-vis des désignations binaires comme victime/coupable ou de <q>la dénonciation généralisée des phallocrates et de l’idéalisation du féminin</q> (Saint-Martin, citée par Joubert 84). <ref target="#genre_issue">À leur place, les genres et les rôles sexuels vacillent et se brouillent (Joubert 84) : <q>la collision des discours du genre</q> et du <q>transgenre</q> (83) — au sens des termes anglais de <hi xml:lang="en-CA" rend="italic">gender</hi> et de <hi xml:lang="en-CA" rend="italic">transgender</hi> traités de prime abord par la philosophe féministe <persName ref="http://viaf.org/viaf/98486723" cert="high">Judith Butler</persName> — s’insère davantage dans l’écriture, comme celle de <persName ref="http://viaf.org/viaf/85357064" cert="high">Monique Proulx</persName> dans <title level="m">
+                                <?oxy_comment_start author="Olga" timestamp="20150127T175943-0700" comment="not on the VIAF list "?>Le sexe des étoiles<?oxy_comment_end?></title>, paru en <date when="1987">1987</date>.</ref></ref></ref>
+                        </p>
+                        <p xml:id="p192">
+                            <ref target="#intellectual_history">
+                                <ref target="#women_writing">Comme le constatait <persName ref="http://viaf.org/viaf/2714957" cert="high">Louise Dupré</persName> en <date when="1994">1994</date>, <q>la dimension politique n’est plus la thématique première dans la textualité</q> comme elle l’a été pour une dite première génération d’auteures comptant, entre autres, <persName ref="http://viaf.org/viaf/7387642" cert="high">Nicole Brossard</persName>, <persName ref="http://viaf.org/viaf/27094343" cert="high">Louky Bersianik</persName> et <persName ref="http://viaf.org/viaf/79057261" cert="high">France Théoret</persName>. Cependant, l’engagement féministe est toujours <q>là, en toile de fond et donne plus de place à l’expression de l’amour bien qu’en revanche, on remarque un renouveau du collectif et d’une quête sujétaire féminine</q> (<title level="a">Poésie</title> 153) — une recherche inscrite <q>ailleurs</q>, propose <persName ref=" http://viaf.org/viaf/54329196" cert="medium">Joubert</persName> plus récemment, <q>que dans les textes de revendication</q> (78). S’ajoutent bien sûr ces voix migrantes qui mettent en œuvre de nouvelles subjectivités féminines. <ref target="#genre">Des ouvrages de fiction, d’autofiction, de théâtre et de poésie, comme ceux de <persName ref="http://viaf.org/viaf/102867130" cert="medium">Kim Thúy</persName>, d’<persName ref="http://viaf.org/viaf/119517307" cert="high">Abla Farhoud</persName> ou de <persName ref="http://viaf.org/viaf/94150233" cert="high">Nadine Ltaif</persName> viennent repenser ce que peut bien vouloir dire <q>écrire au féminin</q> dans un contexte linguistique et culturel d’accueil.</ref> <ref target="#genre"><ref target="#archive">Par ailleurs, les pratiques du <hi xml:lang="en-CA" rend="italic">spoken word</hi> et de la poésie rap, <hi xml:lang="en-CA" rend="italic">dub</hi> et slam comptent parmi elles nombre de contributions féminines, notamment diffusées et archivées par <orgName>Les filles électriques</orgName>, organisme fondé en <date when="2001">2001</date> et dirigé par l’artiste interdisciplinaire <persName ref="http://viaf.org/viaf/92085899" cert="medium">D. Kimm</persName></ref>.</ref> Alors que la Montréalaise depuis 25 ans affirme, en entretien avec <persName ref="http://viaf.org/viaf/9251845" cert="high">Josée Blanchette</persName> pour <title level="j"><?oxy_comment_start author="Olga" timestamp="20150128T163728-0700" comment="Not on the VIAF list"?>Le Devoir<?oxy_comment_end?></title> (<date when="2008">2008</date>), que ce récent envol poétique sur la place publique <q>donne une place toute particulière aux voix des femmes dans la rue</q> elle fait remarquer dans le même temps : <q type="block">Je ne me définis pas comme féministe mais je le suis. Je te dirais qu’être féministe, ce n’est pas assez. Comme l’amour n’est pas assez. Moi, je veux être l’héroïne de mon film. Les filles s’empêchent de faire tant de choses, ont encore besoin de l’approbation des gars. Je ne milite pas pour les droits des femmes, je milite pour qu’on soit solidaires.</q> Constat on ne peut plus métaféministe! <ref target="#canon_formation">Les auteures actuelles sembleraient effectivement retenir du féminisme des décennies précédentes l’adage que le personnel primant dans leurs textes est aussi politique, dans des textes de création qui n’évacueraient pas le féminisme, mais l’absorberaient, tout en l’interrogeant et le faisant ainsi <q>évoluer</q> (<persName ref="http://viaf.org/viaf/9966293" cert="high">Saint-Martin</persName> 169). Il s’agirait ainsi, pour citer le thème de ce recueil collectif, de régénérations, en contact dans le corps même des textes d’aujourd’hui.</ref></ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p193">
+                            <ref target="#intellectual_history">
+                                <ref target="#canon_formation">Il y aurait à tenir compte d’une histoire littéraire au féminin multiple et retentissante, d’y percevoir les dernières lueurs du féminisme <q>radical</q> des années <date when="1970" cert="high">1970</date> ou de deuxième vague et ses avatars dans le courant des décennies suivantes. Histoire d’une textualité féminine contemporaine traversée par des épistémologies féministes désormais plus discrètes, prises pour acquis, et des postures effectivement plus intimes, souvent ludiques, ou encore aux confins des esthétiques migrantes et des pensées transculturelles. Serait-il alors plus productif de parler aujourd’hui de métaféminisme en littérature québécoise et franco-canadienne, c’est-à-dire d’un horizon de tangences et de tendances infléchies par les orientations et questionnements féministes d’une vague précédente?</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p194">
+                            <ref target="#women_writing">
+                                <ref target="#intellectual_history"><ref target="#genre_poetry"><ref target="#genre_fiction">Par rapport aux écritures actuelles des femmes au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> et au <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> français, je proposerais non seulement la présence de cette <q>toile de fond</q> de pensée féministe qu’associe <persName ref="http://viaf.org/viaf/2714957" cert="high">Dupré</persName> aux écrivaines surtout d’après <date when="1990" cert="high">1990</date>, mais j’y ajouterais aussi l’incrustation historique des épistémologies féministes ayant traversé l’écriture des femmes depuis les quarante dernières années — que ces savoirs soient intimistes et tacites comme dans la poésie d’<persName ref="http://viaf.org/viaf/51711659" cert="high">Hélène Dorion</persName>, transculturels et contestataires comme dans les récits de <persName ref="http://viaf.org/viaf/59363153" cert="high">Flora Balzano</persName> ou parodiques et ironiques comme dans la fiction de <persName ref="http://viaf.org/viaf/37158276" cert="high">Nadine Bismuth</persName>.</ref></ref> À propos du Canada français, dont je ne traiterai qu’au passage dans ce travail, il convient de signaler que les œuvres féminines d’expression française produites en <placeName ref="http://www.geonames.org/5995294" cert="high">Acadie</placeName>, en <placeName ref="http://www.geonames.org/6093943" cert="high">Ontario</placeName> et dans l’Ouest canadien, actuellement, mais aussi depuis <date when="1970" cert="high">1970</date> et notamment en poésie, font écho davantage aux orientations esthétiques et ontologiques — donc féministes et métaféministes — des écrivaines du Québec qu’aux référents identitaires et collectifs déployés par leurs contemporains masculins. La contribution de <persName ref="http://viaf.org/viaf/32220127" cert="high">Lucie Hotte</persName> dans ce volume fait justement état de <q>la faible présence féminine dans le monde littéraire</q> en milieu minoritaire, et notamment parmi les auteurs consacrés de l’Ontario français, étant donné certaines attentes idéologiques auxquelles est tenue la production littéraire par la réception critique chargée de sa légitimation. D’emblée, faire la mise au point d’une traversée féministe dans la littérature actuelle des femmes nous impose de remettre en question la supposition que l’intimité supprime l’engagement, que la transculture préconise l’éloge consensuel de l’altérité, ou que le ludisme soit forcément critique.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p195">
+                            <ref target="#methodology">Je me propose ici de sonder certains textes, en particulier de <persName ref="http://viaf.org/viaf/51711659" cert="high">Dorion</persName>, <persName ref="http://viaf.org/viaf/59363153" cert="high">Balzano</persName> et <persName ref="http://viaf.org/viaf/37158276" cert="high">Bismuth</persName>, en vue d’amorcer plus tard une étude de plus large envergure du métaféminisme dans les littératures québécoise et franco-canadienne. <ref target="#technology"><ref target="#collaboration">C’est aussi dans le contexte du <orgName>Collaboratoire scientifique des écrits du Canada</orgName> (<hi rend="small-caps">CSÉC</hi>), dont traitent <persName ref="http://viaf.org/viaf/104953085" cert="high">Susan Brown</persName> et <persName>Mary-Jo Romaniuk</persName> à la fin de ce volume, que j’envisage l’inscription de cette histoire littéraire au féminin dans ses manifestations contemporaines. L’évolution et la mouvance continues de cette histoire se verraient notamment divulguées grâce à de nouveaux outils numériques et méthodologiques interactifs appartenant à la motilité des bases de données biocritiques et des archives vivantes comme celles du <orgName sameAs="Collaboratoire                                 scientifique des écrits du Canada"><hi rend="small-caps">CSÉC</hi></orgName>. L’environnement électronique du <orgName sameAs="Collaboratoire                                 scientifique des écrits du Canada"><hi rend="small-caps">CSÉC</hi></orgName> me paraît plein de promesses quant au repérage et à la mise en valeur d’une histoire récente de l’écriture des femmes au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> et au <placeName ref="http://www.geonames.org/6251999" cert="high">Canada</placeName> français cherchant à éplucher l’infiltration, la contestation et la réverbération des pensées féministes.</ref></ref></ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>|</head>
+                        <p xml:id="p196"><ref target="#close_reading"><ref target="#genre_poetry">Dans <title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T172207-0700" comment="Not on the VIAF list"?>Les corridors du temps<?oxy_comment_end?></title>, <persName ref="http://viaf.org/viaf/51711659" cert="high">Hélène Dorion</persName> ne trouve <q>pas de vie ailleurs / qu’en soi-même</q> (185) et signale ainsi l’intimité lyrique de son énonciation poétique. Le lyrisme ici n’est pas à comprendre au sens romantique et élevé du terme; il s’agit plutôt d’une <q>position précaire, voire critique, du sujet qui constitue le lyrisme moderne et contemporain</q> (<persName ref="http://viaf.org/viaf/66687976" cert="high">Watteyne</persName> 15). Ou encore, <q>d’une façon générale et plus radicalement critique</q>, l’on pourrait voir le <q><q>sujet lyrique</q> [comme n’étant] pas le centre-source d’une parole qui l’exprime, mais plutôt le point de tangence, l’horizon désiré d’énoncés subjectifs ou non qu’il s’attache à relier</q> (<persName ref="http://viaf.org/viaf/66512789" cert="high">Rabaté</persName> 67). Ainsi, chez la poète franco-ontarienne <persName ref="http://viaf.org/viaf/84247829" cert="high">Andrée Lacelle</persName>, le <hi rend="italic">je</hi>  <q>bégaie des fragments d’inexistence</q> (65); chez la franco-manitobaine <persName ref="http://viaf.org/viaf/81437696" cert="high">Lise Gaboury-Diallo</persName>, la locutrice <q>[s]’étonne / devant les fentes et fissures / de [sa] mémoire</q> (45). Le soi chez <persName ref="http://viaf.org/viaf/51711659" cert="high">Dorion</persName> est traversé par <q>ces cavités grises, ces ombres</q>; le soi cherche l’amour de l’autre <q>pour que s’arrête l’effacement</q> (<title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T180737-0700" comment="Not on the VIAF list"?>Un visage<?oxy_comment_end?></title>252)</ref></ref>.</p>
+                        <p xml:id="p197">
+                            <ref target="#close_reading">
+                                <ref target="#representation_of_women">S’il fallait résumer les particularités d’un sujet lyrique au féminin comme l’a fait encore <persName ref="http://viaf.org/viaf/2714957" cert="high">Louise Dupré</persName> (<title level="a"><?oxy_comment_start author="Olga" timestamp="20150128T181253-0700" comment="Not on the VIAF list "?>Sujet<?oxy_comment_end?></title> 187), il y aurait d’abord le constat que c’est comme fille d’une mère que la locutrice apprend à vivre avec la perte, à mettre à l’œuvre cette <q>négativité</q> dans son rapport au corps maternel cernée par Dupré — un deuil dans lequel la fille puise d’abord sa subjectivité et sa parole. <ref target="#genre_poetry"><q>Le premier geste</q> — poétique sans doute, car la poésie s’aborde toujours d’abord et avant tout chez <persName ref="http://viaf.org/viaf/51711659" cert="high">Dorion</persName> — <q>fut celui de passer à travers la mère</q> (<title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T181839-0700" comment="Not on the VIAF list "?>Les corridors<?oxy_comment_end?></title> 182), ce <q>corridor</q> du ventre maternel.</ref> Toujours est-il que <q>l’état de séparation est à l’origine de l’écriture</q> (<persName ref="http://viaf.org/viaf/39528339" cert="high">Paquin</persName> 10), de ce <hi rend="italic">je</hi> qui s’inscrit au féminin dans la grammaire du texte et par les accords de ses qualificatifs. </ref>
+                                <ref target="#sexuality">
+                                    <ref target="#intertextuality">Le sujet écrivant signale tranquillement un genre sexuel — <q>sinueuse dans le couloir / des eaux fragmentées / je m’infiltre / à l’amer le sang tissé / j’étais nue possédée</q> (<title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T184757-0700" comment="Not on the VIAF list "?>L’intervalle<?oxy_comment_end?></title> 15) — et tout aussi doucement son rapport intertextuel avec une autre œuvre <hi rend="italic">amère,</hi> nettement féministe celle-là<note xml:id="n21" place="end">Il s’agit bien sûr de <title level="m" ref="http://viaf.org/viaf/309477793" cert="high">L’amèr, ou le chapitre effrité</title>(<date when="1977" cert="high">1977</date>) de <persName ref="http://viaf.org/viaf/7387642" cert="high">Nicole Brossard</persName></note>.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p198">
+                            <ref target="#close_reading">
+                                <ref target="#women_writing">
+                                    <ref target="#intertextuality"><ref target="#genre_poetry">Comme chez ses contemporaines susmentionnées (<persName ref="http://viaf.org/viaf/94150233" cert="high">Ltaif</persName>, <persName ref="http://viaf.org/viaf/84247829" cert="high">Lacelle</persName>, <persName ref="http://viaf.org/viaf/81437696" cert="high">Gaboury-Diallo</persName>) ou encore comme chez <persName ref="http://viaf.org/viaf/119534257" cert="medium">Denise Desautels</persName>, <persName ref="http://viaf.org/viaf/46882398" cert="high">Louise Warren</persName> ou <persName ref="http://viaf.org/viaf/59971351" cert="high">Dyane Léger</persName> entre autres, c’est au féminin que s’inscrit le sujet clivé de la poésie dorionienne : dans son interrogation poétique de <q>la ruine</q> et d’<q>un monde à la limite du monde […] la femme que je suis</q> (<title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T190516-0700" comment="Not on the VIAF list"?>Les corridors<?oxy_comment_end?></title> 224).</ref> Le sujet féminin n’étant plus placé face à son image symbolique, <q>la Femme</q>, comme il l’aurait été à l’apothéose du féminisme où <q>écrire je suis une femme [était] plein de conséquences</q> (<persName ref="http://viaf.org/viaf/7387642" cert="high">Brossard</persName> 43), il se trouve effectivement <q>seul devant le vide du monde</q> (Dupré, <title level="a"><?oxy_comment_start author="Olga" timestamp="20150128T192009-0700" comment="Not on the VIAF list "?>Un visage<?oxy_comment_end?></title> 25). Or les séquelles d’un impératif féministe retentissent néanmoins dans les postures du <hi rend="italic">je</hi> écrivant. Chez <persName ref="http://viaf.org/viaf/51711659" cert="high">Dorion</persName>, l’impératif est de nature éthique, celui d’écrire un <hi rend="italic">soi</hi> capable à la fois de concevoir sa propre brisure tout en restant à l’écoute de l’autre. Car l’autre est celle ou celui, ou simplement ce qui rappelle la locutrice, le soi, à sa propre altérité. Cette ontologie, pensée dans l’altérité plutôt que l’unité, mais beaucoup moins appelée à fouiller ses propres composantes théoriques que ne l’aurait fait Brossard par exemple, s’ouvre sur un rapport éthique au monde et un agir sur lui. <ref target="#genre_poetry"><title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T192148-0700" comment="Not on the VIAF list "?>Les Portraits de mers<?oxy_comment_end?></title> résument la quête poétique et ontologique de l’ensemble de l’œuvre d’Hélène Dorion : <q type="block"> <lg type="stanza"> <l>Ainsi vas-tu, des années durant</l> <l>sans relâche chercher cette grotte</l> <l>au cœur de l’être, l’union de ton souffle</l> <l>à celui du monde.</l> </lg>(685) </q></ref> Enfin, cette double inscription d’affirmation et d’interruption du <q>vide</q> en soi, isotopie aussi fondamentale d’une poésie intimiste qu’en sont la solitude, l’amour et le deuil, passe par la parole poétique ainsi que par l’autre — notamment le visage, les lettres et la parole de l’amant. Une telle inscription du sujet intime vient démentir une neutralité ou une universalité recherchée, qu’il serait faux d’associer au sujet lyrique. L’engagement du sujet-femme de Dorion avec un monde habitable est aussi, et d’abord, celui de sa parole poétique. Celle-ci se réserve une place, aussi lacunaire soit-elle, à la première personne au féminin, inscrivant son intime rapport au monde et à l’écriture.</ref>
+                                </ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p199">
+                            <ref target="#genre_issue">
+                                <ref target="#genre_fiction">La fiction d’après <date notBefore="1990">1990</date> se démarque quant à elle à son tour des tendances expérimentales des <q>fictions-théoriques</q> des années <date when="1970">1970</date>, ce mélange de fiction, de théorie, d’essai et de poésie prônant une esthétique et une idéologie ostensiblement féministes. Mais en est-on si éloigné que ça?</ref>
+                                <ref target="#response_formal">
+                                    <ref target="#recognitions"><title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T192910-0700" comment="Not on the VIAF list "?>Soigne ta chute<?oxy_comment_end?></title> de <persName ref="http://viaf.org/viaf/59363153" cert="high">Flora Balzano</persName> reçoit beaucoup d’attention médiatique lors de sa parution en <date when="1991">1991</date>, et <listEvent> <event> <label>l’œuvre est finaliste du Prix littéraire du Gouverneur général la même année</label> </event> </listEvent>.</ref>
+                                </ref>
+                                <ref target="#formal_response">Le texte n’aura cependant reçu que très peu de véritable considération critique. La raison de ce manque serait-elle que le texte de Balzano vient contester avec une ferveur possiblement gênante les discours transculturels et migrants du moment, eux-mêmes contestataires des grands récits culturels québécois <q>de souche</q>? On pourrait en dire autant à propos du féminisme de <title level="m">Soigne ta chute</title>, soumis à la dérision et à l’ironie de l’auteure ou plutôt de la narratrice <q><hi rend="italic">féministement</hi> incorrecte</q> (<persName ref=" http://viaf.org/viaf/54329196" cert="medium">Joubert</persName> 79) du récit.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p200">
+                            <ref target="#nationality_issue">Plus ou moins comme sa narratrice autofictive, <persName ref="http://viaf.org/viaf/59363153" cert="high">Flora Balzano</persName> est <q>née d’un père moitié italien moitié espagnol et d’une mère moitié polonaise moitié corse, en <placeName ref="http://www.geonames.org/2589581" cert="high">Algérie</placeName>, pendant la guerre</q> (35). Elle déménage en <placeName ref="http://www.geonames.org/3017382" cert="high">France</placeName> avec ses parents et à l’âge de 15 ans ils immigrent au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>. <ref target="#genre_issue">Selon sa page couverture, <title level="m"><?oxy_comment_start author="Olga" timestamp="20150128T193255-0700" comment="Not on the VIAF list "?>Soigne ta chute<?oxy_comment_end?></title> se voudrait un roman, mais les récits à multiples voix narratrices, comme les faits biographiques mêlés à la fiction, échappent aux contraintes du genre.</ref> <ref target="#voice_or_narration">L’on reste parfois perplexe quant à l’identité des multiples narratrices, alors que trois femmes (parmi d’autres) de trois générations semblent occuper la diégèse. D’abord, c’est l’adolescente révoltée du Prologue qui ouvre le texte : <q>Alors moi, s’il y a une chose qui m’écœure dans la vie, c’est ma mère. Elle est nulle. Elle a toujours été nulle. Elle sera toujours nulle</q> (13). Ensuite sa mère, toxicomane (nommée Pascale, semble-t-il), soigne sa propre chute, pour ainsi dire, souffrant d’un mal ou d’une <q>peine</q> d’appartenance tout au long du texte, dont l’épilogue révèle sa mère abusive à elle, source la plus profonde de l’exil, du silence et du déséquilibre de Pascale.</ref> Si l’importance de la relation mère-fille rappelle cette <q>dot féminine</q> qu’a pertinemment signalée <persName ref="http://viaf.org/viaf/51797458" cert="high">Lucie Lequin</persName> dans les écritures migrantes des femmes pour la situer par rapport à une certaine généalogie d’écriture au féminin du <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>, la dot ici est foncièrement empoisonnée. Porteuse de traumatisme et de perte, elle est loin d’esquisser ces nouvelles réalités fécondes, dynamiques ou consensuelles un peu trop souvent associées aux écrits transculturels et à leur portée prétendument réconciliatrice.</ref>
+                        </p>
+                        <p xml:id="p201">
+                            <ref target="#nationality_issue">
+                                <ref target="#close_reading">Comme les référents du texte qui nous glissent entre les doigts, à l’image du <hi rend="italic">je</hi> désordonné et de la personnalité désorganisée de l’énonciation du texte de <persName ref="http://viaf.org/viaf/59363153" cert="high">Balzano</persName>, les métarécits de la modernité québécoise subissent un véritable détraquement : <q type="block"> <p xml:id="p202">J’ai de la peine parce que je ne serai jamais québécoise. Voilà. On ne devient pas québécoise. On ne devient rien. Jamais. Que de plus en plus vieux, de plus en plus mou. Ô, mon Dieu, mon Dieu, donnez-nous aujourd’hui notre collagène quotidien. Et puisque Vous en êtes à Vous occuper de nous, pardonnez-nous nos enfances comme Vous pardonnez à ceux qui nous ont enfantés n’importe où. Le masculin étant employé ici sans préjudice mais seulement pour faciliter la compréhension d’un texte déjà assez confus sans en rajouter. Je précise parce qu’il faut faire gaffe. On est surveillé, épié, décortiqué, c’est l’électronique, c’est le progrès, tout se sait, sauf ce dont on risque d’être accusé un jour. Faut faire gaffe. On est analysé, interprété, jugé. Je ne veux pas de problèmes avec certaines féministes.</p> <p xml:id="p203">J’avais une copine convaincue et militante, je l’ai perdue à cause d’une petite phrase de rien du tout, rien qu’une. J’avais dit, moi, c’est drôle, enfin, c’est pas drôle, c’est naturel, mais j’ai surtout envie de faire l’amour quand j’ovule.</p> <p xml:id="p204">— Mange donc <hi rend="italic">du</hi> marde, elle avait répondu.</p> <p xml:id="p205">Quand je la revois, par hasard, il y a plein d’animosité entre nous. D’un côté, je m’en fous mais, de l’autre, ça me fait de la peine. Et de la peine, j’en ai déjà assez comme ça, quand je me rends compte que je ne serai jamais québécoise. (33–34)</p> </q> Soulignée par le motif de la souffrance, la dérision dérègle l’identitaire, l’âgisme, le christianisme, la rectitude politique, la solidarité féminine. Quant à ce <q>faux hommage</q> (<persName ref=" http://viaf.org/viaf/54329196" cert="medium">Joubert</persName> 81) à la devise beauvoirienne dans <q>On ne devient jamais québécoise</q>, il aboutit à la négation totale de toute identité ou appartenance.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p206">
+                            <ref target="#nationality_issue">
+                                <ref target="#close_reading">En revanche, l’on peut se demander si la négation se veut réellement définitive. Après tout, la narratrice <q>a de la peine</q>, et cela partout dans l’œuvre. Le récit explicite la conflictualité au cœur de ces zones de contact que traverse la narratrice toujours traumatisée par son enfance algérienne, <q>jalouse de ne pas être une vieille souche</q> (40), et méprisante du cliché de l’appellation transnationale de <q>citoyenne du monde</q> qu’on lui donne : <q type="block"> C’est moche. Y en a qui disent, chanceuse, t’es citoyenne du monde. Mais le monde, c’est trop grand le monde, c’est angoissant. Mais nous sommes là, qu’ils ont essayé de me rassurer alors, les gentils intervenants, pour l’accueillir, ton angoisse, et t’aider dans ton cheminement. Dans cheminement, il y a le mot <q>mine</q>. Ça prouve que ça peut sauter n’importe quand. Boum. (41)</q> Bref, alors qu’elle se distancie de l’objet de sa raillerie — <q>les féministes</q> et la nation québécoise, par exemple — elle l’englobe tout à la fois. Si le texte de <persName ref="http://viaf.org/viaf/59363153" cert="high">Balzano</persName> révèle une hybridité à la fois conflictuelle et complaisante, ce n’est pas sans que s’inscrivent un lot de deuils et le besoin lancinant d’appartenance quelconque (féminine ou nationale) : <q>parce que la vérité, ma terre, c’est que je me languis de toi</q> (108).</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p207">
+                            <ref target="#genre_novel">
+                                <ref target="#close_reading">Enfin, l’univers ludique refait surface, mais avec légèreté, dans <title level="m"><hi xml:lang="en-CA">Scrapbook</hi></title>, roman à succès de la jeune auteure <persName ref="http://viaf.org/viaf/37158276" cert="high">Nadine Bismuth</persName>.</ref>
+                                <ref target="#sexuality">Le récit met en scène les péripéties d’Annie Brière, jeune écrivaine également, propulsée dans un monde littéraire contemporain qu’elle essaie de percer en s’emparant de certaines <q>techniques de séduction féminines</q> (<persName ref=" http://viaf.org/viaf/54329196" cert="medium">Joubert</persName> 85). Le pastiche des clichés sexuels est au rendez-vous. D’abord, la description des cours de création littéraire que suit Annie à l’université sombre dans l’hyperbole parodique. Les mondes et littéraire et universitaire sont loin de reluire et affichent leurs <q>frontières sexuées</q> (Joubert 85) : les filles des cours de création littéraire, <q>quand elles ne rappelaient pas Anne Hébert avec leurs personnages dépossédés du monde</q> (<title level="m"><hi xml:lang="en-CA">Scrapbook</hi></title>13), dissertent sur l’efficacité sexuelle des garçons, qui eux s’aventurent dans la science-fiction vampirique ou les cuites de peines d’amour.</ref>
+                                <ref target="#intertextuality">La société dans <title level="m"><hi xml:lang="en-CA">Scrapbook</hi></title> ne se veut que prétentions et consommation. <ref target="#genre_novel"><ref target="#intertextuality">En rappelant le roman <title level="m" ref="http://viaf.org/viaf/189374012" cert="high">Maryse</title> de <persName ref="http://viaf.org/viaf/116512717" cert="high">Francine Noël</persName> (<date when="1983" cert="high">1983</date>), Bismuth s’abandonne au plaisir de la citation avec ses renvois au <?oxy_comment_start author="Olga" timestamp="20150129T145349-0700" comment="Not ont the VIAF list "?>Tylenol Rhume<?oxy_comment_end?>, aux produits <?oxy_comment_start author="Olga" timestamp="20150129T145335-0700" comment="Not on the VIAF list "?>Lise Watier<?oxy_comment_end?>, au <orgName ref="http://viaf.org/viaf/135987251" cert="medium">McDonald</orgName>, aux meubles <orgName ref="http://viaf.org/viaf/147266348" cert="high">Ikea</orgName>, au magazine <title level="j"><hi xml:lang="en-CA">Sports Ilustrated</hi></title>, au <orgName ref="http://viaf.org/viaf/141018612" cert="high">Starbucks</orgName>, au <orgName ref="http://viaf.org/viaf/203023896" cert="high">Cirque du Soleil</orgName>, au <orgName>Raisin Bran</orgName>, au <orgName ref="http://viaf.org/viaf/139512064" cert="medium">Food Network</orgName>, au <orgName ref=" http://viaf.org/viaf/144196719" cert="medium">Paxil</orgName></ref></ref>. Ce plaisir d’abondance citationnelle souvent moqueur comprend aussi la reproduction de fiches d’auteures et doctorales, des invitations aux grands cocktails littéraires de l’année, des descriptions de pratiques Feng Shui, des publicités ainsi que de nombreux intertextes littéraires. Les yachts des amis d’Annie portent les noms de <persName ref=" http://viaf.org/viaf/76323989" cert="high"><hi rend="italic">Jules Vernes</hi></persName> et de <title ref="http://viaf.org/viaf/185951107" cert="high"><hi rend="italic">Moby Dick</hi></title> et, dans ce monde postmoderne qui affiche son manque d’originalité, le titre du roman d’Annie, <title level="m"><hi xml:lang="en-CA">The Garden Party</hi></title>, se justifie par le simple fait que personne depuis <persName ref=" http://viaf.org/viaf/41843502" cert="high">Katherine Mansfield</persName> ne l’aurait utilisé.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p208">
+                            <ref target="#women_writing">
+                                <ref target="#close_reading"><ref target="#intertextuality">Quant aux aveux féministes reproduits dans <title level="m"><hi xml:lang="en-CA">Scrapbook</hi></title>, ils n’en sont pas moins victimes de dérision. D’emblée, les aînées (justement comme Anne Hébert) n’échappent pas à la moquerie. Par ailleurs, la directrice des études littéraires du département auquel est inscrite Annie Brière n’est qu’une <q>férue de théories féministes et déconstructionnistes</q> (20). Postféministe plutôt que métaféministe, peut-être, l’étourderie d’Annie réduit la fameuse devise de <persName ref="http://viaf.org/viaf/39385478" cert="high">Virginia Woolf</persName> au sujet de l’écriture des femmes à une banalité quotidienne : <q type="block">Malgré le conseil de <persName ref="http://viaf.org/viaf/39385478" cert="high">Virginia Woolf</persName> selon lequel il faut, pour écrire, avoir une chambre à soi munie d’une serrure, j’ai confié à Léonie [la sœur d’Annie] un double des clefs de mon trois et demie lorsque j’y ai emménagé. En effet, qu’arrive-t-il si l’on égare la clef de sa précieuse chambre à soi? Comme <persName ref="http://viaf.org/viaf/39385478" cert="high">Virginia Woolf</persName> ne s’est pas arrêtée à cette possibilité, j’ai dû y voir moi-même et trancher la question. (27)</q> L’écriture au féminin, quant à elle, est ridiculisée.</ref> Dans un clin d’œil aux incarnations radicales de cette esthétique, les pages du <q><hi xml:lang="en-CA">scrapbook</hi></q> éponyme d’Annie Brière, qui a été amorcé par sa mère, demeureront blanches. De fait, la portée de la littérature, qu’elle soit sociale ou intime, est dégonflée : le mensonge et l’infidélité imprègnent les relations hommes femmes, et la solidarité féminine, si elle n’est pas méprisée ou inatteignable, demeure au mieux superficielle.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p209">
+                            <ref target="#intellectual_history">
+                                <ref target="#close_reading">Enfin, si Annie l’écrivaine se réclame une certaine généalogie féministe avec ses renvois récurrents à <q><persName ref="http://viaf.org/viaf/2466221" cert="high">Simone</persName></q> et <q><persName ref="http://viaf.org/viaf/39385478" cert="high">Virginia</persName></q>, la gaffeuse se retrouve constamment victime de ses propres stratagèmes féminins, risquant de faire se retourner dans leur tombe ses mères littéraires :  <q>Mais je ne peux pas vivre ici sans payer ma part</q> , dit-elle à sa nouvelle douce moitié, <q>c’est déjà quelque chose que je n’aie plus ma chambre à moi! Je ne peux pas te laisser être le seul pourvoyeur du toit au-dessus de ma tête. Lorsque c’était mon père, ça allait encore, mais mon amoureux, c’est différent! Simone et <persName ref="http://viaf.org/viaf/39385478" cert="high">Virginia</persName> vont se retourner dans leur tombe! Je dois contribuer</q> (367). Mais, comme de raison, elle continuera de profiter de la générosité de son  <q>papou</q>  et ne contribuera pas financièrement à sa nouvelle vie avec son copain.</ref>
+                            </ref>
+                        </p>
+                        <p xml:id="p210">
+                            <ref target="#characterization">La réprobation du comportement de tous les personnages, y compris d’Annie elle-même, est évidente dans l’œuvre. Annie surmonte-t-elle le simple pastiche, le ludisme, les instances dominantes pourtant condamnées? Ou alors se réadapte-t-elle plutôt aux traditions, clichés et stéréotypes qui sont pourtant objets de ridicule, ou du moins de distance critique, dans ce roman? Ces questions s’imposent et — c’est le lot de la parodie et du pastiche — elles restent difficiles à résoudre.</ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>|</head>
+                        <p xml:id="p211">
+                            <ref target="#women_writing">
+                                <ref target="#intellectual_history">Les pistes pour une étude plus large pourraient donc aller dans trois directions, suggérées par l’analyse de ces textes récents de femmes : l’intimité et ses rapports à l’extériorité, la transculture et ses rapports aux savoirs féministes et postcoloniaux et enfin le rire romanesque et son rapport incertain à la subversion sociale. Ce qui rassemble ces trois volets, ce qui les renvoie au féminisme littéraire les ayant précédés, est la question persistante du sujet féminin, que celui-ci soit lyrique, postcolonial ou ludique, et de ses savoir-vivre dans le monde déployé dans les œuvres littéraires. On peut ainsi penser, à la lecture de textes comme ceux de <persName ref="http://viaf.org/viaf/51711659" cert="high">Dorion</persName>, de <persName ref="http://viaf.org/viaf/59363153" cert="high">Balzano</persName> et de <persName ref="http://viaf.org/viaf/37158276" cert="high">Bismuth</persName>, que les féminismes (méta ou non) de la littérature québécoise et canadienne-française nous invitent à en faire toute une histoire.</ref>
+                            </ref>
+                        </p>
+                    </div>
+                    <div type="section">
+                        <head>Bibliographie</head>
+                        <listBibl>
+                            <bibl><persName ref="http://viaf.org/viaf/59363153" cert="high">Balzano, Flora</persName>. <title level="m" ref="http://viaf.org/viaf/314118945/" cert="high">Soigne ta chute</title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal</placeName>: <orgName ref="http://viaf.org/viaf/264610728" cert="high">XYZ</orgName>, <date when="1991" cert="high">1991</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/37158276" cert="high">Bismuth, Nadine</persName>. <title level="m"><hi xml:lang="en-CA">Scrapbook</hi></title>. <placeName ref="http://www.geonames.org/6077246" cert="high"> Montréal</placeName>: <orgName ref="http://viaf.org/viaf/167942647" cert="high">Boréal</orgName>, <date when="2004" cert="high">2004</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/9251845" cert="high">Blanchette, Josée</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150130T165411-0700" comment="Not on the VIAF list "?>Une fille allumée et les mots pour le dire<?oxy_comment_end?></title>. <title level="j" ref="http://viaf.org/viaf/183879194" cert="high">Le Devoir</title>, <date when="2008-03-07" cert="high">7 mars 2008</date>. Web. <date when="2010-09-04" cert="high">4 septembre 2010</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/78818356" cert="high">Boisclair, Isabelle</persName>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T105452-0700" comment="Not on the VIAF list "?>Ouvrir la voie/x : Le processus constitutif d’un sous-champ littéraire féministe au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName> (<date from="1960" to="1990" cert="high">1960–1990</date>)</title>. <placeName ref="http://www.geonames.org/6115047" cert="high">Québec<?oxy_comment_end?></placeName>: <orgName ref="http://viaf.org/viaf/134818743" cert="high">Nota Bene</orgName>, <date when="2004" cert="high">2004</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/105216612" cert="high">Bordeleau, Francine</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T105956-0700" comment="Not on the VIAF list "?>L’écriture au féminin existe-t-elle?<?oxy_comment_end?></title>. <title level="j"><?oxy_comment_start author="Olga" timestamp="20150212T110847-0700" comment="Not ont the VIAF list "?>Lettres québécoises<?oxy_comment_end?></title> 92 (<date when="1998">hiver 1998</date>): 14–18.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/7387642" cert="high">Brossard, Nicole</persName>. <title level="m" ref=" http://viaf.org/viaf/309477793" cert="high">L’amèr, ou le chapitre effrité</title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal</placeName>: <?oxy_comment_start author="Olga" timestamp="20150212T113534-0700" comment="Not on the VIAF list "?>Quinze<?oxy_comment_end?>, <date when="1977">1977</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/51711659" cert="high">Dorion, Hélène</persName>. <title level="m" ref="http://viaf.org/viaf/314208561/" cert="high">Les corridors du temps. <date when="1988">1988</date>.<?oxy_comment_start author="Olga" timestamp="20150212T113940-0700" comment="Not on the VIAF list "?> Mondes fragiles choses frêles. Poèmes <date from="1983" to="2000">1983–2000</date><?oxy_comment_end?></title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal </placeName>: <orgName ref=" http://viaf.org/viaf/144167652" cert="high">L’Hexagone</orgName>, <date when="2006">2006</date>.</bibl>
+                            <bibl>---. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T114320-0700" comment="Not on the VIAF list "?>L’intervalle prolongé<?oxy_comment_end?>. <date when="1983">1983</date>.</title> <title level="j"><?oxy_comment_start author="Olga" timestamp="20150212T114503-0700" comment="Not on the VIAF list "?>Mondes fragiles choses frêles. Poèmes <date from="1983" to="2000">1983–2000<?oxy_comment_end?></date></title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal </placeName>: <orgName ref=" http://viaf.org/viaf/144167652" cert="high">L’Hexagone</orgName>, <date when="2006">2006</date>.</bibl>
+                            <bibl>---. <title level="a" ref="http://viaf.org/viaf/307085179" cert="high">Portraits de mers.</title><date when="2000"> 2000</date>.<title level="j"><?oxy_comment_start author="Olga" timestamp="20150212T114503-0700" comment="Not on the VIAF list "?>Mondes fragiles choses frêles. Poèmes <date from="1983" to="2000">1983–2000<?oxy_comment_end?></date></title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal </placeName>: <orgName ref=" http://viaf.org/viaf/144167652" cert="high">L’Hexagone</orgName>, <date when="2006">2006</date></bibl>
+                            <bibl>---. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T121150-0700" comment="Not on the VIAF list "?>Un visage appuyé contre le monde.<?oxy_comment_end?> <date when="1990" cert="high">1990</date></title>. <title level="j"><?oxy_comment_start author="Olga" timestamp="20150212T114503-0700" comment="Not on the VIAF list "?>Mondes fragiles choses frêles. Poèmes <date from="1983" to="2000">1983–2000<?oxy_comment_end?></date></title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal </placeName>: <orgName ref=" http://viaf.org/viaf/144167652" cert="high">L’Hexagone</orgName>, <date when="2006">2006</date></bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/2714957" cert="high">Dupré, Louise</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T121448-0700" comment="Not on the VIAF list "?>Poésie, rébellion, subversion<?oxy_comment_end?></title>. <title level="s"><?oxy_comment_start author="Olga" timestamp="20150212T121603-0700" comment="Not on the VIAF list "?>L’autre lecture : La critique au féminin et les textes québécois<?oxy_comment_end?></title>. Tome II. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal</placeName>: <orgName ref="http://viaf.org/viaf/264610728" cert="high">XYZ</orgName>, <date when="1994">1994</date>. 149–59.</bibl>
+                            <bibl>---. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T125435-0700" comment="Not on the VIAF list "?>Sujet féminin, sujet lyrique<?oxy_comment_end?></title>. <title level="m"> Lyrisme et énonciation lyrique</title>. Dir. <persName ref=" http://viaf.org/viaf/66687976" cert="high">Nathalie Watteyne</persName>. <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>: <orgName ref="http://viaf.org/viaf/134818743" cert="high">Nota Bene</orgName>; <placeName ref="http://www.geonames.org/3031582" cert="high">Bordeaux</placeName>: <orgName ref="http://viaf.org/viaf/312727956" cert="high">Presses universitaires de <placeName ref="http://www.geonames.org/3031582" cert="high">Bordeaux</placeName></orgName>, <date when="2006" cert="high">2006</date>. 185–206.</bibl>
+                            <bibl>---. <title level="a"><title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T130402-0700" comment="Not on the VIAF list "?>Un visage appuyé contre le monde<?oxy_comment_end?></title> d’<persName ref="http://viaf.org/viaf/51711659" cert="high">Hélène Dorion</persName> : Une esthétique de la perte</title>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T130754-0700" comment="Not on the VIAF list "?>Trajectoires au féminin dans la littérature québécoise (<date from="1960" to="1990">1960–1990</date>)<?oxy_comment_end?></title>. Dir. <persName ref="http://viaf.org/viaf/54329196" cert="high">Lucie Joubert</persName>. <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>: <orgName ref="http://viaf.org/viaf/134818743" cert="high">Nota Bene </orgName>, <date when="2000" cert="high">2000</date>. 19–33.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/73874087" cert="high"><hi xml:lang="en-CA">Eagleton, Terry</hi></persName>. <title level="m" ref="http://viaf.org/viaf/308049374" cert="high"><hi xml:lang="en-CA">After Theory</hi></title>. <placeName ref="http://www.geonames.org/2643743" cert="high">London</placeName>: <orgName ref="http://viaf.org/viaf/134443168" cert="medium">Penguin</orgName>, <date when="2004">2004</date>.</bibl>
+                            <bibl>Gaboury-Diallo, Lise.<title level="m"> Subliminales</title>. <placeName ref="http://www.geonames.org/6183235" cert="high">Winnipeg</placeName>, MB: <orgName ref="http://viaf.org/viaf/158231219" cert="high">Éditions du Blé</orgName>, <date when="1999">1999</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/57746094" cert="high"><hi xml:lang="en-CA">Henderson, Jennifer</hi></persName>. <title level="a"><hi xml:lang="en-CA">Can the third wave speak?</hi></title> <title level="j">Atlantis</title> 32.1 (<date when="2007">2007</date>): 68–78.</bibl>
+                            <bibl><persName ref=" http://viaf.org/viaf/54329196" cert="medium">Joubert, Lucie</persName>. <title level="a">Mélange des discours et <q>confusion des accents</q> : De <persName ref="http://viaf.org/viaf/20781070" cert="high">Madeleine Ferron</persName> à <persName ref="http://viaf.org/viaf/37158276" cert="high">Nadine Bismuth</persName> et <persName ref="http://viaf.org/viaf/70124222" cert="high">Guillaume Vigneault</persName></title>. <title level="j">Voix et Images</title> 95 (hiver <date when="2007" cert="high">2007</date>): 77–90.</bibl>
+                            <bibl><persName ref=" http://viaf.org/viaf/84247829" cert="high">Lacelle, Andrée</persName>. <title level="m">La vie rouge</title>. Ottawa: Éditions du Vermillon, <date when="1998">1998</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/51797458" cert="high">Lequin, Lucie</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T164453-0700" comment="Not on the VIAF list "?>Écrivaines migrantes et éthique<?oxy_comment_end?></title>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T164628-0700" comment="Not on the VIAF list"?>D’autres rêves : Les écritures migrantes au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec<?oxy_comment_end?></placeName></title>. Dir. <persName ref="http://viaf.org/viaf/68939417" cert="high">Anne de Vaucher Gravili</persName>. <placeName ref="http://www.geonames.org/3164603" cert="medium">Venise</placeName>: <orgName>Supernova</orgName>, <date when="2000">2000</date>. 113–41.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/64055912" cert="high">Moi, Toril</persName>. <title level="m" ref="http://viaf.org/viaf/309278103" cert="high"><hi xml:lang="en-CA">Sexual/Textual Politics: Feminist Literary Theory</hi></title>. <placeName ref="http://www.geonames.org/5128581" cert="high">New York</placeName>: <orgName ref="http://viaf.org/viaf/265435283" cert="medium">Routledge</orgName>, <date when="1988" cert="high">1988</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/49242558" cert="high">Nepveu, Pierre</persName>.<title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T173304-0700" comment="Not on the VIAF list"?>Lecture des lieux<?oxy_comment_end?></title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal </placeName>: <orgName ref=" http://viaf.org/viaf/167942647" cert="high">Boréal</orgName>, <date when="2004" cert="high">2004</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/116512717" cert="high">Noël, Francine</persName>. <title level="m" ref="http://viaf.org/viaf/189374012" cert="high">Maryse</title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal</placeName>: <orgName ref="http://viaf.org/viaf/129178645" cert="medium">VLB</orgName>, <date when="1983">1983</date>.</bibl>
+                            <bibl><persName ref="ttp://viaf.org/viaf/39528339" cert="high">Paquin, Jacques</persName>. <title level="a"><persName ref="http://viaf.org/viaf/51711659" cert="high">Hélène Dorion</persName> : Pensée du sensible, ouverture du poème. Entrevue avec <persName ref="http://viaf.org/viaf/51711659" cert="high">Hélène Dorion<?oxy_comment_end?></persName></title>. <title level="j"><?oxy_comment_start author="Olga" timestamp="20150212T175525-0700" comment="Not on the VIAF list "?>Lettres québécoises<?oxy_comment_end?> 129</title> (printemps <date when="2008">2008</date>): 7–10.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/85357064" cert="high">Proulx, Monique</persName>. <title level="m" cert="high" ref="http://viaf.org/viaf/187011927/">Le sexe des étoiles</title>. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal</placeName>: <orgName ref="http://viaf.org/viaf/312728829" cert="high">Québec Amérique</orgName>, <date when="1987">1987</date>.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/66512789" cert="high">Rabaté, Dominique</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T181434-0700" comment="Not on the VIAF list "?>Énonciation poétique, énonciation lyrique<?oxy_comment_end?></title>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T181449-0700" comment="Not on the VIAF list"?>Figures du sujet lyrique<?oxy_comment_end?></title>. Dir. <persName ref="http://viaf.org/viaf/66512789" cert="high">Dominique Rabaté</persName>. <placeName ref="http://www.geonames.org/2988507" cert="high">Paris</placeName>: <orgName ref="http://viaf.org/viaf/124952254" cert="high">Presses universitaires de France</orgName>, <date when="1996">1996</date>. 65–79.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/9966293" cert="high">Saint-Martin, Lori</persName>. <title level="a"><?oxy_comment_start author="Olga" timestamp="20150212T182905-0700" comment="Not on the VIAF list"?>Le métaféminisme et la nouvelle prose féminine au <placeName ref="http://www.geonames.org/6115047" cert="high">Québec<?oxy_comment_end?></placeName></title>. <title level="s"><?oxy_comment_start author="Olga" timestamp="20150212T183104-0700" comment="Not on the VIAF list"?>L’autre lecture : La critique au féminin et les textes québécoi<?oxy_comment_end?>s</title>. Tome II. <placeName ref="http://www.geonames.org/6077246" cert="high">Montréal</placeName>: <orgName ref="http://viaf.org/viaf/264610728" cert="high">XYZ</orgName>, <date when="1994" cert="high">1994</date>. 161–70.</bibl>
+                            <bibl><persName ref="http://viaf.org/viaf/66687976" cert="high">Watteyne, Nathalie</persName>. <?oxy_comment_start author="Olga" timestamp="20150212T185236-0700" comment="Not on the VIAF list"?><title level="a">Présentation</title><?oxy_comment_end?>. <title level="m"><?oxy_comment_start author="Olga" timestamp="20150212T185529-0700" comment="Not on the VIAF list"?>Lyrisme et énonciation lyrique<?oxy_comment_end?></title>. Dir. <persName ref="http://viaf.org/viaf/66687976" cert="high">Nathalie Watteyne</persName>. <placeName ref="http://www.geonames.org/6115047" cert="high">Québec</placeName>: <orgName ref="http://viaf.org/viaf/134818743" cert="high">Nota Bene</orgName>; <placeName ref="http://www.geonames.org/3031582" cert="high">Bordeaux </placeName>: Presses universitaires de <placeName ref="http://www.geonames.org/3031582" cert="high">Bordeaux</placeName>, <date when="2006">2006</date>. 11–25.</bibl>
+                        </listBibl>
+                    </div>
+                </div>
+                
+                
+            </div>
+            
+            
+        </body>
+        
+
+    </text>
+</TEI>
