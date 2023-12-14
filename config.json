@@ -1,9 +1,9 @@
 {
     "editionTitle": "Sample Edition Title",
-    "editionSubtitle": "",
+    "editionSubtitle": "Sample Subtitle",
     "ignoreNamespace": true,
     "documents": "//div[@type=\"part\"]",
-    "documentContent": "div[@type=\"chapter\"]",
+    "documentContent": "",
     "documentTitle": "head/title",
     "documentAuthor": "docAuthor[1]",
     "indexDocument": "",
@@ -12,5 +12,18 @@
     "documentLinks": "//ref[starts-with(@target,\"http\")]",
     "inputs": [
         "https://raw.githubusercontent.com/ajmacdonald/dtoc_samples/master/sample.xml"
-    ]
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//note",
+                "label": "note",
+                "usage": "note"
+            }
+        ],
+        "toc": [
+            "f8ad7121788a982262b82841e33d4c36805f58e89943a67c38196ba07ffa66dd",
+            "3cc0eedf39655a776fe78042d814cc4557d97800db846ef40eb319f5f6b95ac3"
+        ]
+    }
 }
