@@ -1,6 +1,6 @@
 {
     "editionTitle": "Sample Edition Title",
-    "editionSubtitle": "Sample Subtitle",
+    "editionSubtitle": "Subtitle",
     "ignoreNamespace": true,
     "documents": "//div[@type=\"part\"]",
     "documentContent": "",
